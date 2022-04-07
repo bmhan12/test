@@ -16,6 +16,7 @@
 stages:          # List of stages for jobs, and their order of execution
   - build
   - test
+  - get_artifacts
 
 .on_quartz:
   tags:
@@ -44,3 +45,16 @@ lint-test-job:   # This job also runs in the test stage.
     - echo "No lint issues found."
   extends: [.on_quartz]
 
+artifacts-job:
+  stage: get_artifacts
+  script:
+    - 'curl --location --output artifacts.zip --header "JOB-TOKEN: $CI_JOB_TOKEN" "https://gitlab.com/api/v4/projects/$UPSTREAM_PROJECT_ID/jobs/$UPSTREAM_JOB_ID/artifacts"'
+    - unzip artifacts.zip
+  extends: [.on_quartz]
+  artifacts:
+    when: always
+    paths:
+      - "*.log"
+  only:
+    refs:
+      - pipelines
