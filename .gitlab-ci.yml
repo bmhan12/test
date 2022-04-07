@@ -48,6 +48,8 @@ lint-test-job:   # This job also runs in the test stage.
 artifacts-job:
   stage: get_artifacts
   script:
+    - echo "echo UPSTREAM_PROJECT_ID is $UPSTREAM_PROJECT_ID"
+    - echo "echo UPSTREAM_JOB_ID is $UPSTREAM_JOB_ID"
     - 'curl --location --output artifacts.zip --header "PRIVATE-TOKEN: $GEOSX_GITLAB_KEY" "https://lc.llnl.gov/gitlab/api/v4/projects/$UPSTREAM_PROJECT_ID/jobs/$UPSTREAM_JOB_ID/artifacts"'
     - unzip artifacts.zip
   extends: [.on_quartz]
