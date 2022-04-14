@@ -5,10 +5,10 @@ set -v
 exit_code=0
 
 # Clear output files
-git rm -r --cache lassen*/
-git rm -r --cache quartz*/
-rm -rf lassen*/
-rm -rf quartz*/
+git rm -r --cache cat*/
+git rm -r --cache dog*/
+rm -rf cat*/
+rm -rf dog*/
 
 # Copy over new output files
 cp -R ../cat .
@@ -66,8 +66,8 @@ for system in dog cat; do
 done
 
 # Push/Amend changes to github
-git add quartz
-git add lassen
+git add cat
+git add dog
 git add README.md
 git add last_passed.txt
 git commit -m "Date: ${curr_date} ; Git Commit: ${commit_hash}"
