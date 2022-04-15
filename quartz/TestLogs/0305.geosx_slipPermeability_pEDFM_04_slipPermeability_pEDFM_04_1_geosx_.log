@@ -1,0 +1,363 @@
+#ATS: commandLine = srun --label -J t4_305geosx_slipPermeability_pEDFM_04_slipPermeability_p155524 --exclusive -n 4 --mpibind=off /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i slipPermeability_pEDFM.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx
+#ATS: name = geosx(slipPermeability_pEDFM_04/slipPermeability_pEDFM_04_1_geosx)
+#ATS: clas = ['-i', 'slipPermeability_pEDFM.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04']
+#ATS: np = 4
+#ATS: script = 
+#ATS: testpath =  
+
+0: Max threads: 2
+0: MKL max threads: 1
+0: GEOSX version 0.2.0 (HEAD, sha1: ff18268)
+0: Adding Mesh: InternalMesh, mesh1
+0: Adding Geometric Object: BoundedPlane, FracturePlane
+0: Adding Geometric Object: Box, rightPoint
+0: Adding Geometric Object: Box, leftPoint
+0: Adding Geometric Object: Box, topPoint
+0: Adding Geometric Object: Box, bottomPoint
+0: Adding Event: SoloEvent, preFracture
+0: Adding Event: PeriodicEvent, outputs
+0: Adding Event: PeriodicEvent, solverApplication
+0: Adding Event: PeriodicEvent, timeHistoryCollection
+0: Adding Event: PeriodicEvent, timeHistoryOutput
+0: Adding Event: PeriodicEvent, timeHistoryCollection1
+0: Adding Event: PeriodicEvent, timeHistoryOutput1
+0: Adding Event: PeriodicEvent, timeHistoryCollection2
+0: Adding Event: PeriodicEvent, timeHistoryOutput2
+0: Adding Event: PeriodicEvent, timeHistoryCollection3
+0: Adding Event: PeriodicEvent, timeHistoryOutput3
+0: Adding Event: PeriodicEvent, timeHistoryCollection4
+0: Adding Event: PeriodicEvent, timeHistoryOutput4
+0: Adding Event: PeriodicEvent, restarts
+0: Adding Solver of type SinglePhasePoromechanicsEmbeddedFractures, named poroSolver
+0: Adding Solver of type SolidMechanicsEmbeddedFractures, named fractureMechSolver
+0: Adding Solver of type SolidMechanicsLagrangianSSLE, named matrixMechSolver
+0: Adding Solver of type SinglePhaseFVM, named flowSolver
+0: Adding Solver of type EmbeddedSurfaceGenerator, named SurfaceGenerator
+0:    TableFunction: aperTable
+0: Adding Output: VTK, vtkOutput
+0: Adding Output: TimeHistory, timeHistoryOutput
+0: Adding Output: TimeHistory, timeHistoryOutput1
+0: Adding Output: TimeHistory, timeHistoryOutput2
+0: Adding Output: TimeHistory, timeHistoryOutput3
+0: Adding Output: TimeHistory, timeHistoryOutput4
+0: Adding Output: Restart, restartOutput
+0: Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
+0: Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
+0: Total number of nodes:2048
+0: Total number of elems:961
+0: Rank 0: Total number of nodes:512
+2: Rank 2: Total number of nodes:544
+1: Rank 1: Total number of nodes:544
+3: Rank 3: Total number of nodes:578
+0:   Domain/cb1/porousRock is allocated with 8 quadrature points.
+0:   Domain/cb1/water is allocated with 8 quadrature points.
+0:   Fracture/embeddedSurfaceSubRegion/water is allocated with 1 quadrature points.
+0:   Fracture/embeddedSurfaceSubRegion/fractureFilling is allocated with 1 quadrature points.
+0:   Fracture/embeddedSurfaceSubRegion/fractureContact is allocated with 1 quadrature points.
+0: Element 131 is fractured
+0: Element 132 is fractured
+0: Element 142 is fractured
+0: Element 152 is fractured
+0: Element 162 is fractured
+0: Element 163 is fractured
+0: Element 173 is fractured
+0: Element 183 is fractured
+0: Element 193 is fractured
+0: Element 194 is fractured
+0: Element 204 is fractured
+0: Element 214 is fractured
+0: Element 224 is fractured
+0: Number of embedded surface elements: 29
+0: Time: 0s, dt:0.1s, Cycle: 0
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+0:     ( Rsolid, Rfluid ) = ( 2.20e+08, 4.91e-03 )
+0:     ( R ) = ( 2.20e+08 ) ; 
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+0:     ( Rsolid, Rfluid ) = ( 4.82e-02, 1.38e+01 )
+0:     ( R ) = ( 1.38e+01 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 3.19e-14 ) ; 
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+0:     ( Rsolid, Rfluid ) = ( 3.30e-02, 3.71e-04 )
+0:     ( R ) = ( 3.30e-02 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 1.65e-14 ) ; 
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+0:     ( Rsolid, Rfluid ) = ( 5.66e-14, 2.12e-04 )
+0:     ( R ) = ( 2.12e-04 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 6.86e-15 ) ; 
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+0:     ( Rsolid, Rfluid ) = ( 5.93e-14, 1.33e-04 )
+0:     ( R ) = ( 1.33e-04 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 3.51e-08 ) ; 
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+0:     ( Rsolid, Rfluid ) = ( 5.98e-14, 6.09e-05 )
+0:     ( R ) = ( 6.09e-05 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.43e-08 ) ; 
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+0:     ( Rsolid, Rfluid ) = ( 5.95e-14, 2.65e-05 )
+0:     ( R ) = ( 2.65e-05 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.20e-08 ) ; 
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+0:     ( Rsolid, Rfluid ) = ( 5.68e-14, 1.12e-05 )
+0:     ( R ) = ( 1.12e-05 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.01e-08 ) ; 
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+0:     ( Rsolid, Rfluid ) = ( 5.89e-14, 4.67e-06 )
+0:     ( R ) = ( 4.67e-06 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.04e-08 ) ; 
+0: poroSolver: Newton solver converged in more than 7 iterations, time-step required will be halved.
+2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000002.hdf5
+0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000000.hdf5
+3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000003.hdf5
+1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000001.hdf5
+0: Cleaning up events
+2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
+0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
+3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
+1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/qSQsyyRo/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
+0: Umpire            HOST sum across ranks:   80.6 MB
+0: Umpire            HOST         rank max:   21.4 MB
+0: total time                         9.069s
+0: initialization time                1.419s
+0: run time                           5.553s

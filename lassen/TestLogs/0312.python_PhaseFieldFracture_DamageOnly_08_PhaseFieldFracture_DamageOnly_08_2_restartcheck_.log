@@ -1,0 +1,220 @@
+#ATS: commandLine = lrun -n 8 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 2e-10 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
+#ATS: name = python(PhaseFieldFracture_DamageOnly_08/PhaseFieldFracture_DamageOnly_08_2_restartcheck)
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-08', '-r', '2e-10', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_[0-9]+\\.root']
+#ATS: np = 8
+#ATS: script = 
+#ATS: testpath =  
+
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_[0-9]+\.root
+Relative tolerance: 2e-10
+Absolute tolerance: 1e-08
+Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002.restartcheck
+Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
+Warnings are errors: True
+
+The root files are similar.
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000005.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000005.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000006.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000006.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000007.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000007.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000004.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000004.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000000.hdf5
+
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000000.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (26, 1): value = 0.13144585576580212, base_value = 0.09607579249143273
+		Max relative difference is at index (22, 0): value = -0.0017424767787644867, base_value = 0.0019938934945121956
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 3537006.327436938, mean = 636311.1616777562, std = 872314.8250442884
+		max is at index (26, 1), value = 0.13144585576580212, base_value = 0.09607579249143273
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 63 fail both the relative and absolute tests.
+		Max absolute difference is at index (44,): value = 0.0, base_value = -0.08573867089452218
+		Max relative difference is at index (27,): value = 0.0, base_value = 0.0009376331243369727
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 63
+		max = 8573867.089452218, mean = 1367860.3718683866, std = 2206805.580272301
+		max is at index (44,), value = 0.0, base_value = -0.08573867089452218
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000001.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (25, 0): value = -1.3708333656015265e-12, base_value = 0.46168487630898564
+		Max relative difference is at index (14, 4): value = -1.25013208711131e-12, base_value = 0.0016906149651065338
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.63103565, mean = 3805712.4611130888, std = 8791541.456204364
+		max is at index (25, 0), value = -1.3708333656015265e-12, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (24,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -2.065505281817153e-12, base_value = 0.0016128826732243902
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.104548043, std = 12405025.873010447
+		max is at index (24,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000002.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (25, 0): value = -1.3708343767301418e-12, base_value = 0.46168487630898564
+		Max relative difference is at index (14, 2): value = -1.250131963944271e-12, base_value = 0.0016906149651065335
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.63103565, mean = 3805712.4611130883, std = 8791541.456204364
+		max is at index (25, 0), value = -1.3708343767301418e-12, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (20,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -2.0655008848854745e-12, base_value = 0.0016128826732243905
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.1045480426, std = 12405025.873010447
+		max is at index (20,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000003.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (9, 7): value = 0.0, base_value = 0.46168487630898564
+		Max relative difference is at index (25, 6): value = -3.19158079684799e-12, base_value = 0.001690614965106532
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.630898565, mean = 3805712.461105792, std = 8791541.456179779
+		max is at index (9, 7), value = 0.0, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (18,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -5.743977322300989e-12, base_value = 0.0016128826732243848
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.1045594793, std = 12405025.873017412
+		max is at index (18,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 4 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000004.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000004.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (25, 0): value = -1.3708339914099182e-12, base_value = 0.46168487630898564
+		Max relative difference is at index (21, 1): value = -1.2501302138589604e-12, base_value = 0.001690614965106533
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.63103565, mean = 3805712.4611130883, std = 8791541.456204364
+		max is at index (25, 0), value = -1.3708339914099182e-12, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (8,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -2.0654994163824555e-12, base_value = 0.001612882673224382
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.104548043, std = 12405025.873010447
+		max is at index (8,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 5 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000005.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000005.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (9, 7): value = 0.0, base_value = 0.46168487630898564
+		Max relative difference is at index (24, 5): value = -3.1915809400363185e-12, base_value = 0.0016906149651065325
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.630898565, mean = 3805712.4611057914, std = 8791541.456179779
+		max is at index (9, 7), value = 0.0, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (6,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -5.743975983278113e-12, base_value = 0.0016128826732243848
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.1045594797, std = 12405025.873017414
+		max is at index (6,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 6 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000006.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000006.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (9, 7): value = 0.0, base_value = 0.46168487630898564
+		Max relative difference is at index (25, 3): value = -3.1915821197172543e-12, base_value = 0.001690614965106532
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.630898565, mean = 3805712.4611057914, std = 8791541.456179779
+		max is at index (9, 7), value = 0.0, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (2,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -5.743977388316041e-12, base_value = 0.0016128826732243863
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.1045594793, std = 12405025.873017414
+		max is at index (2,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 7 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000007.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000007.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/damage
+	Arrays of types float64 and float64 have 216 values of which 216 fail both the relative and absolute tests.
+		Max absolute difference is at index (0, 0): value = -1.4149075085195992e-13, base_value = 0.46168487630898564
+		Max relative difference is at index (7, 0): value = -3.926586375485601e-12, base_value = 0.0027339147324187078
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 216
+		max = 46168487.63091271, mean = 3805712.4611211233, std = 8791541.456186228
+		max is at index (0, 0), value = -1.4149075085195992e-13, base_value = 0.46168487630898564
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 64 values of which 64 fail both the relative and absolute tests.
+		Max absolute difference is at index (0,): value = 0.0, base_value = 1.0
+		Max relative difference is at index (13,): value = -1.4992575624305764e-11, base_value = 0.0016128826732243872
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 64
+		max = 100000000.0, mean = 3736834.104615738, std = 12405025.873010261
+		max is at index (0,), value = 0.0, base_value = 1.0
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Compared 8 pairs of files of which 8 are different.
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000003.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000004.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000004.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000005.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000005.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000006.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000006.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000007.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageOnly_08/0to2_restart_000000002/rank_0000007.hdf5
