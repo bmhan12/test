@@ -37,8 +37,8 @@ for system in dog cat; do
 
   if [ $config_code -ne 0 ]; then config_status=FAILURE ; else config_status=SUCCESS; fi
   if [ $build_code -ne 0 ]; then build_status=FAILURE ; else build_status=SUCCESS; fi
-  if [ $unit_code -ne 0 ]; then unit_test_status=FAILURE ; else unit_test_status=SUCCESS; fi
-  if [ $integrated_test_status -ne 0 ]; then integrated_test_status=FAILURE; else integrated_test_status=SUCCESS; fi
+  if [ $unit_test_code -ne 0 ]; then unit_test_status=FAILURE ; else unit_test_status=SUCCESS; fi
+  if [ $integrated_test_code -ne 0 ]; then integrated_test_status=FAILURE; else integrated_test_status=SUCCESS; fi
 
   config_log=${system}_configure
   build_log=${system}_build
