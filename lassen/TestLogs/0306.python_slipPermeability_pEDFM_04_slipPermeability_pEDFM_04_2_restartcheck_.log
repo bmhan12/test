@@ -1,200 +1,200 @@
-#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-07 -r 4e-06 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-07 -r 4e-06 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
 #ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
 #ATS: name = python(slipPermeability_pEDFM_04/slipPermeability_pEDFM_04_2_restartcheck)
-#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-07', '-r', '4e-06', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\\.root']
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-07', '-r', '4e-06', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\\.root']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
 
-Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
-Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
 Relative tolerance: 4e-06
 Absolute tolerance: 1e-07
-Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001.restartcheck
+Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001.restartcheck
 Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
 Warnings are errors: True
 
 The root files are similar.
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
 
-Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 12288 values of which 3148 fail both the relative and absolute tests.
-		Max absolute difference is at index (255, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (1, 3, 3): value = -3.5471102727294387e-09, base_value = 0.0
+		Max absolute difference is at index (255, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (1, 3, 3): value = -5.747050841764129e-09, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3148
-		max = 95409.7777301624, mean = 19.630144504500688, std = 1223.110749378454
-		max is at index (254, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 19.63014447675697, std = 1223.1107497349005
+		max is at index (254, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 12288 values of which 3148 fail both the relative and absolute tests.
-		Max absolute difference is at index (255, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (1, 3, 3): value = -3.5471102727294387e-09, base_value = 0.0
+		Max absolute difference is at index (255, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (1, 3, 3): value = -5.747050841764129e-09, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3148
-		max = 95409.7777301624, mean = 19.630144504500688, std = 1223.110749378454
-		max is at index (254, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 19.63014447675697, std = 1223.1107497349005
+		max is at index (254, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
 	Arrays of types float64 and float64 have 256 values of which 91 fail both the relative and absolute tests.
-		Max absolute difference is at index (131,): value = 2760553.746560698, base_value = 2760592.5965420767
-		Max relative difference is at index (204,): value = 1609172.0324887224, base_value = 1609202.241221054
+		Max absolute difference is at index (131,): value = 2760553.7465606774, base_value = 2760592.5965420767
+		Max relative difference is at index (204,): value = 1609172.032488706, base_value = 1609202.241221054
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 91
-		max = 4.693122399070714, mean = 0.7226784377299097, std = 1.1237910534474662
-		max is at index (204,), value = 1609172.0324887224, base_value = 1609202.241221054
+		max = 4.6931224016027375, mean = 0.7226784381327808, std = 1.1237910540467912
+		max is at index (204,), value = 1609172.032488706, base_value = 1609202.241221054
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
 	Arrays of types float64 and float64 have 15 values of which 15 fail both the relative and absolute tests.
-		Max absolute difference is at index (0,): value = 2169769.126104824, base_value = 2169813.09115826
-		Max relative difference is at index (14,): value = 2128264.9659675797, base_value = 2128308.328708287
+		Max absolute difference is at index (0,): value = 2169769.1261048038, base_value = 2169813.09115826
+		Max relative difference is at index (14,): value = 2128264.9659675616, base_value = 2128308.328708287
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 15
-		max = 5.093568930099027, mean = 5.030996640242688, std = 0.053649163253189226
-		max is at index (14,), value = 2128264.9659675797, base_value = 2128308.328708287
+		max = 5.0935689322322695, mean = 5.030996642409913, std = 0.05364916323783751
+		max is at index (14,), value = 2128264.9659675616, base_value = 2128308.328708287
 ********************************************************************************
 The files are different.
 
-Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 13056 values of which 3216 fail both the relative and absolute tests.
-		Max absolute difference is at index (256, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (0, 3, 4): value = 1.1032484455606414e-09, base_value = 0.0
+		Max absolute difference is at index (256, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (0, 3, 4): value = 1.442504337023763e-08, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3216
-		max = 95409.7777301624, mean = 18.680698980046802, std = 1181.398403692803
-		max is at index (255, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 18.680698992539106, std = 1181.3984042558602
+		max is at index (255, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 13056 values of which 3216 fail both the relative and absolute tests.
-		Max absolute difference is at index (256, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (0, 3, 4): value = 1.1032484455606414e-09, base_value = 0.0
+		Max absolute difference is at index (256, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (0, 3, 4): value = 1.442504337023763e-08, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3216
-		max = 95409.7777301624, mean = 18.680698980046802, std = 1181.398403692803
-		max is at index (255, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 18.680698992539106, std = 1181.3984042558602
+		max is at index (255, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
 	Arrays of types float64 and float64 have 272 values of which 88 fail both the relative and absolute tests.
-		Max absolute difference is at index (257,): value = 4004671.4200786874, base_value = 4004704.1517035933
-		Max relative difference is at index (252,): value = 1609172.0324887224, base_value = 1609202.241221054
+		Max absolute difference is at index (257,): value = 4004671.4200786753, base_value = 4004704.1517035933
+		Max relative difference is at index (252,): value = 1609172.032488706, base_value = 1609202.241221054
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 88
-		max = 4.693122399070714, mean = 0.5551626105109868, std = 0.9092680936681616
-		max is at index (252,), value = 1609172.0324887224, base_value = 1609202.241221054
+		max = 4.6931224016027375, mean = 0.5551626107362558, std = 0.9092680940785974
+		max is at index (252,), value = 1609172.032488706, base_value = 1609202.241221054
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
 	Arrays of types float64 and float64 have 6 values of which 6 fail both the relative and absolute tests.
-		Max absolute difference is at index (5,): value = 2128264.9659675797, base_value = 2128308.328708287
-		Max relative difference is at index (5,): value = 2128264.9659675797, base_value = 2128308.328708287
+		Max absolute difference is at index (5,): value = 2128264.9659675616, base_value = 2128308.328708287
+		Max relative difference is at index (5,): value = 2128264.9659675616, base_value = 2128308.328708287
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 6
-		max = 5.093568930099027, mean = 5.078626409579037, std = 0.012377565813504693
-		max is at index (5,), value = 2128264.9659675797, base_value = 2128308.328708287
+		max = 5.0935689322322695, mean = 5.078626411718872, std = 0.012377565799386927
+		max is at index (5,), value = 2128264.9659675616, base_value = 2128308.328708287
 ********************************************************************************
 The files are different.
 
-Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 13056 values of which 3132 fail both the relative and absolute tests.
-		Max absolute difference is at index (256, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (1, 3, 3): value = 5.5248468199275285e-09, base_value = 0.0
+		Max absolute difference is at index (256, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (1, 3, 3): value = 6.690900385672657e-10, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3132
-		max = 95409.7777301624, mean = 18.615775513000816, std = 1181.2237172916555
-		max is at index (64, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 18.615775514278678, std = 1181.2237178521839
+		max is at index (64, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 13056 values of which 3132 fail both the relative and absolute tests.
-		Max absolute difference is at index (256, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (1, 3, 3): value = 5.5248468199275285e-09, base_value = 0.0
+		Max absolute difference is at index (256, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (1, 3, 3): value = 6.690900385672657e-10, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3132
-		max = 95409.7777301624, mean = 18.615775513000816, std = 1181.2237172916555
-		max is at index (64, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 18.615775514278678, std = 1181.2237178521839
+		max is at index (64, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
 	Arrays of types float64 and float64 have 272 values of which 90 fail both the relative and absolute tests.
-		Max absolute difference is at index (255,): value = 2250982.6714661787, base_value = 2251015.1105077653
-		Max relative difference is at index (256,): value = 1582645.6439461631, base_value = 1582675.157499942
+		Max absolute difference is at index (255,): value = 2250982.6714661587, base_value = 2251015.1105077653
+		Max relative difference is at index (256,): value = 1582645.643946147, base_value = 1582675.157499942
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 90
-		max = 4.6619727426401525, mean = 0.557480602031175, std = 0.8776235619552745
-		max is at index (256,), value = 1582645.6439461631, base_value = 1582675.157499942
+		max = 4.661972745177835, mean = 0.5574806023334277, std = 0.8776235624247123
+		max is at index (256,), value = 1582645.643946147, base_value = 1582675.157499942
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
 	Arrays of types float64 and float64 have 4 values of which 4 fail both the relative and absolute tests.
-		Max absolute difference is at index (3,): value = 2128035.2316117166, base_value = 2128078.605643726
-		Max relative difference is at index (3,): value = 2128035.2316117166, base_value = 2128078.605643726
+		Max absolute difference is at index (3,): value = 2128035.2316116984, base_value = 2128078.605643726
+		Max relative difference is at index (3,): value = 2128035.2316116984, base_value = 2128078.605643726
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 4
-		max = 5.095445240411209, mean = 5.090303697668427, std = 0.004443677620026381
-		max is at index (3,), value = 2128035.2316117166, base_value = 2128078.605643726
+		max = 5.095445242544681, mean = 5.090303699801037, std = 0.004443677620792427
+		max is at index (3,), value = 2128035.2316116984, base_value = 2128078.605643726
 ********************************************************************************
 The files are different.
 
-Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 13872 values of which 3652 fail both the relative and absolute tests.
-		Max absolute difference is at index (0, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (4, 1, 3): value = 9.231686379392024e-10, base_value = 0.0
+		Max absolute difference is at index (0, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (4, 1, 3): value = 1.9666827534614538e-11, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3652
-		max = 95409.7777301624, mean = 17.12833107231007, std = 1146.8592370401075
-		max is at index (273, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 17.128331087365964, std = 1146.859237587548
+		max is at index (273, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 13872 values of which 3652 fail both the relative and absolute tests.
-		Max absolute difference is at index (0, 7, 1): value = 90550426.0473795, base_value = 90551853.70495698
-		Max relative difference is at index (4, 1, 3): value = 9.231686379392024e-10, base_value = 0.0
+		Max absolute difference is at index (0, 7, 1): value = 90550426.04737931, base_value = 90551853.70495698
+		Max relative difference is at index (4, 1, 3): value = 1.9666827534614538e-11, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3652
-		max = 95409.7777301624, mean = 17.12833107231007, std = 1146.8592370401075
-		max is at index (273, 4, 1), value = -28.876826431609064, base_value = -46.698985886061564
+		max = 95409.77778749882, mean = 17.128331087365964, std = 1146.859237587548
+		max is at index (273, 4, 1), value = -28.876826420898855, base_value = -46.698985886061564
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
 	Arrays of types float64 and float64 have 289 values of which 89 fail both the relative and absolute tests.
-		Max absolute difference is at index (114,): value = 2405665.123754311, base_value = 2405706.76406708
-		Max relative difference is at index (23,): value = 1559845.679384316, base_value = 1559876.6428962727
+		Max absolute difference is at index (114,): value = 2405665.1237542923, base_value = 2405706.76406708
+		Max relative difference is at index (23,): value = 1559845.6793842998, base_value = 1559876.6428962727
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 89
-		max = 4.962493684617889, mean = 0.6571944952188078, std = 1.1531575056603809
-		max is at index (23,), value = 1559845.679384316, base_value = 1559876.6428962727
+		max = 4.962493687229977, mean = 0.6571944955374099, std = 1.1531575062673385
+		max is at index (23,), value = 1559845.6793842998, base_value = 1559876.6428962727
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
 	Arrays of types float64 and float64 have 17 values of which 17 fail both the relative and absolute tests.
-		Max absolute difference is at index (14,): value = 2146091.8393246643, base_value = 2146135.2220345056
-		Max relative difference is at index (3,): value = 2127146.002313309, base_value = 2127189.3776225126
+		Max absolute difference is at index (14,): value = 2146091.8393246466, base_value = 2146135.2220345056
+		Max relative difference is at index (3,): value = 2127146.002313291, base_value = 2127189.3776225126
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 17
-		max = 5.09772539060797, mean = 5.0766047858447125, std = 0.021751979471516022
-		max is at index (3,), value = 2127146.002313309, base_value = 2127189.3776225126
+		max = 5.0977253926876065, mean = 5.076604787946122, std = 0.021751979481628207
+		max is at index (3,), value = 2127146.002313291, base_value = 2127189.3776225126
 ********************************************************************************
 The files are different.
 
 Compared 4 pairs of files of which 4 are different.
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5

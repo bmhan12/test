@@ -1,34 +1,35 @@
 ::::::::::::::::::::
-/usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i slipPermeability_pEDFM.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04
+/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i slipPermeability_pEDFM.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04
 ::::::::::::::::::::
 ::::::::::::::::::::
-/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-07 -r 4e-06 -w /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-07 -r 4e-06 -w /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
-1: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+1: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
 1:   relative_difference = difference / abs_base_arr
-2: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+0: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+0:   relative_difference = difference / abs_base_arr
+2: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
 2:   relative_difference = difference / abs_base_arr
-0: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
-0:   relative_difference = difference / abs_base_arr
-3: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+3: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
 3:   relative_difference = difference / abs_base_arr
-3: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
-3:   relative_difference = difference / abs_base_arr
-3: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
-3:   relative_difference /= self.rtol
-1: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
-1:   relative_difference = difference / abs_base_arr
-1: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
-1:   relative_difference /= self.rtol
-0: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
+0: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
 0:   relative_difference = difference / abs_base_arr
-0: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
+0: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
 0:   relative_difference /= self.rtol
-2: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
+3: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
+3:   relative_difference = difference / abs_base_arr
+3: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
+3:   relative_difference /= self.rtol
+2: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
 2:   relative_difference = difference / abs_base_arr
-2: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
+2: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
 2:   relative_difference /= self.rtol
+1: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: divide by zero encountered in divide
+1:   relative_difference = difference / abs_base_arr
+1: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:255: RuntimeWarning: overflow encountered in divide
+1:   relative_difference /= self.rtol
+0: slurmstepd: error: *** STEP 9233924.699 ON quartz3 CANCELLED AT 2022-04-17T03:27:03 ***
 srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
-0: slurmstepd: error: *** STEP 9228996.707 ON quartz3 CANCELLED AT 2022-04-16T03:24:44 ***
 srun: error: quartz4: tasks 2-3: Exited with exit code 1
-srun: error: quartz3: tasks 0-1: Exited with exit code 1
+srun: error: quartz3: task 0: Killed
+srun: error: quartz3: task 1: Exited with exit code 1
