@@ -1,0 +1,569 @@
+::::::::::::::::::::
+/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i slipPermeability_pEDFM.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04
+::::::::::::::::::::
+#ATS: commandLine = srun --label -J t4_305geosx_slipPermeability_pEDFM_04_slipPermeability_p032013 --exclusive -n 4 --mpibind=off /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i slipPermeability_pEDFM.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx
+#ATS: name = geosx(slipPermeability_pEDFM_04/slipPermeability_pEDFM_04_1_geosx)
+#ATS: clas = ['-i', 'slipPermeability_pEDFM.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04']
+#ATS: np = 4
+#ATS: script = 
+#ATS: testpath =  
+
+0: Max threads: 2
+0: MKL max threads: 1
+0: GEOSX version 0.2.0 (HEAD, sha1: ff18268)
+0: Adding Mesh: InternalMesh, mesh1
+0: Adding Geometric Object: BoundedPlane, FracturePlane
+0: Adding Geometric Object: Box, rightPoint
+0: Adding Geometric Object: Box, leftPoint
+0: Adding Geometric Object: Box, topPoint
+0: Adding Geometric Object: Box, bottomPoint
+0: Adding Event: SoloEvent, preFracture
+0: Adding Event: PeriodicEvent, outputs
+0: Adding Event: PeriodicEvent, solverApplication
+0: Adding Event: PeriodicEvent, timeHistoryCollection
+0: Adding Event: PeriodicEvent, timeHistoryOutput
+0: Adding Event: PeriodicEvent, timeHistoryCollection1
+0: Adding Event: PeriodicEvent, timeHistoryOutput1
+0: Adding Event: PeriodicEvent, timeHistoryCollection2
+0: Adding Event: PeriodicEvent, timeHistoryOutput2
+0: Adding Event: PeriodicEvent, timeHistoryCollection3
+0: Adding Event: PeriodicEvent, timeHistoryOutput3
+0: Adding Event: PeriodicEvent, timeHistoryCollection4
+0: Adding Event: PeriodicEvent, timeHistoryOutput4
+0: Adding Event: PeriodicEvent, restarts
+0: Adding Solver of type SinglePhasePoromechanicsEmbeddedFractures, named poroSolver
+0: Adding Solver of type SolidMechanicsEmbeddedFractures, named fractureMechSolver
+0: Adding Solver of type SolidMechanicsLagrangianSSLE, named matrixMechSolver
+2: Rank 2: Total number of nodes:544
+0: Adding Solver of type SinglePhaseFVM, named flowSolver
+0: Adding Solver of type EmbeddedSurfaceGenerator, named SurfaceGenerator
+0:    TableFunction: aperTable
+0: Adding Output: VTK, vtkOutput
+0: Adding Output: TimeHistory, timeHistoryOutput
+0: Adding Output: TimeHistory, timeHistoryOutput1
+0: Adding Output: TimeHistory, timeHistoryOutput2
+0: Adding Output: TimeHistory, timeHistoryOutput3
+0: Adding Output: TimeHistory, timeHistoryOutput4
+0: Adding Output: Restart, restartOutput
+0: Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
+0: Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
+0: Total number of nodes:2048
+0: Total number of elems:961
+0: Rank 0: Total number of nodes:512
+1: Rank 1: Total number of nodes:544
+3: Rank 3: Total number of nodes:578
+0:   Domain/cb1/porousRock is allocated with 8 quadrature points.
+0:   Domain/cb1/water is allocated with 8 quadrature points.
+0:   Fracture/embeddedSurfaceSubRegion/water is allocated with 1 quadrature points.
+0:   Fracture/embeddedSurfaceSubRegion/fractureFilling is allocated with 1 quadrature points.
+0:   Fracture/embeddedSurfaceSubRegion/fractureContact is allocated with 1 quadrature points.
+0: Element 131 is fractured
+0: Element 132 is fractured
+0: Element 142 is fractured
+0: Element 152 is fractured
+0: Element 162 is fractured
+0: Element 163 is fractured
+0: Element 173 is fractured
+0: Element 183 is fractured
+0: Element 193 is fractured
+0: Element 194 is fractured
+0: Element 204 is fractured
+0: Element 214 is fractured
+0: Element 224 is fractured
+0: Number of embedded surface elements: 29
+0: Time: 0s, dt:0.1s, Cycle: 0
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+2: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+3: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+1: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0: Wrappers "poroSolver_displacementJump_dofIndex" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+0:     ( Rsolid, Rfluid ) = ( 2.20e+08, 4.91e-03 )
+0:     ( R ) = ( 2.20e+08 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+0:     ( Rsolid, Rfluid ) = ( 4.82e-02, 1.38e+01 )
+0:     ( R ) = ( 1.38e+01 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 3.19e-14 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+0:     ( Rsolid, Rfluid ) = ( 3.30e-02, 3.71e-04 )
+0:     ( R ) = ( 3.30e-02 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 1.65e-14 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+0:     ( Rsolid, Rfluid ) = ( 5.66e-14, 2.12e-04 )
+0:     ( R ) = ( 2.12e-04 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 6.86e-15 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+0:     ( Rsolid, Rfluid ) = ( 5.93e-14, 1.33e-04 )
+0:     ( R ) = ( 1.33e-04 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 3.51e-08 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+0:     ( Rsolid, Rfluid ) = ( 5.98e-14, 6.09e-05 )
+0:     ( R ) = ( 6.09e-05 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.43e-08 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+0:     ( Rsolid, Rfluid ) = ( 5.95e-14, 2.65e-05 )
+0:     ( R ) = ( 2.65e-05 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.20e-08 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+0:     ( Rsolid, Rfluid ) = ( 5.68e-14, 1.12e-05 )
+0:     ( R ) = ( 1.12e-05 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.01e-08 ) ; 
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested and are not available.
+0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+0:     ( Rsolid, Rfluid ) = ( 5.89e-14, 4.67e-06 )
+0:     ( R ) = ( 4.67e-06 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 2.04e-08 ) ; 
+0: poroSolver: Newton solver converged in more than 7 iterations, time-step required will be halved.
+0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000000.hdf5
+2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000002.hdf5
+1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000001.hdf5
+3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000000/rank_0000003.hdf5
+0: Cleaning up events
+0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
+3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
+1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
+2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
+0: Umpire            HOST sum across ranks:   80.6 MB
+0: Umpire            HOST         rank max:   21.4 MB
+0: total time                        12.665s
+0: initialization time                2.021s
+0: run time                           9.945s
+::::::::::::::::::::
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-07 -r 4e-06 -w /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+::::::::::::::::::::
+#ATS: commandLine = srun --label -J t4_306python_slipPermeability_pEDFM_04_slipPermeability_032027 --exclusive -n 4 --mpibind=off /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-07 -r 4e-06 -w /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
+#ATS: name = python(slipPermeability_pEDFM_04/slipPermeability_pEDFM_04_2_restartcheck)
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-07', '-r', '4e-06', '-w', '/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\\.root']
+#ATS: np = 4
+#ATS: script = 
+#ATS: testpath =  
+
+0: Comparison of file /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+0: Baseline file /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_[0-9]+\.root
+0: Relative tolerance: 4e-06
+0: Absolute tolerance: 1e-07
+0: Output file: /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001.restartcheck
+0: Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
+0: Warnings are errors: True
+0: 
+0: The root files are similar.
+3: About to compare /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
+1: About to compare /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
+2: About to compare /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
+0: About to compare /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
+0: 
+0: Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 12288 values of which 3148 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (255, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (1, 3, 3): value = -8.673617379884035e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3148
+0: 		max = 95409.78418720524, mean = 19.630145869985856, std = 1223.1108325417206
+0: 		max is at index (254, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 12288 values of which 3148 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (255, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (1, 3, 3): value = -8.673617379884035e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3148
+0: 		max = 95409.78418720524, mean = 19.630145869985856, std = 1223.1108325417206
+0: 		max is at index (254, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
+0: 	Arrays of types float64 and float64 have 256 values of which 91 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (131,): value = 2760553.746557909, base_value = 2760592.5965420767
+0: 		Max relative difference is at index (204,): value = 1609172.0324864867, base_value = 1609202.241221054
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 91
+0: 		max = 4.693122746391857, mean = 0.7226784906366663, std = 1.123791136191954
+0: 		max is at index (204,), value = 1609172.0324864867, base_value = 1609202.241221054
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
+0: 	Arrays of types float64 and float64 have 15 values of which 15 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (0,): value = 2169769.12610163, base_value = 2169813.09115826
+0: 		Max relative difference is at index (14,): value = 2128264.9659645036, base_value = 2128308.328708287
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 15
+0: 		max = 5.093569291437469, mean = 5.030997009272194, std = 0.05364916155304003
+0: 		max is at index (14,), value = 2128264.9659645036, base_value = 2128308.328708287
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 13056 values of which 3216 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (256, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (1, 5, 4): value = 2.168404344971009e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3216
+0: 		max = 95409.78418720524, mean = 18.680700292386, std = 1181.3984838550596
+0: 		max is at index (255, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 13056 values of which 3216 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (256, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (1, 5, 4): value = 2.168404344971009e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3216
+0: 		max = 95409.78418720524, mean = 18.680700292386, std = 1181.3984838550596
+0: 		max is at index (255, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
+0: 	Arrays of types float64 and float64 have 272 values of which 88 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (257,): value = 4004671.4200763786, base_value = 4004704.1517035933
+0: 		Max relative difference is at index (252,): value = 1609172.0324864867, base_value = 1609202.241221054
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 88
+0: 		max = 4.693122746391857, mean = 0.5551626501232302, std = 0.9092681591346088
+0: 		max is at index (252,), value = 1609172.0324864867, base_value = 1609202.241221054
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
+0: 	Arrays of types float64 and float64 have 6 values of which 6 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (5,): value = 2128264.9659645036, base_value = 2128308.328708287
+0: 		Max relative difference is at index (5,): value = 2128264.9659645036, base_value = 2128308.328708287
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 6
+0: 		max = 5.093569291437469, mean = 5.078626775581216, std = 0.012377562663182417
+0: 		max is at index (5,), value = 2128264.9659645036, base_value = 2128308.328708287
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 13056 values of which 3132 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (256, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (1, 7, 3): value = 8.673617379884035e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3132
+0: 		max = 95409.78418720524, mean = 18.615776790332365, std = 1181.2237974135217
+0: 		max is at index (64, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 13056 values of which 3132 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (256, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (1, 7, 3): value = 8.673617379884035e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3132
+0: 		max = 95409.78418720524, mean = 18.615776790332365, std = 1181.2237974135217
+0: 		max is at index (64, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
+0: 	Arrays of types float64 and float64 have 272 values of which 90 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (255,): value = 2250982.671463827, base_value = 2251015.1105077653
+0: 		Max relative difference is at index (256,): value = 1582645.6439440458, base_value = 1582675.157499942
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 90
+0: 		max = 4.661973077099479, mean = 0.5574806412910185, std = 0.8776236238899292
+0: 		max is at index (256,), value = 1582645.6439440458, base_value = 1582675.157499942
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
+0: 	Arrays of types float64 and float64 have 4 values of which 4 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (3,): value = 2128035.231608659, base_value = 2128078.605643726
+0: 		Max relative difference is at index (3,): value = 2128035.231608659, base_value = 2128078.605643726
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 4
+0: 		max = 5.09544559960048, mean = 5.090304059910598, std = 0.004443675509652521
+0: 		max is at index (3,), value = 2128035.231608659, base_value = 2128078.605643726
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 13872 values of which 3652 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (0, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (4, 3, 3): value = -5.421010862427522e-10, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3652
+0: 		max = 95409.78418720524, mean = 17.12833224115699, std = 1146.859314853326
+0: 		max is at index (273, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 13872 values of which 3652 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (0, 7, 1): value = 90550426.04728071, base_value = 90551853.70495698
+0: 		Max relative difference is at index (4, 3, 3): value = -5.421010862427522e-10, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 3652
+0: 		max = 95409.78418720524, mean = 17.12833224115699, std = 1146.859314853326
+0: 		max is at index (273, 0, 1), value = -28.87682522344403, base_value = -46.698985882801935
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/pressure
+0: 	Arrays of types float64 and float64 have 289 values of which 89 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (114,): value = 2405665.12375147, base_value = 2405706.76406708
+0: 		Max relative difference is at index (23,): value = 1559845.6793821338, base_value = 1559876.6428962727
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 89
+0: 		max = 4.962494034376575, mean = 0.6571945408840989, std = 1.1531575860044707
+0: 		max is at index (23,), value = 1559845.6793821338, base_value = 1559876.6428962727
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/pressure
+0: 	Arrays of types float64 and float64 have 17 values of which 17 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (14,): value = 2146091.8393217013, base_value = 2146135.2220345056
+0: 		Max relative difference is at index (3,): value = 2127146.0023102704, base_value = 2127189.3776225126
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 17
+0: 		max = 5.097725747703573, mean = 5.076605139477765, std = 0.02175198408642595
+0: 		max is at index (3,), value = 2127146.0023102704, base_value = 2127189.3776225126
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Compared 4 pairs of files of which 4 are different.
+0: 	/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000000.hdf5
+0: 	/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000001.hdf5
+0: 	/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000002.hdf5
+0: 	/usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/XvEgLX5S/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/slipPermeability_pEDFM_04/0to1_restart_000000001/rank_0000003.hdf5
