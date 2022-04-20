@@ -1,17 +1,20 @@
 ::::::::::::::::::::
-/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04 --suppress-move-logging
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04 --suppress-move-logging
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04 --suppress-move-logging
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx
+#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx
 #ATS: name = geosx(DeviatedPoroElasticWellbore_Injection_04/DeviatedPoroElasticWellbore_Injection_04_1_geosx)
-#ATS: clas = ['-i', 'DeviatedPoroElasticWellbore_Injection.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04', '--suppress-move-logging']
+#ATS: clas = ['-i', 'DeviatedPoroElasticWellbore_Injection.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04', '--suppress-move-logging']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
 
 Max threads: 4
-GEOSX version 0.2.0 (HEAD, sha1: ff18268)
+Rank 2: Total number of nodes:24
+Rank 1: Total number of nodes:18
+Rank 3: Total number of nodes:24
+GEOSX version 0.2.0 (HEAD, sha1: 77c2a18)
 Adding Mesh: InternalWellbore, mesh1
 Adding Solver of type SinglePhasePoromechanics, named poroSolve
 Adding Solver of type SolidMechanicsLagrangianSSLE, named lagsolve
@@ -27,9 +30,6 @@ Radial Coordinates: { 0.1, 0.208703, 0.436306, 0.912869, 1.91071, 4 }
 Total number of nodes:60
 Total number of elems:20
 Rank 0: Total number of nodes:18
-Rank 2: Total number of nodes:24
-Rank 1: Total number of nodes:18
-Rank 3: Total number of nodes:24
   Omega/cb1/water is allocated with 8 quadrature points.
   Omega/cb1/porousRock is allocated with 8 quadrature points.
 Time: 0s, dt:0.78s, Cycle: 0
@@ -633,19 +633,19 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.56373e-08 | Setup Time: 0.0373284 s | Solve Time: 0.00162549 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.89441e-08 | Setup Time: 0.0147512 s | Solve Time: 0.00160752 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 2.30e-15, 2.13e-12 )
+    ( Rsolid, Rfluid ) = ( 2.53e-15, 2.13e-12 )
     ( R ) = ( 2.13e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.56e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000001.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000000/rank_0000000.hdf5
 Time: 0.78s, dt:0.78s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 2.30e-15, 5.02e-07 )
+    ( Rsolid, Rfluid ) = ( 2.53e-15, 5.02e-07 )
     ( R ) = ( 5.02e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -1244,15 +1244,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.02585e-08 | Setup Time: 0.00703864 s | Solve Time: 0.00159471 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44948e-08 | Setup Time: 0.00593337 s | Solve Time: 0.00146922 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.64e-15, 2.08e-12 )
+    ( Rsolid, Rfluid ) = ( 1.18e-15, 2.08e-12 )
     ( R ) = ( 2.08e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.03e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 1.56s, dt:0.78s, Cycle: 2
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.64e-15, 4.96e-07 )
+    ( Rsolid, Rfluid ) = ( 1.18e-15, 4.96e-07 )
     ( R ) = ( 4.96e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -1851,15 +1851,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.90053e-08 | Setup Time: 0.00662084 s | Solve Time: 0.00192029 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.33014e-08 | Setup Time: 0.00598843 s | Solve Time: 0.00137867 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.11e-15, 2.04e-12 )
+    ( Rsolid, Rfluid ) = ( 1.00e-15, 2.04e-12 )
     ( R ) = ( 2.04e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.90e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.33e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 2.34s, dt:0.78s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.11e-15, 4.91e-07 )
+    ( Rsolid, Rfluid ) = ( 1.00e-15, 4.91e-07 )
     ( R ) = ( 4.91e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -2458,15 +2458,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.07407e-08 | Setup Time: 0.0065913 s | Solve Time: 0.00178793 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.04723e-08 | Setup Time: 0.00596666 s | Solve Time: 0.00145579 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.46e-16, 1.99e-12 )
+    ( Rsolid, Rfluid ) = ( 9.63e-16, 1.99e-12 )
     ( R ) = ( 1.99e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.07e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.05e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 3.12s, dt:0.78s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.46e-16, 4.86e-07 )
+    ( Rsolid, Rfluid ) = ( 9.63e-16, 4.86e-07 )
     ( R ) = ( 4.86e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -3065,15 +3065,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37047e-08 | Setup Time: 0.00651673 s | Solve Time: 0.00157 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.42892e-08 | Setup Time: 0.00618194 s | Solve Time: 0.00148254 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.30e-16, 1.95e-12 )
+    ( Rsolid, Rfluid ) = ( 1.07e-15, 1.95e-12 )
     ( R ) = ( 1.95e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.37e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 3.9s, dt:0.78s, Cycle: 5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.30e-16, 4.81e-07 )
+    ( Rsolid, Rfluid ) = ( 1.07e-15, 4.81e-07 )
     ( R ) = ( 4.81e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -3672,15 +3672,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.87493e-08 | Setup Time: 0.00660135 s | Solve Time: 0.00164693 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60403e-08 | Setup Time: 0.00614997 s | Solve Time: 0.00143681 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.49e-16, 1.91e-12 )
+    ( Rsolid, Rfluid ) = ( 8.74e-16, 1.91e-12 )
     ( R ) = ( 1.91e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.87e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 4.68s, dt:0.78s, Cycle: 6
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.49e-16, 4.76e-07 )
+    ( Rsolid, Rfluid ) = ( 8.74e-16, 4.76e-07 )
     ( R ) = ( 4.76e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -4279,15 +4279,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67193e-08 | Setup Time: 0.00656475 s | Solve Time: 0.00148955 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31036e-08 | Setup Time: 0.00636076 s | Solve Time: 0.00141836 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.14e-15, 1.87e-12 )
+    ( Rsolid, Rfluid ) = ( 9.00e-16, 1.87e-12 )
     ( R ) = ( 1.87e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.67e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 5.46s, dt:0.78s, Cycle: 7
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.14e-15, 4.71e-07 )
+    ( Rsolid, Rfluid ) = ( 9.00e-16, 4.71e-07 )
     ( R ) = ( 4.71e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -4886,15 +4886,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40043e-08 | Setup Time: 0.00655174 s | Solve Time: 0.00164536 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.33637e-08 | Setup Time: 0.0064671 s | Solve Time: 0.00144648 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.74e-16, 1.83e-12 )
+    ( Rsolid, Rfluid ) = ( 8.18e-16, 1.83e-12 )
     ( R ) = ( 1.83e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.40e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.34e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 6.24s, dt:0.78s, Cycle: 8
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.74e-16, 4.66e-07 )
+    ( Rsolid, Rfluid ) = ( 8.18e-16, 4.66e-07 )
     ( R ) = ( 4.66e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -5493,15 +5493,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49397e-08 | Setup Time: 0.00653569 s | Solve Time: 0.00151761 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.70624e-08 | Setup Time: 0.00607996 s | Solve Time: 0.00143675 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.88e-16, 1.79e-12 )
+    ( Rsolid, Rfluid ) = ( 6.57e-16, 1.79e-12 )
     ( R ) = ( 1.79e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.49e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.71e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 7.02s, dt:0.78s, Cycle: 9
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.88e-16, 4.62e-07 )
+    ( Rsolid, Rfluid ) = ( 6.57e-16, 4.62e-07 )
     ( R ) = ( 4.62e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -6100,15 +6100,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.45148e-08 | Setup Time: 0.00670754 s | Solve Time: 0.00163221 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.06626e-08 | Setup Time: 0.00592119 s | Solve Time: 0.0014827 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.10e-15, 1.75e-12 )
+    ( Rsolid, Rfluid ) = ( 6.69e-16, 1.75e-12 )
     ( R ) = ( 1.75e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.07e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 7.8s, dt:0.78s, Cycle: 10
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.10e-15, 4.57e-07 )
+    ( Rsolid, Rfluid ) = ( 6.69e-16, 4.57e-07 )
     ( R ) = ( 4.57e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -6707,15 +6707,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.80049e-08 | Setup Time: 0.00649724 s | Solve Time: 0.00170054 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49722e-08 | Setup Time: 0.00598676 s | Solve Time: 0.00148047 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.03e-15, 1.72e-12 )
+    ( Rsolid, Rfluid ) = ( 1.02e-15, 1.72e-12 )
     ( R ) = ( 1.72e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.80e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 8.58s, dt:0.78s, Cycle: 11
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.03e-15, 4.52e-07 )
+    ( Rsolid, Rfluid ) = ( 1.02e-15, 4.52e-07 )
     ( R ) = ( 4.52e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -7314,15 +7314,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.61904e-08 | Setup Time: 0.00661174 s | Solve Time: 0.00151503 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.86462e-08 | Setup Time: 0.00608108 s | Solve Time: 0.00146022 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.11e-16, 1.68e-12 )
+    ( Rsolid, Rfluid ) = ( 1.15e-15, 1.68e-12 )
     ( R ) = ( 1.68e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.62e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 9.36s, dt:0.78s, Cycle: 12
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.11e-16, 4.48e-07 )
+    ( Rsolid, Rfluid ) = ( 1.15e-15, 4.48e-07 )
     ( R ) = ( 4.48e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -7921,15 +7921,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36626e-08 | Setup Time: 0.00663358 s | Solve Time: 0.00165415 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.77171e-08 | Setup Time: 0.00593188 s | Solve Time: 0.00143696 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.64e-16, 1.65e-12 )
+    ( Rsolid, Rfluid ) = ( 1.59e-15, 1.65e-12 )
     ( R ) = ( 1.65e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.37e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.77e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 10.14s, dt:0.78s, Cycle: 13
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.64e-16, 4.43e-07 )
+    ( Rsolid, Rfluid ) = ( 1.59e-15, 4.43e-07 )
     ( R ) = ( 4.43e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -8528,15 +8528,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.54542e-08 | Setup Time: 0.006664 s | Solve Time: 0.0016002 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36088e-08 | Setup Time: 0.00592006 s | Solve Time: 0.00142821 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.44e-16, 1.61e-12 )
+    ( Rsolid, Rfluid ) = ( 1.04e-15, 1.61e-12 )
     ( R ) = ( 1.61e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.55e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.36e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 10.92s, dt:0.78s, Cycle: 14
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.44e-16, 4.39e-07 )
+    ( Rsolid, Rfluid ) = ( 1.04e-15, 4.39e-07 )
     ( R ) = ( 4.39e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -9135,15 +9135,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.18764e-08 | Setup Time: 0.00667269 s | Solve Time: 0.0015019 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.33013e-08 | Setup Time: 0.00597042 s | Solve Time: 0.00156249 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.17e-15, 1.58e-12 )
+    ( Rsolid, Rfluid ) = ( 7.46e-16, 1.58e-12 )
     ( R ) = ( 1.58e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.19e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.33e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 11.7s, dt:0.78s, Cycle: 15
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.17e-15, 4.34e-07 )
+    ( Rsolid, Rfluid ) = ( 7.46e-16, 4.34e-07 )
     ( R ) = ( 4.34e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -9742,15 +9742,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31892e-08 | Setup Time: 0.00652696 s | Solve Time: 0.00148797 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.29016e-08 | Setup Time: 0.00597978 s | Solve Time: 0.00145152 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.16e-15, 1.54e-12 )
+    ( Rsolid, Rfluid ) = ( 8.13e-16, 1.54e-12 )
     ( R ) = ( 1.54e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.29e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 12.48s, dt:0.78s, Cycle: 16
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.16e-15, 4.30e-07 )
+    ( Rsolid, Rfluid ) = ( 8.13e-16, 4.30e-07 )
     ( R ) = ( 4.30e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -10349,15 +10349,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.87007e-08 | Setup Time: 0.0065033 s | Solve Time: 0.00155603 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.86544e-08 | Setup Time: 0.0059634 s | Solve Time: 0.00154001 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.39e-16, 1.51e-12 )
+    ( Rsolid, Rfluid ) = ( 6.77e-16, 1.51e-12 )
     ( R ) = ( 1.51e-12 ) ; 
     Last LinSolve(iter,res) = (   1, 1.87e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 13.26s, dt:0.78s, Cycle: 17
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.39e-16, 4.26e-07 )
+    ( Rsolid, Rfluid ) = ( 6.77e-16, 4.26e-07 )
     ( R ) = ( 4.26e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -10956,15 +10956,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.69647e-08 | Setup Time: 0.00653596 s | Solve Time: 0.00142529 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67819e-08 | Setup Time: 0.00594032 s | Solve Time: 0.00150117 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.73e-16, 1.48e-12 )
+    ( Rsolid, Rfluid ) = ( 7.11e-16, 1.48e-12 )
     ( R ) = ( 1.48e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.70e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.68e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 14.04s, dt:0.78s, Cycle: 18
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.73e-16, 4.21e-07 )
+    ( Rsolid, Rfluid ) = ( 7.11e-16, 4.21e-07 )
     ( R ) = ( 4.21e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -11563,15 +11563,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.22424e-08 | Setup Time: 0.00654997 s | Solve Time: 0.00147594 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.41407e-08 | Setup Time: 0.00596269 s | Solve Time: 0.00152661 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.39e-16, 1.45e-12 )
+    ( Rsolid, Rfluid ) = ( 1.06e-15, 1.45e-12 )
     ( R ) = ( 1.45e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.22e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 14.82s, dt:0.78s, Cycle: 19
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.39e-16, 4.17e-07 )
+    ( Rsolid, Rfluid ) = ( 1.06e-15, 4.17e-07 )
     ( R ) = ( 4.17e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -12170,16 +12170,16 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40011e-08 | Setup Time: 0.00664937 s | Solve Time: 0.00155105 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.83783e-08 | Setup Time: 0.00593561 s | Solve Time: 0.00143527 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.40e-16, 1.42e-12 )
+    ( Rsolid, Rfluid ) = ( 9.20e-16, 1.42e-12 )
     ( R ) = ( 1.42e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.40e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 15.6s, dt:5.32907e-15s, Cycle: 20
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.40e-16, 2.58e-16 )
-    ( R ) = ( 7.84e-16 ) ; 
+    ( Rsolid, Rfluid ) = ( 9.20e-16, 2.58e-16 )
+    ( R ) = ( 9.55e-16 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
   Architecture: Linux
@@ -12777,15 +12777,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 7.23841e-12 | Setup Time: 0.006633 s | Solve Time: 0.00157275 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 5.45106e-12 | Setup Time: 0.0059196 s | Solve Time: 0.00144867 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.48e-16, 2.63e-16 )
-    ( R ) = ( 6.99e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.24e-12 ) ; 
+    ( Rsolid, Rfluid ) = ( 8.00e-16, 2.63e-16 )
+    ( R ) = ( 8.42e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.45e-12 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 15.6s, dt:0.78s, Cycle: 21
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.48e-16, 4.13e-07 )
+    ( Rsolid, Rfluid ) = ( 8.00e-16, 4.13e-07 )
     ( R ) = ( 4.13e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -13384,15 +13384,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.27885e-08 | Setup Time: 0.00648997 s | Solve Time: 0.0017 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.29401e-08 | Setup Time: 0.00592746 s | Solve Time: 0.00144651 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.99e-16, 1.39e-12 )
+    ( Rsolid, Rfluid ) = ( 1.02e-15, 1.39e-12 )
     ( R ) = ( 1.39e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.28e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.29e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 16.38s, dt:0.78s, Cycle: 22
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.99e-16, 4.09e-07 )
+    ( Rsolid, Rfluid ) = ( 1.02e-15, 4.09e-07 )
     ( R ) = ( 4.09e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -13991,15 +13991,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.39172e-08 | Setup Time: 0.00650397 s | Solve Time: 0.00157463 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.65319e-08 | Setup Time: 0.006126 s | Solve Time: 0.00145316 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.64e-16, 1.36e-12 )
+    ( Rsolid, Rfluid ) = ( 7.44e-16, 1.36e-12 )
     ( R ) = ( 1.36e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.39e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.65e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 17.16s, dt:0.78s, Cycle: 23
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.64e-16, 4.05e-07 )
+    ( Rsolid, Rfluid ) = ( 7.44e-16, 4.05e-07 )
     ( R ) = ( 4.05e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -14598,15 +14598,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.68369e-08 | Setup Time: 0.00665726 s | Solve Time: 0.00150465 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26815e-08 | Setup Time: 0.00593714 s | Solve Time: 0.00144741 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.39e-16, 1.33e-12 )
+    ( Rsolid, Rfluid ) = ( 8.88e-16, 1.33e-12 )
     ( R ) = ( 1.33e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.68e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.27e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 17.94s, dt:0.78s, Cycle: 24
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.39e-16, 4.01e-07 )
+    ( Rsolid, Rfluid ) = ( 8.88e-16, 4.01e-07 )
     ( R ) = ( 4.01e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -15205,15 +15205,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44261e-08 | Setup Time: 0.00664087 s | Solve Time: 0.00144664 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.96306e-08 | Setup Time: 0.0058919 s | Solve Time: 0.00143491 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.99e-16, 1.31e-12 )
+    ( Rsolid, Rfluid ) = ( 8.82e-16, 1.31e-12 )
     ( R ) = ( 1.31e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.44e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.96e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 18.72s, dt:0.78s, Cycle: 25
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.99e-16, 3.97e-07 )
+    ( Rsolid, Rfluid ) = ( 8.82e-16, 3.97e-07 )
     ( R ) = ( 3.97e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -15812,15 +15812,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.98006e-08 | Setup Time: 0.00658497 s | Solve Time: 0.00157466 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.77368e-08 | Setup Time: 0.00596378 s | Solve Time: 0.00141859 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.96e-16, 1.28e-12 )
+    ( Rsolid, Rfluid ) = ( 1.00e-15, 1.28e-12 )
     ( R ) = ( 1.28e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.98e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.77e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 19.5s, dt:0.78s, Cycle: 26
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.96e-16, 3.93e-07 )
+    ( Rsolid, Rfluid ) = ( 1.00e-15, 3.93e-07 )
     ( R ) = ( 3.93e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -16419,15 +16419,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.54289e-08 | Setup Time: 0.00658838 s | Solve Time: 0.00155508 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.84674e-08 | Setup Time: 0.00597117 s | Solve Time: 0.00144099 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.95e-16, 1.25e-12 )
+    ( Rsolid, Rfluid ) = ( 7.81e-16, 1.25e-12 )
     ( R ) = ( 1.25e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.54e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.85e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 20.28s, dt:0.78s, Cycle: 27
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.95e-16, 3.89e-07 )
+    ( Rsolid, Rfluid ) = ( 7.81e-16, 3.89e-07 )
     ( R ) = ( 3.89e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -17026,15 +17026,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36804e-08 | Setup Time: 0.00659549 s | Solve Time: 0.00158245 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.42922e-08 | Setup Time: 0.005949 s | Solve Time: 0.00144122 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.41e-16, 1.23e-12 )
+    ( Rsolid, Rfluid ) = ( 1.00e-15, 1.23e-12 )
     ( R ) = ( 1.23e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.37e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 21.06s, dt:0.78s, Cycle: 28
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.41e-16, 3.86e-07 )
+    ( Rsolid, Rfluid ) = ( 1.00e-15, 3.86e-07 )
     ( R ) = ( 3.86e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -17633,15 +17633,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.23289e-08 | Setup Time: 0.00663569 s | Solve Time: 0.00143568 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.59654e-08 | Setup Time: 0.00593175 s | Solve Time: 0.00142141 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.36e-16, 1.20e-12 )
+    ( Rsolid, Rfluid ) = ( 1.12e-15, 1.20e-12 )
     ( R ) = ( 1.20e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.23e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 21.84s, dt:0.78s, Cycle: 29
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.36e-16, 3.82e-07 )
+    ( Rsolid, Rfluid ) = ( 1.12e-15, 3.82e-07 )
     ( R ) = ( 3.82e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -18240,15 +18240,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.548e-08 | Setup Time: 0.00662306 s | Solve Time: 0.00146975 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52465e-08 | Setup Time: 0.00593299 s | Solve Time: 0.00144872 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.48e-16, 1.18e-12 )
+    ( Rsolid, Rfluid ) = ( 8.00e-16, 1.18e-12 )
     ( R ) = ( 1.18e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.55e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 22.62s, dt:0.78s, Cycle: 30
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.48e-16, 3.78e-07 )
+    ( Rsolid, Rfluid ) = ( 8.00e-16, 3.78e-07 )
     ( R ) = ( 3.78e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -18847,15 +18847,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67041e-08 | Setup Time: 0.00668165 s | Solve Time: 0.00156839 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.23989e-08 | Setup Time: 0.00596322 s | Solve Time: 0.0014493 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.30e-16, 1.15e-12 )
+    ( Rsolid, Rfluid ) = ( 1.08e-15, 1.15e-12 )
     ( R ) = ( 1.15e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.67e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.24e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 23.4s, dt:0.78s, Cycle: 31
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.30e-16, 3.75e-07 )
+    ( Rsolid, Rfluid ) = ( 1.08e-15, 3.75e-07 )
     ( R ) = ( 3.75e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -19454,15 +19454,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.20234e-08 | Setup Time: 0.00663981 s | Solve Time: 0.00148204 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32424e-08 | Setup Time: 0.00593243 s | Solve Time: 0.00144461 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.22e-15, 1.13e-12 )
+    ( Rsolid, Rfluid ) = ( 1.28e-15, 1.13e-12 )
     ( R ) = ( 1.13e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.20e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 24.18s, dt:0.78s, Cycle: 32
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.22e-15, 3.71e-07 )
+    ( Rsolid, Rfluid ) = ( 1.28e-15, 3.71e-07 )
     ( R ) = ( 3.71e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -20061,15 +20061,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.53623e-08 | Setup Time: 0.00654628 s | Solve Time: 0.00171151 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50827e-08 | Setup Time: 0.00616201 s | Solve Time: 0.00147884 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.84e-16, 1.10e-12 )
+    ( Rsolid, Rfluid ) = ( 7.31e-16, 1.10e-12 )
     ( R ) = ( 1.10e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.54e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.51e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 24.96s, dt:0.78s, Cycle: 33
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.84e-16, 3.68e-07 )
+    ( Rsolid, Rfluid ) = ( 7.31e-16, 3.68e-07 )
     ( R ) = ( 3.68e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -20668,15 +20668,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26386e-08 | Setup Time: 0.00653644 s | Solve Time: 0.00163231 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36019e-08 | Setup Time: 0.00598397 s | Solve Time: 0.00158204 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.57e-16, 1.08e-12 )
+    ( Rsolid, Rfluid ) = ( 9.58e-16, 1.08e-12 )
     ( R ) = ( 1.08e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.26e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.36e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 25.74s, dt:0.78s, Cycle: 34
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.57e-16, 3.64e-07 )
+    ( Rsolid, Rfluid ) = ( 9.58e-16, 3.64e-07 )
     ( R ) = ( 3.64e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -21275,15 +21275,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.69678e-08 | Setup Time: 0.00672828 s | Solve Time: 0.00152888 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.76613e-08 | Setup Time: 0.00596161 s | Solve Time: 0.00149852 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.56e-16, 1.06e-12 )
+    ( Rsolid, Rfluid ) = ( 7.69e-16, 1.06e-12 )
     ( R ) = ( 1.06e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.70e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.77e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 26.52s, dt:0.78s, Cycle: 35
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.56e-16, 3.61e-07 )
+    ( Rsolid, Rfluid ) = ( 7.69e-16, 3.61e-07 )
     ( R ) = ( 3.61e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -21882,15 +21882,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.65845e-08 | Setup Time: 0.00676756 s | Solve Time: 0.00164243 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.19538e-08 | Setup Time: 0.00596896 s | Solve Time: 0.00140655 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.38e-16, 1.04e-12 )
+    ( Rsolid, Rfluid ) = ( 9.38e-16, 1.04e-12 )
     ( R ) = ( 1.04e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.66e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.20e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 27.3s, dt:0.78s, Cycle: 36
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.38e-16, 3.57e-07 )
+    ( Rsolid, Rfluid ) = ( 9.38e-16, 3.57e-07 )
     ( R ) = ( 3.57e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -22489,15 +22489,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.75956e-08 | Setup Time: 0.00657148 s | Solve Time: 0.00154536 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3853e-08 | Setup Time: 0.0060062 s | Solve Time: 0.00139543 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 5.16e-16, 1.02e-12 )
+    ( Rsolid, Rfluid ) = ( 9.40e-16, 1.02e-12 )
     ( R ) = ( 1.02e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.76e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.39e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 28.08s, dt:0.78s, Cycle: 37
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 5.16e-16, 3.54e-07 )
+    ( Rsolid, Rfluid ) = ( 9.40e-16, 3.54e-07 )
     ( R ) = ( 3.54e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -23096,15 +23096,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31926e-08 | Setup Time: 0.00667054 s | Solve Time: 0.00153819 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60478e-08 | Setup Time: 0.00601721 s | Solve Time: 0.00168279 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.33e-16, 9.95e-13 )
+    ( Rsolid, Rfluid ) = ( 7.99e-16, 9.95e-13 )
     ( R ) = ( 9.95e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 28.86s, dt:0.78s, Cycle: 38
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.33e-16, 3.51e-07 )
+    ( Rsolid, Rfluid ) = ( 7.99e-16, 3.51e-07 )
     ( R ) = ( 3.51e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -23703,15 +23703,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.35553e-08 | Setup Time: 0.0066238 s | Solve Time: 0.00165971 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.38339e-08 | Setup Time: 0.00597164 s | Solve Time: 0.00157487 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.84e-16, 9.75e-13 )
+    ( Rsolid, Rfluid ) = ( 7.16e-16, 9.75e-13 )
     ( R ) = ( 9.75e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.36e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.38e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 29.64s, dt:0.78s, Cycle: 39
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.84e-16, 3.47e-07 )
+    ( Rsolid, Rfluid ) = ( 7.16e-16, 3.47e-07 )
     ( R ) = ( 3.47e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -24310,15 +24310,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 9.49045e-09 | Setup Time: 0.00679997 s | Solve Time: 0.00165269 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.74532e-08 | Setup Time: 0.00590252 s | Solve Time: 0.00145239 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.58e-16, 9.55e-13 )
+    ( Rsolid, Rfluid ) = ( 7.61e-16, 9.55e-13 )
     ( R ) = ( 9.55e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 9.49e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.75e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 30.42s, dt:0.78s, Cycle: 40
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.58e-16, 3.44e-07 )
+    ( Rsolid, Rfluid ) = ( 7.61e-16, 3.44e-07 )
     ( R ) = ( 3.44e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -24917,15 +24917,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.62776e-08 | Setup Time: 0.00663222 s | Solve Time: 0.00167324 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.00931e-08 | Setup Time: 0.00597155 s | Solve Time: 0.0014688 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.65e-16, 9.35e-13 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 9.35e-13 )
     ( R ) = ( 9.35e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.63e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.01e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 31.2s, dt:0.78s, Cycle: 41
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.65e-16, 3.41e-07 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 3.41e-07 )
     ( R ) = ( 3.41e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -25524,15 +25524,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.13095e-08 | Setup Time: 0.00668653 s | Solve Time: 0.00174124 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.17264e-08 | Setup Time: 0.0059542 s | Solve Time: 0.00146197 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.51e-16, 9.16e-13 )
+    ( Rsolid, Rfluid ) = ( 7.90e-16, 9.16e-13 )
     ( R ) = ( 9.16e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.13e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.17e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 31.98s, dt:0.78s, Cycle: 42
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.51e-16, 3.38e-07 )
+    ( Rsolid, Rfluid ) = ( 7.90e-16, 3.38e-07 )
     ( R ) = ( 3.38e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -26131,15 +26131,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.18731e-08 | Setup Time: 0.00660578 s | Solve Time: 0.00166987 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26458e-08 | Setup Time: 0.0061375 s | Solve Time: 0.00148467 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.03e-16, 8.97e-13 )
+    ( Rsolid, Rfluid ) = ( 8.50e-16, 8.97e-13 )
     ( R ) = ( 8.97e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.19e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.26e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 32.76s, dt:0.78s, Cycle: 43
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.03e-16, 3.35e-07 )
+    ( Rsolid, Rfluid ) = ( 8.50e-16, 3.35e-07 )
     ( R ) = ( 3.35e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -26738,15 +26738,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.43642e-08 | Setup Time: 0.00658528 s | Solve Time: 0.00164484 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.91504e-08 | Setup Time: 0.00594113 s | Solve Time: 0.00145683 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.17e-16, 8.79e-13 )
+    ( Rsolid, Rfluid ) = ( 5.79e-16, 8.79e-13 )
     ( R ) = ( 8.79e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.44e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.92e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 33.54s, dt:0.78s, Cycle: 44
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.17e-16, 3.32e-07 )
+    ( Rsolid, Rfluid ) = ( 5.79e-16, 3.32e-07 )
     ( R ) = ( 3.32e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -27345,15 +27345,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67301e-08 | Setup Time: 0.00656525 s | Solve Time: 0.00144115 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.2631e-08 | Setup Time: 0.0100271 s | Solve Time: 0.00244189 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.23e-16, 8.61e-13 )
+    ( Rsolid, Rfluid ) = ( 1.07e-15, 8.61e-13 )
     ( R ) = ( 8.61e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.67e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.26e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 34.32s, dt:0.78s, Cycle: 45
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.23e-16, 3.29e-07 )
+    ( Rsolid, Rfluid ) = ( 1.07e-15, 3.29e-07 )
     ( R ) = ( 3.29e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -27952,15 +27952,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.43495e-08 | Setup Time: 0.00654587 s | Solve Time: 0.00157508 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.3325e-08 | Setup Time: 0.00604074 s | Solve Time: 0.00145258 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.84e-16, 8.43e-13 )
+    ( Rsolid, Rfluid ) = ( 7.62e-16, 8.43e-13 )
     ( R ) = ( 8.43e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.43e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.33e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 35.1s, dt:0.78s, Cycle: 46
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.84e-16, 3.26e-07 )
+    ( Rsolid, Rfluid ) = ( 7.62e-16, 3.26e-07 )
     ( R ) = ( 3.26e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -28559,15 +28559,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26476e-08 | Setup Time: 0.00657113 s | Solve Time: 0.00157963 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37635e-08 | Setup Time: 0.00581838 s | Solve Time: 0.0014566 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.48e-16, 8.26e-13 )
+    ( Rsolid, Rfluid ) = ( 7.09e-16, 8.26e-13 )
     ( R ) = ( 8.26e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.26e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.38e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 35.88s, dt:0.78s, Cycle: 47
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.48e-16, 3.23e-07 )
+    ( Rsolid, Rfluid ) = ( 7.09e-16, 3.23e-07 )
     ( R ) = ( 3.23e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -29166,15 +29166,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44796e-08 | Setup Time: 0.00649988 s | Solve Time: 0.00158301 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40209e-08 | Setup Time: 0.00581614 s | Solve Time: 0.00143972 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.00e-16, 8.09e-13 )
+    ( Rsolid, Rfluid ) = ( 6.89e-16, 8.09e-13 )
     ( R ) = ( 8.09e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 36.66s, dt:0.78s, Cycle: 48
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.00e-16, 3.20e-07 )
+    ( Rsolid, Rfluid ) = ( 6.89e-16, 3.20e-07 )
     ( R ) = ( 3.20e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -29773,15 +29773,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.48345e-08 | Setup Time: 0.00648195 s | Solve Time: 0.00150423 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28481e-08 | Setup Time: 0.00601348 s | Solve Time: 0.00147004 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.51e-16, 7.93e-13 )
+    ( Rsolid, Rfluid ) = ( 7.40e-16, 7.93e-13 )
     ( R ) = ( 7.93e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.48e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 37.44s, dt:0.78s, Cycle: 49
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.51e-16, 3.17e-07 )
+    ( Rsolid, Rfluid ) = ( 7.40e-16, 3.17e-07 )
     ( R ) = ( 3.17e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -30380,15 +30380,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49825e-08 | Setup Time: 0.00655713 s | Solve Time: 0.00156944 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32354e-08 | Setup Time: 0.00609186 s | Solve Time: 0.00147175 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.00e-15, 7.77e-13 )
+    ( Rsolid, Rfluid ) = ( 8.15e-16, 7.77e-13 )
     ( R ) = ( 7.77e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.50e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 38.22s, dt:0.78s, Cycle: 50
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.00e-15, 3.14e-07 )
+    ( Rsolid, Rfluid ) = ( 8.15e-16, 3.14e-07 )
     ( R ) = ( 3.14e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -30987,15 +30987,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.92411e-08 | Setup Time: 0.00652484 s | Solve Time: 0.0012974 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.06174e-08 | Setup Time: 0.00599026 s | Solve Time: 0.00146555 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.64e-16, 7.61e-13 )
+    ( Rsolid, Rfluid ) = ( 8.45e-16, 7.61e-13 )
     ( R ) = ( 7.61e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.92e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.06e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 39s, dt:0.78s, Cycle: 51
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.64e-16, 3.12e-07 )
+    ( Rsolid, Rfluid ) = ( 8.45e-16, 3.12e-07 )
     ( R ) = ( 3.12e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -31594,19 +31594,19 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.61242e-08 | Setup Time: 0.0064875 s | Solve Time: 0.0015403 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.17434e-08 | Setup Time: 0.0069486 s | Solve Time: 0.00158488 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.30e-16, 7.45e-13 )
+    ( Rsolid, Rfluid ) = ( 9.05e-16, 7.45e-13 )
     ( R ) = ( 7.45e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.61e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.17e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000002.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000001.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000003.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000051/rank_0000000.hdf5
 Time: 39.78s, dt:0.78s, Cycle: 52
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.30e-16, 3.09e-07 )
+    ( Rsolid, Rfluid ) = ( 9.05e-16, 3.09e-07 )
     ( R ) = ( 3.09e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -32205,15 +32205,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.71874e-08 | Setup Time: 0.00661128 s | Solve Time: 0.00161481 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.45186e-08 | Setup Time: 0.00761724 s | Solve Time: 0.00171046 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.14e-15, 7.30e-13 )
+    ( Rsolid, Rfluid ) = ( 8.24e-16, 7.30e-13 )
     ( R ) = ( 7.30e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.72e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 40.56s, dt:0.78s, Cycle: 53
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.14e-15, 3.06e-07 )
+    ( Rsolid, Rfluid ) = ( 8.24e-16, 3.06e-07 )
     ( R ) = ( 3.06e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -32812,15 +32812,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60888e-08 | Setup Time: 0.00653738 s | Solve Time: 0.00161271 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.2851e-08 | Setup Time: 0.0066848 s | Solve Time: 0.00168587 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.41e-16, 7.15e-13 )
+    ( Rsolid, Rfluid ) = ( 1.08e-15, 7.15e-13 )
     ( R ) = ( 7.15e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.61e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.29e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 41.34s, dt:0.78s, Cycle: 54
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.41e-16, 3.04e-07 )
+    ( Rsolid, Rfluid ) = ( 1.08e-15, 3.04e-07 )
     ( R ) = ( 3.04e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -33419,15 +33419,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.0686e-08 | Setup Time: 0.00653779 s | Solve Time: 0.0014817 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.089e-08 | Setup Time: 0.00706375 s | Solve Time: 0.00165575 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.01e-15, 7.01e-13 )
+    ( Rsolid, Rfluid ) = ( 1.30e-15, 7.01e-13 )
     ( R ) = ( 7.01e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.07e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.09e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 42.12s, dt:0.78s, Cycle: 55
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.01e-15, 3.01e-07 )
+    ( Rsolid, Rfluid ) = ( 1.30e-15, 3.01e-07 )
     ( R ) = ( 3.01e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -34026,15 +34026,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.13652e-08 | Setup Time: 0.00654696 s | Solve Time: 0.00145803 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.42893e-08 | Setup Time: 0.00703879 s | Solve Time: 0.0016596 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.76e-16, 6.87e-13 )
+    ( Rsolid, Rfluid ) = ( 7.78e-16, 6.87e-13 )
     ( R ) = ( 6.87e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.14e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 42.9s, dt:0.78s, Cycle: 56
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.76e-16, 2.99e-07 )
+    ( Rsolid, Rfluid ) = ( 7.78e-16, 2.99e-07 )
     ( R ) = ( 2.99e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -34633,15 +34633,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.41337e-08 | Setup Time: 0.00654409 s | Solve Time: 0.00150426 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.21454e-08 | Setup Time: 0.00684514 s | Solve Time: 0.00163415 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.73e-16, 6.73e-13 )
+    ( Rsolid, Rfluid ) = ( 1.50e-15, 6.73e-13 )
     ( R ) = ( 6.73e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.41e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 43.68s, dt:0.78s, Cycle: 57
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.73e-16, 2.96e-07 )
+    ( Rsolid, Rfluid ) = ( 1.50e-15, 2.96e-07 )
     ( R ) = ( 2.96e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -35240,15 +35240,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3186e-08 | Setup Time: 0.00659885 s | Solve Time: 0.00158868 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.15609e-08 | Setup Time: 0.00739668 s | Solve Time: 0.00186538 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.51e-16, 6.59e-13 )
+    ( Rsolid, Rfluid ) = ( 8.46e-16, 6.59e-13 )
     ( R ) = ( 6.59e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 44.46s, dt:0.78s, Cycle: 58
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.51e-16, 2.94e-07 )
+    ( Rsolid, Rfluid ) = ( 8.46e-16, 2.94e-07 )
     ( R ) = ( 2.94e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -35847,15 +35847,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.13652e-08 | Setup Time: 0.00658381 s | Solve Time: 0.0015995 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3678e-08 | Setup Time: 0.00628137 s | Solve Time: 0.00233685 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.87e-16, 6.46e-13 )
+    ( Rsolid, Rfluid ) = ( 9.46e-16, 6.46e-13 )
     ( R ) = ( 6.46e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.14e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 45.24s, dt:0.78s, Cycle: 59
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.87e-16, 2.91e-07 )
+    ( Rsolid, Rfluid ) = ( 9.46e-16, 2.91e-07 )
     ( R ) = ( 2.91e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -36454,15 +36454,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 9.08141e-09 | Setup Time: 0.00643401 s | Solve Time: 0.00157052 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28695e-08 | Setup Time: 0.00635157 s | Solve Time: 0.00154979 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.11e-15, 6.33e-13 )
+    ( Rsolid, Rfluid ) = ( 1.23e-15, 6.33e-13 )
     ( R ) = ( 6.33e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 9.08e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.29e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 46.02s, dt:0.78s, Cycle: 60
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.11e-15, 2.89e-07 )
+    ( Rsolid, Rfluid ) = ( 1.23e-15, 2.89e-07 )
     ( R ) = ( 2.89e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -37061,15 +37061,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.56577e-08 | Setup Time: 0.00645896 s | Solve Time: 0.00151145 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.48428e-08 | Setup Time: 0.00617971 s | Solve Time: 0.0015051 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.44e-16, 6.20e-13 )
+    ( Rsolid, Rfluid ) = ( 1.23e-15, 6.20e-13 )
     ( R ) = ( 6.20e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.57e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.48e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 46.8s, dt:0.78s, Cycle: 61
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.44e-16, 2.86e-07 )
+    ( Rsolid, Rfluid ) = ( 1.23e-15, 2.86e-07 )
     ( R ) = ( 2.86e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -37668,15 +37668,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.56319e-08 | Setup Time: 0.00657498 s | Solve Time: 0.00149111 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3333e-08 | Setup Time: 0.00685717 s | Solve Time: 0.00165466 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.15e-15, 6.08e-13 )
+    ( Rsolid, Rfluid ) = ( 1.22e-15, 6.08e-13 )
     ( R ) = ( 6.08e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.56e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.33e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 47.58s, dt:0.78s, Cycle: 62
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.15e-15, 2.84e-07 )
+    ( Rsolid, Rfluid ) = ( 1.22e-15, 2.84e-07 )
     ( R ) = ( 2.84e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -38275,15 +38275,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.1157e-08 | Setup Time: 0.0066983 s | Solve Time: 0.00162809 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.02964e-08 | Setup Time: 0.00667524 s | Solve Time: 0.00158355 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.88e-16, 5.95e-13 )
+    ( Rsolid, Rfluid ) = ( 8.46e-16, 5.95e-13 )
     ( R ) = ( 5.95e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.12e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 48.36s, dt:0.78s, Cycle: 63
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.88e-16, 2.82e-07 )
+    ( Rsolid, Rfluid ) = ( 8.46e-16, 2.82e-07 )
     ( R ) = ( 2.82e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -38882,15 +38882,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.68899e-08 | Setup Time: 0.00666481 s | Solve Time: 0.00164213 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.48047e-08 | Setup Time: 0.00683453 s | Solve Time: 0.00213654 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.69e-16, 5.83e-13 )
+    ( Rsolid, Rfluid ) = ( 9.63e-16, 5.83e-13 )
     ( R ) = ( 5.83e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.69e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.48e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 49.14s, dt:0.78s, Cycle: 64
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.69e-16, 2.79e-07 )
+    ( Rsolid, Rfluid ) = ( 9.63e-16, 2.79e-07 )
     ( R ) = ( 2.79e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -39489,15 +39489,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.35267e-08 | Setup Time: 0.00668291 s | Solve Time: 0.00164309 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37721e-08 | Setup Time: 0.00658294 s | Solve Time: 0.00163137 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.17e-16, 5.72e-13 )
+    ( Rsolid, Rfluid ) = ( 8.80e-16, 5.72e-13 )
     ( R ) = ( 5.72e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.35e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.38e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 49.92s, dt:0.78s, Cycle: 65
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.17e-16, 2.77e-07 )
+    ( Rsolid, Rfluid ) = ( 8.80e-16, 2.77e-07 )
     ( R ) = ( 2.77e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -40096,15 +40096,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.19485e-08 | Setup Time: 0.00667215 s | Solve Time: 0.00159865 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4013e-08 | Setup Time: 0.00672447 s | Solve Time: 0.00169634 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.10e-16, 5.60e-13 )
+    ( Rsolid, Rfluid ) = ( 8.03e-16, 5.60e-13 )
     ( R ) = ( 5.60e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.19e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 50.7s, dt:0.78s, Cycle: 66
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.10e-16, 2.75e-07 )
+    ( Rsolid, Rfluid ) = ( 8.03e-16, 2.75e-07 )
     ( R ) = ( 2.75e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -40703,15 +40703,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.1098e-08 | Setup Time: 0.0066626 s | Solve Time: 0.00147466 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.39936e-08 | Setup Time: 0.00674728 s | Solve Time: 0.00171061 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.55e-16, 5.49e-13 )
+    ( Rsolid, Rfluid ) = ( 8.29e-16, 5.49e-13 )
     ( R ) = ( 5.49e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.11e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 51.48s, dt:0.78s, Cycle: 67
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.55e-16, 2.73e-07 )
+    ( Rsolid, Rfluid ) = ( 8.29e-16, 2.73e-07 )
     ( R ) = ( 2.73e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -41310,15 +41310,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40319e-08 | Setup Time: 0.00669787 s | Solve Time: 0.00161298 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32809e-08 | Setup Time: 0.00681694 s | Solve Time: 0.00161855 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.59e-16, 5.38e-13 )
+    ( Rsolid, Rfluid ) = ( 1.18e-15, 5.38e-13 )
     ( R ) = ( 5.38e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.40e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.33e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 52.26s, dt:0.78s, Cycle: 68
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.59e-16, 2.71e-07 )
+    ( Rsolid, Rfluid ) = ( 1.18e-15, 2.71e-07 )
     ( R ) = ( 2.71e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -41917,15 +41917,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.18899e-08 | Setup Time: 0.00670517 s | Solve Time: 0.00151421 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.24686e-08 | Setup Time: 0.00687767 s | Solve Time: 0.00165942 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.14e-15, 5.27e-13 )
+    ( Rsolid, Rfluid ) = ( 9.21e-16, 5.27e-13 )
     ( R ) = ( 5.27e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.19e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.25e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 53.04s, dt:0.78s, Cycle: 69
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.14e-15, 2.69e-07 )
+    ( Rsolid, Rfluid ) = ( 9.21e-16, 2.69e-07 )
     ( R ) = ( 2.69e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -42524,15 +42524,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.24057e-08 | Setup Time: 0.00652459 s | Solve Time: 0.001609 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.47194e-08 | Setup Time: 0.00718561 s | Solve Time: 0.00164342 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.17e-15, 5.17e-13 )
+    ( Rsolid, Rfluid ) = ( 1.21e-15, 5.17e-13 )
     ( R ) = ( 5.17e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.24e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 53.82s, dt:0.78s, Cycle: 70
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.17e-15, 2.67e-07 )
+    ( Rsolid, Rfluid ) = ( 1.21e-15, 2.67e-07 )
     ( R ) = ( 2.67e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -43131,15 +43131,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.22524e-08 | Setup Time: 0.00655625 s | Solve Time: 0.00151093 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.55805e-08 | Setup Time: 0.00722886 s | Solve Time: 0.00164485 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.14e-16, 5.06e-13 )
+    ( Rsolid, Rfluid ) = ( 7.20e-16, 5.06e-13 )
     ( R ) = ( 5.06e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.23e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.56e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 54.6s, dt:0.78s, Cycle: 71
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.14e-16, 2.64e-07 )
+    ( Rsolid, Rfluid ) = ( 7.20e-16, 2.64e-07 )
     ( R ) = ( 2.64e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -43738,15 +43738,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.41211e-08 | Setup Time: 0.00657133 s | Solve Time: 0.00156963 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.55274e-08 | Setup Time: 0.00686061 s | Solve Time: 0.00167152 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.32e-16, 4.96e-13 )
+    ( Rsolid, Rfluid ) = ( 7.64e-16, 4.96e-13 )
     ( R ) = ( 4.96e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.41e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.55e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 55.38s, dt:0.78s, Cycle: 72
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.32e-16, 2.62e-07 )
+    ( Rsolid, Rfluid ) = ( 7.64e-16, 2.62e-07 )
     ( R ) = ( 2.62e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -44345,15 +44345,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32345e-08 | Setup Time: 0.00675779 s | Solve Time: 0.00156708 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.51791e-08 | Setup Time: 0.00683696 s | Solve Time: 0.00225828 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.05e-16, 4.86e-13 )
+    ( Rsolid, Rfluid ) = ( 8.27e-16, 4.86e-13 )
     ( R ) = ( 4.86e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 56.16s, dt:0.78s, Cycle: 73
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.05e-16, 2.61e-07 )
+    ( Rsolid, Rfluid ) = ( 8.27e-16, 2.61e-07 )
     ( R ) = ( 2.61e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -44952,15 +44952,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36771e-08 | Setup Time: 0.00646741 s | Solve Time: 0.0015629 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.5784e-08 | Setup Time: 0.00680797 s | Solve Time: 0.0016385 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.88e-16, 4.76e-13 )
+    ( Rsolid, Rfluid ) = ( 6.61e-16, 4.76e-13 )
     ( R ) = ( 4.76e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.37e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.58e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 56.94s, dt:0.78s, Cycle: 74
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.88e-16, 2.59e-07 )
+    ( Rsolid, Rfluid ) = ( 6.61e-16, 2.59e-07 )
     ( R ) = ( 2.59e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -45559,15 +45559,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.39075e-08 | Setup Time: 0.00650474 s | Solve Time: 0.00147794 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.65141e-08 | Setup Time: 0.00677753 s | Solve Time: 0.00163491 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.22e-16, 4.67e-13 )
+    ( Rsolid, Rfluid ) = ( 7.40e-16, 4.67e-13 )
     ( R ) = ( 4.67e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.39e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.65e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 57.72s, dt:0.78s, Cycle: 75
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.22e-16, 2.57e-07 )
+    ( Rsolid, Rfluid ) = ( 7.40e-16, 2.57e-07 )
     ( R ) = ( 2.57e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -46166,15 +46166,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.59771e-08 | Setup Time: 0.00649917 s | Solve Time: 0.00154723 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.19448e-08 | Setup Time: 0.0071059 s | Solve Time: 0.0016277 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.02e-15, 4.58e-13 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 4.58e-13 )
     ( R ) = ( 4.58e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.60e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.19e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 58.5s, dt:0.78s, Cycle: 76
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.02e-15, 2.55e-07 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 2.55e-07 )
     ( R ) = ( 2.55e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -46773,15 +46773,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.58777e-08 | Setup Time: 0.00644112 s | Solve Time: 0.00156964 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.04459e-08 | Setup Time: 0.00681161 s | Solve Time: 0.00163434 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.14e-16, 4.49e-13 )
+    ( Rsolid, Rfluid ) = ( 5.58e-16, 4.49e-13 )
     ( R ) = ( 4.49e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.59e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.04e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 59.28s, dt:0.78s, Cycle: 77
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.14e-16, 2.53e-07 )
+    ( Rsolid, Rfluid ) = ( 5.58e-16, 2.53e-07 )
     ( R ) = ( 2.53e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -47380,15 +47380,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.71954e-08 | Setup Time: 0.00649967 s | Solve Time: 0.00155967 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50435e-08 | Setup Time: 0.00685084 s | Solve Time: 0.00168541 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.29e-16, 4.40e-13 )
+    ( Rsolid, Rfluid ) = ( 7.33e-16, 4.40e-13 )
     ( R ) = ( 4.40e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.72e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 60.06s, dt:0.78s, Cycle: 78
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.29e-16, 2.51e-07 )
+    ( Rsolid, Rfluid ) = ( 7.33e-16, 2.51e-07 )
     ( R ) = ( 2.51e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -47987,15 +47987,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.61508e-08 | Setup Time: 0.0064919 s | Solve Time: 0.00145946 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.33374e-08 | Setup Time: 0.00680775 s | Solve Time: 0.00148773 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 5.96e-16, 4.31e-13 )
+    ( Rsolid, Rfluid ) = ( 9.65e-16, 4.31e-13 )
     ( R ) = ( 4.31e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.62e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.33e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 60.84s, dt:0.78s, Cycle: 79
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 5.96e-16, 2.49e-07 )
+    ( Rsolid, Rfluid ) = ( 9.65e-16, 2.49e-07 )
     ( R ) = ( 2.49e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -48594,15 +48594,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.1274e-08 | Setup Time: 0.00648499 s | Solve Time: 0.0015039 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26707e-08 | Setup Time: 0.00679642 s | Solve Time: 0.00153721 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.31e-16, 4.22e-13 )
+    ( Rsolid, Rfluid ) = ( 8.34e-16, 4.22e-13 )
     ( R ) = ( 4.22e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.13e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.27e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 61.62s, dt:0.78s, Cycle: 80
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.31e-16, 2.47e-07 )
+    ( Rsolid, Rfluid ) = ( 8.34e-16, 2.47e-07 )
     ( R ) = ( 2.47e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -49201,15 +49201,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.71113e-08 | Setup Time: 0.00649856 s | Solve Time: 0.00150221 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32264e-08 | Setup Time: 0.00678636 s | Solve Time: 0.00175275 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.35e-15, 4.14e-13 )
+    ( Rsolid, Rfluid ) = ( 8.29e-16, 4.14e-13 )
     ( R ) = ( 4.14e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.71e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 62.4s, dt:0.78s, Cycle: 81
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.35e-15, 2.46e-07 )
+    ( Rsolid, Rfluid ) = ( 8.29e-16, 2.46e-07 )
     ( R ) = ( 2.46e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -49808,15 +49808,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.81679e-08 | Setup Time: 0.00643131 s | Solve Time: 0.00159099 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.05365e-08 | Setup Time: 0.00682427 s | Solve Time: 0.00163335 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.18e-16, 4.06e-13 )
+    ( Rsolid, Rfluid ) = ( 6.95e-16, 4.06e-13 )
     ( R ) = ( 4.06e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.82e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.05e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 63.18s, dt:0.78s, Cycle: 82
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.18e-16, 2.44e-07 )
+    ( Rsolid, Rfluid ) = ( 6.95e-16, 2.44e-07 )
     ( R ) = ( 2.44e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -50415,15 +50415,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.66092e-08 | Setup Time: 0.00650818 s | Solve Time: 0.00151146 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28279e-08 | Setup Time: 0.00664251 s | Solve Time: 0.00163331 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.53e-16, 3.98e-13 )
+    ( Rsolid, Rfluid ) = ( 7.47e-16, 3.98e-13 )
     ( R ) = ( 3.98e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.66e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 63.96s, dt:0.78s, Cycle: 83
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.53e-16, 2.42e-07 )
+    ( Rsolid, Rfluid ) = ( 7.47e-16, 2.42e-07 )
     ( R ) = ( 2.42e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -51022,15 +51022,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.5577e-08 | Setup Time: 0.00647453 s | Solve Time: 0.00148782 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.61698e-08 | Setup Time: 0.00675348 s | Solve Time: 0.00162612 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.59e-16, 3.90e-13 )
+    ( Rsolid, Rfluid ) = ( 8.56e-16, 3.90e-13 )
     ( R ) = ( 3.90e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.56e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.62e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 64.74s, dt:0.78s, Cycle: 84
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.59e-16, 2.41e-07 )
+    ( Rsolid, Rfluid ) = ( 8.56e-16, 2.41e-07 )
     ( R ) = ( 2.41e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -51629,15 +51629,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.16778e-08 | Setup Time: 0.00635665 s | Solve Time: 0.00145589 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.42809e-08 | Setup Time: 0.00696602 s | Solve Time: 0.00160599 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.58e-16, 3.82e-13 )
+    ( Rsolid, Rfluid ) = ( 7.38e-16, 3.82e-13 )
     ( R ) = ( 3.82e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.17e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 65.52s, dt:0.78s, Cycle: 85
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.58e-16, 2.39e-07 )
+    ( Rsolid, Rfluid ) = ( 7.38e-16, 2.39e-07 )
     ( R ) = ( 2.39e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -52236,15 +52236,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44575e-08 | Setup Time: 0.00634696 s | Solve Time: 0.00156258 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.34578e-08 | Setup Time: 0.00707872 s | Solve Time: 0.00160206 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.37e-16, 3.75e-13 )
+    ( Rsolid, Rfluid ) = ( 7.51e-16, 3.75e-13 )
     ( R ) = ( 3.75e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.35e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 66.3s, dt:0.78s, Cycle: 86
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.37e-16, 2.37e-07 )
+    ( Rsolid, Rfluid ) = ( 7.51e-16, 2.37e-07 )
     ( R ) = ( 2.37e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -52843,15 +52843,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.48738e-08 | Setup Time: 0.00641961 s | Solve Time: 0.00156077 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.21491e-08 | Setup Time: 0.00702517 s | Solve Time: 0.0016342 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.65e-16, 3.67e-13 )
+    ( Rsolid, Rfluid ) = ( 1.15e-15, 3.67e-13 )
     ( R ) = ( 3.67e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.49e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 67.08s, dt:0.78s, Cycle: 87
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.65e-16, 2.36e-07 )
+    ( Rsolid, Rfluid ) = ( 1.15e-15, 2.36e-07 )
     ( R ) = ( 2.36e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -53450,15 +53450,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31395e-08 | Setup Time: 0.00636364 s | Solve Time: 0.00155817 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.14072e-08 | Setup Time: 0.00695573 s | Solve Time: 0.00167357 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.29e-16, 3.60e-13 )
+    ( Rsolid, Rfluid ) = ( 6.47e-16, 3.60e-13 )
     ( R ) = ( 3.60e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.31e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.14e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 67.86s, dt:0.78s, Cycle: 88
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.29e-16, 2.34e-07 )
+    ( Rsolid, Rfluid ) = ( 6.47e-16, 2.34e-07 )
     ( R ) = ( 2.34e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -54057,15 +54057,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.56616e-08 | Setup Time: 0.00638147 s | Solve Time: 0.00155111 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 9.44172e-09 | Setup Time: 0.00684327 s | Solve Time: 0.00164425 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.56e-16, 3.53e-13 )
+    ( Rsolid, Rfluid ) = ( 7.51e-16, 3.53e-13 )
     ( R ) = ( 3.53e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.57e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.44e-09 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 68.64s, dt:0.78s, Cycle: 89
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.56e-16, 2.33e-07 )
+    ( Rsolid, Rfluid ) = ( 7.51e-16, 2.33e-07 )
     ( R ) = ( 2.33e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -54664,15 +54664,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.2548e-08 | Setup Time: 0.00630983 s | Solve Time: 0.00158763 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.62097e-08 | Setup Time: 0.00696969 s | Solve Time: 0.00171188 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.31e-16, 3.46e-13 )
+    ( Rsolid, Rfluid ) = ( 7.68e-16, 3.46e-13 )
     ( R ) = ( 3.46e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.25e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.62e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 69.42s, dt:0.78s, Cycle: 90
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.31e-16, 2.31e-07 )
+    ( Rsolid, Rfluid ) = ( 7.68e-16, 2.31e-07 )
     ( R ) = ( 2.31e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -55271,15 +55271,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60832e-08 | Setup Time: 0.00633521 s | Solve Time: 0.00155212 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.92782e-08 | Setup Time: 0.006888 s | Solve Time: 0.00154809 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.36e-16, 3.39e-13 )
+    ( Rsolid, Rfluid ) = ( 1.07e-15, 3.39e-13 )
     ( R ) = ( 3.39e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.61e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.93e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 70.2s, dt:0.78s, Cycle: 91
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.36e-16, 2.30e-07 )
+    ( Rsolid, Rfluid ) = ( 1.07e-15, 2.30e-07 )
     ( R ) = ( 2.30e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -55878,15 +55878,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.45017e-08 | Setup Time: 0.00630813 s | Solve Time: 0.00145046 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.89459e-08 | Setup Time: 0.00686305 s | Solve Time: 0.00165444 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.77e-16, 3.33e-13 )
+    ( Rsolid, Rfluid ) = ( 5.46e-16, 3.33e-13 )
     ( R ) = ( 3.33e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 70.98s, dt:0.78s, Cycle: 92
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.77e-16, 2.28e-07 )
+    ( Rsolid, Rfluid ) = ( 5.46e-16, 2.28e-07 )
     ( R ) = ( 2.28e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -56485,15 +56485,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.30112e-08 | Setup Time: 0.00647228 s | Solve Time: 0.00166073 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.41299e-08 | Setup Time: 0.0067515 s | Solve Time: 0.00160285 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.23e-15, 3.26e-13 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 3.26e-13 )
     ( R ) = ( 3.26e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.30e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 71.76s, dt:0.78s, Cycle: 93
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.23e-15, 2.27e-07 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 2.27e-07 )
     ( R ) = ( 2.27e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -57092,15 +57092,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.30535e-08 | Setup Time: 0.00641371 s | Solve Time: 0.00158581 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49788e-08 | Setup Time: 0.00696607 s | Solve Time: 0.00150881 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.82e-16, 3.20e-13 )
+    ( Rsolid, Rfluid ) = ( 9.59e-16, 3.20e-13 )
     ( R ) = ( 3.20e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.31e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 72.54s, dt:0.78s, Cycle: 94
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.82e-16, 2.25e-07 )
+    ( Rsolid, Rfluid ) = ( 9.59e-16, 2.25e-07 )
     ( R ) = ( 2.25e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -57699,15 +57699,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.29497e-08 | Setup Time: 0.00656571 s | Solve Time: 0.00145651 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44582e-08 | Setup Time: 0.00696636 s | Solve Time: 0.00203873 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.38e-16, 3.14e-13 )
+    ( Rsolid, Rfluid ) = ( 5.96e-16, 3.14e-13 )
     ( R ) = ( 3.14e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.29e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 73.32s, dt:0.78s, Cycle: 95
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.38e-16, 2.24e-07 )
+    ( Rsolid, Rfluid ) = ( 5.96e-16, 2.24e-07 )
     ( R ) = ( 2.24e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -58306,15 +58306,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 9.87379e-09 | Setup Time: 0.00628655 s | Solve Time: 0.00158583 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.19746e-08 | Setup Time: 0.00690452 s | Solve Time: 0.00181328 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 8.01e-16, 3.07e-13 )
+    ( Rsolid, Rfluid ) = ( 7.88e-16, 3.07e-13 )
     ( R ) = ( 3.07e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 9.87e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 74.1s, dt:0.78s, Cycle: 96
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 8.01e-16, 2.23e-07 )
+    ( Rsolid, Rfluid ) = ( 7.88e-16, 2.23e-07 )
     ( R ) = ( 2.23e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -58913,15 +58913,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3082e-08 | Setup Time: 0.00628824 s | Solve Time: 0.00157129 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.03228e-08 | Setup Time: 0.00678033 s | Solve Time: 0.00167549 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.59e-16, 3.01e-13 )
+    ( Rsolid, Rfluid ) = ( 8.09e-16, 3.01e-13 )
     ( R ) = ( 3.01e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.31e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 74.88s, dt:0.78s, Cycle: 97
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.59e-16, 2.21e-07 )
+    ( Rsolid, Rfluid ) = ( 8.09e-16, 2.21e-07 )
     ( R ) = ( 2.21e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -59520,15 +59520,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52549e-08 | Setup Time: 0.00629626 s | Solve Time: 0.00160938 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.59971e-08 | Setup Time: 0.00700572 s | Solve Time: 0.00170511 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.50e-16, 2.96e-13 )
+    ( Rsolid, Rfluid ) = ( 6.61e-16, 2.96e-13 )
     ( R ) = ( 2.96e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.53e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 75.66s, dt:0.78s, Cycle: 98
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.50e-16, 2.20e-07 )
+    ( Rsolid, Rfluid ) = ( 6.61e-16, 2.20e-07 )
     ( R ) = ( 2.20e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -60127,15 +60127,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36904e-08 | Setup Time: 0.00629913 s | Solve Time: 0.0014393 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.43839e-08 | Setup Time: 0.00679506 s | Solve Time: 0.00167746 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.27e-16, 2.90e-13 )
+    ( Rsolid, Rfluid ) = ( 7.62e-16, 2.90e-13 )
     ( R ) = ( 2.90e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.37e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.44e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 76.44s, dt:0.78s, Cycle: 99
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 9.27e-16, 2.19e-07 )
+    ( Rsolid, Rfluid ) = ( 7.62e-16, 2.19e-07 )
     ( R ) = ( 2.19e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -60734,15 +60734,15 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.35139e-08 | Setup Time: 0.00640924 s | Solve Time: 0.0015999 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.24313e-08 | Setup Time: 0.00722434 s | Solve Time: 0.00166604 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.12e-16, 2.84e-13 )
+    ( Rsolid, Rfluid ) = ( 8.98e-16, 2.84e-13 )
     ( R ) = ( 2.84e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.35e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.24e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 77.22s, dt:0.78s, Cycle: 100
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.12e-16, 2.18e-07 )
+    ( Rsolid, Rfluid ) = ( 8.98e-16, 2.18e-07 )
     ( R ) = ( 2.18e-07 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
@@ -61341,16 +61341,16 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.66354e-08 | Setup Time: 0.0062985 s | Solve Time: 0.00155988 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.33886e-08 | Setup Time: 0.00704944 s | Solve Time: 0.00167039 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.66e-16, 2.79e-13 )
+    ( Rsolid, Rfluid ) = ( 6.57e-16, 2.79e-13 )
     ( R ) = ( 2.79e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.66e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.34e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 78s, dt:1.42109e-14s, Cycle: 101
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.66e-16, 1.95e-16 )
-    ( R ) = ( 6.94e-16 ) ; 
+    ( Rsolid, Rfluid ) = ( 6.57e-16, 1.95e-16 )
+    ( R ) = ( 6.85e-16 ) ; 
 
 CHOLMOD version 3.0.14, Oct 22, 2019: for UMFPACK: status: OK
   Architecture: Linux
@@ -61948,108 +61948,108 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.24374e-12 | Setup Time: 0.00629944 s | Solve Time: 0.00160536 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 9.04434e-13 | Setup Time: 0.00696274 s | Solve Time: 0.00161934 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.51e-16, 8.70e-16 )
-    ( R ) = ( 1.15e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.24e-12 ) ; 
+    ( Rsolid, Rfluid ) = ( 5.14e-16, 8.70e-16 )
+    ( R ) = ( 1.01e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.04e-13 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5
 Umpire          DEVICE sum across ranks:  449.9 KB
 Umpire          DEVICE         rank max:  222.6 KB
 Umpire       DEVICE::0 sum across ranks:  449.9 KB
 Umpire       DEVICE::0         rank max:  222.6 KB
-Umpire            HOST sum across ranks:    3.1 MB
-Umpire            HOST         rank max:  906.8 KB
+Umpire            HOST sum across ranks:  734.4 KB
+Umpire            HOST         rank max:  268.2 KB
 Umpire          PINNED sum across ranks:  214.5 KB
 Umpire          PINNED         rank max:   56.6 KB
-total time                        19.998s
-initialization time                0.123s
-run time                          15.077s
+total time                        11.024s
+initialization time                0.129s
+run time                           9.373s
 ::::::::::::::::::::
-/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
+#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
 #ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
 #ATS: name = python(DeviatedPoroElasticWellbore_Injection_04/DeviatedPoroElasticWellbore_Injection_04_2_restartcheck)
-#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '0.0001', '-r', '0.0001', '-w', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\\.root']
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '0.0001', '-r', '0.0001', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\\.root']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
 
-Comparison of file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
-Baseline file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_[0-9]+\.root
 Relative tolerance: 0.0001
 Absolute tolerance: 0.0001
-Output file: /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102.restartcheck
+Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102.restartcheck
 Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
 Warnings are errors: True
 
 The root files are similar.
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5
 
-Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 
-********************************************************************************
-Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
-	Arrays of types float64 and float64 have 96 values of which 28 fail both the relative and absolute tests.
-		Max absolute difference is at index (15, 0): value = 0.0003545101962041881, base_value = -1.22552321249895e-07
-		Max relative difference is at index (12, 0): value = 0.0002625406500339728, base_value = -9.750745007001663e-09
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 28
-		max = 3.5463274852543796, mean = 0.6829611411550397, std = 1.1377207614980247
-		max is at index (15, 0), value = 0.0003545101962041881, base_value = -1.22552321249895e-07
-	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
-********************************************************************************
-The files are different.
-
-Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 	Arrays of types float64 and float64 have 96 values of which 24 fail both the relative and absolute tests.
-		Max absolute difference is at index (23, 0): value = 0.0003545101962041881, base_value = -1.22552321249895e-07
-		Max relative difference is at index (3, 1): value = -2.4769872276409173e-05, base_value = 1.4304191604402455e-09
+		Max absolute difference is at index (22, 0): value = -0.0003544706620735689, base_value = -3.4005437736143073e-07
+		Max relative difference is at index (28, 0): value = -0.0002508369709648443, base_value = -1.6836526688592395e-09
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 24
-		max = 3.5463274852543796, mean = 0.5610933047248164, std = 1.0287378072576157
-		max is at index (23, 0), value = 0.0003545101962041881, base_value = -1.22552321249895e-07
+		max = 3.5413060769620746, mean = 0.5604512812094896, std = 1.0276212344196154
+		max is at index (22, 0), value = -0.0003544706620735689, base_value = -3.4005437736143073e-07
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
-Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
-	Arrays of types float64 and float64 have 120 values of which 30 fail both the relative and absolute tests.
-		Max absolute difference is at index (12, 0): value = 0.0004373150236155093, base_value = -7.352354779461691e-08
-		Max relative difference is at index (15, 0): value = 0.0003117205252970709, base_value = 1.3669334890718285e-10
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 30
-		max = 4.373885471633039, mean = 0.6244002321837736, std = 1.1526146611202839
-		max is at index (12, 0), value = 0.0004373150236155093, base_value = -7.352354779461691e-08
+	Arrays of types float64 and float64 have 96 values of which 28 fail both the relative and absolute tests.
+		Max absolute difference is at index (14, 0): value = -0.0003544706620735689, base_value = -3.4005437736143073e-07
+		Max relative difference is at index (26, 0): value = -0.0002508369709648443, base_value = -1.6836526688592395e-09
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 28
+		max = 3.5413060769620746, mean = 0.6816742557185673, std = 1.1354490022047312
+		max is at index (14, 0), value = -0.0003544706620735689, base_value = -3.4005437736143073e-07
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
-Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 	Arrays of types float64 and float64 have 120 values of which 27 fail both the relative and absolute tests.
-		Max absolute difference is at index (36, 0): value = 0.00036021013703637955, base_value = -4.3475737330263484e-08
-		Max relative difference is at index (37, 0): value = 0.0003117205252970709, base_value = 1.3669334890718285e-10
+		Max absolute difference is at index (37, 0): value = -0.00036015844164906087, base_value = -1.5943565868915303e-08
+		Max relative difference is at index (17, 0): value = -0.00017890527439283385, base_value = 1.1815455392644272e-11
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 27
-		max = 3.602536127737098, mean = 0.520262942727281, std = 1.0138718525848396
-		max is at index (36, 0), value = 0.00036021013703637955, base_value = -4.3475737330263484e-08
+		max = 3.6014249808319194, mean = 0.5194064461313095, std = 1.0123078787098592
+		max is at index (37, 0), value = -0.00036015844164906087, base_value = -1.5943565868915303e-08
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+The files are different.
+
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+	Arrays of types float64 and float64 have 120 values of which 30 fail both the relative and absolute tests.
+		Max absolute difference is at index (17, 0): value = -0.00043710143944569437, base_value = -2.8463945800222868e-08
+		Max relative difference is at index (13, 0): value = -0.00017890527439283385, base_value = 1.1815455392644272e-11
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 30
+		max = 4.3707297549989415, mean = 0.6233309070305003, std = 1.1507369011413484
+		max is at index (17, 0), value = -0.00043710143944569437, base_value = -2.8463945800222868e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
 Compared 4 pairs of files of which 4 are different.
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_04/0to1_restart_000000102/rank_0000003.hdf5
