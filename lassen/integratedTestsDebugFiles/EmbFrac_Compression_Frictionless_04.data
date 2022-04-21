@@ -1,11 +1,11 @@
 ::::::::::::::::::::
-/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i EmbFrac_Compression_Frictionless.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i EmbFrac_Compression_Frictionless.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i EmbFrac_Compression_Frictionless.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx
+#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i EmbFrac_Compression_Frictionless.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx
 #ATS: name = geosx(EmbFrac_Compression_Frictionless_04/EmbFrac_Compression_Frictionless_04_1_geosx)
-#ATS: clas = ['-i', 'EmbFrac_Compression_Frictionless.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04']
+#ATS: clas = ['-i', 'EmbFrac_Compression_Frictionless.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
@@ -30,7 +30,9 @@ Adding Solver of type EmbeddedSurfaceGenerator, named SurfaceGenerator
    TableFunction: apertureTable
    TableFunction: apertureTable
 Adding Output: VTK, vtkOutput
+Rank 2: Total number of nodes:924
 Adding Output: TimeHistory, timeHistoryOutput
+Rank 3: Total number of nodes:968
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
 Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
@@ -38,72 +40,33 @@ Total number of nodes:3528
 Total number of elems:1681
 Rank 0: Total number of nodes:882
 Rank 1: Total number of nodes:924
-Rank 2: Total number of nodes:924
-Rank 3: Total number of nodes:968
   Domain/cb1/rock is allocated with 8 quadrature points.
   Fracture/embeddedSurfaceSubRegion/fractureContact is allocated with 1 quadrature points.
 Number of embedded surface elements: 7
 Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_offsets
 Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_sizes
 Moved    0.1 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_values
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_offsets
 Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/Functions/apertureTable/values
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_sizes
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
-Moved    0.1 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_values
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/Functions/apertureTable/values
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_offsets
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
 Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_offsets
 Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_sizes
-Moved    0.3 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_sizes
-Moved    0.1 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_values
-Time: 0s, dt:1s, Cycle: 0
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
-Moved   22.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
-Moved  165.4 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/Functions/apertureTable/values
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
-Moved  165.4 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
-Moved    0.3 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
 Moved    0.1 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_values
 Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/Functions/apertureTable/values
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved    0.3 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 Moved    0.4 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Moved    0.3 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
 Moved   24.8 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved  173.2 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
 Moved  181.5 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Moved  181.5 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
 Moved  173.2 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
 Moved  173.2 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
-Moved  173.2 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
-Moved  181.5 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
 Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
@@ -128,76 +91,165 @@ Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are
 Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
-Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
-Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
-Moved   10.3 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
-Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
-Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
 Moved   10.3 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
 Moved   10.3 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
 Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
 Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
 Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
 Moved    1.1 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> mechSolve/localMatrix/entries
 Moved    1.1 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> mechSolve/localMatrix/entries
-Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
-Moved    1.1 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> mechSolve/localMatrix/entries
-Moved    1.1 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> mechSolve/localMatrix/entries
 Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/rhs
-Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/rhs
+Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
 Moved   20.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/rhs
-Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/rhs
 Moved   20.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
-Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
-Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
-Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
-Moved   14.4 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
-Moved   14.4 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
-  Number of element for each fracture state: stick:            7 | slip:             0 | open:             0
-    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 Moved   15.1 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
-Moved    1.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
-Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_bulkModulus
-Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_shearModulus
 Moved    1.9 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
 Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_bulkModulus
 Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_shearModulus
-Moved    1.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
-Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_bulkModulus
-Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_shearModulus
-Moved   13.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
-Moved    1.7 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
-Moved    7.9 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/mechSolve_TotalDisplacement_dofIndex
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
-Moved   28.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
-Moved    7.9 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/mechSolve_TotalDisplacement_dofIndex
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved    8.3 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/mechSolve_TotalDisplacement_dofIndex
 Moved   24.8 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
 Moved   24.8 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved   30.2 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
+Moved   14.4 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
+Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_bulkModulus
+Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_shearModulus
+Moved    7.9 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/mechSolve_TotalDisplacement_dofIndex
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved   28.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/normalVector
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector1
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector2
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementCenter
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementArea
+Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/elementVolume
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/normalVector
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector1
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector2
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
+Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
+Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xpos
+Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementCenter
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementArea
+Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/elementVolume
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
+Moved    1.9 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
+Moved    1.9 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
+Moved   59.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   44.3 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
+Moved   14.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/bottomPoint
+Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xpos
+Moved    7.7 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    7.7 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved   61.9 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   46.4 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
+Moved   15.5 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/topPoint
+Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/rightPoint
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/rightPoint
+Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.8 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
+Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.6 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
+Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.6 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zpos
+Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
+Moved    7.9 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
+Moved    3.8 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zpos
+Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
+Moved    8.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_offsets
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_sizes
+Moved    0.1 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_values
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/Functions/apertureTable/values
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Moved    0.3 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
+Time: 0s, dt:1s, Cycle: 0
+Moved   22.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved  165.4 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
+Moved  165.4 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
+Moved    1.1 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> mechSolve/localMatrix/entries
+Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/rhs
+Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
+  Number of element for each fracture state: stick:            7 | slip:             0 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+Moved   13.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.7 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
 Moved    3.4 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_bulkModulus
 Moved    3.4 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_shearModulus
 Moved    7.6 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/mechSolve_TotalDisplacement_dofIndex
-Moved   30.2 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
 Moved   22.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
 Moved   22.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved   27.6 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_offsets
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_sizes
+Moved    0.1 KB to the DEVICE: LvArray::ArrayOfArrays<double, int, LvArray::ChaiBuffer> /m_values
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/Functions/apertureTable/values
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Moved    0.3 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 0l, 1l, 2l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/dTraction_dJump
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved  173.2 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
+Moved  173.2 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/normalVector
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector1
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector2
@@ -207,50 +259,64 @@ Moved    3.4 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>
 Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
 Moved    1.7 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
 Moved    1.7 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
+Moved   10.4 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
 Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
 Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
+Moved   10.3 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved    7.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    1.1 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
+Moved    7.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    1.1 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> mechSolve/localMatrix/entries
+Moved   56.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved   42.3 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
+Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/rhs
+Moved   14.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
+Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> mechSolve/solution
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xneg
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   14.4 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/bottomPoint
+Moved    1.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ghostRank
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_bulkModulus
+Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_shearModulus
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    7.9 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/mechSolve_TotalDisplacement_dofIndex
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/leftPoint
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   28.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
+Moved    3.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/normalVector
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector1
+Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector2
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementCenter
-Moved    7.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    7.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementArea
-Moved   56.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/elementVolume
-Moved   42.3 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
-Moved   14.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
-Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xneg
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/bottomPoint
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
-Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/leftPoint
-Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved   59.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved   44.3 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
-Moved    3.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
-Moved   14.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xneg
-Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zpos
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/topPoint
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementCenter
 Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementArea
+Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/elementVolume
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
 Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
+Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
+Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
 Moved    3.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
 Moved    7.6 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
+Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved   59.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
+Moved   44.3 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
+Moved   14.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
+Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xneg
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/topPoint
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/leftPoint
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -262,104 +328,98 @@ Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    4.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
 Moved    7.9 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/normalVector
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/normalVector
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector1
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector1
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector2
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/tangentVector2
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementCenter
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementCenter
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementArea
-Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/elementVolume
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/elementArea
-Moved    3.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/elementVolume
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/fracturedCells
-Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
-Moved    1.9 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_offsets
-Moved    1.9 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
-Moved    1.8 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_sizes
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
-Moved    0.0 KB to the DEVICE: LvArray::ArrayOfArrays<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/ToEmbeddedSurfaces/m_values
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/mechSolve_displacementJump_dofIndex
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xpos
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/sets/xpos
 ( RSolid ) = ( 1.60e+08 ) ; Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
-Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    7.7 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    7.7 KB to the DEVICE: LvArray::ChaiBuffer<int> 
 ( RFracture ) = ( 0.00e+00 ) ;     ( R ) = ( 1.60e+08 ) ; 
-Moved    7.4 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved   59.1 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved   61.9 KB to the DEVICE: LvArray::ChaiBuffer<int> 
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved   46.4 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
-Moved   15.5 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
-Moved   44.3 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceNormal
-Moved   14.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/faceArea
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/bottomPoint
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/topPoint
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/rightPoint
-Moved    0.1 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/rightPoint
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.8 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
-Moved    3.6 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
-Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.6 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zpos
-Moved    3.8 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zpos
-Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
-Moved    4.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
-Moved    7.9 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
-Moved    8.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
 Moved   82.9 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    4.2 MB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    4.2 MB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   82.9 KB to the HOST  : LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    4.2 MB to the HOST  : LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    4.2 MB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/ghostRank
 Moved   82.9 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   82.9 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   20.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   20.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToSend
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToSend
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/2/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
-Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
-Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
-Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
-Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
-Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
-Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
-Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
 Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
+Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
+Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
 Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
 Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
 Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
@@ -370,140 +430,80 @@ Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but
 Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToSend
 Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved   24.8 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/2/ghostsToSend
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
 Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToSend
-Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
-Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
-Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
-Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToReceive
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToReceive
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToSend
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToSend
 Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-( RSolid ) = ( 5.01e-13 ) ; ( RFracture ) = ( 2.90e-16 ) ;     ( R ) = ( 5.01e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.52e-14 ) ; 
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Moved   22.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/2/ghostsToSend
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToSend
-Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/2/ghostsToSend
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/1/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToReceive
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToReceive
-Moved  165.4 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved   22.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved   22.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/3/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/neighborData/0/ghostsToReceive
+Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.8 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    3.8 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+( RSolid ) = ( 5.08e-13 ) ; Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+( RFracture ) = ( 2.64e-16 ) ;     ( R ) = ( 5.08e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.46e-14 ) ; 
+Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    4.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    4.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/displacementJump
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
+Wrappers "fractureState" were requested from "cb1" but are not available.
+Wrappers "fractureState" were requested from "cb1" but are not available.
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/traction
 Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
+Moved   22.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 Wrappers "fractureState" were requested from "cb1" but are not available.
 Wrappers "fractureState" were requested from "cb1" but are not available.
 Wrappers "fractureState" were requested from "cb1" but are not available.
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
 Wrappers "fractureState" were requested from "cb1" but are not available.
 Wrappers "fractureState" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Wrappers "fractureState" were requested from "cb1" but are not available.
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/fractureState
 Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
-Moved   23.7 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
-Moved   24.8 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 Moved  173.2 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
 Moved  181.5 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
-Moved  173.2 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
 Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
-Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved   24.8 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved   24.8 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved  165.4 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
+Moved  173.2 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_stress
+Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved   22.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved   22.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -514,27 +514,27 @@ Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l,
 Moved  173.2 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
-Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
 Moved   24.8 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
-Moved  173.2 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
+Moved   23.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
 Moved  181.5 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
+Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
+Moved  173.2 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
 Moved   22.7 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
 Moved  165.4 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_oldStress
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/deltaDisplacementJump
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/embeddedSurfaceSubRegion/oldDisplacementJump
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000003.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000002.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000000/rank_0000001.hdf5
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5
 Umpire          DEVICE sum across ranks:   20.0 MB
 Umpire          DEVICE         rank max:   11.4 MB
 Umpire       DEVICE::0 sum across ranks:   20.0 MB
@@ -543,129 +543,129 @@ Umpire            HOST sum across ranks:   32.2 MB
 Umpire            HOST         rank max:   13.1 MB
 Umpire          PINNED sum across ranks:    1.1 MB
 Umpire          PINNED         rank max:  275.5 KB
-total time                         3.964s
-initialization time                0.331s
-run time                           2.093s
+total time                         4.606s
+initialization time                0.572s
+run time                           2.137s
 ::::::::::::::::::::
-/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 4e-07 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 4e-07 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 4e-07 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 4e-07 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
 #ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
 #ATS: name = python(EmbFrac_Compression_Frictionless_04/EmbFrac_Compression_Frictionless_04_2_restartcheck)
-#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-08', '-r', '4e-07', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\\.root']
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-08', '-r', '4e-07', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\\.root']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
 
-Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
-Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_[0-9]+\.root
 Relative tolerance: 4e-07
 Absolute tolerance: 1e-08
-Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001.restartcheck
+Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001.restartcheck
 Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
 Warnings are errors: True
 
 The root files are similar.
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5
 
-Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 21168 values of which 1972 fail both the relative and absolute tests.
-		Max absolute difference is at index (280, 0, 0): value = -10869227.289719945, base_value = -10869227.289720863
-		Max relative difference is at index (1, 3, 3): value = 7.108027213133183e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1972
-		max = 15.230001568485365, mean = 0.24292236078256674, std = 0.9845754686550129
-		max is at index (117, 2, 4), value = -1.6097363306473768e-07, base_value = -8.673617379884035e-09
+	Arrays of types float64 and float64 have 21168 values of which 1779 fail both the relative and absolute tests.
+		Max absolute difference is at index (280, 0, 0): value = -10869227.289719595, base_value = -10869227.289720863
+		Max relative difference is at index (1, 3, 3): value = 7.626975304551409e-09, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1779
+		max = 16.734826370915552, mean = 0.23749129360385057, std = 1.0224013642783276
+		max is at index (117, 0, 4), value = -1.6734826370915554e-07, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 21168 values of which 1972 fail both the relative and absolute tests.
-		Max absolute difference is at index (280, 0, 0): value = -10869227.289719945, base_value = -10869227.289720863
-		Max relative difference is at index (1, 3, 3): value = 7.108027213133183e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1972
-		max = 15.230001568485365, mean = 0.24292236078256674, std = 0.9845754686550129
-		max is at index (117, 2, 4), value = -1.6097363306473768e-07, base_value = -8.673617379884035e-09
+	Arrays of types float64 and float64 have 21168 values of which 1779 fail both the relative and absolute tests.
+		Max absolute difference is at index (280, 0, 0): value = -10869227.289719595, base_value = -10869227.289720863
+		Max relative difference is at index (1, 3, 3): value = 7.626975304551409e-09, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1779
+		max = 16.734826370915552, mean = 0.23749129360385057, std = 1.0224013642783276
+		max is at index (117, 0, 4), value = -1.6734826370915554e-07, base_value = 0.0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
-Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 22176 values of which 2181 fail both the relative and absolute tests.
-		Max absolute difference is at index (409, 6, 0): value = -10876885.765651533, base_value = -10876885.765652359
-		Max relative difference is at index (2, 1, 4): value = -1.1928346806618986e-08, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2181
-		max = 14.419025400507117, mean = 0.24702630372359977, std = 0.9337261399613597
-		max is at index (3, 4, 4), value = -3.9022643273977254e-08, base_value = 1.0516761073109393e-07
+	Arrays of types float64 and float64 have 22176 values of which 1996 fail both the relative and absolute tests.
+		Max absolute difference is at index (409, 6, 0): value = -10876885.765651025, base_value = -10876885.765652359
+		Max relative difference is at index (2, 1, 4): value = -1.0482743909971672e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1996
+		max = 19.24926620409376, mean = 0.2368988759681218, std = 0.9613472449729465
+		max is at index (4, 4, 4), value = -1.0358808389712624e-07, base_value = 8.890457814381136e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 22176 values of which 2181 fail both the relative and absolute tests.
-		Max absolute difference is at index (409, 6, 0): value = -10876885.765651533, base_value = -10876885.765652359
-		Max relative difference is at index (2, 1, 4): value = -1.1928346806618986e-08, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2181
-		max = 14.419025400507117, mean = 0.24702630372359977, std = 0.9337261399613597
-		max is at index (3, 4, 4), value = -3.9022643273977254e-08, base_value = 1.0516761073109393e-07
+	Arrays of types float64 and float64 have 22176 values of which 1996 fail both the relative and absolute tests.
+		Max absolute difference is at index (409, 6, 0): value = -10876885.765651025, base_value = -10876885.765652359
+		Max relative difference is at index (2, 1, 4): value = -1.0482743909971672e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1996
+		max = 19.24926620409376, mean = 0.2368988759681218, std = 0.9613472449729465
+		max is at index (4, 4, 4), value = -1.0358808389712624e-07, base_value = 8.890457814381136e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
-Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 22176 values of which 2142 fail both the relative and absolute tests.
-		Max absolute difference is at index (20, 4, 0): value = -10894962.26210323, base_value = -10894962.262102015
-		Max relative difference is at index (18, 3, 3): value = -1.5669589569996071e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2142
-		max = 13.696901966771751, mean = 0.25438484850395765, std = 0.970909637650858
-		max is at index (461, 7, 4), value = -5.023284586887716e-08, base_value = 8.673617379884035e-08
+	Arrays of types float64 and float64 have 22176 values of which 2130 fail both the relative and absolute tests.
+		Max absolute difference is at index (20, 4, 0): value = -10894962.262103625, base_value = -10894962.262102015
+		Max relative difference is at index (18, 3, 3): value = 1.5037661418488775e-09, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2130
+		max = 17.166543146144413, mean = 0.26876471740016666, std = 1.080410841226954
+		max is at index (401, 3, 4), value = 1.5431819670167605e-07, base_value = -1.734723475976807e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 22176 values of which 2142 fail both the relative and absolute tests.
-		Max absolute difference is at index (20, 4, 0): value = -10894962.26210323, base_value = -10894962.262102015
-		Max relative difference is at index (18, 3, 3): value = -1.5669589569996071e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2142
-		max = 13.696901966771751, mean = 0.25438484850395765, std = 0.970909637650858
-		max is at index (461, 7, 4), value = -5.023284586887716e-08, base_value = 8.673617379884035e-08
+	Arrays of types float64 and float64 have 22176 values of which 2130 fail both the relative and absolute tests.
+		Max absolute difference is at index (20, 4, 0): value = -10894962.262103625, base_value = -10894962.262102015
+		Max relative difference is at index (18, 3, 3): value = 1.5037661418488775e-09, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2130
+		max = 17.166543146144413, mean = 0.26876471740016666, std = 1.080410841226954
+		max is at index (401, 3, 4), value = 1.5431819670167605e-07, base_value = -1.734723475976807e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
-Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 23232 values of which 2028 fail both the relative and absolute tests.
-		Max absolute difference is at index (150, 7, 0): value = -10869227.289721591, base_value = -10869227.289720759
-		Max relative difference is at index (55, 3, 3): value = -1.0016604250056302e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2028
-		max = 15.779360943551163, mean = 0.23138995737994872, std = 0.9483423323482401
-		max is at index (332, 2, 4), value = -8.406786170649734e-08, base_value = 7.37257477290143e-08
+	Arrays of types float64 and float64 have 23232 values of which 2044 fail both the relative and absolute tests.
+		Max absolute difference is at index (150, 6, 0): value = -10887256.419126185, base_value = -10887256.419124901
+		Max relative difference is at index (55, 3, 3): value = -1.7549777540227003e-10, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2044
+		max = 15.589970637237604, mean = 0.23017497793071576, std = 0.9678063590744
+		max is at index (335, 2, 4), value = 6.916353257353569e-08, base_value = -8.673617379884035e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 23232 values of which 2028 fail both the relative and absolute tests.
-		Max absolute difference is at index (150, 7, 0): value = -10869227.289721591, base_value = -10869227.289720759
-		Max relative difference is at index (55, 3, 3): value = -1.0016604250056302e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2028
-		max = 15.779360943551163, mean = 0.23138995737994872, std = 0.9483423323482401
-		max is at index (332, 2, 4), value = -8.406786170649734e-08, base_value = 7.37257477290143e-08
+	Arrays of types float64 and float64 have 23232 values of which 2044 fail both the relative and absolute tests.
+		Max absolute difference is at index (150, 6, 0): value = -10887256.419126185, base_value = -10887256.419124901
+		Max relative difference is at index (55, 3, 3): value = -1.7549777540227003e-10, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2044
+		max = 15.589970637237604, mean = 0.23017497793071576, std = 0.9678063590744
+		max is at index (335, 2, 4), value = 6.916353257353569e-08, base_value = -8.673617379884035e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
 
 Compared 4 pairs of files of which 4 are different.
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_Frictionless_04/0to1_restart_000000001/rank_0000003.hdf5
