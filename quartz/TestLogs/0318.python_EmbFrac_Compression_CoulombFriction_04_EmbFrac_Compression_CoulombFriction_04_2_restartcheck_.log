@@ -1,0 +1,120 @@
+#ATS: commandLine = srun --label -J t4_318python_EmbFrac_Compression_CoulombFriction_04_EmbF031809 --exclusive -n 4 --mpibind=off /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 4e-07 -w /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
+#ATS: name = python(EmbFrac_Compression_CoulombFriction_04/EmbFrac_Compression_CoulombFriction_04_2_restartcheck)
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-08', '-r', '4e-07', '-w', '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_[0-9]+\\.root']
+#ATS: np = 4
+#ATS: script = 
+#ATS: testpath =  
+
+0: Comparison of file /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_[0-9]+\.root
+0: Baseline file /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001.root from pattern /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_[0-9]+\.root
+0: Relative tolerance: 4e-07
+0: Absolute tolerance: 1e-08
+0: Output file: /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001.restartcheck
+0: Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
+0: Warnings are errors: True
+0: 
+0: The root files are similar.
+1: About to compare /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5
+3: About to compare /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5
+2: About to compare /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5
+0: About to compare /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5
+0: 
+0: Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 21168 values of which 1332 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (280, 4, 0): value = -10867686.168735798, base_value = -10867686.168735217
+0: 		Max relative difference is at index (1, 7, 3): value = -4.336808689942018e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1332
+0: 		max = 12.14306433183765, mean = 0.1543157339395265, std = 0.7186872299187294
+0: 		max is at index (109, 3, 4), value = -5.204170427930421e-08, base_value = -1.734723475976807e-07
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 21168 values of which 1332 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (280, 4, 0): value = -10867686.168735798, base_value = -10867686.168735217
+0: 		Max relative difference is at index (1, 7, 3): value = -4.336808689942018e-09, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1332
+0: 		max = 12.14306433183765, mean = 0.1543157339395265, std = 0.7186872299187294
+0: 		max is at index (109, 3, 4), value = -5.204170427930421e-08, base_value = -1.734723475976807e-07
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 22176 values of which 1443 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (409, 2, 0): value = -10873413.083814537, base_value = -10873413.083814086
+0: 		Max relative difference is at index (5, 0, 4): value = 1.0083080204115191e-07, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1443
+0: 		max = 12.14306433183765, mean = 0.15547714485596076, std = 0.7276970763936118
+0: 		max is at index (420, 3, 4), value = -5.204170427930421e-08, base_value = -1.734723475976807e-07
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 22176 values of which 1443 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (409, 2, 0): value = -10873413.083814537, base_value = -10873413.083814086
+0: 		Max relative difference is at index (5, 0, 4): value = 1.0083080204115191e-07, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1443
+0: 		max = 12.14306433183765, mean = 0.15547714485596076, std = 0.7276970763936118
+0: 		max is at index (420, 3, 4), value = -5.204170427930421e-08, base_value = -1.734723475976807e-07
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 22176 values of which 1543 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (20, 0, 0): value = -10891479.509274807, base_value = -10891479.509275503
+0: 		Max relative difference is at index (0, 2, 4): value = -6.776263578034403e-10, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1543
+0: 		max = 9.107298248878237, mean = 0.16740359487320786, std = 0.7253814450009596
+0: 		max is at index (363, 1, 4), value = -3.469446951953614e-08, base_value = 5.637851296924623e-08
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 22176 values of which 1543 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (20, 0, 0): value = -10891479.509274807, base_value = -10891479.509275503
+0: 		Max relative difference is at index (0, 2, 4): value = -6.776263578034403e-10, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1543
+0: 		max = 9.107298248878237, mean = 0.16740359487320786, std = 0.7253814450009596
+0: 		max is at index (363, 1, 4), value = -3.469446951953614e-08, base_value = 5.637851296924623e-08
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
+0: 	Arrays of types float64 and float64 have 23232 values of which 1578 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (150, 2, 0): value = -10885717.163794495, base_value = -10885717.163794978
+0: 		Max relative difference is at index (66, 5, 3): value = -6.945670167485263e-10, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1578
+0: 		max = 13.877787807814457, mean = 0.1567620559465828, std = 0.6871739610621159
+0: 		max is at index (335, 3, 4), value = -6.938893903907228e-08, base_value = 6.938893903907228e-08
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: ********************************************************************************
+0: Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
+0: 	Arrays of types float64 and float64 have 23232 values of which 1578 fail both the relative and absolute tests.
+0: 		Max absolute difference is at index (150, 2, 0): value = -10885717.163794495, base_value = -10885717.163794978
+0: 		Max relative difference is at index (66, 5, 3): value = -6.945670167485263e-10, base_value = 0.0
+0: 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1578
+0: 		max = 13.877787807814457, mean = 0.1567620559465828, std = 0.6871739610621159
+0: 		max is at index (335, 3, 4), value = -6.938893903907228e-08, base_value = 6.938893903907228e-08
+0: 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+0: ********************************************************************************
+0: The files are different.
+0: 
+0: Compared 4 pairs of files of which 4 are different.
+0: 	/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5
+0: 	/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5
+0: 	/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5
+0: 	/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5

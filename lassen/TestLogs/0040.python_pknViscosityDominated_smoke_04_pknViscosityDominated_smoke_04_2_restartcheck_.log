@@ -1,94 +1,94 @@
-#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0002 -r 1e-07 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver
+#ATS: commandLine = lrun -n 4 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0002 -r 1e-07 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver
 #ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
 #ATS: name = python(pknViscosityDominated_smoke_04/pknViscosityDominated_smoke_04_2_restartcheck)
-#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '0.0002', '-r', '1e-07', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\\.root']
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '0.0002', '-r', '1e-07', '-w', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\\.root']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
 
-Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root
-Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_[0-9]+\.root
 Relative tolerance: 1e-07
 Absolute tolerance: 0.0002
-Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005.restartcheck
+Output file: /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005.restartcheck
 Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
 Warnings are errors: True
 
 The root files are similar.
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
 
-Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/SIFonFace
 	Arrays of types float64 and float64 have 1020 values of which 2 fail both the relative and absolute tests.
-		Max absolute difference is at index (270,): value = -6271.1788191669975, base_value = -6271.240097052701
-		Max relative difference is at index (270,): value = -6271.1788191669975, base_value = -6271.240097052701
+		Max absolute difference is at index (270,): value = -6271.17881916696, base_value = -6271.240097052701
+		Max relative difference is at index (270,): value = -6271.17881916696, base_value = -6271.240097052701
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 2
-		max = 97.71254928003721, mean = 0.1915932338824259, std = 4.322540380400015
-		max is at index (270,), value = -6271.1788191669975, base_value = -6271.240097052701
+		max = 97.71254933949798, mean = 0.19159323399901565, std = 4.3225403830304
+		max is at index (270,), value = -6271.17881916696, base_value = -6271.240097052701
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 14112 values of which 1744 fail both the relative and absolute tests.
-		Max absolute difference is at index (72, 4, 2): value = -249342.7909884348, base_value = -249342.710591304
-		Max relative difference is at index (88, 0, 4): value = 0.9348893773605624, base_value = 0.9346213125285558
+		Max absolute difference is at index (72, 4, 2): value = -249342.79098843428, base_value = -249342.710591304
+		Max relative difference is at index (88, 0, 4): value = 0.9348893773600935, base_value = 0.9346213125285558
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1102
-		max = 206.0524914850248, mean = 0.357808287390756, std = 4.7835720152121795
-		max is at index (84, 4, 2), value = -1640.258787246501, base_value = -1640.299997744798
+		max = 206.05248801075504, mean = 0.35780828684854166, std = 4.7835719742582725
+		max is at index (84, 4, 2), value = -1640.2587872471959, base_value = -1640.299997744798
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 642
-		max = 91.46816060704316, mean = 0.2971226340472695, std = 2.480254860325434
-		max is at index (73, 7, 2), value = 2069.2554240118084, base_value = 2069.2743512836787
+		max = 91.46816104217108, mean = 0.2971226338824286, std = 2.48025486072395
+		max is at index (72, 3, 2), value = 2069.2554240117265, base_value = 2069.274351283687
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 14112 values of which 1744 fail both the relative and absolute tests.
-		Max absolute difference is at index (72, 4, 2): value = -249342.7909884348, base_value = -249342.710591304
-		Max relative difference is at index (88, 0, 4): value = 0.9348893773605624, base_value = 0.9346213125285558
+		Max absolute difference is at index (72, 4, 2): value = -249342.79098843428, base_value = -249342.710591304
+		Max relative difference is at index (88, 0, 4): value = 0.9348893773600935, base_value = 0.9346213125285558
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1102
-		max = 206.0524914850248, mean = 0.357808287390756, std = 4.7835720152121795
-		max is at index (84, 4, 2), value = -1640.258787246501, base_value = -1640.299997744798
+		max = 206.05248801075504, mean = 0.35780828684854166, std = 4.7835719742582725
+		max is at index (84, 4, 2), value = -1640.2587872471959, base_value = -1640.299997744798
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 642
-		max = 91.46816060704316, mean = 0.2971226340472695, std = 2.480254860325434
-		max is at index (73, 7, 2), value = 2069.2554240118084, base_value = 2069.2743512836787
+		max = 91.46816104217108, mean = 0.2971226338824286, std = 2.48025486072395
+		max is at index (72, 3, 2), value = 2069.2554240117265, base_value = 2069.274351283687
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/pressure
 	Arrays of types float64 and float64 have 5 values of which 5 fail both the relative and absolute tests.
-		Max absolute difference is at index (3,): value = 86146.89252333772, base_value = 86146.39978574683
-		Max relative difference is at index (3,): value = 86146.89252333772, base_value = 86146.39978574683
+		Max absolute difference is at index (3,): value = 86146.89252333545, base_value = 86146.39978574683
+		Max relative difference is at index (3,): value = 86146.89252333545, base_value = 86146.39978574683
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 5
-		max = 57.19769974296792, mean = 16.650639800884175, std = 20.349215437584384
-		max is at index (3,), value = 86146.89252333772, base_value = 86146.39978574683
+		max = 57.19769947945153, mean = 16.650639699248224, std = 20.349215354421396
+		max is at index (3,), value = 86146.89252333545, base_value = 86146.39978574683
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/externalForce
 	Arrays of types float64 and float64 have 1359 values of which 8 fail both the relative and absolute tests.
-		Max absolute difference is at index (59, 2): value = 9583470.986541223, base_value = 9583480.393465826
-		Max relative difference is at index (52, 2): value = -3870154.616796963, base_value = -3870161.358979821
+		Max absolute difference is at index (59, 2): value = 9583470.986541202, base_value = 9583480.393465826
+		Max relative difference is at index (52, 2): value = -3870154.616797082, base_value = -3870161.358979821
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 8
-		max = 17.42093476966949, mean = 0.061154520793657866, std = 0.8814987294803172
-		max is at index (52, 2), value = -3870154.616796963, base_value = -3870161.358979821
+		max = 17.42093446164799, mean = 0.061154520437405276, std = 0.8814987220269148
+		max is at index (52, 2), value = -3870154.616797082, base_value = -3870161.358979821
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/SIFNode
 	Arrays of types float64 and float64 have 453 values of which 6 fail both the relative and absolute tests.
-		Max absolute difference is at index (115,): value = -35753.887770153706, base_value = -35754.50195742172
-		Max relative difference is at index (66,): value = -31280.0283237758, base_value = -31280.568591679275
+		Max absolute difference is at index (115,): value = -35753.887770153575, base_value = -35754.50195742172
+		Max relative difference is at index (66,): value = -31280.02832377568, base_value = -31280.568591679275
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 6
-		max = 172.7167784340955, mean = 1.582142733493708, std = 15.341742742054205
-		max is at index (66,), value = -31280.0283237758, base_value = -31280.568591679275
+		max = 172.716778472475, mean = 1.5821427340797662, std = 15.341742746691184
+		max is at index (66,), value = -31280.02832377568, base_value = -31280.568591679275
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/lagsolve/maxForce/__values__
-	Scalar values of types float64 and float64 differ: 22028106.502070174, 22028099.00422599.
+	Scalar values of types float64 and float64 differ: 22028106.50207011, 22028099.00422599.
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIterations/__values__
@@ -96,10 +96,10 @@ Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIt
 ********************************************************************************
 The files are different.
 
-Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 
 ********************************************************************************
 Error: /Problem/Solvers/lagsolve/maxForce/__values__
-	Scalar values of types float64 and float64 differ: 150384.24056584592, 150384.19159265366.
+	Scalar values of types float64 and float64 differ: 150384.2405658461, 150384.19159265366.
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIterations/__values__
@@ -107,30 +107,30 @@ Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIt
 ********************************************************************************
 The files are different.
 
-Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 16128 values of which 2 fail both the relative and absolute tests.
-		Max absolute difference is at index (264, 4, 0): value = 478.6059806586169, base_value = 478.6057760446125
-		Max relative difference is at index (228, 5, 1): value = 0.00018398207753944976, base_value = 0.00018396559938906737
+		Max absolute difference is at index (264, 4, 0): value = 478.6059806586186, base_value = 478.6057760446125
+		Max relative difference is at index (192, 1, 1): value = 0.0001839820775388864, base_value = 0.00018396559938727713
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2
-		max = 1.0230700218016864, mean = 0.00012686880220102122, std = 0.011392083761656862
-		max is at index (264, 4, 0), value = 478.6059806586169, base_value = 478.6057760446125
+		max = 1.0230700303281992, mean = 0.0001268688032231313, std = 0.011392083853436423
+		max is at index (264, 4, 0), value = 478.6059806586186, base_value = 478.6057760446125
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 16128 values of which 2 fail both the relative and absolute tests.
-		Max absolute difference is at index (264, 4, 0): value = 478.6059806586169, base_value = 478.6057760446125
-		Max relative difference is at index (228, 5, 1): value = 0.00018398207753944976, base_value = 0.00018396559938906737
+		Max absolute difference is at index (264, 4, 0): value = 478.6059806586186, base_value = 478.6057760446125
+		Max relative difference is at index (192, 1, 1): value = 0.0001839820775388864, base_value = 0.00018396559938727713
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2
-		max = 1.0230700218016864, mean = 0.00012686880220102122, std = 0.011392083761656862
-		max is at index (264, 4, 0), value = 478.6059806586169, base_value = 478.6057760446125
+		max = 1.0230700303281992, mean = 0.0001268688032231313, std = 0.011392083853436423
+		max is at index (264, 4, 0), value = 478.6059806586186, base_value = 478.6057760446125
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/lagsolve/maxForce/__values__
-	Scalar values of types float64 and float64 differ: 150324.8843714676, 150324.8342681829.
+	Scalar values of types float64 and float64 differ: 150324.88437146787, 150324.8342681829.
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIterations/__values__
@@ -138,10 +138,10 @@ Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIt
 ********************************************************************************
 The files are different.
 
-Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 
 ********************************************************************************
 Error: /Problem/Solvers/lagsolve/maxForce/__values__
-	Scalar values of types float64 and float64 differ: 75465.46431363154, 75465.43912108894.
+	Scalar values of types float64 and float64 differ: 75465.4643136317, 75465.43912108894.
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIterations/__values__
@@ -150,7 +150,7 @@ Error: /Problem/Solvers/hydrofracture/NonlinearSolverParameters/newtonNumberOfIt
 The files are different.
 
 Compared 4 pairs of files of which 4 are different.
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
