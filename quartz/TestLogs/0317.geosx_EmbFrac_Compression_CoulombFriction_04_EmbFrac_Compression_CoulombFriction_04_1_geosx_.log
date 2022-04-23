@@ -1,16 +1,15 @@
-#ATS: commandLine = srun --label -J t4_317geosx_EmbFrac_Compression_CoulombFriction_04_EmbFr031805 --exclusive -n 4 --mpibind=off /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i EmbFrac_Compression_CoulombFriction.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx
+#ATS: commandLine = srun --label -J t4_317geosx_EmbFrac_Compression_CoulombFriction_04_EmbFr032044 --exclusive -n 4 --mpibind=off /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx -i EmbFrac_Compression_CoulombFriction.xml -x 2 -y 2 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release/bin/geosx
 #ATS: name = geosx(EmbFrac_Compression_CoulombFriction_04/EmbFrac_Compression_CoulombFriction_04_1_geosx)
-#ATS: clas = ['-i', 'EmbFrac_Compression_CoulombFriction.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04']
+#ATS: clas = ['-i', 'EmbFrac_Compression_CoulombFriction.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
 
 0: Max threads: 2
-2: Rank 2: Total number of nodes:924
 0: MKL max threads: 1
-0: GEOSX version 0.2.0 (HEAD, sha1: 77c2a18)
+0: GEOSX version 0.2.0 (HEAD, sha1: d94beec)
 0: Adding Mesh: InternalMesh, mesh1
 0: Adding Geometric Object: BoundedPlane, FracturePlane
 0: Adding Geometric Object: Box, rightPoint
@@ -34,9 +33,10 @@
 0: Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
 0: Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
 0: Total number of nodes:3528
+2: Rank 2: Total number of nodes:924
 0: Total number of elems:1681
-1: Rank 1: Total number of nodes:924
 0: Rank 0: Total number of nodes:882
+1: Rank 1: Total number of nodes:924
 3: Rank 3: Total number of nodes:968
 0:   Domain/cb1/rock is allocated with 8 quadrature points.
 0:   Fracture/embeddedSurfaceSubRegion/fractureContact is allocated with 1 quadrature points.
@@ -44,117 +44,117 @@
 0: Time: 0s, dt:1s, Cycle: 0
 0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-1: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
+2: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-0: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
-3: Wrappers "mechSolve_displacementJump_dofIndex" were requested from "cb1" but are not available.
 0:   Number of element for each fracture state: stick:            7 | slip:             0 | open:             0
 0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 0: ( RSolid ) = ( 1.60e+08 ) ; ( RFracture ) = ( 0.00e+00 ) ;     ( R ) = ( 1.60e+08 ) ; 
-2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+2: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
+1: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-3: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
-0: Wrappers "deltaDisplacementJump, displacementJump" were requested from "cb1" but are not available.
 0:     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-0: ( RSolid ) = ( 5.39e-13 ) ; ( RFracture ) = ( 3.39e-16 ) ;     ( R ) = ( 5.39e-13 ) ; 
-0:     Last LinSolve(iter,res) = (   1, 3.00e-14 ) ; 
+0: ( RSolid ) = ( 5.36e-13 ) ; ( RFracture ) = ( 2.05e-16 ) ;     ( R ) = ( 5.36e-13 ) ; 
+0:     Last LinSolve(iter,res) = (   1, 3.07e-14 ) ; 
 1: Wrappers "fractureState" were requested from "cb1" but are not available.
+2: Wrappers "fractureState" were requested from "cb1" but are not available.
+3: Wrappers "fractureState" were requested from "cb1" but are not available.
+3: Wrappers "fractureState" were requested from "cb1" but are not available.
+0: Wrappers "fractureState" were requested from "cb1" but are not available.
 2: Wrappers "fractureState" were requested from "cb1" but are not available.
 1: Wrappers "fractureState" were requested from "cb1" but are not available.
 3: Wrappers "fractureState" were requested from "cb1" but are not available.
 1: Wrappers "fractureState" were requested from "cb1" but are not available.
-3: Wrappers "fractureState" were requested from "cb1" but are not available.
 2: Wrappers "fractureState" were requested from "cb1" but are not available.
 1: Wrappers "fractureState" were requested from "cb1" but are not available.
+2: Wrappers "fractureState" were requested from "cb1" but are not available.
 3: Wrappers "fractureState" were requested from "cb1" but are not available.
+0: Wrappers "fractureState" were requested from "cb1" but are not available.
+2: Wrappers "fractureState" were requested from "cb1" but are not available.
 1: Wrappers "fractureState" were requested from "cb1" but are not available.
 2: Wrappers "fractureState" were requested from "cb1" but are not available.
-2: Wrappers "fractureState" were requested from "cb1" but are not available.
 0: Wrappers "fractureState" were requested from "cb1" but are not available.
-2: Wrappers "fractureState" were requested from "cb1" but are not available.
-2: Wrappers "fractureState" were requested from "cb1" but are not available.
 3: Wrappers "fractureState" were requested from "cb1" but are not available.
+0: Wrappers "fractureState" were requested from "cb1" but are not available.
 3: Wrappers "fractureState" were requested from "cb1" but are not available.
 1: Wrappers "fractureState" were requested from "cb1" but are not available.
 0: Wrappers "fractureState" were requested from "cb1" but are not available.
-3: Wrappers "fractureState" were requested from "cb1" but are not available.
 0: Wrappers "fractureState" were requested from "cb1" but are not available.
-0: Wrappers "fractureState" were requested from "cb1" but are not available.
-0: Wrappers "fractureState" were requested from "cb1" but are not available.
-0: Wrappers "fractureState" were requested from "cb1" but are not available.
-2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000002.hdf5
-0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000000.hdf5
-3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000003.hdf5
-1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000001.hdf5
+0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000000.hdf5
+2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000002.hdf5
+1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000001.hdf5
+3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000000/rank_0000003.hdf5
 0: Cleaning up events
-2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5
-0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5
-3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5
-1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5
+0: Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5
+3: Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5
+1: Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5
+2: Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5
 0: Umpire            HOST sum across ranks:   33.3 MB
 0: Umpire            HOST         rank max:   13.3 MB
-0: total time                         2.648s
-0: initialization time                0.207s
-0: run time                           2.064s
+0: total time                         2.674s
+0: initialization time                0.210s
+0: run time                           2.049s

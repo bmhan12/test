@@ -1,15 +1,15 @@
 [config-build.py]:[INFO]: Passing the following unknown arguments directly to cmake: ['-DENABLE_DOXYGEN=OFF']
-[config-build.py]:[INFO]: Using host config file: '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake'.
+[config-build.py]:[INFO]: Using host config file: '/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake'.
 [config-build.py]:[INFO]: Build path is: build-quartz-clang@10.0.0-release
-[config-build.py]:[INFO]: Creating build directory '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release'...
-[config-build.py]:[INFO]: Creating install path '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/install-quartz-clang@10.0.0-release'...
-[config-build.py]:[INFO]: Extracting cmake entry from host config file /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake
+[config-build.py]:[INFO]: Creating build directory '/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release'...
+[config-build.py]:[INFO]: Creating install path '/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/install-quartz-clang@10.0.0-release'...
+[config-build.py]:[INFO]: Extracting cmake entry from host config file /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake
 [config-build.py]:[INFO]: Could not find a cmake entry in host config file. Using ${PATH}.
-[config-build.py]:[INFO]: Changing to build directory '/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release'
-[config-build.py]:[INFO]: Executing cmake line: 'cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/install-quartz-clang@10.0.0-release -DENABLE_DOXYGEN=OFF -C/usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/src'
-loading initial cache file /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake
-in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release
--- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/hdf5
+[config-build.py]:[INFO]: Changing to build directory '/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release'
+[config-build.py]:[INFO]: Executing cmake line: 'cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/install-quartz-clang@10.0.0-release -DENABLE_DOXYGEN=OFF -C/usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/src'
+loading initial cache file /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/host-configs/LLNL/quartz-clang@10.0.0.cmake
+in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release
+-- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/hdf5
 -- The C compiler identification is Clang 10.0.0
 -- The CXX compiler identification is Clang 10.0.0
 -- Check for working C compiler: /usr/tce/packages/clang/clang-10.0.0/bin/clang
@@ -24,9 +24,12 @@ in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-q
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- BLT Version: 0.4.1
+-- BLT Version: 0.5.1
 -- CMake Version: 3.14.5
+-- CMake Build Type: Release
 -- CMake Executable: /usr/tce/packages/cmake/cmake-3.14.5/bin/cmake
+-- Setting CMAKE_CXX_EXTENSIONS to OFF
+-- Standard C++14 selected
 -- Found Git: /usr/tce/bin/git (found version "2.29.1") 
 -- Git Support is ON
 -- Git Executable: /usr/tce/bin/git
@@ -51,7 +54,6 @@ in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-q
 -- OpenMP Link Flags:    -fopenmp=libomp
 -- CUDA Support is OFF
 -- HIP Support is OFF
--- HCC Support is OFF
 -- Sphinx support is ON
 -- Found Sphinx: /collab/usr/gapps/python/build/spack-toss3.2/opt/spack/linux-rhel7-x86_64/gcc-4.9.3/python-2.7.14-7rci3jkmuht2uiwp433afigveuf4ocnu/bin/sphinx-build  
 -- Valgrind support is ON
@@ -61,7 +63,7 @@ in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-q
 -- ClangFormat support is ON
 -- Failed to locate ClangFormat executable (missing: CLANGFORMAT_EXECUTABLE) 
 -- Uncrustify support is ON
--- Found Uncrustify: /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/uncrustify/bin/uncrustify  
+-- Found Uncrustify: /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/uncrustify/bin/uncrustify  
 -- Yapf support is ON
 -- Failed to locate Yapf executable (missing: YAPF_EXECUTABLE) 
 -- CMakeFormat support is ON
@@ -74,13 +76,11 @@ in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-q
 -- Failed to locate ClangTidy executable (missing: CLANGTIDY_EXECUTABLE) 
 -- C Compiler family is Clang
 -- Adding optional BLT definitions and compiler flags
--- Setting CMAKE_CXX_EXTENSIONS to Off
--- Standard C++14 selected
 -- Enabling all compiler warnings on all targets.
 -- Enabling treatment of warnings as errors on all targets.
 -- Fortran support disabled.
--- CMAKE_C_FLAGS flags are:    -Wall -Wextra   -Werror 
--- CMAKE_CXX_FLAGS flags are:       -Wall -Wextra   -Werror 
+-- CMAKE_C_FLAGS flags are:   -Wall -Wextra    -Werror 
+-- CMAKE_CXX_FLAGS flags are:   -Wall -Wextra       -Werror 
 -- CMAKE_EXE_LINKER_FLAGS flags are:  
 -- Google Test Support is ON
 -- Google Mock Support is OFF
@@ -95,10 +95,6 @@ in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-q
 -- Looking for pthread_create in pthread - found
 -- Found Threads: TRUE  
 -- Google Benchmark Support is ON
-CMake Warning (dev) at cmake/blt/thirdparty_builtin/CMakeLists.txt:147 (set):
-  implicitly converting '' to 'STRING' type.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
 -- Failed to find LLVM FileCheck
 -- git Version: v0.0.0
 -- Version: 0.0.0
@@ -158,7 +154,7 @@ localIndex is an alias for int
 globalIndex is an alias for long long int
 GEOSX_LOCALINDEX_TYPE_FLAG = 0
 GEOSX_GLOBALINDEX_TYPE_FLAG = 2
-CMAKE_CXX_FLAGS =      -Wall -Wextra   -Werror  -fopenmp=libomp  -Wall -Wextra -Wpedantic -pedantic-errors -Wshadow -Wfloat-equal -Wno-cast-align -Wcast-qual 
+CMAKE_CXX_FLAGS =  -Wall -Wextra       -Werror  -fopenmp=libomp  -Wall -Wextra -Wpedantic -pedantic-errors -Wshadow -Wfloat-equal -Wno-cast-align -Wcast-qual 
 GEOSX_LINK_PREPEND_FLAG=-Wl,--whole-archive
 GEOSX_LINK_POSTPEND_FLAG=-Wl,--no-whole-archive
 Leaving GeosxOptions.cmake
@@ -167,51 +163,58 @@ Leaving GeosxOptions.cmake
 -- BLAS_LIBRARIES = /usr/tce/packages/mkl/mkl-2019.0/lib/libmkl_intel_lp64.so;/usr/tce/packages/mkl/mkl-2019.0/lib/libmkl_gnu_thread.so;/usr/tce/packages/mkl/mkl-2019.0/lib/libmkl_core.so
 -- LAPACK_LIBRARIES = /usr/tce/packages/mkl/mkl-2019.0/lib/libmkl_intel_lp64.so;/usr/tce/packages/mkl/mkl-2019.0/lib/libmkl_gnu_thread.so;/usr/tce/packages/mkl/mkl-2019.0/lib/libmkl_core.so
 -- Using Intel MKL
--- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/hdf5
+-- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/hdf5
 -- HDF5: Using hdf5 compiler wrapper to determine C configuration
--- Found HDF5: /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5/lib/libhdf5.a;/usr/lib64/libz.so;/usr/lib64/libdl.so;/usr/lib64/libm.so (found version "1.10.5")  
--- CONDUIT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/conduit
+-- Found HDF5: /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5/lib/libhdf5.a;/usr/lib64/libz.so;/usr/lib64/libdl.so;/usr/lib64/libm.so (found version "1.12.1")  
+-- CONDUIT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/conduit
 -- Conduit was built with HDF5 Support
--- Looking for HDF5 at: /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5
--- HDF5_DIR_REAL=/usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5
+-- Looking for HDF5 at: /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5
+-- HDF5_DIR_REAL=/usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5
 -- Checking that found HDF5_INCLUDE_DIRS are in HDF5_DIR
--- HDF5_INCLUDE_DIRS=/usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5/include
---  /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5/include includes HDF5_DIR (/usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5)
--- CONDUIT_VERSION             = 0.5.0
--- CONDUIT_INSTALL_PREFIX      = /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/conduit
--- CONDUIT_INCLUDE_DIRS        = /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/conduit/include/conduit
+-- HDF5_INCLUDE_DIRS=/usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5/include
+--  /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5/include includes HDF5_DIR (/usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5)
+--  /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5/include includes HDF5_REAL_DIR ()
+-- HDF5 is parallel:  TRUE
+-- Found Conduit: /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/conduit (found version 0.8.2)
+-- CONDUIT_VERSION             = 0.8.2
+-- CONDUIT_INSTALL_PREFIX      = /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/conduit
+-- CONDUIT_IMPORT_ROOT         = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/conduit
+-- CONDUIT_USE_CXX11           = TRUE
+-- CONDUIT_USE_FMT             = TRUE
+-- CONDUIT_INCLUDE_DIRS        = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/conduit/include/conduit
 -- CONDUIT_FORTRAN_ENABLED     = FALSE
 -- CONDUIT_PYTHON_ENABLED      = 
 -- CONDUIT_PYTHON_EXECUTABLE   = 
--- CONDUIT_PYTHON_MODULE_DIR   = /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/conduit/python-modules/
+-- CONDUIT_PYTHON_MODULE_DIR   = /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/conduit/python-modules/
 -- Conduit Relay features:
---  CONDUIT_RELAY_HDF5_ENABLED  = TRUE
---  CONDUIT_HDF5_DIR            = /usr/WS1/GEOS/GEOSX/TPLs_2022-03-21/install-quartz-clang@10.0.0-release/hdf5
---  CONDUIT_RELAY_ADIOS_ENABLED = FALSE
---  CONDUIT_ADIOS_DIR           = 
---  CONDUIT_RELAY_SILO_ENABLED  = FALSE
---  CONDUIT_SILO_DIR            = 
---  CONDUIT_RELAY_MPI_ENABLED   = FALSE
--- Conduit imported targets: conduit::conduit
--- SILO_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/silo
--- PUGIXML_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/pugixml
--- RAJA_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/raja
--- UMPIRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/chai
--- CHAI_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/chai
--- ADIAK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/adiak
--- CALIPER_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/caliper
--- MATHPRESSO_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/mathpresso
--- METIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/metis
--- PARMETIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/parmetis
--- SUPERLU_DIST_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/superlu_dist
--- SUITESPARSE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/suitesparse
--- HYPRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/hypre
--- TRILINOS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/trilinos
+--  CONDUIT_RELAY_WEBSERVER_ENABLED = TRUE
+--  CONDUIT_RELAY_HDF5_ENABLED      = TRUE
+--  CONDUIT_HDF5_DIR                = /usr/WS1/GEOS/GEOSX/TPLs_2022-04-12/install-quartz-clang@10.0.0-release/hdf5
+--  CONDUIT_RELAY_ADIOS_ENABLED     = FALSE
+--  CONDUIT_ADIOS_DIR               = 
+--  CONDUIT_RELAY_SILO_ENABLED      = FALSE
+--  CONDUIT_SILO_DIR                = 
+--  CONDUIT_RELAY_MPI_ENABLED       = TRUE
+-- Conduit imported targets: conduit::conduit conduit::conduit_mpi
+-- SILO_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/silo
+-- PUGIXML_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/pugixml
+-- RAJA_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/raja
+-- UMPIRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/chai
+-- CHAI_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/chai
+-- ADIAK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/adiak
+-- CALIPER_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/caliper
+-- MATHPRESSO_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/mathpresso
+-- METIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/metis
+-- PARMETIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/parmetis
+-- SUPERLU_DIST_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/superlu_dist
+-- SUITESPARSE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/suitesparse
+-- HYPRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/hypre
+-- TRILINOS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/trilinos
 -- Not using PETSc
--- VTK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/vtk
+-- VTK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/vtk
 -- Found MPI: TRUE (found version "3.1") found components:  C 
--- FMT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/fmt
--- UNCRUSTIFY_EXECUTABLE = /usr/gapps/GEOSX/thirdPartyLibs/2022-03-21/install-quartz-clang@10.0.0-release/uncrustify/bin/uncrustify
+-- FMT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/fmt
+-- UNCRUSTIFY_EXECUTABLE = /usr/gapps/GEOSX/thirdPartyLibs/2022-04-12/install-quartz-clang@10.0.0-release/uncrustify/bin/uncrustify
 -- Not using doxygen.
 -- Not building pygeosx.
 -- thirdPartyLibs = mkl;hdf5;conduit::conduit;silo;pugixml;RAJA;umpire;chai;adiak;caliper;mathpresso;metis;parmetis;superlu_dist;suitesparse;hypre;trilinos;vtk;fmt::fmt
@@ -230,4 +233,4 @@ Using cmake  Object Libraries
 -- Configuring GEOSX version 0.2.0
 -- Configuring done
 -- Generating done
--- Build files have been written to: /usr/WS1/han12/.jacamar-ci/builds/xH8Vk3MX/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release
+-- Build files have been written to: /usr/WS1/han12/.jacamar-ci/builds/rAhfRjxi/000/gitlab/han12/GEOSX/build-quartz-clang@10.0.0-release
