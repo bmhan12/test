@@ -1,0 +1,278 @@
+::::::::::::::::::::
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i isothermalLeakyWell_smoke_3d.xml -x 2 -y 2 -z 1 -n 0to104 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_04 --suppress-move-logging
+::::::::::::::::::::
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 285 in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: ../../hdf5/src/H5VLcallback.c line 1910 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: ../../hdf5/src/H5VLcallback.c line 1877 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: ../../hdf5/src/H5VLnative_dataset.c line 123 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: ../../hdf5/src/H5Dint.c line 1483 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: ../../hdf5/src/H5Gloc.c line 442 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: ../../hdf5/src/H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: ../../hdf5/src/H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: ../../hdf5/src/H5Gloc.c line 399 in H5G__loc_find_cb(): object 'phaseOutflux elementCenter' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 356 in H5Dget_space(): invalid dataset identifier
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5Shyper.c line 10243 in H5Sselect_hyperslab(): not a dataspace
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5Dio.c line 276 in H5Dwrite(): invalid file dataspace ID
+    major: Invalid arguments to routine
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5S.c line 491 in H5Sclose(): not a dataspace
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 320 in H5Dclose(): not a dataset ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 285 in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: ../../hdf5/src/H5VLcallback.c line 1910 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: ../../hdf5/src/H5VLcallback.c line 1877 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: ../../hdf5/src/H5VLnative_dataset.c line 123 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: ../../hdf5/src/H5Dint.c line 1483 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: ../../hdf5/src/H5Gloc.c line 442 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: ../../hdf5/src/H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: ../../hdf5/src/H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: ../../hdf5/src/H5Gloc.c line 399 in H5G__loc_find_cb(): object 'phaseOutflux elementCenter' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 768 in H5Dset_extent(): dset_id parameter is not a valid dataset identifier
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 320 in H5Dclose(): not a dataset ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 285 in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: ../../hdf5/src/H5VLcallback.c line 1910 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: ../../hdf5/src/H5VLcallback.c line 1877 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: ../../hdf5/src/H5VLnative_dataset.c line 123 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: ../../hdf5/src/H5Dint.c line 1483 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: ../../hdf5/src/H5Gloc.c line 442 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: ../../hdf5/src/H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: ../../hdf5/src/H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: ../../hdf5/src/H5Gloc.c line 399 in H5G__loc_find_cb(): object 'phaseOutflux elementCenter' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 356 in H5Dget_space(): invalid dataset identifier
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5Shyper.c line 10243 in H5Sselect_hyperslab(): not a dataspace
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5Dio.c line 276 in H5Dwrite(): invalid file dataspace ID
+    major: Invalid arguments to routine
+    minor: Bad value
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5S.c line 491 in H5Sclose(): not a dataspace
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 320 in H5Dclose(): not a dataset ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 285 in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: ../../hdf5/src/H5VLcallback.c line 1910 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: ../../hdf5/src/H5VLcallback.c line 1877 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: ../../hdf5/src/H5VLnative_dataset.c line 123 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: ../../hdf5/src/H5Dint.c line 1483 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: ../../hdf5/src/H5Gloc.c line 442 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: ../../hdf5/src/H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: ../../hdf5/src/H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: ../../hdf5/src/H5Gloc.c line 399 in H5G__loc_find_cb(): object 'phaseOutflux elementCenter' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 768 in H5Dset_extent(): dset_id parameter is not a valid dataset identifier
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 320 in H5Dclose(): not a dataset ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 0:
+  #000: ../../hdf5/src/H5Dio.c line 291 in H5Dwrite(): can't write data
+    major: Dataset
+    minor: Write failed
+  #001: ../../hdf5/src/H5VLcallback.c line 2113 in H5VL_dataset_write(): dataset write failed
+    major: Virtual Object Layer
+    minor: Write failed
+  #002: ../../hdf5/src/H5VLcallback.c line 2080 in H5VL__dataset_write(): dataset write failed
+    major: Virtual Object Layer
+    minor: Write failed
+  #003: ../../hdf5/src/H5VLnative_dataset.c line 207 in H5VL__native_dataset_write(): can't write data
+    major: Dataset
+    minor: Write failed
+  #004: ../../hdf5/src/H5Dio.c line 762 in H5D__write(): can't write data
+    major: Dataset
+    minor: Write failed
+  #005: ../../hdf5/src/H5Dchunk.c line 2730 in H5D__chunk_write(): chunked write failed
+    major: Dataset
+    minor: Read failed
+  #006: ../../hdf5/src/H5Dselect.c line 311 in H5D__select_write(): write error
+    major: Dataspace
+    minor: Write failed
+  #007: ../../hdf5/src/H5Dselect.c line 140 in H5D__select_io(): write error
+    major: Dataspace
+    minor: Write failed
+  #008: ../../hdf5/src/H5Dcontig.c line 1249 in H5D__contig_writevv(): can't perform vectorized read
+    major: Dataset
+    minor: Can't operate on object
+  #009: ../../hdf5/src/H5VM.c line 1401 in H5VM_opvv(): can't perform operation
+    major: Internal error (too specific to document in detail)
+    minor: Can't operate on object
+  #010: ../../hdf5/src/H5Dcontig.c line 1179 in H5D__contig_writevv_cb(): block write failed
+    major: Dataset
+    minor: Write failed
+  #011: ../../hdf5/src/H5Fio.c line 191 in H5F_shared_block_write(): write through page buffer failed
+    major: Low-level I/O
+    minor: Write failed
+  #012: ../../hdf5/src/H5PB.c line 1021 in H5PB_write(): write through metadata accumulator failed
+    major: Page Buffering
+    minor: Write failed
+  #013: ../../hdf5/src/H5Faccum.c line 831 in H5F__accum_write(): file write failed
+    major: Low-level I/O
+    minor: Write failed
+  #014: ../../hdf5/src/H5FDint.c line 236 in H5FD_write(): addr overflow, addr = 9960, size=8, eoa=9960
+    major: Invalid arguments to routine
+    minor: Address overflowed
+::::::::::::::::::::
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-06 -r 1e-05 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_04/0to104_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/baselines/isothermalLeakyWell_smoke_3d_04/0to104_restart_[0-9]+\.root
+::::::::::::::::::::
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+::::::::::::::::::::
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/build-lassen-clang@upstream-release/bin/geosx -i isothermalLeakyWell_smoke_3d.xml -r isothermalLeakyWell_smoke_3d_04/0to104_restart_000000060 -x 2 -y 2 -z 1 -n 60to104 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_04 --suppress-move-logging
+::::::::::::::::::::
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 285 in H5Dopen2(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #001: ../../hdf5/src/H5VLcallback.c line 1910 in H5VL_dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #002: ../../hdf5/src/H5VLcallback.c line 1877 in H5VL__dataset_open(): dataset open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: ../../hdf5/src/H5VLnative_dataset.c line 123 in H5VL__native_dataset_open(): unable to open dataset
+    major: Dataset
+    minor: Can't open object
+  #004: ../../hdf5/src/H5Dint.c line 1483 in H5D__open_name(): not found
+    major: Dataset
+    minor: Object not found
+  #005: ../../hdf5/src/H5Gloc.c line 442 in H5G_loc_find(): can't find object
+    major: Symbol table
+    minor: Object not found
+  #006: ../../hdf5/src/H5Gtraverse.c line 837 in H5G_traverse(): internal path traversal failed
+    major: Symbol table
+    minor: Object not found
+  #007: ../../hdf5/src/H5Gtraverse.c line 613 in H5G__traverse_real(): traversal operator failed
+    major: Symbol table
+    minor: Callback failed
+  #008: ../../hdf5/src/H5Gloc.c line 399 in H5G__loc_find_cb(): object 'phaseOutflux elementCenter' doesn't exist
+    major: Symbol table
+    minor: Object not found
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 768 in H5Dset_extent(): dset_id parameter is not a valid dataset identifier
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.12.1) MPI-process 1:
+  #000: ../../hdf5/src/H5D.c line 320 in H5Dclose(): not a dataset ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+::::::::::::::::::::
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-06 -r 1e-05 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_04/60to104_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/baselines/isothermalLeakyWell_smoke_3d_04/0to104_restart_[0-9]+\.root
+::::::::::::::::::::
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py:246: RuntimeWarning: invalid value encountered in divide
+  relative_difference = difference / abs_base_arr
