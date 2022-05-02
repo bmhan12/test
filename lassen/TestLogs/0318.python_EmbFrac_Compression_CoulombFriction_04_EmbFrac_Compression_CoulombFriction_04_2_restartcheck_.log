@@ -16,30 +16,30 @@ Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/tim
 Warnings are errors: True
 
 The root files are similar.
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5
 
 Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 21168 values of which 1996 fail both the relative and absolute tests.
-		Max absolute difference is at index (280, 0, 0): value = -10867686.168735236, base_value = -10867686.168735916
-		Max relative difference is at index (1, 2, 4): value = -9.046113077054336e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1996
-		max = 24.000349490719223, mean = 0.28068688580529927, std = 1.2440911796444298
-		max is at index (109, 7, 4), value = 6.653114730951155e-08, base_value = -1.734723475976807e-07
+	Arrays of types float64 and float64 have 21168 values of which 1909 fail both the relative and absolute tests.
+		Max absolute difference is at index (280, 4, 0): value = -10867686.168735089, base_value = -10867686.168735929
+		Max relative difference is at index (1, 2, 4): value = -1.3382921766996363e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1909
+		max = 25.910588507860236, mean = 0.26794285721313643, std = 1.2464912070887373
+		max is at index (109, 3, 4), value = 8.563353748092168e-08, base_value = -1.734723475976807e-07
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 21168 values of which 1996 fail both the relative and absolute tests.
-		Max absolute difference is at index (280, 0, 0): value = -10867686.168735236, base_value = -10867686.168735916
-		Max relative difference is at index (1, 2, 4): value = -9.046113077054336e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1996
-		max = 24.000349490719223, mean = 0.28068688580529927, std = 1.2440911796444298
-		max is at index (109, 7, 4), value = 6.653114730951155e-08, base_value = -1.734723475976807e-07
+	Arrays of types float64 and float64 have 21168 values of which 1909 fail both the relative and absolute tests.
+		Max absolute difference is at index (280, 4, 0): value = -10867686.168735089, base_value = -10867686.168735929
+		Max relative difference is at index (1, 2, 4): value = -1.3382921766996363e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1909
+		max = 25.910588507860236, mean = 0.26794285721313643, std = 1.2464912070887373
+		max is at index (109, 3, 4), value = 8.563353748092168e-08, base_value = -1.734723475976807e-07
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
@@ -47,22 +47,22 @@ The files are different.
 Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000001.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 22176 values of which 2075 fail both the relative and absolute tests.
-		Max absolute difference is at index (409, 7, 0): value = -10891479.509274194, base_value = -10891479.509275382
-		Max relative difference is at index (1, 3, 4): value = -6.754912094367384e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2075
-		max = 24.000349490719223, mean = 0.27158433832075735, std = 1.1724376069455584
-		max is at index (420, 7, 4), value = 6.653114730951155e-08, base_value = -1.734723475976807e-07
+	Arrays of types float64 and float64 have 22176 values of which 1902 fail both the relative and absolute tests.
+		Max absolute difference is at index (2, 0, 1): value = 277234.0633770503, base_value = 277234.06337611517
+		Max relative difference is at index (1, 3, 4): value = 1.0177164192266121e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1902
+		max = 25.910588507860236, mean = 0.24084355934035764, std = 1.1106533144919573
+		max is at index (420, 3, 4), value = 8.563353748092168e-08, base_value = -1.734723475976807e-07
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 22176 values of which 2075 fail both the relative and absolute tests.
-		Max absolute difference is at index (409, 7, 0): value = -10891479.509274194, base_value = -10891479.509275382
-		Max relative difference is at index (1, 3, 4): value = -6.754912094367384e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2075
-		max = 24.000349490719223, mean = 0.27158433832075735, std = 1.1724376069455584
-		max is at index (420, 7, 4), value = 6.653114730951155e-08, base_value = -1.734723475976807e-07
+	Arrays of types float64 and float64 have 22176 values of which 1902 fail both the relative and absolute tests.
+		Max absolute difference is at index (2, 0, 1): value = 277234.0633770503, base_value = 277234.06337611517
+		Max relative difference is at index (1, 3, 4): value = 1.0177164192266121e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1902
+		max = 25.910588507860236, mean = 0.24084355934035764, std = 1.1106533144919573
+		max is at index (420, 3, 4), value = 8.563353748092168e-08, base_value = -1.734723475976807e-07
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
@@ -70,22 +70,22 @@ The files are different.
 Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000002.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 22176 values of which 2058 fail both the relative and absolute tests.
-		Max absolute difference is at index (20, 5, 0): value = -10873413.083815567, base_value = -10873413.083814314
-		Max relative difference is at index (1, 1, 3): value = 1.6820396146740912e-08, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2058
-		max = 14.307770486715201, mean = 0.2306229826147077, std = 0.8984536172906505
-		max is at index (402, 5, 4), value = 1.5175132224703604e-07, base_value = 8.673617379884035e-09
+	Arrays of types float64 and float64 have 22176 values of which 2014 fail both the relative and absolute tests.
+		Max absolute difference is at index (20, 5, 0): value = -10873413.083815547, base_value = -10873413.083814314
+		Max relative difference is at index (1, 1, 3): value = -1.678987120030965e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2014
+		max = 13.821583568992, mean = 0.2439721476382974, std = 0.9850618847401408
+		max is at index (414, 5, 4), value = 1.5122626175974607e-07, base_value = 1.3010426069826053e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 22176 values of which 2058 fail both the relative and absolute tests.
-		Max absolute difference is at index (20, 5, 0): value = -10873413.083815567, base_value = -10873413.083814314
-		Max relative difference is at index (1, 1, 3): value = 1.6820396146740912e-08, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2058
-		max = 14.307770486715201, mean = 0.2306229826147077, std = 0.8984536172906505
-		max is at index (402, 5, 4), value = 1.5175132224703604e-07, base_value = 8.673617379884035e-09
+	Arrays of types float64 and float64 have 22176 values of which 2014 fail both the relative and absolute tests.
+		Max absolute difference is at index (20, 5, 0): value = -10873413.083815547, base_value = -10873413.083814314
+		Max relative difference is at index (1, 1, 3): value = -1.678987120030965e-08, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2014
+		max = 13.821583568992, mean = 0.2439721476382974, std = 0.9850618847401408
+		max is at index (414, 5, 4), value = 1.5122626175974607e-07, base_value = 1.3010426069826053e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
@@ -93,22 +93,22 @@ The files are different.
 Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/embeddedFractures/baselines/EmbFrac_Compression_CoulombFriction_04/0to1_restart_000000001/rank_0000003.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
-	Arrays of types float64 and float64 have 23232 values of which 2003 fail both the relative and absolute tests.
-		Max absolute difference is at index (150, 7, 0): value = -10867686.168737179, base_value = -10867686.168736156
-		Max relative difference is at index (43, 3, 4): value = -1.135426911136326e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2003
-		max = 14.527391260121925, mean = 0.22084526767724263, std = 0.8937871165324555
-		max is at index (325, 1, 4), value = 8.889539963197304e-08, base_value = -5.637851296924623e-08
+	Arrays of types float64 and float64 have 23232 values of which 2155 fail both the relative and absolute tests.
+		Max absolute difference is at index (150, 7, 0): value = -10867686.168736799, base_value = -10867686.168736156
+		Max relative difference is at index (43, 3, 4): value = -4.92829789579549e-10, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2155
+		max = 13.115345599813178, mean = 0.24616156705166745, std = 0.9689854397811445
+		max is at index (280, 3, 4), value = -5.309089957917547e-08, base_value = 7.806255641895632e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
-	Arrays of types float64 and float64 have 23232 values of which 2003 fail both the relative and absolute tests.
-		Max absolute difference is at index (150, 7, 0): value = -10867686.168737179, base_value = -10867686.168736156
-		Max relative difference is at index (43, 3, 4): value = -1.135426911136326e-09, base_value = 0.0
-	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2003
-		max = 14.527391260121925, mean = 0.22084526767724263, std = 0.8937871165324555
-		max is at index (325, 1, 4), value = 8.889539963197304e-08, base_value = -5.637851296924623e-08
+	Arrays of types float64 and float64 have 23232 values of which 2155 fail both the relative and absolute tests.
+		Max absolute difference is at index (150, 7, 0): value = -10867686.168736799, base_value = -10867686.168736156
+		Max relative difference is at index (43, 3, 4): value = -4.92829789579549e-10, base_value = 0.0
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2155
+		max = 13.115345599813178, mean = 0.24616156705166745, std = 0.9689854397811445
+		max is at index (280, 3, 4), value = -5.309089957917547e-08, base_value = 7.806255641895632e-08
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 The files are different.
