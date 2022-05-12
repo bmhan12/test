@@ -17,6 +17,7 @@ Warnings are errors: True
 
 The root files are similar.
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
 
@@ -34,36 +35,36 @@ Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/SIFonFace
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 14112 values of which 1744 fail both the relative and absolute tests.
-		Max absolute difference is at index (72, 4, 2): value = -249342.79098843422, base_value = -249342.71059130243
-		Max relative difference is at index (88, 0, 4): value = 0.9348893773595393, base_value = 0.934621312531938
+		Max absolute difference is at index (72, 4, 2): value = -249342.79098843425, base_value = -249342.71059130243
+		Max relative difference is at index (88, 0, 4): value = 0.9348893773597666, base_value = 0.934621312531938
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1102
-		max = 206.05249336767884, mean = 0.3578082879493668, std = 4.783572064149616
-		max is at index (84, 4, 2), value = -1640.2587872472086, base_value = -1640.2999977458821
+		max = 206.05249341315357, mean = 0.35780828795599795, std = 4.783572064498501
+		max is at index (84, 4, 2), value = -1640.2587872471995, base_value = -1640.2999977458821
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 642
-		max = 91.46815966427825, mean = 0.2971226338177273, std = 2.480254854813064
-		max is at index (73, 7, 2), value = 2069.2554240117097, base_value = 2069.274351283385
+		max = 91.46815964230208, mean = 0.2971226338118668, std = 2.4802548547213688
+		max is at index (73, 7, 2), value = 2069.2554240117142, base_value = 2069.274351283385
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 14112 values of which 1744 fail both the relative and absolute tests.
-		Max absolute difference is at index (72, 4, 2): value = -249342.79098843422, base_value = -249342.71059130243
-		Max relative difference is at index (88, 0, 4): value = 0.9348893773595393, base_value = 0.934621312531938
+		Max absolute difference is at index (72, 4, 2): value = -249342.79098843425, base_value = -249342.71059130243
+		Max relative difference is at index (88, 0, 4): value = 0.9348893773597666, base_value = 0.934621312531938
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 1102
-		max = 206.05249336767884, mean = 0.3578082879493668, std = 4.783572064149616
-		max is at index (84, 4, 2), value = -1640.2587872472086, base_value = -1640.2999977458821
+		max = 206.05249341315357, mean = 0.35780828795599795, std = 4.783572064498501
+		max is at index (84, 4, 2), value = -1640.2587872471995, base_value = -1640.2999977458821
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 642
-		max = 91.46815966427825, mean = 0.2971226338177273, std = 2.480254854813064
-		max is at index (73, 7, 2), value = 2069.2554240117097, base_value = 2069.274351283385
+		max = 91.46815964230208, mean = 0.2971226338118668, std = 2.4802548547213688
+		max is at index (73, 7, 2), value = 2069.2554240117142, base_value = 2069.274351283385
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/pressure
 	Arrays of types float64 and float64 have 5 values of which 5 fail both the relative and absolute tests.
-		Max absolute difference is at index (3,): value = 86146.89252333538, base_value = 86146.39978574115
-		Max relative difference is at index (3,): value = 86146.89252333538, base_value = 86146.39978574115
+		Max absolute difference is at index (3,): value = 86146.89252333531, base_value = 86146.39978574115
+		Max relative difference is at index (3,): value = 86146.89252333531, base_value = 86146.39978574115
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 5
-		max = 57.197700131489434, mean = 16.650639941944355, std = 20.349215562183463
-		max is at index (3,), value = 86146.89252333538, base_value = 86146.39978574115
+		max = 57.1977001230434, mean = 16.650639939897303, std = 20.349215558999262
+		max is at index (3,), value = 86146.89252333531, base_value = 86146.39978574115
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/pressure_n
@@ -78,22 +79,22 @@ Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/element
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/externalForce
 	Arrays of types float64 and float64 have 1359 values of which 8 fail both the relative and absolute tests.
-		Max absolute difference is at index (59, 2): value = 9583470.986541206, base_value = 9583480.393465763
+		Max absolute difference is at index (59, 2): value = 9583470.986541208, base_value = 9583480.393465763
 		Max relative difference is at index (52, 2): value = -3870154.616797082, base_value = -3870161.358979989
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 8
-		max = 17.420934894802468, mean = 0.06115452133610321, std = 0.8814987370771612
+		max = 17.420934894802468, mean = 0.06115452131853971, std = 0.881498736864486
 		max is at index (52, 2), value = -3870154.616797082, base_value = -3870161.358979989
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/SIFNode
 	Arrays of types float64 and float64 have 453 values of which 6 fail both the relative and absolute tests.
-		Max absolute difference is at index (115,): value = -35753.88777015358, base_value = -35754.50195742037
-		Max relative difference is at index (66,): value = -31280.02832377569, base_value = -31280.568591678017
+		Max absolute difference is at index (115,): value = -35753.88777015359, base_value = -35754.50195742037
+		Max relative difference is at index (66,): value = -31280.028323775692, base_value = -31280.568591678017
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 6
-		max = 172.71677806775253, mean = 1.582142731659242, std = 15.341742716625994
-		max is at index (66,), value = -31280.02832377569, base_value = -31280.568591678017
+		max = 172.71677806658954, mean = 1.5821427316455425, std = 15.34174271650528
+		max is at index (66,), value = -31280.028323775692, base_value = -31280.568591678017
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/Solvers/lagsolve/maxForce/__values__
@@ -120,21 +121,21 @@ Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/stress
 	Arrays of types float64 and float64 have 16128 values of which 2 fail both the relative and absolute tests.
-		Max absolute difference is at index (264, 4, 0): value = 478.6059806586186, base_value = 478.60577604461594
-		Max relative difference is at index (192, 1, 1): value = 0.000183982077536257, base_value = 0.00018396559938606283
+		Max absolute difference is at index (264, 4, 0): value = 478.6059806586184, base_value = 478.60577604461594
+		Max relative difference is at index (192, 1, 1): value = 0.0001839820775376001, base_value = 0.00018396559938606283
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2
-		max = 1.0230700132751736, mean = 0.00012686880112604336, std = 0.011392083665130077
-		max is at index (264, 4, 0), value = 478.6059806586186, base_value = 478.60577604461594
+		max = 1.0230700124225223, mean = 0.000126868801055553, std = 0.01139208365880045
+		max is at index (264, 4, 0), value = 478.6059806586184, base_value = 478.60577604461594
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock/oldStress
 	Arrays of types float64 and float64 have 16128 values of which 2 fail both the relative and absolute tests.
-		Max absolute difference is at index (264, 4, 0): value = 478.6059806586186, base_value = 478.60577604461594
-		Max relative difference is at index (192, 1, 1): value = 0.000183982077536257, base_value = 0.00018396559938606283
+		Max absolute difference is at index (264, 4, 0): value = 478.6059806586184, base_value = 478.60577604461594
+		Max relative difference is at index (192, 1, 1): value = 0.0001839820775376001, base_value = 0.00018396559938606283
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2
-		max = 1.0230700132751736, mean = 0.00012686880112604336, std = 0.011392083665130077
-		max is at index (264, 4, 0), value = 478.6059806586186, base_value = 478.60577604461594
+		max = 1.0230700124225223, mean = 0.000126868801055553, std = 0.01139208365880045
+		max is at index (264, 4, 0), value = 478.6059806586184, base_value = 478.60577604461594
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
 ********************************************************************************
 ********************************************************************************
@@ -163,4 +164,3 @@ Compared 4 pairs of files of which 4 are different.
 	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
 	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
 	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
