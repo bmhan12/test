@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/build/bin/geosx -i kgdEdgeBased_C3D6_smoke.xml -x 1 -y 1 -z 1 -n kgdEdgeBased_C3D6 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01 --suppress-move-logging
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i kgdEdgeBased_C3D6_smoke.xml -x 1 -y 1 -z 1 -n kgdEdgeBased_C3D6 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(kgdEdgeBased_C3D6_01/kgdEdgeBased_C3D6_01_1_geosx)
-#ATS: clas = ['-i', 'kgdEdgeBased_C3D6_smoke.xml', '-x', '1', '-y', '1', '-z', '1', '-n', 'kgdEdgeBased_C3D6', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01', '--suppress-move-logging']
+#ATS: clas = ['-i', 'kgdEdgeBased_C3D6_smoke.xml', '-x', '1', '-y', '1', '-z', '1', '-n', 'kgdEdgeBased_C3D6', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01', '--suppress-move-logging']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
@@ -38,7 +38,7 @@ Rank 0: Total number of nodes:352
   Fracture/faceElementSubRegion/fractureFilling is allocated with 8 quadrature points.
   Fracture/faceElementSubRegion/fractureContact is allocated with 8 quadrature points.
 Time: 0s, dt:1s, Cycle: 0
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01/kgdEdgeBased_C3D6_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01/kgdEdgeBased_C3D6_restart_000000000/rank_0000000.hdf5
 Time: 1s, dt:1s, Cycle: 1
 Time: 2s, dt:1s, Cycle: 2
 Time: 3s, dt:1s, Cycle: 3
@@ -89,13 +89,13 @@ Time: 47s, dt:1s, Cycle: 47
 Time: 48s, dt:1s, Cycle: 48
 Time: 49s, dt:1s, Cycle: 49
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/002/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01/kgdEdgeBased_C3D6_restart_000000050/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdEdgeBased_C3D6_01/kgdEdgeBased_C3D6_restart_000000050/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:    2.5 MB
 Umpire          DEVICE         rank max:    2.5 MB
 Umpire       DEVICE::0 sum across ranks:    2.5 MB
 Umpire       DEVICE::0         rank max:    2.5 MB
 Umpire            HOST sum across ranks:    4.3 MB
 Umpire            HOST         rank max:    4.3 MB
-total time                        31.958s
-initialization time                0.120s
-run time                          30.517s
+total time                        30.787s
+initialization time                0.118s
+run time                          29.213s
