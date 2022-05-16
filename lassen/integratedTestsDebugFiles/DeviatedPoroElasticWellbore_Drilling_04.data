@@ -22,15 +22,15 @@ Adding Event: PeriodicEvent, outputs
 Adding Event: PeriodicEvent, restarts
 Adding Output: Silo, siloOutput
 Adding Output: Restart, restartOutput
-Rank 2: Total number of nodes:24
 Adding Object CellElementRegion named Omega from ObjectManager::Catalog.
-Rank 3: Total number of nodes:24
 radial elements: { 5 }
 Radial Coordinates: { 0.1, 0.208703, 0.436306, 0.912869, 1.91071, 4 }
+Rank 2: Total number of nodes:24
 Total number of nodes:60
 Total number of elems:20
 Rank 0: Total number of nodes:18
 Rank 1: Total number of nodes:18
+Rank 3: Total number of nodes:24
   Omega/cb1/porousRock is allocated with 8 quadrature points.
   Omega/cb1/water is allocated with 8 quadrature points.
 Time: 0s, dt:0.78s, Cycle: 0
@@ -42,10 +42,10 @@ Time: 0s, dt:0.78s, Cycle: 0
     ( R ) = ( 8.71e-11 ) ; 
     Last LinSolve(iter,res) = (   1, 3.04e-16 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000000/rank_0000000.hdf5
 Time: 0.78s, dt:0.78s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 5.97e-16, 5.03e-07 )
@@ -505,10 +505,10 @@ Time: 39s, dt:0.78s, Cycle: 51
     ( R ) = ( 7.60e-13 ) ; 
     Last LinSolve(iter,res) = (   1, 1.49e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000051/rank_0000001.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000051/rank_0000002.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000051/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000051/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000051/rank_0000001.hdf5
 Time: 39.78s, dt:0.78s, Cycle: 52
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 6.67e-16, 3.08e-07 )
@@ -960,9 +960,9 @@ Time: 78s, dt:1.42109e-14s, Cycle: 101
     Last LinSolve(iter,res) = (   1, 3.25e-15 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000002.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:  449.6 KB
 Umpire          DEVICE         rank max:  222.6 KB
@@ -972,9 +972,9 @@ Umpire            HOST sum across ranks:  734.5 KB
 Umpire            HOST         rank max:  268.2 KB
 Umpire          PINNED sum across ranks:  214.5 KB
 Umpire          PINNED         rank max:   56.6 KB
-total time                        10.259s
-initialization time                0.116s
-run time                           8.610s
+total time                        12.453s
+initialization time                0.307s
+run time                           8.533s
 ::::::::::::::::::::
 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
@@ -997,8 +997,8 @@ Warnings are errors: True
 
 The root files are similar.
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000001.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000002.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000002.hdf5
 About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000000.hdf5
 
 Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_04/0to1_restart_000000102/rank_0000000.hdf5 
