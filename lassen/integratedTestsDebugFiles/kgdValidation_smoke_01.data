@@ -11,7 +11,7 @@
 #ATS: testpath =  
 
 Max threads: 4
-GEOSX version 0.2.0 (HEAD, sha1: 501f96a)
+GEOSX version 0.2.0 (HEAD, sha1: e90f6ba)
 Adding Mesh: InternalMesh, mesh1
 Adding Geometric Object: Box, fracture
 Adding Geometric Object: Box, source
@@ -169,7 +169,7 @@ Moved    0.6 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l,
 Moved    0.6 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_dViscosity_dPressure
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/mobility
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/dMobility_dPressure
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/density_n
+Moved    0.6 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_density_n
 Moved   27.1 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
 Moved   27.1 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
 Moved    3.6 MB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
@@ -186,11 +186,11 @@ Moved   54.1 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l,
 Moved  112.5 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Domain/elementSubRegions/cb1/rock_density
 Moved    3.6 MB to the HOST  : LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
 Moved   54.2 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> hydrofracture/rhs
-Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/ghostRank
-Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/creationMass
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/hydrofracture_pressure_dofIndex
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/ghostRank
 Moved    3.6 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
 Moved   54.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> hydrofracture/rhs
+Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/creationMass
 Moved   45.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/finiteVolumeStencils/singlePhaseTPFA/cellStencil/elementRegionIndices
 Moved   45.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/finiteVolumeStencils/singlePhaseTPFA/cellStencil/elementSubRegionIndices
 Moved   45.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/finiteVolumeStencils/singlePhaseTPFA/cellStencil/elementIndices
@@ -446,9 +446,9 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-    ( Rsolid, Rfluid ) = ( 5.64e-13, 2.38e+02 )
+    ( Rsolid, Rfluid ) = ( 5.50e-13, 2.38e+02 )
     ( R ) = ( 2.38e+02 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.19e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.10e-04 ) ; 
 Moved   54.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved    3.6 MB to the HOST  : LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
 Moved   54.2 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> hydrofracture/rhs
@@ -556,7 +556,7 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-        Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 5.64e-13, 1.15e+02 )
+        Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 5.50e-13, 1.15e+02 )
 
 Moved   54.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved    3.6 MB to the HOST  : LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
@@ -665,7 +665,7 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-        Line search @ 0.250:          ( Rsolid, Rfluid ) = ( 5.64e-13, 5.39e+01 )
+        Line search @ 0.250:          ( Rsolid, Rfluid ) = ( 5.49e-13, 5.39e+01 )
 
 Moved   54.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved    3.6 MB to the HOST  : LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
@@ -774,7 +774,7 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-        Line search @ 0.125:          ( Rsolid, Rfluid ) = ( 5.63e-13, 2.32e+01 )
+        Line search @ 0.125:          ( Rsolid, Rfluid ) = ( 5.49e-13, 2.32e+01 )
 
         Line search failed to produce reduced residual. Accepting iteration.
 Moved   54.2 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -894,9 +894,9 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-    ( Rsolid, Rfluid ) = ( 8.60e-13, 3.45e-03 )
+    ( Rsolid, Rfluid ) = ( 3.23e-13, 3.45e-03 )
     ( R ) = ( 3.45e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.57e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.40e-07 ) ; 
 Moved   54.2 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.6 MB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.6 MB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -1014,9 +1014,9 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-    ( Rsolid, Rfluid ) = ( 3.22e-13, 8.97e-08 )
+    ( Rsolid, Rfluid ) = ( 2.15e-13, 8.97e-08 )
     ( R ) = ( 8.97e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.55e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.51e-05 ) ; 
 Rank 0: 
 Splitting node 308 along separation plane faces: 280, 848, 
 Moved   54.1 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
@@ -1030,6 +1030,7 @@ Rank 0:
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/elementAperture
 Moved    0.6 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_density
 Moved    0.6 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_dDensity_dPressure
+Moved    0.6 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_density_n
 Moved    0.6 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_viscosity
 Moved    0.6 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_dViscosity_dPressure
 Moved    0.6 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/fracturePorosity_porosity
@@ -1046,7 +1047,6 @@ Moved    0.1 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/deltaVolume
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/mobility
 Moved    0.1 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/dMobility_dPressure
-Moved    0.1 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/density_n
 Rank 0: 
 Splitting node 309 along separation plane faces: 280, 283, 848, 851, 
 Done splitting node 309 into nodes 309 and 2311
@@ -1179,12 +1179,12 @@ Moved   54.4 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l,
 Moved   54.4 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
 Moved    3.7 MB to the HOST  : LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
 Moved   54.6 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> hydrofracture/rhs
-Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/ghostRank
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/density_n
-Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/creationMass
 Moved    0.2 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/hydrofracture_pressure_dofIndex
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/ghostRank
+Moved    1.2 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_density_n
 Moved    3.7 MB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
 Moved   54.6 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> hydrofracture/rhs
+Moved    0.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/creationMass
 Moved   45.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/finiteVolumeStencils/singlePhaseTPFA/cellStencil/elementRegionIndices
 Moved   45.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/finiteVolumeStencils/singlePhaseTPFA/cellStencil/elementSubRegionIndices
 Moved   45.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/finiteVolumeStencils/singlePhaseTPFA/cellStencil/elementIndices
@@ -1437,7 +1437,7 @@ Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
     ( Rsolid, Rfluid ) = ( 3.07e-11, 1.56e+01 )
     ( R ) = ( 1.56e+01 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.67e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.18e-14 ) ; 
 Moved   54.4 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
 Moved    3.7 MB to the HOST  : LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> hydrofracture/matrix/entries
 Moved   54.6 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> hydrofracture/rhs
@@ -1664,9 +1664,9 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-    ( Rsolid, Rfluid ) = ( 1.13e-12, 8.36e-01 )
+    ( Rsolid, Rfluid ) = ( 5.87e-13, 8.36e-01 )
     ( R ) = ( 8.36e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.76e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.22e-15 ) ; 
 Moved   54.6 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.7 MB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.7 MB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -1784,9 +1784,9 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-    ( Rsolid, Rfluid ) = ( 1.20e-12, 1.19e-02 )
+    ( Rsolid, Rfluid ) = ( 6.83e-13, 1.19e-02 )
     ( R ) = ( 1.19e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.66e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-06 ) ; 
 Moved   54.6 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.7 MB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    3.7 MB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -1904,9 +1904,9 @@ Moved    1.7 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 
 Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved    0.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-    ( Rsolid, Rfluid ) = ( 8.18e-13, 1.55e-06 )
+    ( Rsolid, Rfluid ) = ( 6.87e-13, 1.55e-06 )
     ( R ) = ( 1.55e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.26e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.05e-04 ) ; 
 Moved    8.0 KB to the HOST  : LvArray::ArrayOfArrays<geosx::Tensor<double, 3>, int, LvArray::ChaiBuffer> /m_values
 Moved    0.2 KB to the HOST  : LvArray::ArrayOfArrays<geosx::Tensor<double, 3>, int, LvArray::ChaiBuffer> /m_sizes
 Moved   54.4 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
@@ -1921,6 +1921,7 @@ Moved    0.2 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>
 Moved    0.2 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/mobility
 Moved    1.2 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_density
 Moved    1.2 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_dDensity_dPressure
+Moved    1.2 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_density_n
 Moved    1.2 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_viscosity
 Moved    1.2 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/water_dViscosity_dPressure
 Moved    1.2 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Fracture/elementSubRegions/faceElementSubRegion/fracturePorosity_porosity
@@ -1938,11 +1939,11 @@ Umpire          DEVICE sum across ranks:   23.5 MB
 Umpire          DEVICE         rank max:   23.5 MB
 Umpire       DEVICE::0 sum across ranks:   23.5 MB
 Umpire       DEVICE::0         rank max:   23.5 MB
-Umpire            HOST sum across ranks:   38.6 MB
-Umpire            HOST         rank max:   38.6 MB
-total time                         8.654s
-initialization time                0.121s
-run time                           7.340s
+Umpire            HOST sum across ranks:   38.8 MB
+Umpire            HOST         rank max:   38.8 MB
+total time                         8.955s
+initialization time                0.117s
+run time                           7.471s
 ::::::::::::::::::::
 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0002 -r 1e-07 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdValidation_smoke_01/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/baselines/kgdValidation_smoke_01/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
@@ -1970,22 +1971,22 @@ Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/SIFonFace
 	Arrays of types float64 and float64 have 5880 values of which 10 fail both the relative and absolute tests.
-		Max absolute difference is at index (1425,): value = 1.0, base_value = 655989.3798311999
-		Max relative difference is at index (1416,): value = 1.0, base_value = 655989.3798311966
+		Max absolute difference is at index (1434,): value = 1.0, base_value = 655989.3798312015
+		Max relative difference is at index (1416,): value = 1.0, base_value = 655989.3798311973
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 10
 		max = 9999984.75585077, mean = 17006.776795664573, std = 412041.59771293093
-		max is at index (1416,), value = 1.0, base_value = 655989.3798311966
+		max is at index (1416,), value = 1.0, base_value = 655989.3798311973
 ********************************************************************************
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/edgeManager/SIF_I
 	Arrays of types float64 and float64 have 6400 values of which 10 fail both the relative and absolute tests.
-		Max absolute difference is at index (1497,): value = 586009.3262759112, base_value = 655989.8718235422
-		Max relative difference is at index (1497,): value = 586009.3262759112, base_value = 655989.8718235422
+		Max absolute difference is at index (1497,): value = 586009.3262759089, base_value = 655989.8718235438
+		Max relative difference is at index (1497,): value = 586009.3262759089, base_value = 655989.8718235438
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 10
-		max = 1066793.0794891203, mean = 1666.8641867016518, std = 42135.74186607574
-		max is at index (1497,), value = 586009.3262759112, base_value = 655989.8718235422
+		max = 1066793.079489178, mean = 1666.8641867017368, std = 42135.741866077886
+		max is at index (1497,), value = 586009.3262759089, base_value = 655989.8718235438
 ********************************************************************************
 The files are different.
 
