@@ -8,8 +8,8 @@
 [config-build.py]:[INFO]: Changing to build directory '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build'
 [config-build.py]:[INFO]: Executing cmake line: 'cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/install-lassen-clang@upstream-release -DENABLE_DOXYGEN=OFF -C/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/host-configs/LLNL/lassen-clang@upstream.cmake /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/src'
 loading initial cache file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/host-configs/LLNL/lassen-clang@upstream.cmake
-in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release
--- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/hdf5
+in tpls.cmake GEOSX_TPL_DIR=/usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release
+-- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/hdf5
 -- The C compiler identification is Clang 9.0.0
 -- The CXX compiler identification is Clang 9.0.0
 -- Check for working C compiler: /usr/tce/packages/clang/clang-upstream-2019.03.26/bin/clang
@@ -179,70 +179,70 @@ Leaving GeosxOptions.cmake
 -- BLAS_LIBRARIES = /usr/tcetmp/packages/essl/essl-6.2.1/lib64/libesslsmpcuda.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxlsmp.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxlfmath.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxlf90_r.so;/usr/tce/packages/cuda/cuda-10.1.243/lib64/libcublas.so;/usr/tce/packages/cuda/cuda-10.1.243/lib64/libcudart.so;/usr/tcetmp/packages/essl/essl-6.2.1/lib64/liblapackforessl.so;/usr/tcetmp/packages/essl/essl-6.2.1/lib64/liblapackforessl_.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxl.a
 -- LAPACK_LIBRARIES = /usr/tcetmp/packages/essl/essl-6.2.1/lib64/libesslsmpcuda.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxlsmp.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxlfmath.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxlf90_r.so;/usr/tce/packages/cuda/cuda-10.1.243/lib64/libcublas.so;/usr/tce/packages/cuda/cuda-10.1.243/lib64/libcudart.so;/usr/tcetmp/packages/essl/essl-6.2.1/lib64/liblapackforessl.so;/usr/tcetmp/packages/essl/essl-6.2.1/lib64/liblapackforessl_.so;/usr/tce/packages/xl/xl-beta-2019.06.20/alllibs/libxl.a
 -- Using up IBM ESSL
--- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/hdf5
+-- HDF5_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/hdf5
 -- HDF5: Using hdf5 compiler wrapper to determine C configuration
--- Found HDF5: /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5/lib/libhdf5.a;/usr/lib64/libz.so;/usr/lib64/libdl.so;/usr/lib64/libm.so (found version "1.12.1")  
--- CONDUIT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/conduit
+-- Found HDF5: /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5/lib/libhdf5.a;/usr/lib64/libz.so;/usr/lib64/libdl.so;/usr/lib64/libm.so (found version "1.12.1")  
+-- CONDUIT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/conduit
 -- Conduit was built with HDF5 Support
--- Looking for HDF5 at: /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5
--- HDF5_DIR_REAL=/usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5
+-- Looking for HDF5 at: /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5
+-- HDF5_DIR_REAL=/usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5
 -- Checking that found HDF5_INCLUDE_DIRS are in HDF5_DIR
--- HDF5_INCLUDE_DIRS=/usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5/include
---  /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5/include includes HDF5_DIR (/usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5)
---  /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5/include includes HDF5_REAL_DIR ()
+-- HDF5_INCLUDE_DIRS=/usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5/include
+--  /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5/include includes HDF5_DIR (/usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5)
+--  /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5/include includes HDF5_REAL_DIR ()
 -- HDF5 is parallel:  TRUE
--- Found Conduit: /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/conduit (found version 0.8.2)
+-- Found Conduit: /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/conduit (found version 0.8.2)
 -- CONDUIT_VERSION             = 0.8.2
--- CONDUIT_INSTALL_PREFIX      = /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/conduit
--- CONDUIT_IMPORT_ROOT         = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/conduit
+-- CONDUIT_INSTALL_PREFIX      = /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/conduit
+-- CONDUIT_IMPORT_ROOT         = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/conduit
 -- CONDUIT_USE_CXX11           = TRUE
 -- CONDUIT_USE_FMT             = TRUE
--- CONDUIT_INCLUDE_DIRS        = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/conduit/include/conduit
+-- CONDUIT_INCLUDE_DIRS        = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/conduit/include/conduit
 -- CONDUIT_FORTRAN_ENABLED     = FALSE
 -- CONDUIT_PYTHON_ENABLED      = 
 -- CONDUIT_PYTHON_EXECUTABLE   = 
--- CONDUIT_PYTHON_MODULE_DIR   = /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/conduit/python-modules/
+-- CONDUIT_PYTHON_MODULE_DIR   = /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/conduit/python-modules/
 -- Conduit Relay features:
 --  CONDUIT_RELAY_WEBSERVER_ENABLED = TRUE
 --  CONDUIT_RELAY_HDF5_ENABLED      = TRUE
---  CONDUIT_HDF5_DIR                = /usr/WS1/GEOS/GEOSX/TPLs_2022-05-10/install-lassen-clang@upstream-release/hdf5
+--  CONDUIT_HDF5_DIR                = /usr/WS1/GEOS/GEOSX/TPLs_2022-05-15/install-lassen-clang@upstream-release/hdf5
 --  CONDUIT_RELAY_ADIOS_ENABLED     = FALSE
 --  CONDUIT_ADIOS_DIR               = 
 --  CONDUIT_RELAY_SILO_ENABLED      = FALSE
 --  CONDUIT_SILO_DIR                = 
 --  CONDUIT_RELAY_MPI_ENABLED       = TRUE
 -- Conduit imported targets: conduit::conduit conduit::conduit_mpi
--- SILO_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/silo
--- PUGIXML_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/pugixml
--- RAJA_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/raja
--- UMPIRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/chai
--- CHAI_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/chai
--- ADIAK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/adiak
--- CALIPER_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/caliper
+-- SILO_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/silo
+-- PUGIXML_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/pugixml
+-- RAJA_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/raja
+-- UMPIRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/chai
+-- CHAI_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/chai
+-- ADIAK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/adiak
+-- CALIPER_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/caliper
 -- Not using mathpresso.
--- METIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/metis
--- PARMETIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/parmetis
--- SUPERLU_DIST_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/superlu_dist
--- SUITESPARSE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/suitesparse
--- HYPRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/hypre
+-- METIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/metis
+-- PARMETIS_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/parmetis
+-- SUPERLU_DIST_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/superlu_dist
+-- SUITESPARSE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/suitesparse
+-- HYPRE_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/hypre
 -- Not using Trilinos
 -- Not using PETSc
--- VTK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/vtk
-CMake Warning (dev) at /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/patches/3.22/FindMPI.cmake:1220 (message):
+-- VTK_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/vtk
+CMake Warning (dev) at /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/patches/3.22/FindMPI.cmake:1220 (message):
   MPI cannot indicate that its link flags are only intended for host and not
   device usage.  Please use CMake 3.20.1+ for proper link flag specifications
   from the MPI targets.
 Call Stack (most recent call first):
-  /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/patches/3.22/FindMPI.cmake:1623 (_MPI_create_imported_target)
-  /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)
-  /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/vtk-config.cmake:150 (include)
+  /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/patches/3.22/FindMPI.cmake:1623 (_MPI_create_imported_target)
+  /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)
+  /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/vtk/lib/cmake/vtk-9.1/vtk-config.cmake:150 (include)
   cmake/thirdparty/SetupGeosxThirdParty.cmake:538 (find_package)
   cmake/CMakeBasics.cmake:49 (include)
   CMakeLists.txt:41 (include)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Found MPI: TRUE (found version "3.1") found components:  C 
--- FMT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-10/install-lassen-clang@upstream-release/fmt
+-- FMT_DIR = /usr/gapps/GEOSX/thirdPartyLibs/2022-05-15/install-lassen-clang@upstream-release/fmt
 -- Not using uncrustify.
 -- Not using doxygen.
 -- Not building pygeosx.

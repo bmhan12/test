@@ -11,7 +11,7 @@
 #ATS: testpath =  
 
 Max threads: 4
-GEOSX version 0.2.0 (HEAD, sha1: e90f6ba)
+GEOSX version 0.2.0 (HEAD, sha1: 2d059fc)
 Adding Mesh: InternalWellbore, mesh1
 Adding Solver of type SinglePhasePoromechanics, named poroSolve
 Adding Solver of type SolidMechanicsLagrangianSSLE, named lagsolve
@@ -958,9 +958,9 @@ Umpire       DEVICE::0 sum across ranks:  390.8 KB
 Umpire       DEVICE::0         rank max:  390.8 KB
 Umpire            HOST sum across ranks:  482.2 KB
 Umpire            HOST         rank max:  482.2 KB
-total time                        12.170s
-initialization time                0.077s
-run time                           7.119s
+total time                        12.249s
+initialization time                0.064s
+run time                           8.407s
 ::::::::::::::::::::
 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Drilling_01/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Drilling_01/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
