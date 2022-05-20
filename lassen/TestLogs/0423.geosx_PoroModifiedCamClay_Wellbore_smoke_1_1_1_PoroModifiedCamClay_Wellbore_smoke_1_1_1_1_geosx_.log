@@ -1,0 +1,120 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PoroModifiedCamClay_Wellbore_smoke.xml -x 1 -y 1 -z 1 -n main_run -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(PoroModifiedCamClay_Wellbore_smoke_1-1-1/PoroModifiedCamClay_Wellbore_smoke_1-1-1_1_geosx)
+#ATS: clas = ['-i', 'PoroModifiedCamClay_Wellbore_smoke.xml', '-x', '1', '-y', '1', '-z', '1', '-n', 'main_run', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1', '--suppress-move-logging']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Mesh: InternalWellbore, mesh1
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, restarts
+Adding Event: PeriodicEvent, solverApplication0
+   TableFunction: timeFunction
+Adding Solver of type SinglePhasePoromechanics, named PoromechanicsSolver
+Adding Solver of type SolidMechanics_LagrangianFEM, named mechanicsSolver
+Adding Solver of type SinglePhaseFVM, named SinglePhaseFlowSolver
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Omega from ObjectManager::Catalog.
+radial elements: { 5 }
+Radial Coordinates: { 0.1, 0.236575, 0.522539, 1.1213, 2.37499, 5 }
+Total number of nodes:60
+Total number of elems:20
+Rank 0: Total number of nodes:60
+  Omega/cb1/water is allocated with 8 quadrature points.
+  Omega/cb1/porousRock is allocated with 8 quadrature points.
+Time: 0s, dt:10s, Cycle: 0
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1/main_run_restart_000000000/rank_0000000.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 5.74e-03 ) ;     ( Rsolid, Rfluid ) = ( 5.74e-03, 2.80e-09 )
+    ( R ) = ( 5.74e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.88e-05 ) ;     ( Rsolid, Rfluid ) = ( 1.88e-05, 6.06e-11 )
+    ( R ) = ( 1.88e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.39e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.43e-10 ) ;     ( Rsolid, Rfluid ) = ( 1.43e-10, 8.20e-16 )
+    ( R ) = ( 1.43e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.85e-16 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 10s, dt:10s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.43e-10 ) ;     ( Rsolid, Rfluid ) = ( 1.43e-10, 2.81e-09 )
+    ( R ) = ( 2.82e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 1.13e-15 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.09e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 20s, dt:10s, Cycle: 2
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1/main_run_restart_000000002/rank_0000000.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 3.45e-16 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.26e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 30s, dt:10s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 6.55e-16 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.13e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 40s, dt:10s, Cycle: 4
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1/main_run_restart_000000004/rank_0000000.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 1.16e-15 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.16e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 50s, dt:10s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 9.97e-16 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.20e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 60s, dt:10s, Cycle: 6
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1/main_run_restart_000000006/rank_0000000.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.33e-16 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.92e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 70s, dt:10s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.35e-11 ) ;     ( Rsolid, Rfluid ) = ( 2.35e-11, 4.43e-16 )
+    ( R ) = ( 2.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.67e-11 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroModifiedCamClay_Wellbore_smoke_1-1-1/main_run_restart_000000008/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:  399.9 KB
+Umpire          DEVICE         rank max:  399.9 KB
+Umpire       DEVICE::0 sum across ranks:  399.9 KB
+Umpire       DEVICE::0         rank max:  399.9 KB
+Umpire            HOST sum across ranks:  485.2 KB
+Umpire            HOST         rank max:  485.2 KB
+total time                         4.219s
+initialization time                0.089s
+run time                           2.845s

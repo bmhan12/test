@@ -1,0 +1,1719 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i 4comp_2ph_1d.xml -x 1 -y 1 -z 1 -n 0to218 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_01 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(4comp_2ph_1d_01/4comp_2ph_1d_01_1_geosx)
+#ATS: clas = ['-i', '4comp_2ph_1d.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to218', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_01', '--suppress-move-logging']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Solver of type CompositionalMultiphaseFVM, named compflow
+Adding Mesh: InternalMesh, mesh1
+Adding Geometric Object: Box, source
+Adding Geometric Object: Box, sink
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, solverApplications1
+Adding Event: PeriodicEvent, solverApplications2
+Adding Event: PeriodicEvent, solverApplications3
+Adding Event: PeriodicEvent, restarts
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
+Total number of nodes:44
+Total number of elems:10
+Rank 0: Total number of nodes:44
+  Region1/block1/fluid1 is allocated with 1 quadrature points.
+  Region1/block1/rock is allocated with 1 quadrature points.
+  Region1/block1/relperm is allocated with 1 quadrature points.
+Time: 0s, dt:1000s, Cycle: 0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.07e-01 ) ;     ( R ) = ( 7.07e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.13e-03 ) ;     ( R ) = ( 5.13e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.68e-19 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.10e-08 ) ;     ( R ) = ( 2.10e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.23e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_01/0to218_restart_000000000/rank_0000000.hdf5
+Time: 1000s, dt:1000s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.49e-03 ) ;     ( R ) = ( 7.49e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.97e-07 ) ;     ( R ) = ( 5.97e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.51e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2000s, dt:1000s, Cycle: 2
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.32e-03 ) ;     ( R ) = ( 7.32e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.78e-07 ) ;     ( R ) = ( 5.78e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.94e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3000s, dt:1000s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.16e-03 ) ;     ( R ) = ( 7.16e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.58e-07 ) ;     ( R ) = ( 5.58e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.79e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4000s, dt:1000s, Cycle: 4
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.00e-03 ) ;     ( R ) = ( 7.00e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.37e-07 ) ;     ( R ) = ( 5.37e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.82e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5000s, dt:1000s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.84e-03 ) ;     ( R ) = ( 6.84e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.18e-07 ) ;     ( R ) = ( 5.18e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.62e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6000s, dt:1000s, Cycle: 6
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.69e-03 ) ;     ( R ) = ( 6.69e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.96e-07 ) ;     ( R ) = ( 4.96e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.68e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7000s, dt:1000s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.54e-03 ) ;     ( R ) = ( 6.54e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.79e-07 ) ;     ( R ) = ( 4.79e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8000s, dt:1000s, Cycle: 8
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.40e-03 ) ;     ( R ) = ( 6.40e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.62e-07 ) ;     ( R ) = ( 4.62e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.06e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9000s, dt:1000s, Cycle: 9
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.26e-03 ) ;     ( R ) = ( 6.26e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.43e-07 ) ;     ( R ) = ( 4.43e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.93e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 10000s, dt:10000s, Cycle: 10
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.12e-02 ) ;     ( R ) = ( 6.12e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.67e-05 ) ;     ( R ) = ( 8.67e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.69e-05 ) ;     ( R ) = ( 2.69e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.55e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 9.45e-11 ) ;     ( R ) = ( 9.45e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.56e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 20000s, dt:10000s, Cycle: 11
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.14e-02 ) ;     ( R ) = ( 4.14e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.51e-05 ) ;     ( R ) = ( 9.51e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.38e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.52e-08 ) ;     ( R ) = ( 1.52e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.74e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 30000s, dt:10000s, Cycle: 12
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.84e-02 ) ;     ( R ) = ( 2.84e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.06e-05 ) ;     ( R ) = ( 1.06e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.23e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 8.30e-09 ) ;     ( R ) = ( 8.30e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.57e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 40000s, dt:10000s, Cycle: 13
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.48e-02 ) ;     ( R ) = ( 2.48e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.24e-05 ) ;     ( R ) = ( 1.24e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.81e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.62e-09 ) ;     ( R ) = ( 4.62e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.26e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 50000s, dt:10000s, Cycle: 14
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.26e-02 ) ;     ( R ) = ( 2.26e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.62e-05 ) ;     ( R ) = ( 1.62e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.97e-06 ) ;     ( R ) = ( 4.97e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.12e-13 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.86e-11 ) ;     ( R ) = ( 3.86e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.66e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 60000s, dt:10000s, Cycle: 15
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.95e-02 ) ;     ( R ) = ( 1.95e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.76e-06 ) ;     ( R ) = ( 7.76e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.62e-09 ) ;     ( R ) = ( 1.62e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.53e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 70000s, dt:10000s, Cycle: 16
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.77e-02 ) ;     ( R ) = ( 1.77e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.39e-06 ) ;     ( R ) = ( 4.39e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.80e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.09e-09 ) ;     ( R ) = ( 1.09e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 80000s, dt:10000s, Cycle: 17
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.66e-02 ) ;     ( R ) = ( 1.66e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.47e-06 ) ;     ( R ) = ( 3.47e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.62e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 7.17e-10 ) ;     ( R ) = ( 7.17e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.67e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 90000s, dt:10000s, Cycle: 18
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.56e-02 ) ;     ( R ) = ( 1.56e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.90e-06 ) ;     ( R ) = ( 2.90e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.74e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.76e-10 ) ;     ( R ) = ( 4.76e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.78e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 100000s, dt:100000s, Cycle: 19
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.49e-01 ) ;     ( R ) = ( 1.49e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.01e-02 ) ;     ( R ) = ( 1.01e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.83e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.25e-05 ) ;     ( R ) = ( 6.25e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.37e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.80e-08 ) ;     ( R ) = ( 1.80e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.05e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 200000s, dt:100000s, Cycle: 20
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.00e-01 ) ;     ( R ) = ( 1.00e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.34e-03 ) ;     ( R ) = ( 1.34e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.99e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.60e-06 ) ;     ( R ) = ( 1.60e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 9.69e-12 ) ;     ( R ) = ( 9.69e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 300000s, dt:100000s, Cycle: 21
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.54e-02 ) ;     ( R ) = ( 7.54e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.64e-04 ) ;     ( R ) = ( 5.64e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.23e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.55e-07 ) ;     ( R ) = ( 1.55e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.32e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 400000s, dt:100000s, Cycle: 22
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.24e-02 ) ;     ( R ) = ( 6.24e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.68e-04 ) ;     ( R ) = ( 2.68e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.61e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.70e-08 ) ;     ( R ) = ( 3.70e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.57e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 500000s, dt:100000s, Cycle: 23
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.50e-02 ) ;     ( R ) = ( 5.50e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.43e-04 ) ;     ( R ) = ( 1.43e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.39e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.05e-08 ) ;     ( R ) = ( 1.05e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.97e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 600000s, dt:100000s, Cycle: 24
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.04e-02 ) ;     ( R ) = ( 5.04e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.24e-05 ) ;     ( R ) = ( 8.24e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.46e-09 ) ;     ( R ) = ( 3.46e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.49e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 700000s, dt:100000s, Cycle: 25
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.71e-02 ) ;     ( R ) = ( 4.71e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.12e-05 ) ;     ( R ) = ( 5.12e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.04e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.35e-09 ) ;     ( R ) = ( 1.35e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.85e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 800000s, dt:100000s, Cycle: 26
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.46e-02 ) ;     ( R ) = ( 4.46e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.38e-05 ) ;     ( R ) = ( 3.38e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.69e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.46e-10 ) ;     ( R ) = ( 6.46e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.01e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 900000s, dt:100000s, Cycle: 27
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.26e-02 ) ;     ( R ) = ( 4.26e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.35e-05 ) ;     ( R ) = ( 2.35e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.89e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.75e-10 ) ;     ( R ) = ( 3.75e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.43e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1e+06s, dt:100000s, Cycle: 28
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.10e-02 ) ;     ( R ) = ( 4.10e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.69e-05 ) ;     ( R ) = ( 1.69e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.11e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.41e-10 ) ;     ( R ) = ( 2.41e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.55e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.1e+06s, dt:100000s, Cycle: 29
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.96e-02 ) ;     ( R ) = ( 3.96e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.26e-05 ) ;     ( R ) = ( 1.26e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.58e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.56e-10 ) ;     ( R ) = ( 1.56e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.2e+06s, dt:100000s, Cycle: 30
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.84e-02 ) ;     ( R ) = ( 3.84e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.57e-06 ) ;     ( R ) = ( 9.57e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.79e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.78e-11 ) ;     ( R ) = ( 9.78e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.09e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.3e+06s, dt:100000s, Cycle: 31
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.73e-02 ) ;     ( R ) = ( 3.73e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.08e-04 ) ;     ( R ) = ( 3.08e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.77e-08 ) ;     ( R ) = ( 1.77e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.42e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.4e+06s, dt:100000s, Cycle: 32
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.64e-02 ) ;     ( R ) = ( 3.64e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.41e-06 ) ;     ( R ) = ( 5.41e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.31e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.22e-11 ) ;     ( R ) = ( 5.22e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.69e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.5e+06s, dt:100000s, Cycle: 33
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.56e-02 ) ;     ( R ) = ( 3.56e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.58e-06 ) ;     ( R ) = ( 4.58e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.81e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.73e-11 ) ;     ( R ) = ( 6.73e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.63e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.6e+06s, dt:100000s, Cycle: 34
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.48e-02 ) ;     ( R ) = ( 3.48e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.87e-06 ) ;     ( R ) = ( 3.87e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.87e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 8.40e-11 ) ;     ( R ) = ( 8.40e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.87e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.7e+06s, dt:100000s, Cycle: 35
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.41e-02 ) ;     ( R ) = ( 3.41e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.25e-06 ) ;     ( R ) = ( 3.25e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.12e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.88e-11 ) ;     ( R ) = ( 9.88e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.64e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.8e+06s, dt:100000s, Cycle: 36
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.34e-02 ) ;     ( R ) = ( 3.34e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.74e-06 ) ;     ( R ) = ( 2.74e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.91e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.10e-10 ) ;     ( R ) = ( 1.10e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.92e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.9e+06s, dt:100000s, Cycle: 37
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.28e-02 ) ;     ( R ) = ( 3.28e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.33e-06 ) ;     ( R ) = ( 2.33e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.83e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.18e-10 ) ;     ( R ) = ( 1.18e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.01e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2e+06s, dt:100000s, Cycle: 38
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.22e-02 ) ;     ( R ) = ( 3.22e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.01e-06 ) ;     ( R ) = ( 2.01e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.25e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.23e-10 ) ;     ( R ) = ( 1.23e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.77e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.1e+06s, dt:100000s, Cycle: 39
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.17e-02 ) ;     ( R ) = ( 3.17e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.76e-06 ) ;     ( R ) = ( 1.76e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.24e-10 ) ;     ( R ) = ( 1.24e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.27e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.2e+06s, dt:100000s, Cycle: 40
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.12e-02 ) ;     ( R ) = ( 3.12e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.56e-06 ) ;     ( R ) = ( 1.56e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.23e-10 ) ;     ( R ) = ( 1.23e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.04e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.3e+06s, dt:100000s, Cycle: 41
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.07e-02 ) ;     ( R ) = ( 3.07e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.40e-06 ) ;     ( R ) = ( 1.40e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.81e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.21e-10 ) ;     ( R ) = ( 1.21e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.01e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.4e+06s, dt:100000s, Cycle: 42
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.03e-02 ) ;     ( R ) = ( 3.03e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.28e-06 ) ;     ( R ) = ( 1.28e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.34e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.17e-10 ) ;     ( R ) = ( 1.17e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.5e+06s, dt:100000s, Cycle: 43
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.99e-02 ) ;     ( R ) = ( 2.99e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.18e-06 ) ;     ( R ) = ( 1.18e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.13e-10 ) ;     ( R ) = ( 1.13e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.03e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.6e+06s, dt:100000s, Cycle: 44
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.95e-02 ) ;     ( R ) = ( 2.95e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.10e-06 ) ;     ( R ) = ( 1.10e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.51e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.07e-10 ) ;     ( R ) = ( 1.07e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.90e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.7e+06s, dt:100000s, Cycle: 45
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.91e-02 ) ;     ( R ) = ( 2.91e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.04e-06 ) ;     ( R ) = ( 1.04e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.16e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.01e-10 ) ;     ( R ) = ( 1.01e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.8e+06s, dt:100000s, Cycle: 46
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.88e-02 ) ;     ( R ) = ( 2.88e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.87e-07 ) ;     ( R ) = ( 9.87e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.53e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 2.9e+06s, dt:100000s, Cycle: 47
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.84e-02 ) ;     ( R ) = ( 2.84e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.85e-07 ) ;     ( R ) = ( 9.85e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.73e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3e+06s, dt:100000s, Cycle: 48
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.81e-02 ) ;     ( R ) = ( 2.81e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.94e-07 ) ;     ( R ) = ( 8.94e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.1e+06s, dt:100000s, Cycle: 49
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.78e-02 ) ;     ( R ) = ( 2.78e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.51e-07 ) ;     ( R ) = ( 8.51e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.35e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.2e+06s, dt:100000s, Cycle: 50
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.75e-02 ) ;     ( R ) = ( 2.75e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.19e-07 ) ;     ( R ) = ( 8.19e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.3e+06s, dt:100000s, Cycle: 51
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.73e-02 ) ;     ( R ) = ( 2.73e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.91e-07 ) ;     ( R ) = ( 7.91e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.50e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.4e+06s, dt:100000s, Cycle: 52
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.70e-02 ) ;     ( R ) = ( 2.70e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.63e-07 ) ;     ( R ) = ( 7.63e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.68e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.5e+06s, dt:100000s, Cycle: 53
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.67e-02 ) ;     ( R ) = ( 2.67e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.39e-07 ) ;     ( R ) = ( 7.39e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.6e+06s, dt:100000s, Cycle: 54
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.65e-02 ) ;     ( R ) = ( 2.65e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.17e-07 ) ;     ( R ) = ( 7.17e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.16e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.7e+06s, dt:100000s, Cycle: 55
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.62e-02 ) ;     ( R ) = ( 2.62e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.92e-07 ) ;     ( R ) = ( 6.92e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.90e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.8e+06s, dt:100000s, Cycle: 56
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.60e-02 ) ;     ( R ) = ( 2.60e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.75e-07 ) ;     ( R ) = ( 6.75e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.46e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 3.9e+06s, dt:100000s, Cycle: 57
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.58e-02 ) ;     ( R ) = ( 2.58e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.57e-07 ) ;     ( R ) = ( 6.57e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.01e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4e+06s, dt:100000s, Cycle: 58
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.56e-02 ) ;     ( R ) = ( 2.56e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.39e-07 ) ;     ( R ) = ( 6.39e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.77e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.1e+06s, dt:100000s, Cycle: 59
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.54e-02 ) ;     ( R ) = ( 2.54e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.24e-07 ) ;     ( R ) = ( 6.24e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.25e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.2e+06s, dt:100000s, Cycle: 60
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.52e-02 ) ;     ( R ) = ( 2.52e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.11e-07 ) ;     ( R ) = ( 6.11e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.3e+06s, dt:100000s, Cycle: 61
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.50e-02 ) ;     ( R ) = ( 2.50e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.01e-07 ) ;     ( R ) = ( 6.01e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.77e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.4e+06s, dt:100000s, Cycle: 62
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.48e-02 ) ;     ( R ) = ( 2.48e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.93e-07 ) ;     ( R ) = ( 5.93e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.99e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.5e+06s, dt:100000s, Cycle: 63
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.46e-02 ) ;     ( R ) = ( 2.46e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.81e-07 ) ;     ( R ) = ( 5.81e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.6e+06s, dt:100000s, Cycle: 64
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.45e-02 ) ;     ( R ) = ( 2.45e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.76e-07 ) ;     ( R ) = ( 5.76e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.47e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.7e+06s, dt:100000s, Cycle: 65
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.43e-02 ) ;     ( R ) = ( 2.43e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.73e-07 ) ;     ( R ) = ( 5.73e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.95e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.8e+06s, dt:100000s, Cycle: 66
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.41e-02 ) ;     ( R ) = ( 2.41e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.70e-07 ) ;     ( R ) = ( 5.70e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.82e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 4.9e+06s, dt:100000s, Cycle: 67
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.40e-02 ) ;     ( R ) = ( 2.40e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.68e-07 ) ;     ( R ) = ( 5.68e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.58e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5e+06s, dt:100000s, Cycle: 68
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.38e-02 ) ;     ( R ) = ( 2.38e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.70e-07 ) ;     ( R ) = ( 5.70e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.39e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.1e+06s, dt:100000s, Cycle: 69
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.37e-02 ) ;     ( R ) = ( 2.37e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.75e-07 ) ;     ( R ) = ( 5.75e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.26e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.2e+06s, dt:100000s, Cycle: 70
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.35e-02 ) ;     ( R ) = ( 2.35e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.79e-07 ) ;     ( R ) = ( 5.79e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.22e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.3e+06s, dt:100000s, Cycle: 71
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.34e-02 ) ;     ( R ) = ( 2.34e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.85e-07 ) ;     ( R ) = ( 5.85e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.85e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.4e+06s, dt:100000s, Cycle: 72
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.32e-02 ) ;     ( R ) = ( 2.32e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.91e-07 ) ;     ( R ) = ( 5.91e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.57e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.5e+06s, dt:100000s, Cycle: 73
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.31e-02 ) ;     ( R ) = ( 2.31e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.01e-07 ) ;     ( R ) = ( 6.01e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.22e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.6e+06s, dt:100000s, Cycle: 74
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.30e-02 ) ;     ( R ) = ( 2.30e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.10e-07 ) ;     ( R ) = ( 6.10e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.04e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.7e+06s, dt:100000s, Cycle: 75
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.28e-02 ) ;     ( R ) = ( 2.28e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.22e-07 ) ;     ( R ) = ( 6.22e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.57e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.8e+06s, dt:100000s, Cycle: 76
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.27e-02 ) ;     ( R ) = ( 2.27e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.34e-07 ) ;     ( R ) = ( 6.34e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 5.9e+06s, dt:100000s, Cycle: 77
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.26e-02 ) ;     ( R ) = ( 2.26e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.45e-07 ) ;     ( R ) = ( 6.45e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.87e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6e+06s, dt:100000s, Cycle: 78
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.25e-02 ) ;     ( R ) = ( 2.25e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.58e-07 ) ;     ( R ) = ( 6.58e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.1e+06s, dt:100000s, Cycle: 79
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.23e-02 ) ;     ( R ) = ( 2.23e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.70e-07 ) ;     ( R ) = ( 6.70e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.91e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.2e+06s, dt:100000s, Cycle: 80
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.22e-02 ) ;     ( R ) = ( 2.22e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.82e-07 ) ;     ( R ) = ( 6.82e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.3e+06s, dt:100000s, Cycle: 81
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.21e-02 ) ;     ( R ) = ( 2.21e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.96e-07 ) ;     ( R ) = ( 6.96e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.26e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.4e+06s, dt:100000s, Cycle: 82
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.20e-02 ) ;     ( R ) = ( 2.20e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.08e-07 ) ;     ( R ) = ( 7.08e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.11e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.5e+06s, dt:100000s, Cycle: 83
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.19e-02 ) ;     ( R ) = ( 2.19e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.21e-07 ) ;     ( R ) = ( 7.21e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.11e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.6e+06s, dt:100000s, Cycle: 84
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.18e-02 ) ;     ( R ) = ( 2.18e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.14e-04 ) ;     ( R ) = ( 1.14e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.29e-09 ) ;     ( R ) = ( 6.29e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.06e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.7e+06s, dt:100000s, Cycle: 85
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.17e-02 ) ;     ( R ) = ( 2.17e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.31e-07 ) ;     ( R ) = ( 7.31e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.71e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.8e+06s, dt:100000s, Cycle: 86
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.16e-02 ) ;     ( R ) = ( 2.16e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.08e-07 ) ;     ( R ) = ( 4.08e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 6.9e+06s, dt:100000s, Cycle: 87
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.15e-02 ) ;     ( R ) = ( 2.15e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.76e-07 ) ;     ( R ) = ( 4.76e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7e+06s, dt:100000s, Cycle: 88
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.14e-02 ) ;     ( R ) = ( 2.14e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.09e-07 ) ;     ( R ) = ( 5.09e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.34e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.1e+06s, dt:100000s, Cycle: 89
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.13e-02 ) ;     ( R ) = ( 2.13e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.23e-07 ) ;     ( R ) = ( 5.23e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.27e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.2e+06s, dt:100000s, Cycle: 90
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.12e-02 ) ;     ( R ) = ( 2.12e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.28e-07 ) ;     ( R ) = ( 5.28e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.07e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.3e+06s, dt:100000s, Cycle: 91
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.11e-02 ) ;     ( R ) = ( 2.11e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.28e-07 ) ;     ( R ) = ( 5.28e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.33e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.4e+06s, dt:100000s, Cycle: 92
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.10e-02 ) ;     ( R ) = ( 2.10e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.27e-07 ) ;     ( R ) = ( 5.27e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.05e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.5e+06s, dt:100000s, Cycle: 93
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.09e-02 ) ;     ( R ) = ( 2.09e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.26e-07 ) ;     ( R ) = ( 5.26e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.10e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.6e+06s, dt:100000s, Cycle: 94
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.08e-02 ) ;     ( R ) = ( 2.08e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.25e-07 ) ;     ( R ) = ( 5.25e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.7e+06s, dt:100000s, Cycle: 95
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.07e-02 ) ;     ( R ) = ( 2.07e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.23e-07 ) ;     ( R ) = ( 5.23e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.00e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.8e+06s, dt:100000s, Cycle: 96
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.06e-02 ) ;     ( R ) = ( 2.06e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.22e-07 ) ;     ( R ) = ( 5.22e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.22e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 7.9e+06s, dt:100000s, Cycle: 97
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.05e-02 ) ;     ( R ) = ( 2.05e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.22e-07 ) ;     ( R ) = ( 5.22e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.57e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8e+06s, dt:100000s, Cycle: 98
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.04e-02 ) ;     ( R ) = ( 2.04e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.22e-07 ) ;     ( R ) = ( 5.22e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.01e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.1e+06s, dt:100000s, Cycle: 99
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.03e-02 ) ;     ( R ) = ( 2.03e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.24e-07 ) ;     ( R ) = ( 5.24e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.2e+06s, dt:100000s, Cycle: 100
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.02e-02 ) ;     ( R ) = ( 2.02e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.27e-07 ) ;     ( R ) = ( 5.27e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.97e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.3e+06s, dt:100000s, Cycle: 101
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.01e-02 ) ;     ( R ) = ( 2.01e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.30e-07 ) ;     ( R ) = ( 5.30e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.74e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.4e+06s, dt:100000s, Cycle: 102
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.00e-02 ) ;     ( R ) = ( 2.00e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.35e-07 ) ;     ( R ) = ( 5.35e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.19e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.5e+06s, dt:100000s, Cycle: 103
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.99e-02 ) ;     ( R ) = ( 1.99e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.42e-07 ) ;     ( R ) = ( 5.42e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.6e+06s, dt:100000s, Cycle: 104
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.99e-02 ) ;     ( R ) = ( 1.99e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.79e-06 ) ;     ( R ) = ( 1.79e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.24e-16 ) ; 
+WARNING: Rachford-Rice Newton reached max number of iterations
+WARNING: Rachford-Rice Newton reached max number of iterations
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.33e-10 ) ;     ( R ) = ( 3.33e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.15e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.7e+06s, dt:100000s, Cycle: 105
+WARNING: Rachford-Rice Newton reached max number of iterations
+WARNING: Rachford-Rice Newton reached max number of iterations
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.98e-02 ) ;     ( R ) = ( 1.98e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.03e-06 ) ;     ( R ) = ( 1.03e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.62e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.45e-12 ) ;     ( R ) = ( 3.45e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.64e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.8e+06s, dt:100000s, Cycle: 106
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.97e-02 ) ;     ( R ) = ( 1.97e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.84e-07 ) ;     ( R ) = ( 5.84e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.00e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 8.9e+06s, dt:100000s, Cycle: 107
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.96e-02 ) ;     ( R ) = ( 1.96e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.75e-07 ) ;     ( R ) = ( 6.75e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.07e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9e+06s, dt:100000s, Cycle: 108
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.95e-02 ) ;     ( R ) = ( 1.95e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.59e-07 ) ;     ( R ) = ( 6.59e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.48e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.1e+06s, dt:100000s, Cycle: 109
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.94e-02 ) ;     ( R ) = ( 1.94e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.58e-07 ) ;     ( R ) = ( 6.58e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.00e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.2e+06s, dt:100000s, Cycle: 110
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.93e-02 ) ;     ( R ) = ( 1.93e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.56e-07 ) ;     ( R ) = ( 6.56e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.48e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.3e+06s, dt:100000s, Cycle: 111
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.92e-02 ) ;     ( R ) = ( 1.92e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.59e-07 ) ;     ( R ) = ( 6.59e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.85e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.4e+06s, dt:100000s, Cycle: 112
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.91e-02 ) ;     ( R ) = ( 1.91e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.66e-07 ) ;     ( R ) = ( 6.66e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.05e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.5e+06s, dt:100000s, Cycle: 113
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.91e-02 ) ;     ( R ) = ( 1.91e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.75e-07 ) ;     ( R ) = ( 6.75e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.31e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.6e+06s, dt:100000s, Cycle: 114
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.90e-02 ) ;     ( R ) = ( 1.90e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.86e-07 ) ;     ( R ) = ( 6.86e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.13e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.7e+06s, dt:100000s, Cycle: 115
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.89e-02 ) ;     ( R ) = ( 1.89e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.99e-07 ) ;     ( R ) = ( 6.99e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.44e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.8e+06s, dt:100000s, Cycle: 116
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.88e-02 ) ;     ( R ) = ( 1.88e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.13e-07 ) ;     ( R ) = ( 7.13e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 9.9e+06s, dt:100000s, Cycle: 117
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.87e-02 ) ;     ( R ) = ( 1.87e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.27e-07 ) ;     ( R ) = ( 7.27e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1e+07s, dt:100000s, Cycle: 118
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.86e-02 ) ;     ( R ) = ( 1.86e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.41e-06 ) ;     ( R ) = ( 8.41e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.99e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.81e-09 ) ;     ( R ) = ( 9.81e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.76e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_01/0to218_restart_000000118/rank_0000000.hdf5
+Time: 1.01e+07s, dt:100000s, Cycle: 119
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.85e-02 ) ;     ( R ) = ( 1.85e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.08e-06 ) ;     ( R ) = ( 1.08e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.74e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.66e-12 ) ;     ( R ) = ( 4.66e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.83e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.02e+07s, dt:100000s, Cycle: 120
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.84e-02 ) ;     ( R ) = ( 1.84e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.68e-07 ) ;     ( R ) = ( 8.68e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.03e+07s, dt:100000s, Cycle: 121
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.83e-02 ) ;     ( R ) = ( 1.83e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.51e-06 ) ;     ( R ) = ( 9.51e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.81e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.12e-08 ) ;     ( R ) = ( 1.12e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.70e-14 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.04e+07s, dt:100000s, Cycle: 122
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.82e-02 ) ;     ( R ) = ( 1.82e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.49e-06 ) ;     ( R ) = ( 1.49e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.80e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.47e-12 ) ;     ( R ) = ( 9.47e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-15 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.05e+07s, dt:100000s, Cycle: 123
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.81e-02 ) ;     ( R ) = ( 1.81e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.50e-07 ) ;     ( R ) = ( 8.50e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.57e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.06e+07s, dt:100000s, Cycle: 124
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.80e-02 ) ;     ( R ) = ( 1.80e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.82e-07 ) ;     ( R ) = ( 6.82e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.53e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.07e+07s, dt:100000s, Cycle: 125
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.79e-02 ) ;     ( R ) = ( 1.79e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.89e-07 ) ;     ( R ) = ( 5.89e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.08e+07s, dt:100000s, Cycle: 126
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.78e-02 ) ;     ( R ) = ( 1.78e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.55e-07 ) ;     ( R ) = ( 5.55e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.17e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.09e+07s, dt:100000s, Cycle: 127
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.77e-02 ) ;     ( R ) = ( 1.77e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.48e-07 ) ;     ( R ) = ( 5.48e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.1e+07s, dt:100000s, Cycle: 128
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.76e-02 ) ;     ( R ) = ( 1.76e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.54e-07 ) ;     ( R ) = ( 5.54e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.46e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.11e+07s, dt:100000s, Cycle: 129
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.75e-02 ) ;     ( R ) = ( 1.75e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.63e-07 ) ;     ( R ) = ( 5.63e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.58e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.12e+07s, dt:100000s, Cycle: 130
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.73e-02 ) ;     ( R ) = ( 1.73e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.72e-07 ) ;     ( R ) = ( 5.72e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.13e+07s, dt:100000s, Cycle: 131
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.72e-02 ) ;     ( R ) = ( 1.72e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.80e-07 ) ;     ( R ) = ( 5.80e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.14e+07s, dt:100000s, Cycle: 132
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.71e-02 ) ;     ( R ) = ( 1.71e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.85e-07 ) ;     ( R ) = ( 5.85e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.44e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.15e+07s, dt:100000s, Cycle: 133
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.70e-02 ) ;     ( R ) = ( 1.70e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.88e-07 ) ;     ( R ) = ( 5.88e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.12e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.16e+07s, dt:100000s, Cycle: 134
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.69e-02 ) ;     ( R ) = ( 1.69e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.89e-07 ) ;     ( R ) = ( 5.89e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.04e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.17e+07s, dt:100000s, Cycle: 135
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.67e-02 ) ;     ( R ) = ( 1.67e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.90e-07 ) ;     ( R ) = ( 5.90e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.64e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.18e+07s, dt:100000s, Cycle: 136
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.66e-02 ) ;     ( R ) = ( 1.66e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.88e-07 ) ;     ( R ) = ( 5.88e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.19e+07s, dt:100000s, Cycle: 137
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.65e-02 ) ;     ( R ) = ( 1.65e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.85e-07 ) ;     ( R ) = ( 5.85e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.90e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.2e+07s, dt:100000s, Cycle: 138
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.64e-02 ) ;     ( R ) = ( 1.64e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.82e-07 ) ;     ( R ) = ( 5.82e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.80e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.21e+07s, dt:100000s, Cycle: 139
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.63e-02 ) ;     ( R ) = ( 1.63e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.78e-07 ) ;     ( R ) = ( 5.78e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.12e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.22e+07s, dt:100000s, Cycle: 140
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.61e-02 ) ;     ( R ) = ( 1.61e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.73e-07 ) ;     ( R ) = ( 5.73e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.94e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.23e+07s, dt:100000s, Cycle: 141
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.60e-02 ) ;     ( R ) = ( 1.60e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.68e-07 ) ;     ( R ) = ( 5.68e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.16e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.24e+07s, dt:100000s, Cycle: 142
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.59e-02 ) ;     ( R ) = ( 1.59e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.62e-07 ) ;     ( R ) = ( 5.62e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.87e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.25e+07s, dt:100000s, Cycle: 143
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.58e-02 ) ;     ( R ) = ( 1.58e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.57e-07 ) ;     ( R ) = ( 5.57e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.22e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.26e+07s, dt:100000s, Cycle: 144
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.56e-02 ) ;     ( R ) = ( 1.56e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.51e-07 ) ;     ( R ) = ( 5.51e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.79e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.27e+07s, dt:100000s, Cycle: 145
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.55e-02 ) ;     ( R ) = ( 1.55e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.45e-07 ) ;     ( R ) = ( 5.45e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.75e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.28e+07s, dt:100000s, Cycle: 146
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.54e-02 ) ;     ( R ) = ( 1.54e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.39e-07 ) ;     ( R ) = ( 5.39e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.73e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.29e+07s, dt:100000s, Cycle: 147
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.53e-02 ) ;     ( R ) = ( 1.53e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.33e-07 ) ;     ( R ) = ( 5.33e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.71e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.3e+07s, dt:100000s, Cycle: 148
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.51e-02 ) ;     ( R ) = ( 1.51e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.26e-07 ) ;     ( R ) = ( 5.26e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.01e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.31e+07s, dt:100000s, Cycle: 149
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.50e-02 ) ;     ( R ) = ( 1.50e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.20e-07 ) ;     ( R ) = ( 5.20e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.92e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.32e+07s, dt:100000s, Cycle: 150
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.49e-02 ) ;     ( R ) = ( 1.49e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.13e-07 ) ;     ( R ) = ( 5.13e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.43e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.33e+07s, dt:100000s, Cycle: 151
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.48e-02 ) ;     ( R ) = ( 1.48e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.07e-07 ) ;     ( R ) = ( 5.07e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.46e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.34e+07s, dt:100000s, Cycle: 152
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.46e-02 ) ;     ( R ) = ( 1.46e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.00e-07 ) ;     ( R ) = ( 5.00e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.11e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.35e+07s, dt:100000s, Cycle: 153
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.45e-02 ) ;     ( R ) = ( 1.45e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.94e-07 ) ;     ( R ) = ( 4.94e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.65e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.36e+07s, dt:100000s, Cycle: 154
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.44e-02 ) ;     ( R ) = ( 1.44e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.87e-07 ) ;     ( R ) = ( 4.87e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.06e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.37e+07s, dt:100000s, Cycle: 155
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.42e-02 ) ;     ( R ) = ( 1.42e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.80e-07 ) ;     ( R ) = ( 4.80e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.59e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.38e+07s, dt:100000s, Cycle: 156
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.41e-02 ) ;     ( R ) = ( 1.41e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.73e-07 ) ;     ( R ) = ( 4.73e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.89e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.39e+07s, dt:100000s, Cycle: 157
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.40e-02 ) ;     ( R ) = ( 1.40e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.67e-07 ) ;     ( R ) = ( 4.67e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.4e+07s, dt:100000s, Cycle: 158
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.38e-02 ) ;     ( R ) = ( 1.38e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.60e-07 ) ;     ( R ) = ( 4.60e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.26e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.41e+07s, dt:100000s, Cycle: 159
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.37e-02 ) ;     ( R ) = ( 1.37e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.53e-07 ) ;     ( R ) = ( 4.53e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.81e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.42e+07s, dt:100000s, Cycle: 160
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.36e-02 ) ;     ( R ) = ( 1.36e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.46e-07 ) ;     ( R ) = ( 4.46e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.97e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.43e+07s, dt:100000s, Cycle: 161
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.35e-02 ) ;     ( R ) = ( 1.35e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.40e-07 ) ;     ( R ) = ( 4.40e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.52e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.44e+07s, dt:100000s, Cycle: 162
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.33e-02 ) ;     ( R ) = ( 1.33e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.33e-07 ) ;     ( R ) = ( 4.33e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.33e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.45e+07s, dt:100000s, Cycle: 163
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.32e-02 ) ;     ( R ) = ( 1.32e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.27e-07 ) ;     ( R ) = ( 4.27e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.15e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.46e+07s, dt:100000s, Cycle: 164
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.31e-02 ) ;     ( R ) = ( 1.31e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.20e-07 ) ;     ( R ) = ( 4.20e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.46e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.47e+07s, dt:100000s, Cycle: 165
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.29e-02 ) ;     ( R ) = ( 1.29e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.14e-07 ) ;     ( R ) = ( 4.14e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.15e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.48e+07s, dt:100000s, Cycle: 166
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.28e-02 ) ;     ( R ) = ( 1.28e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.07e-07 ) ;     ( R ) = ( 4.07e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.34e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.49e+07s, dt:100000s, Cycle: 167
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.27e-02 ) ;     ( R ) = ( 1.27e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.01e-07 ) ;     ( R ) = ( 4.01e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.5e+07s, dt:100000s, Cycle: 168
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.25e-02 ) ;     ( R ) = ( 1.25e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.94e-07 ) ;     ( R ) = ( 3.94e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.89e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.51e+07s, dt:100000s, Cycle: 169
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.24e-02 ) ;     ( R ) = ( 1.24e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.88e-07 ) ;     ( R ) = ( 3.88e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.52e+07s, dt:100000s, Cycle: 170
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.23e-02 ) ;     ( R ) = ( 1.23e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.82e-07 ) ;     ( R ) = ( 3.82e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.80e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.53e+07s, dt:100000s, Cycle: 171
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.21e-02 ) ;     ( R ) = ( 1.21e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.76e-07 ) ;     ( R ) = ( 3.76e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.03e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.54e+07s, dt:100000s, Cycle: 172
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.20e-02 ) ;     ( R ) = ( 1.20e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.70e-07 ) ;     ( R ) = ( 3.70e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.55e+07s, dt:100000s, Cycle: 173
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.19e-02 ) ;     ( R ) = ( 1.19e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.64e-07 ) ;     ( R ) = ( 3.64e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.64e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.56e+07s, dt:100000s, Cycle: 174
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.18e-02 ) ;     ( R ) = ( 1.18e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.58e-07 ) ;     ( R ) = ( 3.58e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.57e+07s, dt:100000s, Cycle: 175
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.16e-02 ) ;     ( R ) = ( 1.16e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.52e-07 ) ;     ( R ) = ( 3.52e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.20e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.58e+07s, dt:100000s, Cycle: 176
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.15e-02 ) ;     ( R ) = ( 1.15e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.47e-07 ) ;     ( R ) = ( 3.47e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.29e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.59e+07s, dt:100000s, Cycle: 177
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.14e-02 ) ;     ( R ) = ( 1.14e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.41e-07 ) ;     ( R ) = ( 3.41e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.79e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.6e+07s, dt:100000s, Cycle: 178
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.12e-02 ) ;     ( R ) = ( 1.12e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.35e-07 ) ;     ( R ) = ( 3.35e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.23e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.61e+07s, dt:100000s, Cycle: 179
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.11e-02 ) ;     ( R ) = ( 1.11e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.30e-07 ) ;     ( R ) = ( 3.30e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.70e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.62e+07s, dt:100000s, Cycle: 180
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.10e-02 ) ;     ( R ) = ( 1.10e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.24e-07 ) ;     ( R ) = ( 3.24e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.63e+07s, dt:100000s, Cycle: 181
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.09e-02 ) ;     ( R ) = ( 1.09e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.19e-07 ) ;     ( R ) = ( 3.19e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.45e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.64e+07s, dt:100000s, Cycle: 182
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.07e-02 ) ;     ( R ) = ( 1.07e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.14e-07 ) ;     ( R ) = ( 3.14e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.41e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.65e+07s, dt:100000s, Cycle: 183
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.06e-02 ) ;     ( R ) = ( 1.06e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.09e-07 ) ;     ( R ) = ( 3.09e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.16e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.66e+07s, dt:100000s, Cycle: 184
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.05e-02 ) ;     ( R ) = ( 1.05e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.04e-07 ) ;     ( R ) = ( 3.04e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.23e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.67e+07s, dt:100000s, Cycle: 185
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.04e-02 ) ;     ( R ) = ( 1.04e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.99e-07 ) ;     ( R ) = ( 2.99e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.68e+07s, dt:100000s, Cycle: 186
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.02e-02 ) ;     ( R ) = ( 1.02e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.94e-07 ) ;     ( R ) = ( 2.94e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.18e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.69e+07s, dt:100000s, Cycle: 187
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.01e-02 ) ;     ( R ) = ( 1.01e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.89e-07 ) ;     ( R ) = ( 2.89e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.53e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.7e+07s, dt:100000s, Cycle: 188
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.98e-03 ) ;     ( R ) = ( 9.98e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.84e-07 ) ;     ( R ) = ( 2.84e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.09e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.71e+07s, dt:100000s, Cycle: 189
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.86e-03 ) ;     ( R ) = ( 9.86e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.80e-07 ) ;     ( R ) = ( 2.80e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.72e+07s, dt:100000s, Cycle: 190
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.74e-03 ) ;     ( R ) = ( 9.74e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.75e-07 ) ;     ( R ) = ( 2.75e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.11e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.73e+07s, dt:100000s, Cycle: 191
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.62e-03 ) ;     ( R ) = ( 9.62e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.71e-07 ) ;     ( R ) = ( 2.71e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.14e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.74e+07s, dt:100000s, Cycle: 192
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.50e-03 ) ;     ( R ) = ( 9.50e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.66e-07 ) ;     ( R ) = ( 2.66e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.12e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.75e+07s, dt:100000s, Cycle: 193
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.38e-03 ) ;     ( R ) = ( 9.38e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.62e-07 ) ;     ( R ) = ( 2.62e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.10e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.76e+07s, dt:100000s, Cycle: 194
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.27e-03 ) ;     ( R ) = ( 9.27e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.58e-07 ) ;     ( R ) = ( 2.58e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.77e+07s, dt:100000s, Cycle: 195
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.15e-03 ) ;     ( R ) = ( 9.15e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.53e-07 ) ;     ( R ) = ( 2.53e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.78e+07s, dt:100000s, Cycle: 196
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.03e-03 ) ;     ( R ) = ( 9.03e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.49e-07 ) ;     ( R ) = ( 2.49e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.62e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.79e+07s, dt:100000s, Cycle: 197
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.92e-03 ) ;     ( R ) = ( 8.92e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.45e-07 ) ;     ( R ) = ( 2.45e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.87e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.8e+07s, dt:100000s, Cycle: 198
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.80e-03 ) ;     ( R ) = ( 8.80e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.41e-07 ) ;     ( R ) = ( 2.41e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.63e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.81e+07s, dt:100000s, Cycle: 199
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.69e-03 ) ;     ( R ) = ( 8.69e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.37e-07 ) ;     ( R ) = ( 2.37e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.14e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.82e+07s, dt:100000s, Cycle: 200
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.58e-03 ) ;     ( R ) = ( 8.58e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.33e-07 ) ;     ( R ) = ( 2.33e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.22e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.83e+07s, dt:100000s, Cycle: 201
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.47e-03 ) ;     ( R ) = ( 8.47e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.29e-07 ) ;     ( R ) = ( 2.29e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.66e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.84e+07s, dt:100000s, Cycle: 202
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.36e-03 ) ;     ( R ) = ( 8.36e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.25e-07 ) ;     ( R ) = ( 2.25e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.15e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.85e+07s, dt:100000s, Cycle: 203
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.25e-03 ) ;     ( R ) = ( 8.25e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.22e-07 ) ;     ( R ) = ( 2.22e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.86e+07s, dt:100000s, Cycle: 204
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.14e-03 ) ;     ( R ) = ( 8.14e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.18e-07 ) ;     ( R ) = ( 2.18e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.07e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.87e+07s, dt:100000s, Cycle: 205
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.03e-03 ) ;     ( R ) = ( 8.03e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.14e-07 ) ;     ( R ) = ( 2.14e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.88e+07s, dt:100000s, Cycle: 206
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.92e-03 ) ;     ( R ) = ( 7.92e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.11e-07 ) ;     ( R ) = ( 2.11e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.89e+07s, dt:100000s, Cycle: 207
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.82e-03 ) ;     ( R ) = ( 7.82e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.07e-07 ) ;     ( R ) = ( 2.07e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.9e+07s, dt:100000s, Cycle: 208
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.71e-03 ) ;     ( R ) = ( 7.71e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.31e-05 ) ;     ( R ) = ( 7.31e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.09e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.21e-09 ) ;     ( R ) = ( 1.21e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.46e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.91e+07s, dt:100000s, Cycle: 209
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.60e-03 ) ;     ( R ) = ( 7.60e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.05e-07 ) ;     ( R ) = ( 1.05e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.30e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.92e+07s, dt:100000s, Cycle: 210
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.48e-03 ) ;     ( R ) = ( 7.48e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.01e-07 ) ;     ( R ) = ( 1.01e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.39e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.93e+07s, dt:100000s, Cycle: 211
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.36e-03 ) ;     ( R ) = ( 7.36e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.03e-07 ) ;     ( R ) = ( 1.03e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.89e-17 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.94e+07s, dt:100000s, Cycle: 212
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.24e-03 ) ;     ( R ) = ( 7.24e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.05e-07 ) ;     ( R ) = ( 1.05e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.59e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.95e+07s, dt:100000s, Cycle: 213
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.13e-03 ) ;     ( R ) = ( 7.13e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.08e-07 ) ;     ( R ) = ( 1.08e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.08e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.96e+07s, dt:100000s, Cycle: 214
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.02e-03 ) ;     ( R ) = ( 7.02e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.11e-07 ) ;     ( R ) = ( 1.11e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.68e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.97e+07s, dt:100000s, Cycle: 215
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.92e-03 ) ;     ( R ) = ( 6.92e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.13e-07 ) ;     ( R ) = ( 1.13e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.30e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.98e+07s, dt:100000s, Cycle: 216
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.81e-03 ) ;     ( R ) = ( 6.81e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.14e-07 ) ;     ( R ) = ( 1.14e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.82e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Time: 1.99e+07s, dt:100000s, Cycle: 217
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.71e-03 ) ;     ( R ) = ( 6.71e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.16e-07 ) ;     ( R ) = ( 1.16e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.11e-16 ) ; 
+compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_01/0to218_restart_000000218/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:   49.4 KB
+Umpire          DEVICE         rank max:   49.4 KB
+Umpire       DEVICE::0 sum across ranks:   49.4 KB
+Umpire       DEVICE::0         rank max:   49.4 KB
+Umpire            HOST sum across ranks:   87.2 KB
+Umpire            HOST         rank max:   87.2 KB
+total time                        21.995s
+initialization time                0.073s
+run time                          20.670s

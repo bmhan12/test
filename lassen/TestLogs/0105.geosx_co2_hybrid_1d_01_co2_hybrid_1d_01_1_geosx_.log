@@ -1,0 +1,187 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i co2_hybrid_1d.xml -x 1 -y 1 -z 1 -n 0to10 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_01 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(co2_hybrid_1d_01/co2_hybrid_1d_01_1_geosx)
+#ATS: clas = ['-i', 'co2_hybrid_1d.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to10', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_01', '--suppress-move-logging']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Solver of type CompositionalMultiphaseHybridFVM, named compflow
+Adding Mesh: InternalMesh, mesh1
+Adding Geometric Object: Box, sink
+Adding Geometric Object: Box, source
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, restarts
+Adding Output: VTK, vtkOutput
+Adding Output: Restart, sidreRestart
+Adding Object CellElementRegion named region from ObjectManager::Catalog.
+   TableFunction: fluid_phaseModel1_PhillipsBrineDensity_table
+   TableFunction: fluid_phaseModel1_PhillipsBrineViscosity_table
+   TableFunction: fluid_phaseModel2_SpanWagnerCO2Density_table
+   TableFunction: fluid_phaseModel2_FenghourCO2Viscosity_table
+   TableFunction: fluid_CO2Solubility_table
+Total number of nodes:24
+Total number of elems:5
+Rank 0: Total number of nodes:24
+  region/cb/fluid is allocated with 1 quadrature points.
+  region/cb/rock is allocated with 1 quadrature points.
+  region/cb/relperm is allocated with 1 quadrature points.
+Time: 0s, dt:10000s, Cycle: 0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.24e+03 ) ;    ( R ) = ( 1.24e+03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.53e+02 ) ;    ( R ) = ( 8.53e+02 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.62e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.55e+02 ) ;    ( R ) = ( 6.55e+02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.91e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.69e+02 ) ;    ( R ) = ( 4.69e+02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 9.07e+01 ) ;    ( R ) = ( 9.07e+01 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.79e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.06e+01 ) ;    ( R ) = ( 3.06e+01 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.89e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 5.51e-01 ) ;    ( R ) = ( 5.51e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.09e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 1.99e-02 ) ;    ( R ) = ( 1.99e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.73e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+    ( Rfluid ) = ( 7.66e-05 ) ;    ( R ) = ( 7.66e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.91e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  9
+    ( Rfluid ) = ( 9.82e-10 ) ;    ( R ) = ( 9.82e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.86e-15 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_01/0to10_restart_000000000/rank_0000000.hdf5
+Time: 10000s, dt:10000s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.24e+00 ) ;    ( R ) = ( 1.24e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.86e-01 ) ;    ( R ) = ( 4.86e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.61e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.99e-02 ) ;    ( R ) = ( 1.99e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.04e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.05e-04 ) ;    ( R ) = ( 1.05e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.24e-09 ) ;    ( R ) = ( 1.24e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.85e-15 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 20000s, dt:10000s, Cycle: 2
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.33e-01 ) ;    ( R ) = ( 5.33e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.50e-01 ) ;    ( R ) = ( 1.50e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.71e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.57e-03 ) ;    ( R ) = ( 1.57e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.93e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.82e-07 ) ;    ( R ) = ( 4.82e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.96e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 30000s, dt:10000s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.83e-01 ) ;    ( R ) = ( 2.83e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.58e-02 ) ;    ( R ) = ( 5.58e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-13 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.05e-04 ) ;    ( R ) = ( 2.05e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.47e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 7.91e-09 ) ;    ( R ) = ( 7.91e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.76e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 40000s, dt:10000s, Cycle: 4
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.68e-01 ) ;    ( R ) = ( 1.68e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.29e-02 ) ;    ( R ) = ( 2.29e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.08e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.02e-05 ) ;    ( R ) = ( 3.02e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.31e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.35e-10 ) ;    ( R ) = ( 2.35e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.88e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 50000s, dt:10000s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.07e-01 ) ;    ( R ) = ( 1.07e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.05e-02 ) ;    ( R ) = ( 1.05e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.21e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.57e-06 ) ;    ( R ) = ( 6.57e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.06e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.32e-11 ) ;    ( R ) = ( 1.32e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.60e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_01/0to10_restart_000000005/rank_0000000.hdf5
+Time: 60000s, dt:10000s, Cycle: 6
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.13e-02 ) ;    ( R ) = ( 7.13e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 5.02e-03 ) ;    ( R ) = ( 5.02e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.04e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.91e-06 ) ;    ( R ) = ( 1.91e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.43e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.47e-12 ) ;    ( R ) = ( 1.47e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.93e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 70000s, dt:10000s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.96e-02 ) ;    ( R ) = ( 4.96e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.83e-03 ) ;    ( R ) = ( 2.83e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.07e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.77e-07 ) ;    ( R ) = ( 5.77e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.60e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 80000s, dt:10000s, Cycle: 8
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.56e-02 ) ;    ( R ) = ( 3.56e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.45e-03 ) ;    ( R ) = ( 1.45e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.34e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.38e-07 ) ;    ( R ) = ( 2.38e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.54e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 90000s, dt:10000s, Cycle: 9
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.62e-02 ) ;    ( R ) = ( 2.62e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.33e-04 ) ;    ( R ) = ( 8.33e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.52e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.99e-08 ) ;    ( R ) = ( 9.99e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.23e-14 ) ; 
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_01/0to10_restart_000000010/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:   92.8 KB
+Umpire          DEVICE         rank max:   92.8 KB
+Umpire       DEVICE::0 sum across ranks:   92.8 KB
+Umpire       DEVICE::0         rank max:   92.8 KB
+Umpire            HOST sum across ranks:  110.2 KB
+Umpire            HOST         rank max:  110.2 KB
+total time                         5.986s
+initialization time                0.752s
+run time                           2.178s

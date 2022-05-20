@@ -1,0 +1,38 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i FlowProppantTransport_2d.xml -x 1 -y 1 -z 1 -n 0to10 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport/FlowProppantTransport_2d_01 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(FlowProppantTransport_2d_01/FlowProppantTransport_2d_01_1_geosx)
+#ATS: clas = ['-i', 'FlowProppantTransport_2d.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to10', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport/FlowProppantTransport_2d_01', '--suppress-move-logging']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Mesh: InternalMesh, mesh1
+Adding Event: SoloEvent, preFracture
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, restarts
+Adding Solver of type ProppantTransport, named ProppantTransport
+Adding Solver of type FlowProppantTransport, named FlowProppantTransport
+Adding Solver of type SinglePhaseProppantFVM, named SinglePhaseFVM
+Adding Solver of type SurfaceGenerator, named SurfaceGen
+Adding Geometric Object: Box, left
+Adding Geometric Object: Box, right
+Adding Geometric Object: Box, top
+Adding Geometric Object: Box, bot
+Adding Geometric Object: Box, source
+Adding Geometric Object: Box, fracture
+Adding Output: Silo, siloOutput
+Adding Output: Restart, sidreRestart
+Adding Object CellElementRegion named region from ObjectManager::Catalog.
+Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
+Total number of nodes:2028
+Total number of elems:1250
+Rank 0: Total number of nodes:2028
+	region/cb1 does not have a discretization associated with it.
+  Fracture/faceElementSubRegion/water is allocated with 1 quadrature points.
+  Fracture/faceElementSubRegion/fractureFilling is allocated with 1 quadrature points.
+  Fracture/faceElementSubRegion/sand is allocated with 1 quadrature points.
+Time: 0s, dt:1s, Cycle: 0

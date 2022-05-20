@@ -1,0 +1,688 @@
+#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i co2_flux_3d.xml -x 2 -y 2 -z 2 -n 0to20 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(co2_flux_3d_08/co2_flux_3d_08_1_geosx)
+#ATS: clas = ['-i', 'co2_flux_3d.xml', '-x', '2', '-y', '2', '-z', '2', '-n', '0to20', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08', '--suppress-move-logging']
+#ATS: np = 8
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Solver of type CompositionalMultiphaseFVM, named compflow
+Adding Mesh: InternalMesh, mesh1
+Adding Geometric Object: Box, source
+Adding Geometric Object: Box, sink1
+Adding Geometric Object: Box, sink2
+Adding Geometric Object: Box, barrier
+Adding Geometric Object: Box, aquifer1Part1
+Adding Geometric Object: Box, aquifer1Part2
+Adding Geometric Object: Box, aquifer2Part1
+Adding Geometric Object: Box, aquifer2Part2
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, restarts
+   TableFunction: initCO2CompFracTable
+   TableFunction: initWaterCompFracTable
+   TableFunction: initTempTable
+   TableFunction: waterRelativePermeabilityTable
+   TableFunction: gasRelativePermeabilityTable
+   TableFunction: jFunctionTable
+Adding Output: VTK, vtkOutput
+Adding Output: Restart, sidreRestart
+   TableFunction: pressureInfluenceFunction
+Adding Object CellElementRegion named region from ObjectManager::Catalog.
+   TableFunction: fluid_phaseModel1_PhillipsBrineDensity_table
+   TableFunction: fluid_phaseModel1_PhillipsBrineViscosity_table
+   TableFunction: fluid_phaseModel2_SpanWagnerCO2Density_table
+   TableFunction: fluid_phaseModel2_FenghourCO2Viscosity_table
+   TableFunction: fluid_CO2Solubility_table
+   TableFunction: aquiferBC1_pressureInfluence_table
+   TableFunction: aquiferBC2_pressureInfluence_table
+Total number of nodes:1331
+Rank 6: Total number of nodes:216
+Rank 7: Total number of nodes:216
+Rank 4: Total number of nodes:216
+Rank 1: Total number of nodes:216
+Total number of elems:1000
+Rank 0: Total number of nodes:216
+Rank 5: Total number of nodes:216
+Rank 3: Total number of nodes:216
+Rank 2: Total number of nodes:216
+  region/cellBlock/fluid is allocated with 1 quadrature points.
+  region/cellBlock/rock is allocated with 1 quadrature points.
+  region/cellBlock/relperm is allocated with 1 quadrature points.
+  region/cellBlock/cappres is allocated with 1 quadrature points.
+SolverBase compflow: currently, GEOSX assumes that there is only one mobile phase when computing the hydrostatic pressure. 
+We detected multiple phases using the provided datum pressure, temperature, and component fractions. 
+Please make sure that only one phase is mobile at the beginning of the simulation. 
+If this is not the case, the problem will not be at equilibrium when the simulation starts
+   TableFunction: equil_cellBlock_water_table
+Time: 0s, dt:50000s, Cycle: 0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 1.21e+03 ) ;     ( R ) = ( 1.21e+03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.32e+00 ) ;     ( R ) = ( 1.32e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.46e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.85e-01 ) ;     ( R ) = ( 2.85e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.93e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.60e-02 ) ;     ( R ) = ( 6.60e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.72e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.37e-02 ) ;     ( R ) = ( 1.37e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.09e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 2.44e-04 ) ;     ( R ) = ( 2.44e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.09e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 7.21e-08 ) ;     ( R ) = ( 7.21e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.60e-16 ) ; 
+FlowSolverBase compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.9099166712713185 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.9173729094695067 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 2.40046
+compflow: Max component CFL number: 1.73038
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000006.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000007.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000000.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000005.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000002.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000004.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000000/rank_0000001.hdf5
+Time: 50000s, dt:50000s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 8.85e-01 ) ;     ( R ) = ( 8.85e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.44e-02 ) ;     ( R ) = ( 7.44e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.14e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.15e-03 ) ;     ( R ) = ( 4.15e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.60e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.33e-04 ) ;     ( R ) = ( 3.33e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.01e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 4.38e-07 ) ;     ( R ) = ( 4.38e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.51e-16 ) ; 
+FlowSolverBase compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.5248004049628343 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.526364426877512 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77405
+compflow: Max component CFL number: 1.81011
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 100000s, dt:50000s, Cycle: 2
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.81e-01 ) ;     ( R ) = ( 2.81e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.28e-02 ) ;     ( R ) = ( 2.28e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.09e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.85e-04 ) ;     ( R ) = ( 5.85e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.55e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.84e-07 ) ;     ( R ) = ( 4.84e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.03e-16 ) ; 
+FlowSolverBase compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.43848431682544 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.440901392576129 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76535
+compflow: Max component CFL number: 1.83216
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 150000s, dt:50000s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.33e-01 ) ;     ( R ) = ( 2.33e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.10e-02 ) ;     ( R ) = ( 2.10e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.98e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.53e-04 ) ;     ( R ) = ( 9.53e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.08e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 8.21e-07 ) ;     ( R ) = ( 8.21e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.64e-16 ) ; 
+FlowSolverBase compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4382416155111133 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4418093871326843 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.7719
+compflow: Max component CFL number: 1.83385
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 200000s, dt:50000s, Cycle: 4
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.26e-01 ) ;     ( R ) = ( 2.26e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.91e-02 ) ;     ( R ) = ( 1.91e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.22e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.11e-04 ) ;     ( R ) = ( 2.11e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.57e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.16e-07 ) ;     ( R ) = ( 1.16e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.83e-16 ) ; 
+FlowSolverBase compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.438108740282228 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.443223701006768 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77506
+compflow: Max component CFL number: 1.83234
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 250000s, dt:50000s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.35e-01 ) ;     ( R ) = ( 2.35e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.80e-02 ) ;     ( R ) = ( 1.80e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.13e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.92e-04 ) ;     ( R ) = ( 2.92e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.19e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.53e-07 ) ;     ( R ) = ( 2.53e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.09e-16 ) ; 
+FlowSolverBase compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4379600283352976 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4449210859259907 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77609
+compflow: Max component CFL number: 1.83385
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 300000s, dt:50000s, Cycle: 6
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.50e-01 ) ;     ( R ) = ( 2.50e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.74e-02 ) ;     ( R ) = ( 1.74e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.19e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.13e-04 ) ;     ( R ) = ( 5.13e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.10e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.77e-07 ) ;     ( R ) = ( 1.77e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.32e-16 ) ; 
+FlowSolverBase compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.437784132681598 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4466759995155267 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77593
+compflow: Max component CFL number: 1.8384
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 350000s, dt:50000s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.67e-01 ) ;     ( R ) = ( 2.67e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.09e-02 ) ;     ( R ) = ( 3.09e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.36e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.12e-04 ) ;     ( R ) = ( 2.12e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.21e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 8.24e-08 ) ;     ( R ) = ( 8.24e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.50e-16 ) ; 
+FlowSolverBase compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4375870884744373 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4487522490141482 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77526
+compflow: Max component CFL number: 1.84585
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 400000s, dt:50000s, Cycle: 8
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.81e-01 ) ;     ( R ) = ( 2.81e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.07e-02 ) ;     ( R ) = ( 2.07e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.50e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.41e-04 ) ;     ( R ) = ( 4.41e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.44e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.90e-07 ) ;     ( R ) = ( 3.90e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.39e-16 ) ; 
+FlowSolverBase compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.437373124264413 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4513073746154492 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77422
+compflow: Max component CFL number: 1.85521
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 450000s, dt:50000s, Cycle: 9
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.92e-01 ) ;     ( R ) = ( 2.92e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.20e-02 ) ;     ( R ) = ( 2.20e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.48e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.68e-04 ) ;     ( R ) = ( 5.68e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.42e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.52e-06 ) ;     ( R ) = ( 3.52e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.32e-16 ) ; 
+FlowSolverBase compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4371410392900583 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.454056981884618 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77293
+compflow: Max component CFL number: 1.86576
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 500000s, dt:50000s, Cycle: 10
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.97e-01 ) ;     ( R ) = ( 2.97e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.84e-02 ) ;     ( R ) = ( 1.84e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.62e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.87e-04 ) ;     ( R ) = ( 2.87e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.37e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.75e-08 ) ;     ( R ) = ( 6.75e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.36e-16 ) ; 
+FlowSolverBase compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4368969712065955 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.45691485550747 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77155
+compflow: Max component CFL number: 1.87739
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000006.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000005.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000000.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000007.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000004.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000001.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000010/rank_0000002.hdf5
+Time: 550000s, dt:50000s, Cycle: 11
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.96e-01 ) ;     ( R ) = ( 2.96e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.08e-02 ) ;     ( R ) = ( 1.08e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.67e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.24e-05 ) ;     ( R ) = ( 2.24e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.33e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.85e-10 ) ;     ( R ) = ( 6.85e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.62e-16 ) ; 
+FlowSolverBase compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4366552318644086 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4597164705141994 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.77007
+compflow: Max component CFL number: 1.89002
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 600000s, dt:50000s, Cycle: 12
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.90e-01 ) ;     ( R ) = ( 2.90e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.26e-02 ) ;     ( R ) = ( 1.26e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.90e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 7.47e-05 ) ;     ( R ) = ( 7.47e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.38e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.25e-08 ) ;     ( R ) = ( 1.25e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.99e-16 ) ; 
+FlowSolverBase compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.436407252621394 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.462160539120981 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76868
+compflow: Max component CFL number: 1.90294
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 650000s, dt:50000s, Cycle: 13
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.83e-01 ) ;     ( R ) = ( 2.83e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.93e-03 ) ;     ( R ) = ( 9.93e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.04e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.72e-05 ) ;     ( R ) = ( 2.72e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.99e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.83e-09 ) ;     ( R ) = ( 1.83e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.11e-16 ) ; 
+FlowSolverBase compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4361607772822427 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.464094267208997 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76723
+compflow: Max component CFL number: 1.91575
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 700000s, dt:50000s, Cycle: 14
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.73e-01 ) ;     ( R ) = ( 2.73e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.67e-03 ) ;     ( R ) = ( 6.67e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.17e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.30e-05 ) ;     ( R ) = ( 6.30e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.24e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.32e-09 ) ;     ( R ) = ( 5.32e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.71e-16 ) ; 
+FlowSolverBase compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.435911735942297 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4653165077823194 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76587
+compflow: Max component CFL number: 1.92662
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 750000s, dt:50000s, Cycle: 15
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.61e-01 ) ;     ( R ) = ( 2.61e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.96e-03 ) ;     ( R ) = ( 4.96e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.88e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.77e-05 ) ;     ( R ) = ( 1.77e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.32e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.09e-09 ) ;     ( R ) = ( 1.09e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-15 ) ; 
+FlowSolverBase compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.435667564825987 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.465956077264851 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76452
+compflow: Max component CFL number: 1.93661
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 800000s, dt:50000s, Cycle: 16
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.49e-01 ) ;     ( R ) = ( 2.49e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.54e-03 ) ;     ( R ) = ( 8.54e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.12e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.29e-05 ) ;     ( R ) = ( 4.29e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.66e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.12e-09 ) ;     ( R ) = ( 5.12e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.68e-16 ) ; 
+FlowSolverBase compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4354327486408653 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.466212712698386 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76327
+compflow: Max component CFL number: 1.94477
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 850000s, dt:50000s, Cycle: 17
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.36e-01 ) ;     ( R ) = ( 2.36e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.59e-03 ) ;     ( R ) = ( 6.59e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.32e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.47e-05 ) ;     ( R ) = ( 3.47e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.32e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.96e-10 ) ;     ( R ) = ( 5.96e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.05e-16 ) ; 
+FlowSolverBase compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.43520467476801 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.466153555989478 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76206
+compflow: Max component CFL number: 1.95146
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 900000s, dt:50000s, Cycle: 18
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.23e-01 ) ;     ( R ) = ( 2.23e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.23e-02 ) ;     ( R ) = ( 1.23e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.88e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.88e-05 ) ;     ( R ) = ( 4.88e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.99e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.26e-10 ) ;     ( R ) = ( 6.26e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.43e-16 ) ; 
+FlowSolverBase compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.434987347508832 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.465900073386533 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.76091
+compflow: Max component CFL number: 1.95652
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 950000s, dt:50000s, Cycle: 19
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+CompositionalMultiphaseFVM compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part1' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 1. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+CompositionalMultiphaseFVM compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC2' is applied to the face set 'aquifer2Part2' in 'FaceManager'. 
+The total number of target faces (including ghost faces) is 2. 
+Note that if this number is equal to zero, the boundary condition will not be applied on this face set.
+    ( Rfluid ) = ( 2.11e-01 ) ;     ( R ) = ( 2.11e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.67e-02 ) ;     ( R ) = ( 1.67e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.01e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.05e-03 ) ;     ( R ) = ( 1.05e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.91e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.44e-07 ) ;     ( R ) = ( 1.44e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.08e-16 ) ; 
+FlowSolverBase compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4347803276576063 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.465568491831776 kg (or moles if useMass=0). 
+compflow: Max phase CFL number: 1.75982
+compflow: Max component CFL number: 1.96022
+compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000007.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000006.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000000.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000005.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000004.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_08/0to20_restart_000000020/rank_0000002.hdf5
+Umpire          DEVICE sum across ranks:    5.4 MB
+Umpire          DEVICE         rank max:    1.5 MB
+Umpire       DEVICE::0 sum across ranks:    5.4 MB
+Umpire       DEVICE::0         rank max:    1.5 MB
+Umpire            HOST sum across ranks:    8.9 MB
+Umpire            HOST         rank max:    1.9 MB
+Umpire          PINNED sum across ranks:    4.0 MB
+Umpire          PINNED         rank max:  516.8 KB
+total time                        14.666s
+initialization time                0.994s
+run time                          12.197s

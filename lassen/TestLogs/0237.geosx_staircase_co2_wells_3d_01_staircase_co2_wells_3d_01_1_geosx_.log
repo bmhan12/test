@@ -1,0 +1,462 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i staircase_co2_wells_3d.xml -x 1 -y 1 -z 1 -n 0to5 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(staircase_co2_wells_3d_01/staircase_co2_wells_3d_01_1_geosx)
+#ATS: clas = ['-i', 'staircase_co2_wells_3d.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to5', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01', '--suppress-move-logging']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Solver of type CompositionalMultiphaseReservoir, named reservoirSystem
+Adding Solver of type CompositionalMultiphaseFVM, named compositionalMultiphaseFlow
+Adding Solver of type CompositionalMultiphaseWell, named compositionalMultiphaseWell
+Adding Mesh: InternalMesh, mesh1
+Adding Mesh: InternalWell, well_producer1
+Adding Mesh: InternalWell, well_injector1
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, restarts
+   TableFunction: waterRelativePermeabilityTable
+   TableFunction: gasRelativePermeabilityTable
+   TableFunction: waterCapillaryPressureTable
+   TableFunction: phaseRateTable
+   TableFunction: totalRateTable
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Channel from ObjectManager::Catalog.
+Adding Object CellElementRegion named Barrier from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion1 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion2 from ObjectManager::Catalog.
+   TableFunction: fluid1_phaseModel1_PhillipsBrineDensity_table
+   TableFunction: fluid1_phaseModel1_PhillipsBrineViscosity_table
+   TableFunction: fluid1_phaseModel2_SpanWagnerCO2Density_table
+   TableFunction: fluid1_phaseModel2_FenghourCO2Viscosity_table
+   TableFunction: fluid1_CO2Solubility_table
+   TableFunction: wellControls1_ConstantBHP_table
+   TableFunction: wellControls1_ConstantTotalRate_table
+   TableFunction: wellControls2_ConstantBHP_table
+   TableFunction: wellControls2_ConstantPhaseRate_table
+Total number of nodes:1573
+Total number of elems:1200
+Rank 0: Total number of nodes:1573
+
+++++++++++++++++++++++++++
+InternalWellGenerator = well_injector1
+MPI rank = 0
+
+Number of well elements = 30
+Well element #0
+Coordinates of the element center: { 9.5, 0.2, 11.9583 }
+No next well element
+Previous well element #1
+First well node: #0
+Second well node: #1
+Well element #1
+Coordinates of the element center: { 9.5, 0.2, 11.875 }
+Next well element # = 0
+Previous well element #2
+First well node: #1
+Second well node: #2
+Well element #2
+Coordinates of the element center: { 9.5, 0.2, 11.7917 }
+Next well element # = 1
+Previous well element #3
+First well node: #2
+Second well node: #3
+Well element #3
+Coordinates of the element center: { 9.5, 0.2, 11.7083 }
+Next well element # = 2
+Previous well element #4
+First well node: #3
+Second well node: #4
+Well element #4
+Coordinates of the element center: { 9.5, 0.2, 11.625 }
+Next well element # = 3
+Previous well element #5
+First well node: #4
+Second well node: #5
+Well element #5
+Coordinates of the element center: { 9.5, 0.2, 11.5417 }
+Next well element # = 4
+Previous well element #6
+First well node: #5
+Second well node: #6
+Well element #6
+Coordinates of the element center: { 9.5, 0.2, 11.4583 }
+Next well element # = 5
+Previous well element #7
+First well node: #6
+Second well node: #7
+Well element #7
+Coordinates of the element center: { 9.5, 0.2, 11.375 }
+Next well element # = 6
+Previous well element #8
+First well node: #7
+Second well node: #8
+Well element #8
+Coordinates of the element center: { 9.5, 0.2, 11.2917 }
+Next well element # = 7
+Previous well element #9
+First well node: #8
+Second well node: #9
+Well element #9
+Coordinates of the element center: { 9.5, 0.2, 11.2083 }
+Next well element # = 8
+Previous well element #10
+First well node: #9
+Second well node: #10
+Well element #10
+Coordinates of the element center: { 9.5, 0.2, 11.125 }
+Next well element # = 9
+Previous well element #11
+First well node: #10
+Second well node: #11
+Well element #11
+Coordinates of the element center: { 9.5, 0.2, 11.0417 }
+Next well element # = 10
+Previous well element #12
+First well node: #11
+Second well node: #12
+Well element #12
+Coordinates of the element center: { 9.5, 0.2, 10.9583 }
+Next well element # = 11
+Previous well element #13
+First well node: #12
+Second well node: #13
+Well element #13
+Coordinates of the element center: { 9.5, 0.2, 10.875 }
+Next well element # = 12
+Previous well element #14
+First well node: #13
+Second well node: #14
+Well element #14
+Coordinates of the element center: { 9.5, 0.2, 10.7917 }
+Next well element # = 13
+Previous well element #15
+First well node: #14
+Second well node: #15
+Well element #15
+Coordinates of the element center: { 9.5, 0.2, 10.7083 }
+Next well element # = 14
+Previous well element #16
+First well node: #15
+Second well node: #16
+Well element #16
+Coordinates of the element center: { 9.5, 0.2, 10.625 }
+Next well element # = 15
+Previous well element #17
+First well node: #16
+Second well node: #17
+Well element #17
+Coordinates of the element center: { 9.5, 0.2, 10.5417 }
+Next well element # = 16
+Previous well element #18
+First well node: #17
+Second well node: #18
+Well element #18
+Coordinates of the element center: { 9.5, 0.2, 10.4583 }
+Next well element # = 17
+Previous well element #19
+First well node: #18
+Second well node: #19
+Well element #19
+Coordinates of the element center: { 9.5, 0.2, 10.375 }
+Next well element # = 18
+Previous well element #20
+First well node: #19
+Second well node: #20
+Well element #20
+Coordinates of the element center: { 9.5, 0.2, 10.2917 }
+Next well element # = 19
+Previous well element #21
+First well node: #20
+Second well node: #21
+Well element #21
+Coordinates of the element center: { 9.5, 0.2, 10.2083 }
+Next well element # = 20
+Previous well element #22
+First well node: #21
+Second well node: #22
+Well element #22
+Coordinates of the element center: { 9.5, 0.2, 10.125 }
+Next well element # = 21
+Previous well element #23
+First well node: #22
+Second well node: #23
+Well element #23
+Coordinates of the element center: { 9.5, 0.2, 10.0417 }
+Next well element # = 22
+Previous well element #24
+First well node: #23
+Second well node: #24
+Well element #24
+Coordinates of the element center: { 9.5, 0.2, 9.95833 }
+Next well element # = 23
+Previous well element #25
+First well node: #24
+Second well node: #25
+Well element #25
+Coordinates of the element center: { 9.5, 0.2, 9.875 }
+Next well element # = 24
+Previous well element #26
+First well node: #25
+Second well node: #26
+Well element #26
+Coordinates of the element center: { 9.5, 0.2, 9.79167 }
+Next well element # = 25
+Previous well element #27
+First well node: #26
+Second well node: #27
+Well element #27
+Coordinates of the element center: { 9.5, 0.2, 9.70833 }
+Next well element # = 26
+Previous well element #28
+First well node: #27
+Second well node: #28
+Well element #28
+Coordinates of the element center: { 9.5, 0.2, 9.625 }
+Next well element # = 27
+Previous well element #29
+First well node: #28
+Second well node: #29
+Well element #29
+Coordinates of the element center: { 9.5, 0.2, 9.54167 }
+Next well element # = 28
+No previous well element
+First well node: #29
+Second well node: #30
+
+Number of well nodes = 31 (well nodes are connecting well elements)
+Well node #0
+Coordinates of the well node: { 9.5, 0.2, 12 }
+Node distance from head: 0
+Well node #1
+Coordinates of the well node: { 9.5, 0.2, 11.9167 }
+Node distance from head: 0.0833333
+Well node #2
+Coordinates of the well node: { 9.5, 0.2, 11.8333 }
+Node distance from head: 0.166667
+Well node #3
+Coordinates of the well node: { 9.5, 0.2, 11.75 }
+Node distance from head: 0.25
+Well node #4
+Coordinates of the well node: { 9.5, 0.2, 11.6667 }
+Node distance from head: 0.333333
+Well node #5
+Coordinates of the well node: { 9.5, 0.2, 11.5833 }
+Node distance from head: 0.416667
+Well node #6
+Coordinates of the well node: { 9.5, 0.2, 11.5 }
+Node distance from head: 0.5
+Well node #7
+Coordinates of the well node: { 9.5, 0.2, 11.4167 }
+Node distance from head: 0.583333
+Well node #8
+Coordinates of the well node: { 9.5, 0.2, 11.3333 }
+Node distance from head: 0.666667
+Well node #9
+Coordinates of the well node: { 9.5, 0.2, 11.25 }
+Node distance from head: 0.75
+Well node #10
+Coordinates of the well node: { 9.5, 0.2, 11.1667 }
+Node distance from head: 0.833333
+Well node #11
+Coordinates of the well node: { 9.5, 0.2, 11.0833 }
+Node distance from head: 0.916667
+Well node #12
+Coordinates of the well node: { 9.5, 0.2, 11 }
+Node distance from head: 1
+Well node #13
+Coordinates of the well node: { 9.5, 0.2, 10.9167 }
+Node distance from head: 1.08333
+Well node #14
+Coordinates of the well node: { 9.5, 0.2, 10.8333 }
+Node distance from head: 1.16667
+Well node #15
+Coordinates of the well node: { 9.5, 0.2, 10.75 }
+Node distance from head: 1.25
+Well node #16
+Coordinates of the well node: { 9.5, 0.2, 10.6667 }
+Node distance from head: 1.33333
+Well node #17
+Coordinates of the well node: { 9.5, 0.2, 10.5833 }
+Node distance from head: 1.41667
+Well node #18
+Coordinates of the well node: { 9.5, 0.2, 10.5 }
+Node distance from head: 1.5
+Well node #19
+Coordinates of the well node: { 9.5, 0.2, 10.4167 }
+Node distance from head: 1.58333
+Well node #20
+Coordinates of the well node: { 9.5, 0.2, 10.3333 }
+Node distance from head: 1.66667
+Well node #21
+Coordinates of the well node: { 9.5, 0.2, 10.25 }
+Node distance from head: 1.75
+Well node #22
+Coordinates of the well node: { 9.5, 0.2, 10.1667 }
+Node distance from head: 1.83333
+Well node #23
+Coordinates of the well node: { 9.5, 0.2, 10.0833 }
+Node distance from head: 1.91667
+Well node #24
+Coordinates of the well node: { 9.5, 0.2, 10 }
+Node distance from head: 2
+Well node #25
+Coordinates of the well node: { 9.5, 0.2, 9.91667 }
+Node distance from head: 2.08333
+Well node #26
+Coordinates of the well node: { 9.5, 0.2, 9.83333 }
+Node distance from head: 2.16667
+Well node #27
+Coordinates of the well node: { 9.5, 0.2, 9.75 }
+Node distance from head: 2.25
+Well node #28
+Coordinates of the well node: { 9.5, 0.2, 9.66667 }
+Node distance from head: 2.33333
+Well node #29
+Coordinates of the well node: { 9.5, 0.2, 9.58333 }
+Node distance from head: 2.41667
+Well node #30
+Coordinates of the well node: { 9.5, 0.2, 9.5 }
+Node distance from head: 2.5
+
+Number of perforations = 1
+Perforation #0
+Coordinates of the perforation: { 9.5, 0.2, 9.55 }
+Transmissibility computed internally
+Is connected to well element #29
+
+  Channel/b08/fluid1 is allocated with 1 quadrature points.
+  Channel/b08/rock is allocated with 1 quadrature points.
+  Channel/b08/relperm is allocated with 1 quadrature points.
+  Channel/b08/cappres is allocated with 1 quadrature points.
+  Channel/b00/fluid1 is allocated with 1 quadrature points.
+  Channel/b00/rock is allocated with 1 quadrature points.
+  Channel/b00/relperm is allocated with 1 quadrature points.
+  Channel/b00/cappres is allocated with 1 quadrature points.
+  Channel/b01/fluid1 is allocated with 1 quadrature points.
+  Channel/b01/rock is allocated with 1 quadrature points.
+  Channel/b01/relperm is allocated with 1 quadrature points.
+  Channel/b01/cappres is allocated with 1 quadrature points.
+  Channel/b05/fluid1 is allocated with 1 quadrature points.
+  Channel/b05/rock is allocated with 1 quadrature points.
+  Channel/b05/relperm is allocated with 1 quadrature points.
+  Channel/b05/cappres is allocated with 1 quadrature points.
+  Channel/b06/fluid1 is allocated with 1 quadrature points.
+  Channel/b06/rock is allocated with 1 quadrature points.
+  Channel/b06/relperm is allocated with 1 quadrature points.
+  Channel/b06/cappres is allocated with 1 quadrature points.
+  Channel/b14/fluid1 is allocated with 1 quadrature points.
+  Channel/b14/rock is allocated with 1 quadrature points.
+  Channel/b14/relperm is allocated with 1 quadrature points.
+  Channel/b14/cappres is allocated with 1 quadrature points.
+  Channel/b15/fluid1 is allocated with 1 quadrature points.
+  Channel/b15/rock is allocated with 1 quadrature points.
+  Channel/b15/relperm is allocated with 1 quadrature points.
+  Channel/b15/cappres is allocated with 1 quadrature points.
+  Channel/b11/fluid1 is allocated with 1 quadrature points.
+  Channel/b11/rock is allocated with 1 quadrature points.
+  Channel/b11/relperm is allocated with 1 quadrature points.
+  Channel/b11/cappres is allocated with 1 quadrature points.
+	Barrier/b04 does not have a discretization associated with it.
+	Barrier/b12 does not have a discretization associated with it.
+	Barrier/b13 does not have a discretization associated with it.
+	Barrier/b09 does not have a discretization associated with it.
+	Barrier/b10 does not have a discretization associated with it.
+	Barrier/b02 does not have a discretization associated with it.
+	Barrier/b03 does not have a discretization associated with it.
+	Barrier/b07 does not have a discretization associated with it.
+  wellRegion1/wellRegion1uniqueSubRegion/fluid1 is allocated with 1 quadrature points.
+  wellRegion1/wellRegion1uniqueSubRegion/relperm is allocated with 1 quadrature points.
+  wellRegion2/wellRegion2uniqueSubRegion/fluid1 is allocated with 1 quadrature points.
+  wellRegion2/wellRegion2uniqueSubRegion/relperm is allocated with 1 quadrature points.
+Time: 0s, dt:50000s, Cycle: 0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.42e+00 ) ;     ( R ) = ( 9.99e+01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.25e-01 ) ;     ( R ) = ( 3.26e+01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.18e-13 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.33e-02 ) ;     ( R ) = ( 2.04e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.93e-12 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.88e-05 ) ;     ( R ) = ( 2.82e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.93e-12 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 2.61e-10 ) ;     ( R ) = ( 3.92e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.01e-12 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 2.78e-14 ) ;     ( R ) = ( 3.36e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.59e-12 ) ; 
+reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01/0to5_restart_000000000/rank_0000000.hdf5
+Time: 50000s, dt:50000s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.44e-02 ) ;     ( R ) = ( 5.00e+04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.73e-03 ) ;     ( R ) = ( 1.30e+03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.06e-05 ) ;     ( R ) = ( 9.69e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.83e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.73e-09 ) ;     ( R ) = ( 8.33e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.14e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 2.93e-14 ) ;     ( R ) = ( 5.13e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-11 ) ; 
+reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01/0to5_restart_000000001/rank_0000000.hdf5
+Time: 100000s, dt:50000s, Cycle: 2
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.00e-02 ) ;     ( R ) = ( 1.94e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.67e-04 ) ;     ( R ) = ( 1.22e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.74e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.90e-07 ) ;     ( R ) = ( 1.29e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.83e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.81e-13 ) ;     ( R ) = ( 1.86e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-11 ) ; 
+reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01/0to5_restart_000000002/rank_0000000.hdf5
+Time: 150000s, dt:50000s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.11e-03 ) ;     ( R ) = ( 6.23e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.94e-04 ) ;     ( R ) = ( 1.63e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.57e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.97e-07 ) ;     ( R ) = ( 5.55e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.92e-12 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.57e-13 ) ;     ( R ) = ( 2.31e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.32e-12 ) ; 
+reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01/0to5_restart_000000003/rank_0000000.hdf5
+Time: 200000s, dt:50000s, Cycle: 4
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.55e-03 ) ;     ( R ) = ( 3.00e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.69e-05 ) ;     ( R ) = ( 4.94e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.72e-11 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.49e-09 ) ;     ( R ) = ( 9.20e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-11 ) ; 
+reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01/0to5_restart_000000004/rank_0000000.hdf5
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/staircase_co2_wells_3d_01/0to5_restart_000000005/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:    2.7 MB
+Umpire          DEVICE         rank max:    2.7 MB
+Umpire       DEVICE::0 sum across ranks:    2.7 MB
+Umpire       DEVICE::0         rank max:    2.7 MB
+Umpire            HOST sum across ranks:    4.6 MB
+Umpire            HOST         rank max:    4.6 MB
+total time                        46.571s
+initialization time               33.346s
+run time                          11.882s

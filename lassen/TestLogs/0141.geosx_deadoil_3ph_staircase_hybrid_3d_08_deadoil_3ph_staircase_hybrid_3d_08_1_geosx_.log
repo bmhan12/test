@@ -1,0 +1,930 @@
+#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i deadoil_3ph_staircase_hybrid_3d.xml -x 2 -y 2 -z 2 -n 0to38 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(deadoil_3ph_staircase_hybrid_3d_08/deadoil_3ph_staircase_hybrid_3d_08_1_geosx)
+#ATS: clas = ['-i', 'deadoil_3ph_staircase_hybrid_3d.xml', '-x', '2', '-y', '2', '-z', '2', '-n', '0to38', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08', '--suppress-move-logging']
+#ATS: np = 8
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Solver of type CompositionalMultiphaseHybridFVM, named compflow
+Adding Mesh: InternalMesh, mesh
+Adding Geometric Object: Box, source
+Adding Geometric Object: Box, sink
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, solverApplications1
+Adding Event: PeriodicEvent, solverApplications2
+Adding Event: PeriodicEvent, solverApplications3
+Adding Event: PeriodicEvent, restarts
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Channel from ObjectManager::Catalog.
+Adding Object CellElementRegion named Barrier from ObjectManager::Catalog.
+   TableFunction: fluid_PVDO_Bo
+   TableFunction: fluid_PVDO_visco
+   TableFunction: fluid_PVDG_Bg
+   TableFunction: fluid_PVDG_viscg
+Total number of nodes:1573
+Total number of elems:1200
+Rank 0: Total number of nodes:252
+Rank 5: Total number of nodes:252
+Rank 1: Total number of nodes:252
+Rank 6: Total number of nodes:252
+Rank 2: Total number of nodes:252
+Rank 4: Total number of nodes:252
+Rank 3: Total number of nodes:252
+Rank 7: Total number of nodes:252
+  Channel/b08/fluid is allocated with 1 quadrature points.
+  Channel/b08/rock is allocated with 1 quadrature points.
+  Channel/b08/relperm is allocated with 1 quadrature points.
+  Channel/b00/fluid is allocated with 1 quadrature points.
+  Channel/b00/rock is allocated with 1 quadrature points.
+  Channel/b00/relperm is allocated with 1 quadrature points.
+  Channel/b01/fluid is allocated with 1 quadrature points.
+  Channel/b01/rock is allocated with 1 quadrature points.
+  Channel/b01/relperm is allocated with 1 quadrature points.
+  Channel/b05/fluid is allocated with 1 quadrature points.
+  Channel/b05/rock is allocated with 1 quadrature points.
+  Channel/b05/relperm is allocated with 1 quadrature points.
+  Channel/b06/fluid is allocated with 1 quadrature points.
+  Channel/b06/rock is allocated with 1 quadrature points.
+  Channel/b06/relperm is allocated with 1 quadrature points.
+  Channel/b14/fluid is allocated with 1 quadrature points.
+  Channel/b14/rock is allocated with 1 quadrature points.
+  Channel/b14/relperm is allocated with 1 quadrature points.
+  Channel/b15/fluid is allocated with 1 quadrature points.
+  Channel/b15/rock is allocated with 1 quadrature points.
+  Channel/b15/relperm is allocated with 1 quadrature points.
+  Channel/b11/fluid is allocated with 1 quadrature points.
+  Channel/b11/rock is allocated with 1 quadrature points.
+  Channel/b11/relperm is allocated with 1 quadrature points.
+	Barrier/b04 does not have a discretization associated with it.
+	Barrier/b12 does not have a discretization associated with it.
+	Barrier/b13 does not have a discretization associated with it.
+	Barrier/b09 does not have a discretization associated with it.
+	Barrier/b10 does not have a discretization associated with it.
+	Barrier/b02 does not have a discretization associated with it.
+	Barrier/b03 does not have a discretization associated with it.
+	Barrier/b07 does not have a discretization associated with it.
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! In table 'fluid_PVDO_Bo', values must be decreasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+DeadOilFluid fluid: Warning! in table 'fluid_PVDO_visco', values must be increasing as a function of pressure, please check your PVT tables
+Time: 0s, dt:100000s, Cycle: 0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.25e+01 ) ;    ( R ) = ( 3.25e+01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.56e+01 ) ;    ( R ) = ( 2.56e+01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.64e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.01e+01 ) ;    ( R ) = ( 2.01e+01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.43e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.66e+01 ) ;    ( R ) = ( 1.66e+01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.33e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 5.78e+00 ) ;    ( R ) = ( 5.78e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.31e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 1.44e-01 ) ;    ( R ) = ( 1.44e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.07e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 1.72e-04 ) ;    ( R ) = ( 1.72e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.49e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 4.01e-10 ) ;    ( R ) = ( 4.01e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.18e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000000.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000004.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000005.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000006.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000002.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000007.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000001.hdf5
+Time: 100000s, dt:100000s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.63e+00 ) ;    ( R ) = ( 1.63e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.09e-01 ) ;    ( R ) = ( 2.09e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.75e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.90e-02 ) ;    ( R ) = ( 2.90e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.36e-05 ) ;    ( R ) = ( 3.36e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.59e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 7.14e-12 ) ;    ( R ) = ( 7.14e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.62e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 200000s, dt:100000s, Cycle: 2
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.61e-01 ) ;    ( R ) = ( 8.61e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.04e-02 ) ;    ( R ) = ( 4.04e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.08e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.52e-03 ) ;    ( R ) = ( 6.52e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.94e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.39e-06 ) ;    ( R ) = ( 2.39e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 4.87e-14 ) ;    ( R ) = ( 4.87e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.98e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 300000s, dt:100000s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.64e-01 ) ;    ( R ) = ( 6.64e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.27e-02 ) ;    ( R ) = ( 3.27e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.59e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.49e-03 ) ;    ( R ) = ( 5.49e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.45e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.63e-06 ) ;    ( R ) = ( 5.63e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.64e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.15e-12 ) ;    ( R ) = ( 1.15e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.81e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 400000s, dt:100000s, Cycle: 4
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.73e-01 ) ;    ( R ) = ( 5.73e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.33e-02 ) ;    ( R ) = ( 1.33e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.54e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.78e-04 ) ;    ( R ) = ( 4.78e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.04e-07 ) ;    ( R ) = ( 2.04e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.77e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.55e-14 ) ;    ( R ) = ( 3.55e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.55e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 500000s, dt:100000s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.02e-01 ) ;    ( R ) = ( 5.02e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.78e-02 ) ;    ( R ) = ( 1.78e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.42e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.80e-03 ) ;    ( R ) = ( 2.80e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.05e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.45e-07 ) ;    ( R ) = ( 4.45e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.47e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.33e-14 ) ;    ( R ) = ( 3.33e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.06e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 600000s, dt:100000s, Cycle: 6
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.39e-01 ) ;    ( R ) = ( 4.39e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.14e-02 ) ;    ( R ) = ( 1.14e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.13e-03 ) ;    ( R ) = ( 1.13e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.28e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.87e-08 ) ;    ( R ) = ( 5.87e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.20e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.54e-14 ) ;    ( R ) = ( 3.54e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.46e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 700000s, dt:100000s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.90e-01 ) ;    ( R ) = ( 3.90e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.85e-03 ) ;    ( R ) = ( 6.85e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.38e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.74e-04 ) ;    ( R ) = ( 4.74e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.47e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.31e-08 ) ;    ( R ) = ( 1.31e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.58e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.42e-14 ) ;    ( R ) = ( 3.42e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.44e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 800000s, dt:100000s, Cycle: 8
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.56e-01 ) ;    ( R ) = ( 3.56e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.11e-03 ) ;    ( R ) = ( 4.11e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.15e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.43e-05 ) ;    ( R ) = ( 3.43e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.91e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 9.77e-12 ) ;    ( R ) = ( 9.77e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.03e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 900000s, dt:100000s, Cycle: 9
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.34e-01 ) ;    ( R ) = ( 3.34e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.76e-03 ) ;    ( R ) = ( 4.76e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.66e-04 ) ;    ( R ) = ( 2.66e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.08e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.04e-09 ) ;    ( R ) = ( 2.04e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1e+06s, dt:1e+06s, Cycle: 10
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.23e+00 ) ;    ( R ) = ( 3.23e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.97e+00 ) ;    ( R ) = ( 1.97e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.42e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.11e-01 ) ;    ( R ) = ( 6.11e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.90e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.21e-02 ) ;    ( R ) = ( 2.21e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.23e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.94e-06 ) ;    ( R ) = ( 1.94e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.18e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.97e-13 ) ;    ( R ) = ( 3.97e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.14e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 2e+06s, dt:1e+06s, Cycle: 11
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.17e+00 ) ;    ( R ) = ( 2.17e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.99e-01 ) ;    ( R ) = ( 4.99e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.11e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.81e-02 ) ;    ( R ) = ( 5.81e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.12e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.44e-03 ) ;    ( R ) = ( 2.44e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.53e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 2.56e-08 ) ;    ( R ) = ( 2.56e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.77e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.56e-13 ) ;    ( R ) = ( 3.56e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.23e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 3e+06s, dt:1e+06s, Cycle: 12
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.71e+00 ) ;    ( R ) = ( 1.71e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.10e-01 ) ;    ( R ) = ( 4.10e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.18e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.70e-02 ) ;    ( R ) = ( 1.70e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.04e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.66e-06 ) ;    ( R ) = ( 4.66e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.48e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.96e-13 ) ;    ( R ) = ( 3.96e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.45e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 4e+06s, dt:1e+06s, Cycle: 13
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.46e+00 ) ;    ( R ) = ( 1.46e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.08e-01 ) ;    ( R ) = ( 2.08e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.15e-02 ) ;    ( R ) = ( 1.15e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.21e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.80e-06 ) ;    ( R ) = ( 4.80e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.10e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.78e-13 ) ;    ( R ) = ( 3.78e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.60e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 5e+06s, dt:1e+06s, Cycle: 14
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.31e+00 ) ;    ( R ) = ( 1.31e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.08e-01 ) ;    ( R ) = ( 2.08e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.36e-02 ) ;    ( R ) = ( 1.36e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.32e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.42e-06 ) ;    ( R ) = ( 2.42e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.67e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.87e-13 ) ;    ( R ) = ( 3.87e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.02e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 6e+06s, dt:1e+06s, Cycle: 15
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.17e+00 ) ;    ( R ) = ( 1.17e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.22e-01 ) ;    ( R ) = ( 1.22e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.34e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.67e-03 ) ;    ( R ) = ( 4.67e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.71e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.92e-08 ) ;    ( R ) = ( 4.92e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.79e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.80e-13 ) ;    ( R ) = ( 3.80e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.21e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 7e+06s, dt:1e+06s, Cycle: 16
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.09e+00 ) ;    ( R ) = ( 1.09e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.16e-01 ) ;    ( R ) = ( 1.16e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.01e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 3.45e-03 ) ;    ( R ) = ( 3.45e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.97e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.91e-07 ) ;    ( R ) = ( 5.91e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.78e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.63e-13 ) ;    ( R ) = ( 3.63e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.89e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 8e+06s, dt:1e+06s, Cycle: 17
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.96e-01 ) ;    ( R ) = ( 9.96e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.05e-01 ) ;    ( R ) = ( 1.05e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.06e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.90e-03 ) ;    ( R ) = ( 4.90e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.91e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.77e-05 ) ;    ( R ) = ( 2.77e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.82e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.20e-12 ) ;    ( R ) = ( 1.20e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.94e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 9e+06s, dt:1e+06s, Cycle: 18
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.10e-01 ) ;    ( R ) = ( 9.10e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.49e-02 ) ;    ( R ) = ( 7.49e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.13e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.54e-03 ) ;    ( R ) = ( 2.54e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.84e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.05e-07 ) ;    ( R ) = ( 4.05e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.82e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.61e-13 ) ;    ( R ) = ( 3.61e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.98e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1e+07s, dt:1e+07s, Cycle: 19
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.73e+00 ) ;    ( R ) = ( 8.73e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.35e+00 ) ;    ( R ) = ( 7.35e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.75e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.50e+00 ) ;    ( R ) = ( 6.50e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.60e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.33e+00 ) ;    ( R ) = ( 5.33e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.93e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 4.34e+00 ) ;    ( R ) = ( 4.34e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.98e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 2.97e+00 ) ;    ( R ) = ( 2.97e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.11e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 1.63e+00 ) ;    ( R ) = ( 1.63e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.12e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 1.48e+00 ) ;    ( R ) = ( 1.48e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.02e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+    ( Rfluid ) = ( 1.25e-01 ) ;    ( R ) = ( 1.25e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.17e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  9
+    ( Rfluid ) = ( 1.82e-03 ) ;    ( R ) = ( 1.82e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.21e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter: 10
+    ( Rfluid ) = ( 4.65e-07 ) ;    ( R ) = ( 4.65e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.44e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter: 11
+    ( Rfluid ) = ( 3.73e-12 ) ;    ( R ) = ( 3.73e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.51e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 2e+07s, dt:1e+07s, Cycle: 20
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.41e+00 ) ;    ( R ) = ( 4.41e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.32e+00 ) ;    ( R ) = ( 3.32e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.92e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.47e+00 ) ;    ( R ) = ( 2.47e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.13e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.42e+00 ) ;    ( R ) = ( 1.42e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 7.68e-01 ) ;    ( R ) = ( 7.68e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 1.75e-02 ) ;    ( R ) = ( 1.75e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.86e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 3.37e-05 ) ;    ( R ) = ( 3.37e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.58e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 3.26e-10 ) ;    ( R ) = ( 3.26e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 3e+07s, dt:1e+07s, Cycle: 21
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.73e+00 ) ;    ( R ) = ( 3.73e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.94e+00 ) ;    ( R ) = ( 2.94e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.11e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.10e+00 ) ;    ( R ) = ( 2.10e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.09e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.44e+00 ) ;    ( R ) = ( 1.44e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.02e+00 ) ;    ( R ) = ( 1.02e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 8.73e-02 ) ;    ( R ) = ( 8.73e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.53e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 1.17e-03 ) ;    ( R ) = ( 1.17e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.58e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 2.46e-07 ) ;    ( R ) = ( 2.46e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.40e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+    ( Rfluid ) = ( 3.12e-12 ) ;    ( R ) = ( 3.12e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.09e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 4e+07s, dt:1e+07s, Cycle: 22
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.48e+00 ) ;    ( R ) = ( 3.48e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.43e+00 ) ;    ( R ) = ( 2.43e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.24e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.36e+00 ) ;    ( R ) = ( 1.36e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 8.04e-01 ) ;    ( R ) = ( 8.04e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.35e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.97e-02 ) ;    ( R ) = ( 1.97e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.67e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 4.55e-05 ) ;    ( R ) = ( 4.55e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.57e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 3.99e-10 ) ;    ( R ) = ( 3.99e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.71e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 5e+07s, dt:1e+07s, Cycle: 23
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.34e+00 ) ;    ( R ) = ( 3.34e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.11e+00 ) ;    ( R ) = ( 2.11e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.26e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 8.91e-01 ) ;    ( R ) = ( 8.91e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.43e-01 ) ;    ( R ) = ( 3.43e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.66e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 2.70e-02 ) ;    ( R ) = ( 2.70e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.46e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 4.71e-04 ) ;    ( R ) = ( 4.71e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.05e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 2.17e-07 ) ;    ( R ) = ( 2.17e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.06e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 2.94e-12 ) ;    ( R ) = ( 2.94e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.02e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 6e+07s, dt:1e+07s, Cycle: 24
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.23e+00 ) ;    ( R ) = ( 3.23e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.96e+00 ) ;    ( R ) = ( 1.96e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.02e+00 ) ;    ( R ) = ( 1.02e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.39e-01 ) ;    ( R ) = ( 1.39e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.34e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.16e-03 ) ;    ( R ) = ( 3.16e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.94e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 2.64e-06 ) ;    ( R ) = ( 2.64e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.52e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 3.29e-12 ) ;    ( R ) = ( 3.29e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.49e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 7e+07s, dt:1e+07s, Cycle: 25
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.10e+00 ) ;    ( R ) = ( 3.10e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.04e+00 ) ;    ( R ) = ( 2.04e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.47e-01 ) ;    ( R ) = ( 9.47e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.33e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.79e-01 ) ;    ( R ) = ( 3.79e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.69e-02 ) ;    ( R ) = ( 1.69e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.99e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 5.50e-05 ) ;    ( R ) = ( 5.50e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.83e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 7.86e-10 ) ;    ( R ) = ( 7.86e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.23e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 8e+07s, dt:1e+07s, Cycle: 26
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.01e+00 ) ;    ( R ) = ( 3.01e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.53e+00 ) ;    ( R ) = ( 1.53e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 8.25e-01 ) ;    ( R ) = ( 8.25e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.45e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.92e-02 ) ;    ( R ) = ( 3.92e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.58e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.79e-04 ) ;    ( R ) = ( 1.79e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.95e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 5.26e-09 ) ;    ( R ) = ( 5.26e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.25e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 9e+07s, dt:1e+07s, Cycle: 27
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.93e+00 ) ;    ( R ) = ( 2.93e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.64e+00 ) ;    ( R ) = ( 1.64e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.56e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.65e-01 ) ;    ( R ) = ( 4.65e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.68e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 9.55e-02 ) ;    ( R ) = ( 9.55e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.73e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 2.34e-03 ) ;    ( R ) = ( 2.34e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.35e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 2.31e-06 ) ;    ( R ) = ( 2.31e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.44e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 3.82e-12 ) ;    ( R ) = ( 3.82e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.58e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1e+08s, dt:1e+07s, Cycle: 28
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.85e+00 ) ;    ( R ) = ( 2.85e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.62e+00 ) ;    ( R ) = ( 1.62e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.80e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.81e-01 ) ;    ( R ) = ( 5.81e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.16e-02 ) ;    ( R ) = ( 2.16e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.69e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 5.05e-05 ) ;    ( R ) = ( 5.05e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.04e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.45e-10 ) ;    ( R ) = ( 3.45e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.90e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000005.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000000.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000004.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000006.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000002.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000007.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000003.hdf5
+Time: 1.1e+08s, dt:1e+07s, Cycle: 29
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.77e+00 ) ;    ( R ) = ( 2.77e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.33e+00 ) ;    ( R ) = ( 1.33e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.88e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 5.52e-01 ) ;    ( R ) = ( 5.52e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.18e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.89e-02 ) ;    ( R ) = ( 1.89e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.55e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 5.15e-05 ) ;    ( R ) = ( 5.15e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 4.70e-10 ) ;    ( R ) = ( 4.70e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.26e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.2e+08s, dt:1e+07s, Cycle: 30
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.70e+00 ) ;    ( R ) = ( 2.70e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.59e+00 ) ;    ( R ) = ( 1.59e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.29e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 7.33e-01 ) ;    ( R ) = ( 7.33e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.40e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.71e-02 ) ;    ( R ) = ( 2.71e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.08e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.26e-04 ) ;    ( R ) = ( 1.26e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.66e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.86e-09 ) ;    ( R ) = ( 3.86e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.94e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.3e+08s, dt:1e+07s, Cycle: 31
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.65e+00 ) ;    ( R ) = ( 2.65e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.72e+00 ) ;    ( R ) = ( 1.72e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.70e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.27e+00 ) ;    ( R ) = ( 1.27e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.50e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.64e-01 ) ;    ( R ) = ( 3.64e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 2.28e-02 ) ;    ( R ) = ( 2.28e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 1.26e-04 ) ;    ( R ) = ( 1.26e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.85e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 4.12e-09 ) ;    ( R ) = ( 4.12e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.71e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.4e+08s, dt:1e+07s, Cycle: 32
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.49e+00 ) ;    ( R ) = ( 2.49e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.34e+00 ) ;    ( R ) = ( 1.34e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.80e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.19e+00 ) ;    ( R ) = ( 1.19e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.34e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.60e-02 ) ;    ( R ) = ( 6.60e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.19e-04 ) ;    ( R ) = ( 3.19e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.52e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 1.58e-08 ) ;    ( R ) = ( 1.58e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.61e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 1.46e-12 ) ;    ( R ) = ( 1.46e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.18e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.5e+08s, dt:1e+07s, Cycle: 33
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.25e+00 ) ;    ( R ) = ( 2.25e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.10e+00 ) ;    ( R ) = ( 1.10e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.89e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.38e-01 ) ;    ( R ) = ( 4.38e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.96e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.82e-02 ) ;    ( R ) = ( 5.82e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.63e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.54e-03 ) ;    ( R ) = ( 1.54e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.51e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 1.49e-06 ) ;    ( R ) = ( 1.49e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.84e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 2.06e-12 ) ;    ( R ) = ( 2.06e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.25e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.6e+08s, dt:1e+07s, Cycle: 34
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.91e+00 ) ;    ( R ) = ( 1.91e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.12e+00 ) ;    ( R ) = ( 1.12e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.85e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.97e-01 ) ;    ( R ) = ( 4.97e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.04e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.25e-01 ) ;    ( R ) = ( 4.25e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.29e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 3.35e-02 ) ;    ( R ) = ( 3.35e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.18e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.44e-04 ) ;    ( R ) = ( 3.44e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.06e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 3.85e-08 ) ;    ( R ) = ( 3.85e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.27e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 1.21e-12 ) ;    ( R ) = ( 1.21e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.13e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.7e+08s, dt:1e+07s, Cycle: 35
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.66e+00 ) ;    ( R ) = ( 1.66e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.12e-01 ) ;    ( R ) = ( 7.12e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.89e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.81e-02 ) ;    ( R ) = ( 2.81e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.02e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.87e-04 ) ;    ( R ) = ( 2.87e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.03e-07 ) ;    ( R ) = ( 1.03e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.57e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 1.31e-12 ) ;    ( R ) = ( 1.31e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.98e-15 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.8e+08s, dt:1e+07s, Cycle: 36
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.33e+00 ) ;    ( R ) = ( 1.33e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.93e-01 ) ;    ( R ) = ( 2.93e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.33e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.54e-02 ) ;    ( R ) = ( 1.54e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.53e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.73e-05 ) ;    ( R ) = ( 5.73e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.51e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.05e-09 ) ;    ( R ) = ( 1.05e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.13e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Time: 1.9e+08s, dt:1e+07s, Cycle: 37
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.10e+00 ) ;    ( R ) = ( 1.10e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.63e-01 ) ;    ( R ) = ( 1.63e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.94e-14 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.81e-03 ) ;    ( R ) = ( 1.81e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.00e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.99e-07 ) ;    ( R ) = ( 1.99e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.83e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 1.20e-12 ) ;    ( R ) = ( 1.20e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.22e-16 ) ; 
+compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000007.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000006.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000004.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000005.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000001.hdf5
+Umpire          DEVICE sum across ranks:    7.3 MB
+Umpire          DEVICE         rank max:    2.8 MB
+Umpire       DEVICE::0 sum across ranks:    7.3 MB
+Umpire       DEVICE::0         rank max:    2.8 MB
+Umpire            HOST sum across ranks:   10.8 MB
+Umpire            HOST         rank max:    3.3 MB
+Umpire          PINNED sum across ranks:    4.8 MB
+Umpire          PINNED         rank max:  617.9 KB
+total time                        67.398s
+initialization time                0.688s
+run time                          65.167s

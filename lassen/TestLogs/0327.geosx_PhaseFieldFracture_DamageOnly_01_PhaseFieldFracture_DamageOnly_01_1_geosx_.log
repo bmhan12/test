@@ -1,0 +1,149 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageOnly.xml -x 1 -y 1 -z 1 -n 0to2 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(PhaseFieldFracture_DamageOnly_01/PhaseFieldFracture_DamageOnly_01_1_geosx)
+#ATS: clas = ['-i', 'PhaseFieldFracture_DamageOnly.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to2', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_01']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Solver of type PhaseFieldFracture, named PhaseFieldSolve
+Adding Solver of type SolidMechanicsLagrangianSSLE, named SolidMechSolve
+Adding Solver of type PhaseFieldDamageFEM, named DamageSolve
+Adding Mesh: InternalMesh, mesh1
+Adding Event: SoloEvent, siloOutput0
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, vtkOutput
+Adding Event: PeriodicEvent, siloOutputs
+Adding Event: PeriodicEvent, restarts
+   TableFunction: f_b
+Adding Output: Silo, SiloOutput
+Adding Output: VTK, VTKOutput
+Adding Output: Restart, restartOutput
+Adding Geometric Object: Box, centerPoint
+Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
+Total number of nodes:125
+Total number of elems:64
+Rank 0: Total number of nodes:125
+  Region1/cb1/shale is allocated with 8 quadrature points.
+Time: 0s, dt:1s, Cycle: 0
+Moved    0.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved    0.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved   32.0 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
+Moved   32.0 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> DamageSolve/localMatrix/entries
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> DamageSolve/rhs
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> DamageSolve/solution
+Moved    2.9 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> SolidMechSolve/rhs
+Moved    2.9 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> SolidMechSolve/solution
+Moved    1.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved    1.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved  673.8 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
+Moved  673.8 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> SolidMechSolve/matrix/entries
+Moved    2.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved   24.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_oldStress
+Moved   24.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_stress
+Moved    2.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+Moved    2.0 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/ghostRank
+Moved    0.5 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_bulkModulus
+Moved    0.5 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_shearModulus
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_damage
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_strainEnergyDensity
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/SolidMechSolve_TotalDisplacement_dofIndex
+Moved    2.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_density
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/all
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/ghostRank
+Moved    1.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/targetNodes
+( RSolid ) = ( 0.00e+00 ) ;     ( R ) = ( 0.00e+00 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/DamageSolve_Damage_dofIndex
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+Moved    0.0 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/centerPoint
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+    ( R ) = ( 2.69e-02 ) ; 
+Moved    1.0 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   17.2 KB to the DEVICE: LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   17.2 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the HOST  : LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   17.2 KB to the HOST  : LvArray::Array<long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved   17.2 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+    ( R ) = ( 2.62e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.27e-17 ) ; 
+Moved    1.0 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Damage
+Moved    4.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_damage
+***** Single Pass solver, no subcycling *****
+
+Moved    2.9 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
+Moved   24.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_stress
+Moved    4.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_strainEnergyDensity
+Moved    2.9 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    2.9 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    2.9 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved   24.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_oldStress
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_01/0to2_restart_000000000/rank_0000000.hdf5
+Time: 1s, dt:1s, Cycle: 1
+Moved    0.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved    0.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved   32.0 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
+Moved    1.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved    1.5 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved  673.8 KB to the DEVICE: LvArray::SparsityPattern<long long, int, LvArray::ChaiBuffer> /m_values
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+Moved    4.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_damage
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/SolidMechSolve_TotalDisplacement_dofIndex
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+( RSolid ) = ( 0.00e+00 ) ;     ( R ) = ( 0.00e+00 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+Moved    1.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/DamageSolve_Damage_dofIndex
+Moved    0.0 KB to the DEVICE: LvArray::Array<long long, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.0 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
+    ( R ) = ( 2.62e-18 ) ; 
+Moved    4.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_damage
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
+Moved   24.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_stress
+Moved    4.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 0l, 1l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_strainEnergyDensity
+Moved    2.9 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    2.9 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    2.9 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved   24.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale_oldStress
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_01/0to2_restart_000000001/rank_0000000.hdf5
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageOnly_01/0to2_restart_000000002/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:    1.5 MB
+Umpire          DEVICE         rank max:    1.5 MB
+Umpire       DEVICE::0 sum across ranks:    1.5 MB
+Umpire       DEVICE::0         rank max:    1.5 MB
+Umpire            HOST sum across ranks:    2.4 MB
+Umpire            HOST         rank max:    2.4 MB
+total time                         2.891s
+initialization time                0.039s
+run time                           1.397s

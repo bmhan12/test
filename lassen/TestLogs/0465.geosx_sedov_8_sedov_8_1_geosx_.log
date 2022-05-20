@@ -1,0 +1,564 @@
+#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i sedov.xml -x 2 -y 2 -z 2 -n 0to100 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(sedov_8/sedov_8_1_geosx)
+#ATS: clas = ['-i', 'sedov.xml', '-x', '2', '-y', '2', '-z', '2', '-n', '0to100', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8']
+#ATS: np = 8
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: e07fd92)
+Adding Mesh: InternalMesh, mesh1
+Adding Solver of type SolidMechanics_LagrangianFEM, named lagsolve
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, restarts
+Adding Output: Blueprint, blueprint
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Output: TimeHistory, timeHistoryOutput
+Adding Geometric Object: Box, source
+Adding Object CellElementRegion named Region2 from ObjectManager::Catalog.
+Rank 6: Total number of nodes:216
+Rank 5: Total number of nodes:216
+Rank 4: Total number of nodes:216
+Total number of nodes:1331
+Total number of elems:1000
+Rank 0: Total number of nodes:216
+Rank 2: Total number of nodes:216
+Rank 7: Total number of nodes:216
+Rank 1: Total number of nodes:216
+Rank 3: Total number of nodes:216
+  Region2/cb1/shale is allocated with 8 quadrature points.
+Time: 0s, dt:1e-05s, Cycle: 0
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/yneg
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/yneg
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the DEVICE: LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/xneg
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/xneg
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/xneg
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/yneg
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/xneg
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/yneg
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    0.3 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/zneg
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    6.8 KB to the DEVICE: LvArray::Array<int, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    0.8 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/ghostRank
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_bulkModulus
+Moved    1.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_shearModulus
+Moved    8.0 KB to the DEVICE: LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> 
+Moved    1.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsAttachedToSendOrReceiveNodes[0][0]
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    2.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/sendOrReceiveNodes
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    2.7 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Mass
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToSend
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToSend
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.3 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToSend
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToSend
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToSend
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToSend
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.2 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> SolidMechanicsLagrangianFEM::m_elemsNotAttachedToSendOrReceiveNodes[0][0]
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    0.5 KB to the DEVICE: LvArray::SortedArray<int, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/sets/nonSendOrReceiveNodes
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000004.hdf5
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000005.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000006.hdf5
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/1/ghostsToReceive
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000007.hdf5
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved    0.5 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/4/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/5/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/3/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/0/ghostsToReceive
+Moved    0.2 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/2/ghostsToReceive
+Moved    0.1 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/6/ghostsToReceive
+Moved    0.0 KB to the DEVICE: LvArray::Array<int, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/neighborData/7/ghostsToReceive
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000000/rank_0000002.hdf5
+Time: 1e-05s, dt:1e-05s, Cycle: 1
+Time: 2e-05s, dt:1e-05s, Cycle: 2
+Time: 3e-05s, dt:1e-05s, Cycle: 3
+Time: 4e-05s, dt:1e-05s, Cycle: 4
+Time: 5e-05s, dt:1e-05s, Cycle: 5
+Time: 6e-05s, dt:1e-05s, Cycle: 6
+Time: 7e-05s, dt:1e-05s, Cycle: 7
+Time: 8e-05s, dt:1e-05s, Cycle: 8
+Time: 9e-05s, dt:1e-05s, Cycle: 9
+Time: 0.0001s, dt:1e-05s, Cycle: 10
+Time: 0.00011s, dt:1e-05s, Cycle: 11
+Time: 0.00012s, dt:1e-05s, Cycle: 12
+Time: 0.00013s, dt:1e-05s, Cycle: 13
+Time: 0.00014s, dt:1e-05s, Cycle: 14
+Time: 0.00015s, dt:1e-05s, Cycle: 15
+Time: 0.00016s, dt:1e-05s, Cycle: 16
+Time: 0.00017s, dt:1e-05s, Cycle: 17
+Time: 0.00018s, dt:1e-05s, Cycle: 18
+Time: 0.00019s, dt:1e-05s, Cycle: 19
+Time: 0.0002s, dt:1e-05s, Cycle: 20
+Time: 0.00021s, dt:1e-05s, Cycle: 21
+Time: 0.00022s, dt:1e-05s, Cycle: 22
+Time: 0.00023s, dt:1e-05s, Cycle: 23
+Time: 0.00024s, dt:1e-05s, Cycle: 24
+Time: 0.00025s, dt:1e-05s, Cycle: 25
+Time: 0.00026s, dt:1e-05s, Cycle: 26
+Time: 0.00027s, dt:1e-05s, Cycle: 27
+Time: 0.00028s, dt:1e-05s, Cycle: 28
+Time: 0.00029s, dt:1e-05s, Cycle: 29
+Time: 0.0003s, dt:1e-05s, Cycle: 30
+Time: 0.00031s, dt:1e-05s, Cycle: 31
+Time: 0.00032s, dt:1e-05s, Cycle: 32
+Time: 0.00033s, dt:1e-05s, Cycle: 33
+Time: 0.00034s, dt:1e-05s, Cycle: 34
+Time: 0.00035s, dt:1e-05s, Cycle: 35
+Time: 0.00036s, dt:1e-05s, Cycle: 36
+Time: 0.00037s, dt:1e-05s, Cycle: 37
+Time: 0.00038s, dt:1e-05s, Cycle: 38
+Time: 0.00039s, dt:1e-05s, Cycle: 39
+Time: 0.0004s, dt:1e-05s, Cycle: 40
+Time: 0.00041s, dt:1e-05s, Cycle: 41
+Time: 0.00042s, dt:1e-05s, Cycle: 42
+Time: 0.00043s, dt:1e-05s, Cycle: 43
+Time: 0.00044s, dt:1e-05s, Cycle: 44
+Time: 0.00045s, dt:1e-05s, Cycle: 45
+Time: 0.00046s, dt:1e-05s, Cycle: 46
+Time: 0.00047s, dt:1e-05s, Cycle: 47
+Time: 0.00048s, dt:1e-05s, Cycle: 48
+Time: 0.00049s, dt:1e-05s, Cycle: 49
+Time: 0.0005s, dt:1e-05s, Cycle: 50
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000004.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000005.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000006.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000007.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000050/rank_0000002.hdf5
+Time: 0.00051s, dt:1e-05s, Cycle: 51
+Time: 0.00052s, dt:1e-05s, Cycle: 52
+Time: 0.00053s, dt:1e-05s, Cycle: 53
+Time: 0.00054s, dt:1e-05s, Cycle: 54
+Time: 0.00055s, dt:1e-05s, Cycle: 55
+Time: 0.00056s, dt:1e-05s, Cycle: 56
+Time: 0.00057s, dt:1e-05s, Cycle: 57
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000004.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000005.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000006.hdf5
+Time: 0.00058s, dt:1e-05s, Cycle: 58
+Time: 0.00059s, dt:1e-05s, Cycle: 59
+Time: 0.0006s, dt:1e-05s, Cycle: 60
+Time: 0.00061s, dt:1e-05s, Cycle: 61
+Time: 0.00062s, dt:1e-05s, Cycle: 62
+Time: 0.00063s, dt:1e-05s, Cycle: 63
+Time: 0.00064s, dt:1e-05s, Cycle: 64
+Time: 0.00065s, dt:1e-05s, Cycle: 65
+Time: 0.00066s, dt:1e-05s, Cycle: 66
+Time: 0.00067s, dt:1e-05s, Cycle: 67
+Time: 0.00068s, dt:1e-05s, Cycle: 68
+Time: 0.00069s, dt:1e-05s, Cycle: 69
+Time: 0.0007s, dt:1e-05s, Cycle: 70
+Time: 0.00071s, dt:1e-05s, Cycle: 71
+Time: 0.00072s, dt:1e-05s, Cycle: 72
+Time: 0.00073s, dt:1e-05s, Cycle: 73
+Time: 0.00074s, dt:1e-05s, Cycle: 74
+Time: 0.00075s, dt:1e-05s, Cycle: 75
+Time: 0.00076s, dt:1e-05s, Cycle: 76
+Time: 0.00077s, dt:1e-05s, Cycle: 77
+Time: 0.00078s, dt:1e-05s, Cycle: 78
+Time: 0.00079s, dt:1e-05s, Cycle: 79
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Time: 0.0008s, dt:1e-05s, Cycle: 80
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Time: 0.00081s, dt:1e-05s, Cycle: 81
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Time: 0.00082s, dt:1e-05s, Cycle: 82
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Time: 0.00083s, dt:1e-05s, Cycle: 83
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Time: 0.00084s, dt:1e-05s, Cycle: 84
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Time: 0.00085s, dt:1e-05s, Cycle: 85
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000007.hdf5
+Time: 0.00086s, dt:1e-05s, Cycle: 86
+Time: 0.00087s, dt:1e-05s, Cycle: 87
+Time: 0.00088s, dt:1e-05s, Cycle: 88
+Time: 0.00089s, dt:1e-05s, Cycle: 89
+Time: 0.0009s, dt:1e-05s, Cycle: 90
+Time: 0.00091s, dt:1e-05s, Cycle: 91
+Time: 0.00092s, dt:1e-05s, Cycle: 92
+Time: 0.00093s, dt:1e-05s, Cycle: 93
+Time: 0.00094s, dt:1e-05s, Cycle: 94
+Time: 0.00095s, dt:1e-05s, Cycle: 95
+Time: 0.00096s, dt:1e-05s, Cycle: 96
+Time: 0.00097s, dt:1e-05s, Cycle: 97
+Time: 0.00098s, dt:1e-05s, Cycle: 98
+Time: 0.00099s, dt:1e-05s, Cycle: 99
+Cleaning up events
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+Moved    8.0 KB to the HOST  : LvArray::Array<double, 2, camp::int_seq<long, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Acceleration
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_stress
+Moved   81.0 KB to the HOST  : LvArray::Array<double, 3, camp::int_seq<long, 2l, 1l, 0l>, int, LvArray::ChaiBuffer> Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region2/elementSubRegions/cb1/shale_oldStress
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/sedov/sedov_8/0to100_restart_000000100/rank_0000002.hdf5
+Umpire          DEVICE sum across ranks:    1.7 MB
+Umpire          DEVICE         rank max:  223.0 KB
+Umpire       DEVICE::0 sum across ranks:    1.7 MB
+Umpire       DEVICE::0         rank max:  223.0 KB
+Umpire            HOST sum across ranks:    7.7 MB
+Umpire            HOST         rank max:  993.9 KB
+Umpire          PINNED sum across ranks:    3.9 MB
+Umpire          PINNED         rank max:  500.9 KB
+total time                         3.541s
+initialization time                0.469s
+run time                           1.587s
