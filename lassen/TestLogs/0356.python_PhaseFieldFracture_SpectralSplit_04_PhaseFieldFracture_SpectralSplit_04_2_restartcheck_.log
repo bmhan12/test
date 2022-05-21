@@ -7,3 +7,410 @@
 #ATS: script = 
 #ATS: testpath =  
 
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_[0-9]+\.root
+Relative tolerance: 2e-10
+Absolute tolerance: 1e-08
+Output file: /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030.restartcheck
+Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
+Warnings are errors: True
+
+The root files are similar.
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000000.hdf5
+
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000000.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/stress
+	Arrays of types float64 and float64 have 912 values of which 912 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (10, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 356
+		max = 19326826463.41351, mean = 445903881.2146859, std = 1749938259.9097862
+		max is at index (7, 5, 1), value = 228.51480033731372, base_value = 35.246535703178644
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 556
+		max = 25824257038.479733, mean = 845387461.9682944, std = 1832159058.3844194
+		max is at index (15, 3, 2), value = -218.9465367552508, base_value = 52.57007161184054
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/damage
+	Arrays of types float64 and float64 have 152 values of which 152 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 2): value = 0.024366561184189763, base_value = 0.18934663919401928
+		Max relative difference is at index (15, 0): value = 0.0037274299935306106, base_value = 0.062364318648147246
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 152
+		max = 16498007.800982952, mean = 2654464.529247277, std = 2785765.793352221
+		max is at index (16, 2), value = 0.024366561184189763, base_value = 0.18934663919401928
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/oldStress
+	Arrays of types float64 and float64 have 912 values of which 912 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (10, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 356
+		max = 19326826463.41351, mean = 445903881.2146859, std = 1749938259.9097862
+		max is at index (7, 5, 1), value = 228.51480033731372, base_value = 35.246535703178644
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 556
+		max = 25824257038.479733, mean = 845387461.9682944, std = 1832159058.3844194
+		max is at index (15, 3, 2), value = -218.9465367552508, base_value = 52.57007161184054
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/strainEnergyDensity
+	Arrays of types float64 and float64 have 152 values of which 152 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 7): value = 130.36912499283602, base_value = 236.52795761283306
+		Max relative difference is at index (16, 0): value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 144
+		max = 1879314199.2488751, mean = 247272893.73895192, std = 296577796.82179236
+		max is at index (16, 0), value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 8
+		max = 2399395567.2245116, mean = 105263053.60877407, std = 460452456.7293115
+		max is at index (16, 2), value = 90.45422036129422, base_value = 173.90999419461343
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/TotalDisplacement
+	Arrays of types float64 and float64 have 180 values of which 136 fail both the relative and absolute tests.
+		Max absolute difference is at index (50, 0): value = 0.009631168490957335, base_value = 0.00863258009007963
+		Max relative difference is at index (25, 1): value = -2.539077327404337e-06, base_value = 9.871515868398218e-05
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 136
+		max = 99858.84008777041, mean = 14796.806728737498, std = 20980.667284242005
+		max is at index (50, 0), value = 0.009631168490957335, base_value = 0.00863258009007963
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/IncrementalDisplacement
+	Arrays of types float64 and float64 have 180 values of which 136 fail both the relative and absolute tests.
+		Max absolute difference is at index (53, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (24, 1): value = -1.6041319492581616e-05, base_value = 6.264281306807229e-07
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 136
+		max = 19723.00992173529, mean = 3319.1895480846606, std = 4627.886552075441
+		max is at index (53, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 60 values of which 60 fail both the relative and absolute tests.
+		Max absolute difference is at index (53,): value = 0.0, base_value = 0.21987693626866284
+		Max relative difference is at index (36,): value = 0.0, base_value = 0.013755327581211112
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 60
+		max = 21987693.626866285, mean = 3060973.5343026775, std = 4182162.748332716
+		max is at index (53,), value = 0.0, base_value = 0.21987693626866284
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Velocity
+	Arrays of types float64 and float64 have 180 values of which 136 fail both the relative and absolute tests.
+		Max absolute difference is at index (53, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (24, 1): value = -1.6041319492581616e-05, base_value = 6.264281306807229e-07
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 136
+		max = 19723.00992173529, mean = 3319.1895480846606, std = 4627.886552075441
+		max is at index (53, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/SolidMechSolve/maxForce/__values__
+	Scalar values of types float64 and float64 differ: 29.316898036649444, 27.439730896945473.
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIterations/__values__
+	Scalar values of types int32 and int32 differ: 51, 3.
+********************************************************************************
+The files are different.
+
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000001.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/stress
+	Arrays of types float64 and float64 have 816 values of which 816 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (0, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 318
+		max = 19326826463.41351, mean = 371544043.9129302, std = 1592844936.1952882
+		max is at index (10, 5, 1), value = 228.51480033731372, base_value = 35.246535703178644
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 498
+		max = 18121242224.512684, mean = 673624051.2475321, std = 1586888103.6625655
+		max is at index (13, 0, 1), value = -132.5220837986224, base_value = 50.499061571719515
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/damage
+	Arrays of types float64 and float64 have 136 values of which 136 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 2): value = 0.0, base_value = 0.18934663919401928
+		Max relative difference is at index (9, 0): value = 0.0, base_value = 0.1489057590252002
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 136
+		max = 18934663.91940193, mean = 4304763.220135408, std = 4676790.891587236
+		max is at index (16, 2), value = 0.0, base_value = 0.18934663919401928
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/oldStress
+	Arrays of types float64 and float64 have 816 values of which 816 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (0, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 318
+		max = 19326826463.41351, mean = 371544043.9129302, std = 1592844936.1952882
+		max is at index (10, 5, 1), value = 228.51480033731372, base_value = 35.246535703178644
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 498
+		max = 18121242224.512684, mean = 673624051.2475321, std = 1586888103.6625655
+		max is at index (13, 0, 1), value = -132.5220837986224, base_value = 50.499061571719515
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/strainEnergyDensity
+	Arrays of types float64 and float64 have 136 values of which 136 fail both the relative and absolute tests.
+		Max absolute difference is at index (16, 7): value = 130.36912499283602, base_value = 236.52795761283306
+		Max relative difference is at index (16, 0): value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 128
+		max = 1879314199.2488751, mean = 165070568.00548425, std = 269076441.40775186
+		max is at index (16, 0), value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 8
+		max = 2399395567.2245116, mean = 117646942.26862983, std = 485286154.5443332
+		max is at index (16, 2), value = 90.45422036129422, base_value = 173.90999419461343
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/TotalDisplacement
+	Arrays of types float64 and float64 have 168 values of which 120 fail both the relative and absolute tests.
+		Max absolute difference is at index (52, 0): value = 0.009631168490957335, base_value = 0.00863258009007963
+		Max relative difference is at index (38, 1): value = 3.7267160222033484e-05, base_value = 0.00015826818247257628
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 120
+		max = 99858.84008777041, mean = 14266.171833742987, std = 21178.609843287453
+		max is at index (52, 0), value = 0.009631168490957335, base_value = 0.00863258009007963
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/IncrementalDisplacement
+	Arrays of types float64 and float64 have 168 values of which 120 fail both the relative and absolute tests.
+		Max absolute difference is at index (53, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (30, 2): value = 2.004300805942157e-06, base_value = 1.2315642460242383e-07
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 120
+		max = 19723.00992173529, mean = 3053.906158395301, std = 4548.4175244025855
+		max is at index (53, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 56 values of which 56 fail both the relative and absolute tests.
+		Max absolute difference is at index (53,): value = 0.0, base_value = 0.21987693626866284
+		Max relative difference is at index (24,): value = 0.0, base_value = 0.16689121988446323
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 56
+		max = 21987693.626866285, mean = 4747537.065449568, std = 5691525.832212605
+		max is at index (53,), value = 0.0, base_value = 0.21987693626866284
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Velocity
+	Arrays of types float64 and float64 have 168 values of which 120 fail both the relative and absolute tests.
+		Max absolute difference is at index (53, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (30, 2): value = 2.004300805942157e-06, base_value = 1.2315642460242383e-07
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 120
+		max = 19723.00992173529, mean = 3053.906158395301, std = 4548.4175244025855
+		max is at index (53, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/SolidMechSolve/maxForce/__values__
+	Scalar values of types float64 and float64 differ: 16.800987577396146, 16.13471169487209.
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIterations/__values__
+	Scalar values of types int32 and int32 differ: 51, 3.
+********************************************************************************
+The files are different.
+
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000002.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/stress
+	Arrays of types float64 and float64 have 672 values of which 672 fail both the relative and absolute tests.
+		Max absolute difference is at index (8, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (13, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 224
+		max = 19326826463.41351, mean = 387259524.6488477, std = 1720159260.3024337
+		max is at index (10, 5, 1), value = 228.51480033731372, base_value = 35.246535703178644
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 448
+		max = 25824257038.479733, mean = 900890818.2184709, std = 2045458504.9915197
+		max is at index (7, 3, 2), value = -218.9465367552508, base_value = 52.57007161184054
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/damage
+	Arrays of types float64 and float64 have 112 values of which 112 fail both the relative and absolute tests.
+		Max absolute difference is at index (9, 2): value = 0.0, base_value = 0.15092318261398302
+		Max relative difference is at index (9, 0): value = 0.0, base_value = 0.1489057590252002
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 112
+		max = 15092318.261398302, mean = 5587210.1596112745, std = 4253173.216851843
+		max is at index (9, 2), value = 0.0, base_value = 0.15092318261398302
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/oldStress
+	Arrays of types float64 and float64 have 672 values of which 672 fail both the relative and absolute tests.
+		Max absolute difference is at index (8, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (13, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 224
+		max = 19326826463.41351, mean = 387259524.6488477, std = 1720159260.3024337
+		max is at index (10, 5, 1), value = 228.51480033731372, base_value = 35.246535703178644
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 448
+		max = 25824257038.479733, mean = 900890818.2184709, std = 2045458504.9915197
+		max is at index (7, 3, 2), value = -218.9465367552508, base_value = 52.57007161184054
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/strainEnergyDensity
+	Arrays of types float64 and float64 have 112 values of which 112 fail both the relative and absolute tests.
+		Max absolute difference is at index (8, 7): value = 130.36912499283602, base_value = 236.52795761283306
+		Max relative difference is at index (8, 0): value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 104
+		max = 1879314199.2488751, mean = 296824762.7704379, std = 326469633.912235
+		max is at index (8, 0), value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 8
+		max = 2399395567.2245116, mean = 142857001.32619336, std = 531381287.12603974
+		max is at index (8, 2), value = 90.45422036129422, base_value = 173.90999419461343
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/TotalDisplacement
+	Arrays of types float64 and float64 have 144 values of which 102 fail both the relative and absolute tests.
+		Max absolute difference is at index (8, 0): value = 0.009631168490957335, base_value = 0.00863258009007963
+		Max relative difference is at index (33, 2): value = 3.902800717515873e-05, base_value = 2.223729752815722e-05
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 102
+		max = 99858.84008777041, mean = 17213.03717180435, std = 25531.699723816124
+		max is at index (8, 0), value = 0.009631168490957335, base_value = 0.00863258009007963
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/IncrementalDisplacement
+	Arrays of types float64 and float64 have 144 values of which 102 fail both the relative and absolute tests.
+		Max absolute difference is at index (18, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (10, 0): value = 0.00014102411742859559, base_value = 4.139750125009766e-06
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 102
+		max = 19723.00992173529, mean = 3527.326531483135, std = 5164.0121409301755
+		max is at index (18, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 48 values of which 48 fail both the relative and absolute tests.
+		Max absolute difference is at index (31,): value = 0.0, base_value = 0.16689121988446326
+		Max relative difference is at index (12,): value = 0.0, base_value = 0.15598018141381764
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 48
+		max = 16689121.988446325, mean = 4775777.927098674, std = 4427830.09576688
+		max is at index (31,), value = 0.0, base_value = 0.16689121988446326
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Velocity
+	Arrays of types float64 and float64 have 144 values of which 102 fail both the relative and absolute tests.
+		Max absolute difference is at index (18, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (10, 0): value = 0.00014102411742859559, base_value = 4.139750125009766e-06
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 102
+		max = 19723.00992173529, mean = 3527.326531483135, std = 5164.0121409301755
+		max is at index (18, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/SolidMechSolve/maxForce/__values__
+	Scalar values of types float64 and float64 differ: 16.05498388580187, 13.313870355680356.
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIterations/__values__
+	Scalar values of types int32 and int32 differ: 51, 3.
+********************************************************************************
+The files are different.
+
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000003.hdf5 
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/stress
+	Arrays of types float64 and float64 have 864 values of which 864 fail both the relative and absolute tests.
+		Max absolute difference is at index (17, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (12, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 290
+		max = 16888395558.818731, mean = 227764149.37624872, std = 1124590108.6837966
+		max is at index (16, 5, 2), value = -161.62398802925736, base_value = 7.259967558929969
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 574
+		max = 25824257038.479733, mean = 772064765.0867487, std = 1898980994.3920546
+		max is at index (16, 3, 2), value = -218.9465367552508, base_value = 52.57007161184054
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/damage
+	Arrays of types float64 and float64 have 144 values of which 144 fail both the relative and absolute tests.
+		Max absolute difference is at index (17, 2): value = 0.0, base_value = 0.18934663919401928
+		Max relative difference is at index (6, 0): value = 0.0, base_value = 0.04282478543295055
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 144
+		max = 18934663.91940193, mean = 5359632.568986648, std = 4974110.5814930685
+		max is at index (17, 2), value = 0.0, base_value = 0.18934663919401928
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/oldStress
+	Arrays of types float64 and float64 have 864 values of which 864 fail both the relative and absolute tests.
+		Max absolute difference is at index (17, 7, 0): value = 7052.702030569796, base_value = 9912.985327977998
+		Max relative difference is at index (12, 4, 3): value = 3.263528286195581, base_value = -0.10000563353571934
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 290
+		max = 16888395558.818731, mean = 227764149.37624872, std = 1124590108.6837966
+		max is at index (16, 5, 2), value = -161.62398802925736, base_value = 7.259967558929969
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 574
+		max = 25824257038.479733, mean = 772064765.0867487, std = 1898980994.3920546
+		max is at index (16, 3, 2), value = -218.9465367552508, base_value = 52.57007161184054
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/all_HEX/shale/strainEnergyDensity
+	Arrays of types float64 and float64 have 144 values of which 144 fail both the relative and absolute tests.
+		Max absolute difference is at index (17, 7): value = 130.36912499283602, base_value = 236.52795761283306
+		Max relative difference is at index (17, 0): value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 136
+		max = 1879314199.2488751, mean = 196266920.06359446, std = 305525167.344501
+		max is at index (17, 0), value = 19.24024122619672, base_value = 38.03338321868547
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 8
+		max = 2399395567.2245116, mean = 111111001.03148372, std = 472382669.14741266
+		max is at index (17, 2), value = 90.45422036129422, base_value = 173.90999419461343
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/TotalDisplacement
+	Arrays of types float64 and float64 have 186 values of which 126 fail both the relative and absolute tests.
+		Max absolute difference is at index (55, 0): value = 0.009631168490957335, base_value = 0.00863258009007963
+		Max relative difference is at index (45, 1): value = -2.539077327404337e-06, base_value = 9.871515868398218e-05
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 126
+		max = 99858.84008777041, mean = 11750.856298560884, std = 19355.475282321022
+		max is at index (55, 0), value = 0.009631168490957335, base_value = 0.00863258009007963
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/IncrementalDisplacement
+	Arrays of types float64 and float64 have 186 values of which 126 fail both the relative and absolute tests.
+		Max absolute difference is at index (57, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (44, 1): value = -1.6041319492581616e-05, base_value = 6.264281306807229e-07
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 126
+		max = 19723.00992173529, mean = 2585.6370037123193, std = 4199.84308133454
+		max is at index (57, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Damage
+	Arrays of types float64 and float64 have 62 values of which 62 fail both the relative and absolute tests.
+		Max absolute difference is at index (57,): value = 0.0, base_value = 0.21987693626866284
+		Max relative difference is at index (16,): value = 0.0, base_value = 0.03609095584498984
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 62
+		max = 21987693.626866285, mean = 5128451.290809442, std = 5485150.421122994
+		max is at index (57,), value = 0.0, base_value = 0.21987693626866284
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/Mode2Notched/meshLevels/Level0/nodeManager/Velocity
+	Arrays of types float64 and float64 have 186 values of which 126 fail both the relative and absolute tests.
+		Max absolute difference is at index (57, 0): value = 0.00036399722809668305, base_value = 0.00016676712887933012
+		Max relative difference is at index (44, 1): value = -1.6041319492581616e-05, base_value = 6.264281306807229e-07
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 126
+		max = 19723.00992173529, mean = 2585.6370037123193, std = 4199.84308133454
+		max is at index (57, 0), value = 0.00036399722809668305, base_value = 0.00016676712887933012
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/SolidMechSolve/maxForce/__values__
+	Scalar values of types float64 and float64 differ: 10.13174521456384, 9.659079200711963.
+********************************************************************************
+********************************************************************************
+Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIterations/__values__
+	Scalar values of types int32 and int32 differ: 51, 3.
+********************************************************************************
+The files are different.
+
+Compared 4 pairs of files of which 4 are different.
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_SpectralSplit_04/0to30_restart_000000030/rank_0000003.hdf5

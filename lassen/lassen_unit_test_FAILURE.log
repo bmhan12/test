@@ -1,10 +1,10 @@
 Disabling X forwarding, DISPLAY not set
 + exec bsub -nnodes 1 -q pdebug -Is -W 60 -core_isolation 2 /usr/tce/packages/lalloc/lalloc-2.0/bin/lexec ctest --output-on-failure
-Job <3544538> is submitted to queue <pdebug>.
+Job <3557888> is submitted to queue <pdebug>.
 <<Waiting for dispatch ...>>
 <<Starting on lassen710>>
 <<Waiting for JSM to become ready ...>>
-<<Redirecting to compute node lassen32, setting up as private launch node>>
+<<Redirecting to compute node lassen26, setting up as private launch node>>
 /bin/stty: standard input: Inappropriate ioctl for device
 tset: standard error: Inappropriate ioctl for device
 
@@ -12,234 +12,234 @@ stty: standard input: Inappropriate ioctl for device
 stty: standard input: Inappropriate ioctl for device
 Test project /g/g12/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build
         Start   1: blt_gtest_smoke
-  1/168 Test   #1: blt_gtest_smoke ......................................   Passed    0.81 sec
+  1/168 Test   #1: blt_gtest_smoke ......................................   Passed    0.79 sec
         Start   2: blt_openmp_smoke
-  2/168 Test   #2: blt_openmp_smoke .....................................   Passed    1.00 sec
+  2/168 Test   #2: blt_openmp_smoke .....................................   Passed    0.81 sec
         Start   3: blt_mpi_smoke
-  3/168 Test   #3: blt_mpi_smoke ........................................   Passed    1.56 sec
+  3/168 Test   #3: blt_mpi_smoke ........................................   Passed    1.02 sec
         Start   4: blt_cuda_smoke
-  4/168 Test   #4: blt_cuda_smoke .......................................   Passed    1.07 sec
+  4/168 Test   #4: blt_cuda_smoke .......................................   Passed    0.81 sec
         Start   5: blt_cuda_runtime_smoke
-  5/168 Test   #5: blt_cuda_runtime_smoke ...............................   Passed    0.72 sec
+  5/168 Test   #5: blt_cuda_runtime_smoke ...............................   Passed    0.67 sec
         Start   6: blt_cuda_version_smoke
-  6/168 Test   #6: blt_cuda_version_smoke ...............................   Passed    0.64 sec
+  6/168 Test   #6: blt_cuda_version_smoke ...............................   Passed    0.71 sec
         Start   7: blt_cuda_openmp_smoke
-  7/168 Test   #7: blt_cuda_openmp_smoke ................................   Passed    0.88 sec
+  7/168 Test   #7: blt_cuda_openmp_smoke ................................   Passed    1.05 sec
         Start   8: blt_cuda_mpi_smoke
-  8/168 Test   #8: blt_cuda_mpi_smoke ...................................   Passed    1.31 sec
+  8/168 Test   #8: blt_cuda_mpi_smoke ...................................   Passed    1.65 sec
         Start   9: blt_cuda_gtest_smoke
-  9/168 Test   #9: blt_cuda_gtest_smoke .................................   Passed    0.87 sec
+  9/168 Test   #9: blt_cuda_gtest_smoke .................................   Passed    0.90 sec
         Start  10: testArray1D
- 10/168 Test  #10: testArray1D ..........................................   Passed    1.24 sec
+ 10/168 Test  #10: testArray1D ..........................................   Passed    1.05 sec
         Start  11: testArray1DOfArray1D
- 11/168 Test  #11: testArray1DOfArray1D .................................   Passed    0.94 sec
+ 11/168 Test  #11: testArray1DOfArray1D .................................   Passed    0.89 sec
         Start  12: testArray1DOfArray1DOfArray1D
- 12/168 Test  #12: testArray1DOfArray1DOfArray1D ........................   Passed    1.19 sec
+ 12/168 Test  #12: testArray1DOfArray1DOfArray1D ........................   Passed    0.97 sec
         Start  13: testArrayOfArrays
- 13/168 Test  #13: testArrayOfArrays ....................................   Passed    2.22 sec
+ 13/168 Test  #13: testArrayOfArrays ....................................   Passed    1.89 sec
         Start  14: testArrayOfSets
- 14/168 Test  #14: testArrayOfSets ......................................   Passed    1.42 sec
+ 14/168 Test  #14: testArrayOfSets ......................................   Passed    1.28 sec
         Start  15: testArraySlice
- 15/168 Test  #15: testArraySlice .......................................   Passed    0.76 sec
+ 15/168 Test  #15: testArraySlice .......................................   Passed    0.96 sec
         Start  16: testArrayView_copyAssignmentOperator
- 16/168 Test  #16: testArrayView_copyAssignmentOperator .................   Passed    1.00 sec
+ 16/168 Test  #16: testArrayView_copyAssignmentOperator .................   Passed    0.70 sec
         Start  17: testArrayView_copyConstructor
- 17/168 Test  #17: testArrayView_copyConstructor ........................   Passed    0.74 sec
+ 17/168 Test  #17: testArrayView_copyConstructor ........................   Passed    0.73 sec
         Start  18: testArrayView_defaultConstructor
- 18/168 Test  #18: testArrayView_defaultConstructor .....................   Passed    0.80 sec
+ 18/168 Test  #18: testArrayView_defaultConstructor .....................   Passed    0.98 sec
         Start  19: testArrayView_emptyMove
- 19/168 Test  #19: testArrayView_emptyMove ..............................   Passed    1.00 sec
+ 19/168 Test  #19: testArrayView_emptyMove ..............................   Passed    0.66 sec
         Start  20: testArrayView_modifyInKernel
- 20/168 Test  #20: testArrayView_modifyInKernel .........................   Passed    0.92 sec
+ 20/168 Test  #20: testArrayView_modifyInKernel .........................   Passed    1.06 sec
         Start  21: testArrayView_modifyInMultipleKernels
- 21/168 Test  #21: testArrayView_modifyInMultipleKernels ................   Passed    1.15 sec
+ 21/168 Test  #21: testArrayView_modifyInMultipleKernels ................   Passed    0.91 sec
         Start  22: testArrayView_move
- 22/168 Test  #22: testArrayView_move ...................................   Passed    0.94 sec
+ 22/168 Test  #22: testArrayView_move ...................................   Passed    1.04 sec
         Start  23: testArrayView_moveMultipleTimes
- 23/168 Test  #23: testArrayView_moveMultipleTimes ......................   Passed    1.27 sec
+ 23/168 Test  #23: testArrayView_moveMultipleTimes ......................   Passed    0.88 sec
         Start  24: testArrayView_moveNoTouch
- 24/168 Test  #24: testArrayView_moveNoTouch ............................   Passed    1.36 sec
+ 24/168 Test  #24: testArrayView_moveNoTouch ............................   Passed    1.13 sec
         Start  25: testArrayView_readInKernel
- 25/168 Test  #25: testArrayView_readInKernel ...........................   Passed    0.92 sec
+ 25/168 Test  #25: testArrayView_readInKernel ...........................   Passed    0.90 sec
         Start  26: testArrayView_setValues
  26/168 Test  #26: testArrayView_setValues ..............................   Passed    1.16 sec
         Start  27: testArrayView_setValuesFromView
- 27/168 Test  #27: testArrayView_setValuesFromView ......................   Passed    0.94 sec
+ 27/168 Test  #27: testArrayView_setValuesFromView ......................   Passed    0.86 sec
         Start  28: testArrayView_toSlice
- 28/168 Test  #28: testArrayView_toSlice ................................   Passed    0.88 sec
+ 28/168 Test  #28: testArrayView_toSlice ................................   Passed    0.69 sec
         Start  29: testArrayView_toSliceConst
- 29/168 Test  #29: testArrayView_toSliceConst ...........................   Passed    0.83 sec
+ 29/168 Test  #29: testArrayView_toSliceConst ...........................   Passed    0.73 sec
         Start  30: testArrayView_toView
- 30/168 Test  #30: testArrayView_toView .................................   Passed    0.78 sec
+ 30/168 Test  #30: testArrayView_toView .................................   Passed    0.67 sec
         Start  31: testArrayView_toViewConst
- 31/168 Test  #31: testArrayView_toViewConst ............................   Passed    1.01 sec
+ 31/168 Test  #31: testArrayView_toViewConst ............................   Passed    0.93 sec
         Start  32: testArrayView_typeConversion
- 32/168 Test  #32: testArrayView_typeConversion .........................   Passed    0.73 sec
+ 32/168 Test  #32: testArrayView_typeConversion .........................   Passed    0.66 sec
         Start  33: testArrayView_udcToSlice
- 33/168 Test  #33: testArrayView_udcToSlice .............................   Passed    1.02 sec
+ 33/168 Test  #33: testArrayView_udcToSlice .............................   Passed    0.70 sec
         Start  34: testArrayView_udcToSliceConst
- 34/168 Test  #34: testArrayView_udcToSliceConst ........................   Passed    0.79 sec
+ 34/168 Test  #34: testArrayView_udcToSliceConst ........................   Passed    0.93 sec
         Start  35: testArrayView_udcToViewConst
- 35/168 Test  #35: testArrayView_udcToViewConst .........................   Passed    0.80 sec
+ 35/168 Test  #35: testArrayView_udcToViewConst .........................   Passed    0.70 sec
         Start  36: testArrayView_zero
- 36/168 Test  #36: testArrayView_zero ...................................   Passed    0.96 sec
+ 36/168 Test  #36: testArrayView_zero ...................................   Passed    1.37 sec
         Start  37: testArray_clear
- 37/168 Test  #37: testArray_clear ......................................   Passed    0.78 sec
+ 37/168 Test  #37: testArray_clear ......................................   Passed    0.75 sec
         Start  38: testArray_copyAssignmentOperator
- 38/168 Test  #38: testArray_copyAssignmentOperator .....................   Passed    0.94 sec
+ 38/168 Test  #38: testArray_copyAssignmentOperator .....................   Passed    0.90 sec
         Start  39: testArray_copyConstructor
- 39/168 Test  #39: testArray_copyConstructor ............................   Passed    0.82 sec
+ 39/168 Test  #39: testArray_copyConstructor ............................   Passed    0.78 sec
         Start  40: testArray_defaultConstructor
- 40/168 Test  #40: testArray_defaultConstructor .........................   Passed    0.80 sec
+ 40/168 Test  #40: testArray_defaultConstructor .........................   Passed    0.71 sec
         Start  41: testArray_getSetSingleParameterResizeIndex
- 41/168 Test  #41: testArray_getSetSingleParameterResizeIndex ...........   Passed    0.76 sec
+ 41/168 Test  #41: testArray_getSetSingleParameterResizeIndex ...........   Passed    0.96 sec
         Start  42: testArray_indexing
- 42/168 Test  #42: testArray_indexing ...................................   Passed    0.76 sec
+ 42/168 Test  #42: testArray_indexing ...................................   Passed    0.78 sec
         Start  43: testArray_moveAssignmentOperator
- 43/168 Test  #43: testArray_moveAssignmentOperator .....................   Passed    0.98 sec
+ 43/168 Test  #43: testArray_moveAssignmentOperator .....................   Passed    1.27 sec
         Start  44: testArray_moveConstructor
  44/168 Test  #44: testArray_moveConstructor ............................   Passed    0.76 sec
         Start  45: testArray_reserveAndCapacity
- 45/168 Test  #45: testArray_reserveAndCapacity .........................   Passed    0.75 sec
+ 45/168 Test  #45: testArray_reserveAndCapacity .........................   Passed    0.96 sec
         Start  46: testArray_resize
- 46/168 Test  #46: testArray_resize .....................................   Passed    1.15 sec
+ 46/168 Test  #46: testArray_resize .....................................   Passed    1.11 sec
         Start  47: testArray_resizeDefault
- 47/168 Test  #47: testArray_resizeDefault ..............................   Passed    1.36 sec
+ 47/168 Test  #47: testArray_resizeDefault ..............................   Passed    1.33 sec
         Start  48: testArray_resizeDimension
- 48/168 Test  #48: testArray_resizeDimension ............................   Passed    0.87 sec
+ 48/168 Test  #48: testArray_resizeDimension ............................   Passed    0.86 sec
         Start  49: testArray_resizeFromArgs
- 49/168 Test  #49: testArray_resizeFromArgs .............................   Passed    1.05 sec
+ 49/168 Test  #49: testArray_resizeFromArgs .............................   Passed    1.01 sec
         Start  50: testArray_resizeFromPointer
- 50/168 Test  #50: testArray_resizeFromPointer ..........................   Passed    0.78 sec
+ 50/168 Test  #50: testArray_resizeFromPointer ..........................   Passed    0.79 sec
         Start  51: testArray_resizeWithoutInitializationOrDestruction
- 51/168 Test  #51: testArray_resizeWithoutInitializationOrDestruction ...   Passed    0.96 sec
+ 51/168 Test  #51: testArray_resizeWithoutInitializationOrDestruction ...   Passed    0.93 sec
         Start  52: testArray_sizedConstructor
- 52/168 Test  #52: testArray_sizedConstructor ...........................   Passed    0.73 sec
+ 52/168 Test  #52: testArray_sizedConstructor ...........................   Passed    0.67 sec
         Start  53: testArray_toView
- 53/168 Test  #53: testArray_toView .....................................   Passed    1.01 sec
+ 53/168 Test  #53: testArray_toView .....................................   Passed    0.65 sec
         Start  54: testArray_toViewConst
- 54/168 Test  #54: testArray_toViewConst ................................   Passed    0.82 sec
+ 54/168 Test  #54: testArray_toViewConst ................................   Passed    0.94 sec
         Start  55: testBuffers
- 55/168 Test  #55: testBuffers ..........................................   Passed    0.74 sec
+ 55/168 Test  #55: testBuffers ..........................................   Passed    0.72 sec
         Start  56: testCRSMatrix
- 56/168 Test  #56: testCRSMatrix ........................................   Passed    1.57 sec
+ 56/168 Test  #56: testCRSMatrix ........................................   Passed    1.61 sec
         Start  57: testIndexing
- 57/168 Test  #57: testIndexing .........................................   Passed    0.63 sec
+ 57/168 Test  #57: testIndexing .........................................   Passed    0.66 sec
         Start  58: testInput
- 58/168 Test  #58: testInput ............................................   Passed    0.87 sec
+ 58/168 Test  #58: testInput ............................................   Passed    0.82 sec
         Start  59: testIntegerConversion
- 59/168 Test  #59: testIntegerConversion ................................   Passed    0.68 sec
+ 59/168 Test  #59: testIntegerConversion ................................   Passed    0.63 sec
         Start  60: testMath
- 60/168 Test  #60: testMath .............................................   Passed    1.31 sec
+ 60/168 Test  #60: testMath .............................................   Passed    0.98 sec
         Start  61: testMemcpy
- 61/168 Test  #61: testMemcpy ...........................................   Passed    0.88 sec
+ 61/168 Test  #61: testMemcpy ...........................................   Passed    0.82 sec
         Start  62: testSliceHelpers
- 62/168 Test  #62: testSliceHelpers .....................................   Passed    0.92 sec
+ 62/168 Test  #62: testSliceHelpers .....................................   Passed    0.70 sec
         Start  63: testSortedArray
- 63/168 Test  #63: testSortedArray ......................................   Passed    0.95 sec
+ 63/168 Test  #63: testSortedArray ......................................   Passed    1.09 sec
         Start  64: testSortedArrayManipulation
- 64/168 Test  #64: testSortedArrayManipulation ..........................   Passed    1.31 sec
+ 64/168 Test  #64: testSortedArrayManipulation ..........................   Passed    1.18 sec
         Start  65: testSparsityPattern
- 65/168 Test  #65: testSparsityPattern ..................................   Passed    1.27 sec
+ 65/168 Test  #65: testSparsityPattern ..................................   Passed    1.24 sec
         Start  66: testStackArray
- 66/168 Test  #66: testStackArray .......................................   Passed    0.90 sec
+ 66/168 Test  #66: testStackArray .......................................   Passed    0.89 sec
         Start  67: testTensorOpsDeterminant
- 67/168 Test  #67: testTensorOpsDeterminant .............................   Passed    0.87 sec
+ 67/168 Test  #67: testTensorOpsDeterminant .............................   Passed    0.82 sec
         Start  68: testTensorOpsEigen
- 68/168 Test  #68: testTensorOpsEigen ...................................   Passed    1.39 sec
+ 68/168 Test  #68: testTensorOpsEigen ...................................   Passed    0.85 sec
         Start  69: testTensorOpsInverseOneArg
- 69/168 Test  #69: testTensorOpsInverseOneArg ...........................   Passed    1.18 sec
+ 69/168 Test  #69: testTensorOpsInverseOneArg ...........................   Passed    1.11 sec
         Start  70: testTensorOpsInverseTwoArgs
- 70/168 Test  #70: testTensorOpsInverseTwoArgs ..........................   Passed    0.90 sec
+ 70/168 Test  #70: testTensorOpsInverseTwoArgs ..........................   Passed    0.87 sec
         Start  71: testTensorOpsSymDeterminant
  71/168 Test  #71: testTensorOpsSymDeterminant ..........................   Passed    1.13 sec
         Start  72: testTensorOpsSymInverseOneArg
- 72/168 Test  #72: testTensorOpsSymInverseOneArg ........................   Passed    0.85 sec
+ 72/168 Test  #72: testTensorOpsSymInverseOneArg ........................   Passed    0.82 sec
         Start  73: testTensorOpsSymInverseTwoArgs
- 73/168 Test  #73: testTensorOpsSymInverseTwoArgs .......................   Passed    0.87 sec
+ 73/168 Test  #73: testTensorOpsSymInverseTwoArgs .......................   Passed    1.11 sec
         Start  74: testTypeManipulation
- 74/168 Test  #74: testTypeManipulation .................................   Passed    0.84 sec
+ 74/168 Test  #74: testTypeManipulation .................................   Passed    0.78 sec
         Start  75: testStackTrace
- 75/168 Test  #75: testStackTrace .......................................   Passed    1.27 sec
+ 75/168 Test  #75: testStackTrace .......................................   Passed    1.23 sec
         Start  76: testInvalidOperations
- 76/168 Test  #76: testInvalidOperations ................................   Passed    0.80 sec
+ 76/168 Test  #76: testInvalidOperations ................................   Passed    0.67 sec
         Start  77: testChaiBuffer
- 77/168 Test  #77: testChaiBuffer .......................................   Passed    1.13 sec
+ 77/168 Test  #77: testChaiBuffer .......................................   Passed    1.02 sec
         Start  78: testArray_ChaiBuffer
- 78/168 Test  #78: testArray_ChaiBuffer .................................   Passed    0.88 sec
+ 78/168 Test  #78: testArray_ChaiBuffer .................................   Passed    0.81 sec
         Start  79: testFloatingPointExceptions
- 79/168 Test  #79: testFloatingPointExceptions ..........................   Passed    0.66 sec
+ 79/168 Test  #79: testFloatingPointExceptions ..........................   Passed    0.77 sec
         Start  80: testTensorOps
- 80/168 Test  #80: testTensorOps ........................................   Passed    1.75 sec
+ 80/168 Test  #80: testTensorOps ........................................   Passed    1.36 sec
         Start  81: exampleTestFoo
- 81/168 Test  #81: exampleTestFoo .......................................   Passed    0.61 sec
+ 81/168 Test  #81: exampleTestFoo .......................................   Passed    0.90 sec
         Start  82: exampleBuffers
- 82/168 Test  #82: exampleBuffers .......................................   Passed    1.31 sec
+ 82/168 Test  #82: exampleBuffers .......................................   Passed    0.76 sec
         Start  83: exampleArray
- 83/168 Test  #83: exampleArray .........................................   Passed    1.12 sec
+ 83/168 Test  #83: exampleArray .........................................   Passed    1.04 sec
         Start  84: exampleSortedArray
- 84/168 Test  #84: exampleSortedArray ...................................   Passed    0.88 sec
+ 84/168 Test  #84: exampleSortedArray ...................................   Passed    0.82 sec
         Start  85: exampleArrayOfArrays
- 85/168 Test  #85: exampleArrayOfArrays .................................   Passed    1.11 sec
+ 85/168 Test  #85: exampleArrayOfArrays .................................   Passed    0.86 sec
         Start  86: exampleArrayOfSets
- 86/168 Test  #86: exampleArrayOfSets ...................................   Passed    0.66 sec
+ 86/168 Test  #86: exampleArrayOfSets ...................................   Passed    0.80 sec
         Start  87: exampleSparsityPatternAndCRSMatrix
- 87/168 Test  #87: exampleSparsityPatternAndCRSMatrix ...................   Passed    0.64 sec
+ 87/168 Test  #87: exampleSparsityPatternAndCRSMatrix ...................   Passed    0.58 sec
         Start  88: exampleTensorOps
- 88/168 Test  #88: exampleTensorOps .....................................   Passed    1.10 sec
+ 88/168 Test  #88: exampleTensorOps .....................................   Passed    0.80 sec
         Start  89: testDataTypes
- 89/168 Test  #89: testDataTypes ........................................   Passed    0.76 sec
+ 89/168 Test  #89: testDataTypes ........................................   Passed    0.73 sec
         Start  90: testTypeDispatch
- 90/168 Test  #90: testTypeDispatch .....................................   Passed    0.99 sec
+ 90/168 Test  #90: testTypeDispatch .....................................   Passed    0.71 sec
         Start  91: testGeosxTraits
- 91/168 Test  #91: testGeosxTraits ......................................   Passed    0.73 sec
+ 91/168 Test  #91: testGeosxTraits ......................................   Passed    0.71 sec
         Start  92: testDefaultValue
- 92/168 Test  #92: testDefaultValue .....................................   Passed    1.03 sec
+ 92/168 Test  #92: testDefaultValue .....................................   Passed    0.80 sec
         Start  93: testWrapper
- 93/168 Test  #93: testWrapper ..........................................   Passed    0.86 sec
+ 93/168 Test  #93: testWrapper ..........................................   Passed    0.77 sec
         Start  94: testXmlWrapper
- 94/168 Test  #94: testXmlWrapper .......................................   Passed    1.62 sec
+ 94/168 Test  #94: testXmlWrapper .......................................   Passed    1.45 sec
         Start  95: testBufferOps
- 95/168 Test  #95: testBufferOps ........................................   Passed    0.77 sec
+ 95/168 Test  #95: testBufferOps ........................................   Passed    0.98 sec
         Start  96: testDamageUtilities
- 96/168 Test  #96: testDamageUtilities ..................................   Passed    1.32 sec
+ 96/168 Test  #96: testDamageUtilities ..................................   Passed    0.76 sec
         Start  97: testDruckerPrager
- 97/168 Test  #97: testDruckerPrager ....................................   Passed    1.25 sec
+ 97/168 Test  #97: testDruckerPrager ....................................   Passed    1.09 sec
         Start  98: testElasticIsotropic
- 98/168 Test  #98: testElasticIsotropic .................................   Passed    0.86 sec
+ 98/168 Test  #98: testElasticIsotropic .................................   Passed    0.77 sec
         Start  99: testModifiedCamClay
- 99/168 Test  #99: testModifiedCamClay ..................................   Passed    1.12 sec
+ 99/168 Test  #99: testModifiedCamClay ..................................   Passed    0.99 sec
         Start 100: testParticleFluidEnums
-100/168 Test #100: testParticleFluidEnums ...............................   Passed    1.01 sec
+100/168 Test #100: testParticleFluidEnums ...............................   Passed    0.93 sec
         Start 101: testPropertyConversions
-101/168 Test #101: testPropertyConversions ..............................   Passed    1.12 sec
+101/168 Test #101: testPropertyConversions ..............................   Passed    0.71 sec
         Start 102: testLinearAlgebra_LinearSolverParametersEnums
-102/168 Test #102: testLinearAlgebra_LinearSolverParametersEnums ........   Passed    7.33 sec
+102/168 Test #102: testLinearAlgebra_LinearSolverParametersEnums ........   Passed    5.98 sec
         Start 103: testLinearAlgebra_BlasLapack
-103/168 Test #103: testLinearAlgebra_BlasLapack .........................   Passed    3.28 sec
+103/168 Test #103: testLinearAlgebra_BlasLapack .........................   Passed    2.38 sec
         Start 104: testLinearAlgebra_ComponentMask
-104/168 Test #104: testLinearAlgebra_ComponentMask ......................   Passed    1.15 sec
+104/168 Test #104: testLinearAlgebra_ComponentMask ......................   Passed    1.21 sec
         Start 105: testLinearAlgebra_Matrices
-105/168 Test #105: testLinearAlgebra_Matrices ...........................   Passed    2.83 sec
+105/168 Test #105: testLinearAlgebra_Matrices ...........................   Passed    2.74 sec
         Start 106: testLinearAlgebra_Vectors
-106/168 Test #106: testLinearAlgebra_Vectors ............................   Passed    3.56 sec
+106/168 Test #106: testLinearAlgebra_Vectors ............................   Passed    2.77 sec
         Start 107: testLinearAlgebra_ExternalSolvers
-107/168 Test #107: testLinearAlgebra_ExternalSolvers ....................***Failed    4.70 sec
+107/168 Test #107: testLinearAlgebra_ExternalSolvers ....................***Failed    2.46 sec
 Max threads: 20
 [==========] Running 8 tests from 2 test suites.
 [----------] Global test environment set-up.
 [----------] 5 tests from Hypre/SolverTestLaplace2D/0, where TypeParam = geosx::HypreInterface
 [ RUN      ] Hypre/SolverTestLaplace2D/0.DirectSerial
+Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_sizes
+Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_values
+Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /entries
 [==========] Running 8 tests from 2 test suites.
 [----------] Global test environment set-up.
 [----------] 5 tests from Hypre/SolverTestLaplace2D/0, where TypeParam = geosx::HypreInterface
 [ RUN      ] Hypre/SolverTestLaplace2D/0.DirectSerial
 Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_offsets
 Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_sizes
-Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_offsets
-Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_sizes
-Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_values
-Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /entries
 Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_values
 Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /entries
 Moved   39.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -260,16 +260,16 @@ Moved   39.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>
 Moved   39.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   39.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
 Moved   39.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
-[       OK ] Hypre/SolverTestLaplace2D/0.DirectSerial (442 ms)
+[       OK ] Hypre/SolverTestLaplace2D/0.DirectSerial (208 ms)
 [ RUN      ] Hypre/SolverTestLaplace2D/0.DirectParallel
-[       OK ] Hypre/SolverTestLaplace2D/0.DirectSerial (442 ms)
+[       OK ] Hypre/SolverTestLaplace2D/0.DirectSerial (204 ms)
 [ RUN      ] Hypre/SolverTestLaplace2D/0.DirectParallel
-Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_offsets
-Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_sizes
 Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_offsets
 Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_sizes
 Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_values
 Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /entries
+Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_offsets
+Moved   19.5 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_sizes
 Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /m_values
 Moved  195.3 KB to the DEVICE: LvArray::CRSMatrix<double, long long, int, LvArray::ChaiBuffer> /entries
 Moved   39.1 KB to the DEVICE: LvArray::Array<double, 1, camp::int_seq<long, 0l>, int, LvArray::ChaiBuffer> 
@@ -293,131 +293,131 @@ Moved  194.5 KB to the HOST  : LvArray::Array<double, 1, camp::int_seq<long, 0l>
 ERROR:  One or more process (first noticed rank 0) terminated with signal 11
 
         Start 108: testLinearAlgebra_KrylovSolvers
-108/168 Test #108: testLinearAlgebra_KrylovSolvers ......................   Passed   14.66 sec
+108/168 Test #108: testLinearAlgebra_KrylovSolvers ......................   Passed   13.04 sec
         Start 109: testFiniteElementBase
-109/168 Test #109: testFiniteElementBase ................................   Passed    1.04 sec
+109/168 Test #109: testFiniteElementBase ................................   Passed    0.95 sec
         Start 110: testH1_QuadrilateralFace_Lagrange1_GaussLegendre2
-110/168 Test #110: testH1_QuadrilateralFace_Lagrange1_GaussLegendre2 ....   Passed    0.76 sec
+110/168 Test #110: testH1_QuadrilateralFace_Lagrange1_GaussLegendre2 ....   Passed    0.74 sec
         Start 111: testH1_Hexahedron_Lagrange1_GaussLegendre2
-111/168 Test #111: testH1_Hexahedron_Lagrange1_GaussLegendre2 ...........   Passed    0.80 sec
+111/168 Test #111: testH1_Hexahedron_Lagrange1_GaussLegendre2 ...........   Passed    0.79 sec
         Start 112: testH1_Tetrahedron_Lagrange1_Gauss1
-112/168 Test #112: testH1_Tetrahedron_Lagrange1_Gauss1 ..................   Passed    0.82 sec
+112/168 Test #112: testH1_Tetrahedron_Lagrange1_Gauss1 ..................   Passed    0.72 sec
         Start 113: testH1_Wedge_Lagrange1_Gauss6
-113/168 Test #113: testH1_Wedge_Lagrange1_Gauss6 ........................   Passed    0.94 sec
+113/168 Test #113: testH1_Wedge_Lagrange1_Gauss6 ........................   Passed    0.70 sec
         Start 114: testH1_Pyramid_Lagrange1_Gauss5
-114/168 Test #114: testH1_Pyramid_Lagrange1_Gauss5 ......................   Passed    0.92 sec
+114/168 Test #114: testH1_Pyramid_Lagrange1_Gauss5 ......................   Passed    0.96 sec
         Start 115: testH1_TriangleFace_Lagrange1_Gauss1
-115/168 Test #115: testH1_TriangleFace_Lagrange1_Gauss1 .................   Passed    0.91 sec
+115/168 Test #115: testH1_TriangleFace_Lagrange1_Gauss1 .................   Passed    0.66 sec
         Start 116: testXML
-116/168 Test #116: testXML ..............................................   Passed    5.89 sec
+116/168 Test #116: testXML ..............................................   Passed    4.32 sec
         Start 117: testXMLFile_basic_input
-117/168 Test #117: testXMLFile_basic_input ..............................   Passed    4.90 sec
+117/168 Test #117: testXMLFile_basic_input ..............................   Passed    3.75 sec
         Start 118: testXMLFile_include_input
-118/168 Test #118: testXMLFile_include_input ............................   Passed    2.08 sec
+118/168 Test #118: testXMLFile_include_input ............................   Passed    2.16 sec
         Start 119: testXMLFile_multiple_input
 119/168 Test #119: testXMLFile_multiple_input ...........................   Passed    1.95 sec
         Start 120: testConformingVirtualElementOrder1
-120/168 Test #120: testConformingVirtualElementOrder1 ...................   Passed    5.71 sec
+120/168 Test #120: testConformingVirtualElementOrder1 ...................   Passed    4.11 sec
         Start 121: testDofManager
-121/168 Test #121: testDofManager .......................................   Passed    9.84 sec
+121/168 Test #121: testDofManager .......................................   Passed    7.33 sec
         Start 122: testLAIHelperFunctions
-122/168 Test #122: testLAIHelperFunctions ...............................   Passed    9.78 sec
+122/168 Test #122: testLAIHelperFunctions ...............................   Passed    5.34 sec
         Start 123: testObjectCatalog
-123/168 Test #123: testObjectCatalog ....................................   Passed    6.23 sec
+123/168 Test #123: testObjectCatalog ....................................   Passed    3.71 sec
         Start 124: testRestartBasic
-124/168 Test #124: testRestartBasic .....................................   Passed    6.65 sec
+124/168 Test #124: testRestartBasic .....................................   Passed    4.70 sec
         Start 125: testRestartExtended
-125/168 Test #125: testRestartExtended ..................................   Passed    4.75 sec
+125/168 Test #125: testRestartExtended ..................................   Passed    3.06 sec
         Start 126: testPacking
-126/168 Test #126: testPacking ..........................................   Passed    4.80 sec
+126/168 Test #126: testPacking ..........................................   Passed    3.80 sec
         Start 127: testWrapperHelpers
-127/168 Test #127: testWrapperHelpers ...................................   Passed    5.03 sec
+127/168 Test #127: testWrapperHelpers ...................................   Passed    3.46 sec
         Start 128: testFunctions
-128/168 Test #128: testFunctions ........................................   Passed    6.23 sec
+128/168 Test #128: testFunctions ........................................   Passed    4.09 sec
         Start 129: testAquiferBoundaryCondition
-129/168 Test #129: testAquiferBoundaryCondition .........................   Passed    6.95 sec
+129/168 Test #129: testAquiferBoundaryCondition .........................   Passed    3.72 sec
         Start 130: testFieldSpecificationsEnums
-130/168 Test #130: testFieldSpecificationsEnums .........................   Passed    2.54 sec
+130/168 Test #130: testFieldSpecificationsEnums .........................   Passed    1.58 sec
         Start 131: testRecursiveFieldApplication
-131/168 Test #131: testRecursiveFieldApplication ........................   Passed    5.70 sec
+131/168 Test #131: testRecursiveFieldApplication ........................   Passed    3.71 sec
         Start 132: testDamage
-132/168 Test #132: testDamage ...........................................   Passed    4.71 sec
+132/168 Test #132: testDamage ...........................................   Passed    3.34 sec
         Start 133: testRelPerm
-133/168 Test #133: testRelPerm ..........................................   Passed    4.13 sec
+133/168 Test #133: testRelPerm ..........................................   Passed    4.06 sec
         Start 134: testRelPermHysteresis
-134/168 Test #134: testRelPermHysteresis ................................   Passed    4.63 sec
+134/168 Test #134: testRelPermHysteresis ................................   Passed    3.84 sec
         Start 135: testCapillaryPressure
-135/168 Test #135: testCapillaryPressure ................................   Passed    5.13 sec
+135/168 Test #135: testCapillaryPressure ................................   Passed    3.69 sec
         Start 136: testMultiFluid
-136/168 Test #136: testMultiFluid .......................................   Passed   13.29 sec
+136/168 Test #136: testMultiFluid .......................................   Passed   12.93 sec
         Start 137: testCO2BrinePVTModels
-137/168 Test #137: testCO2BrinePVTModels ................................   Passed   14.54 sec
+137/168 Test #137: testCO2BrinePVTModels ................................   Passed   14.42 sec
         Start 138: testTriaxial_druckerPragerExtended
-138/168 Test #138: testTriaxial_druckerPragerExtended ...................   Passed    5.14 sec
+138/168 Test #138: testTriaxial_druckerPragerExtended ...................   Passed    5.22 sec
         Start 139: testTriaxial_elasticIsotropic
-139/168 Test #139: testTriaxial_elasticIsotropic ........................   Passed    2.43 sec
+139/168 Test #139: testTriaxial_elasticIsotropic ........................   Passed    3.03 sec
         Start 140: testTriaxial_elasticIsotropicPressureDependent
-140/168 Test #140: testTriaxial_elasticIsotropicPressureDependent .......   Passed    2.25 sec
+140/168 Test #140: testTriaxial_elasticIsotropicPressureDependent .......   Passed    2.30 sec
         Start 141: testTriaxial_modifiedCamClay
-141/168 Test #141: testTriaxial_modifiedCamClay .........................   Passed    1.98 sec
+141/168 Test #141: testTriaxial_modifiedCamClay .........................   Passed    2.23 sec
         Start 142: testTriaxial_delftEggUseLinear
-142/168 Test #142: testTriaxial_delftEggUseLinear .......................   Passed    2.05 sec
+142/168 Test #142: testTriaxial_delftEggUseLinear .......................   Passed    2.13 sec
         Start 143: testTriaxial_modifiedCamClayVolumetric
-143/168 Test #143: testTriaxial_modifiedCamClayVolumetric ...............   Passed    2.09 sec
+143/168 Test #143: testTriaxial_modifiedCamClayVolumetric ...............   Passed    2.42 sec
         Start 144: testTriaxial_delftEggLoadPathDryUseLinear
-144/168 Test #144: testTriaxial_delftEggLoadPathDryUseLinear ............   Passed    2.00 sec
+144/168 Test #144: testTriaxial_delftEggLoadPathDryUseLinear ............   Passed    2.41 sec
         Start 145: testTriaxial_delftEggLoadPathWetUseLinear
-145/168 Test #145: testTriaxial_delftEggLoadPathWetUseLinear ............   Passed    1.96 sec
+145/168 Test #145: testTriaxial_delftEggLoadPathWetUseLinear ............   Passed    2.37 sec
         Start 146: testTriaxial_delftEggCase1
-146/168 Test #146: testTriaxial_delftEggCase1 ...........................   Passed    2.03 sec
+146/168 Test #146: testTriaxial_delftEggCase1 ...........................   Passed    2.26 sec
         Start 147: testTriaxial_delftEggCase2
-147/168 Test #147: testTriaxial_delftEggCase2 ...........................   Passed    1.99 sec
+147/168 Test #147: testTriaxial_delftEggCase2 ...........................   Passed    2.62 sec
         Start 148: testPVT
-148/168 Test #148: testPVT ..............................................   Passed    6.82 sec
+148/168 Test #148: testPVT ..............................................   Passed    4.06 sec
         Start 149: testMeshEnums
-149/168 Test #149: testMeshEnums ........................................   Passed    2.88 sec
+149/168 Test #149: testMeshEnums ........................................   Passed    1.54 sec
         Start 150: testMeshGeneration
-150/168 Test #150: testMeshGeneration ...................................   Passed    5.40 sec
+150/168 Test #150: testMeshGeneration ...................................   Passed    3.88 sec
         Start 151: testNeighborCommunicator
-151/168 Test #151: testNeighborCommunicator .............................   Passed    5.45 sec
+151/168 Test #151: testNeighborCommunicator .............................   Passed    3.37 sec
         Start 152: testPAMELAImport
-152/168 Test #152: testPAMELAImport .....................................   Passed    5.89 sec
+152/168 Test #152: testPAMELAImport .....................................   Passed    5.72 sec
         Start 153: testVTKImport
-153/168 Test #153: testVTKImport ........................................   Passed    4.66 sec
+153/168 Test #153: testVTKImport ........................................   Passed    3.70 sec
         Start 154: testNeighborCommunicator_mpi
-154/168 Test #154: testNeighborCommunicator_mpi .........................   Passed    6.34 sec
+154/168 Test #154: testNeighborCommunicator_mpi .........................   Passed    4.18 sec
         Start 155: testVTKImport_mpi
-155/168 Test #155: testVTKImport_mpi ....................................   Passed    5.71 sec
+155/168 Test #155: testVTKImport_mpi ....................................   Passed    4.33 sec
         Start 156: testMimeticInnerProducts
-156/168 Test #156: testMimeticInnerProducts .............................   Passed    4.94 sec
+156/168 Test #156: testMimeticInnerProducts .............................   Passed    3.86 sec
         Start 157: testHDFFile
-157/168 Test #157: testHDFFile ..........................................   Passed    9.25 sec
+157/168 Test #157: testHDFFile ..........................................   Passed    8.29 sec
         Start 158: testHDFParallelFile
-158/168 Test #158: testHDFParallelFile ..................................   Passed   10.16 sec
+158/168 Test #158: testHDFParallelFile ..................................   Passed    9.31 sec
         Start 159: testSinglePhaseBaseKernels
-159/168 Test #159: testSinglePhaseBaseKernels ...........................   Passed    4.86 sec
+159/168 Test #159: testSinglePhaseBaseKernels ...........................   Passed    3.88 sec
         Start 160: testSinglePhaseFVMKernels
-160/168 Test #160: testSinglePhaseFVMKernels ............................   Passed    5.33 sec
+160/168 Test #160: testSinglePhaseFVMKernels ............................   Passed    3.95 sec
         Start 161: testSinglePhaseHybridFVMKernels
-161/168 Test #161: testSinglePhaseHybridFVMKernels ......................   Passed    6.15 sec
+161/168 Test #161: testSinglePhaseHybridFVMKernels ......................   Passed    4.03 sec
         Start 162: testThermalCompMultiphaseFlow
-162/168 Test #162: testThermalCompMultiphaseFlow ........................   Passed    8.56 sec
+162/168 Test #162: testThermalCompMultiphaseFlow ........................   Passed    6.75 sec
         Start 163: testCompMultiphaseFlow
-163/168 Test #163: testCompMultiphaseFlow ...............................   Passed    6.58 sec
+163/168 Test #163: testCompMultiphaseFlow ...............................   Passed    4.07 sec
         Start 164: testCompMultiphaseFlowHybrid
-164/168 Test #164: testCompMultiphaseFlowHybrid .........................   Passed    9.58 sec
+164/168 Test #164: testCompMultiphaseFlowHybrid .........................   Passed    4.16 sec
         Start 165: testReactiveCompositionalMultiphaseOBL
-165/168 Test #165: testReactiveCompositionalMultiphaseOBL ...............   Passed    5.55 sec
+165/168 Test #165: testReactiveCompositionalMultiphaseOBL ...............   Passed    4.10 sec
         Start 166: testReservoirSinglePhaseMSWells
-166/168 Test #166: testReservoirSinglePhaseMSWells ......................   Passed    6.11 sec
+166/168 Test #166: testReservoirSinglePhaseMSWells ......................   Passed    3.97 sec
         Start 167: testWellEnums
-167/168 Test #167: testWellEnums ........................................   Passed    2.04 sec
+167/168 Test #167: testWellEnums ........................................   Passed    1.76 sec
         Start 168: testReservoirCompositionalMultiphaseMSWells
-168/168 Test #168: testReservoirCompositionalMultiphaseMSWells ..........   Passed    4.68 sec
+168/168 Test #168: testReservoirCompositionalMultiphaseMSWells ..........   Passed    4.76 sec
 
 99% tests passed, 1 tests failed out of 168
 
-Total Test time (real) = 432.46 sec
+Total Test time (real) = 353.99 sec
 
 The following tests FAILED:
 	107 - testLinearAlgebra_ExternalSolvers (Failed)
