@@ -1,11 +1,11 @@
 ::::::::::::::::::::
-/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/build/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 1 -y 1 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01 --suppress-move-logging
+/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 1 -y 1 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01 --suppress-move-logging
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/build/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 1 -y 1 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01 --suppress-move-logging
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i DeviatedPoroElasticWellbore_Injection.xml -x 1 -y 1 -z 1 -n 0to1 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01 --suppress-move-logging
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(DeviatedPoroElasticWellbore_Injection_01/DeviatedPoroElasticWellbore_Injection_01_1_geosx)
-#ATS: clas = ['-i', 'DeviatedPoroElasticWellbore_Injection.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01', '--suppress-move-logging']
+#ATS: clas = ['-i', 'DeviatedPoroElasticWellbore_Injection.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to1', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01', '--suppress-move-logging']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
@@ -630,13 +630,13 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.93133e-08 | Setup Time: 0.0108608 s | Solve Time: 0.00126154 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.93133e-08 | Setup Time: 0.0111522 s | Solve Time: 0.00132168 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 2.73e-15, 2.13e-12 )
     ( R ) = ( 2.13e-12 ) ; 
     Last LinSolve(iter,res) = (   1, 1.93e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000000/rank_0000000.hdf5
 Time: 0.78s, dt:0.78s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 2.73e-15, 5.02e-07 )
@@ -1238,7 +1238,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.38144e-08 | Setup Time: 0.00669218 s | Solve Time: 0.00133713 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.38144e-08 | Setup Time: 0.00648946 s | Solve Time: 0.0012959 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.48e-15, 2.08e-12 )
     ( R ) = ( 2.08e-12 ) ; 
@@ -1845,7 +1845,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.64072e-08 | Setup Time: 0.00638033 s | Solve Time: 0.0012875 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.64072e-08 | Setup Time: 0.00632304 s | Solve Time: 0.00125205 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.25e-15, 2.04e-12 )
     ( R ) = ( 2.04e-12 ) ; 
@@ -2452,7 +2452,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.35796e-08 | Setup Time: 0.00635806 s | Solve Time: 0.00126839 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.35796e-08 | Setup Time: 0.00613774 s | Solve Time: 0.0011933 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.88e-16, 1.99e-12 )
     ( R ) = ( 1.99e-12 ) ; 
@@ -3059,7 +3059,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31481e-08 | Setup Time: 0.00627434 s | Solve Time: 0.00123745 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31481e-08 | Setup Time: 0.00632135 s | Solve Time: 0.00124453 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.70e-16, 1.95e-12 )
     ( R ) = ( 1.95e-12 ) ; 
@@ -3666,7 +3666,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.79807e-08 | Setup Time: 0.00642837 s | Solve Time: 0.00124017 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.79807e-08 | Setup Time: 0.00631495 s | Solve Time: 0.00124897 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.00e-16, 1.91e-12 )
     ( R ) = ( 1.91e-12 ) ; 
@@ -4273,7 +4273,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44428e-08 | Setup Time: 0.00638721 s | Solve Time: 0.00130504 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44428e-08 | Setup Time: 0.00630638 s | Solve Time: 0.00122905 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.01e-15, 1.87e-12 )
     ( R ) = ( 1.87e-12 ) ; 
@@ -4880,7 +4880,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57397e-08 | Setup Time: 0.00635652 s | Solve Time: 0.00124845 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57397e-08 | Setup Time: 0.00630414 s | Solve Time: 0.00121987 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.46e-16, 1.83e-12 )
     ( R ) = ( 1.83e-12 ) ; 
@@ -5487,7 +5487,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.85532e-08 | Setup Time: 0.00637599 s | Solve Time: 0.00129232 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.85532e-08 | Setup Time: 0.00627042 s | Solve Time: 0.00126769 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.00e-16, 1.79e-12 )
     ( R ) = ( 1.79e-12 ) ; 
@@ -6094,7 +6094,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3591e-08 | Setup Time: 0.00635363 s | Solve Time: 0.00126878 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3591e-08 | Setup Time: 0.00631199 s | Solve Time: 0.00123048 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.94e-16, 1.75e-12 )
     ( R ) = ( 1.75e-12 ) ; 
@@ -6701,7 +6701,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.22114e-08 | Setup Time: 0.00627733 s | Solve Time: 0.00123936 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.22114e-08 | Setup Time: 0.00622344 s | Solve Time: 0.00120324 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.74e-16, 1.72e-12 )
     ( R ) = ( 1.72e-12 ) ; 
@@ -7308,7 +7308,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.39182e-08 | Setup Time: 0.00586348 s | Solve Time: 0.00112879 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.39182e-08 | Setup Time: 0.00591637 s | Solve Time: 0.00114925 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.17e-16, 1.68e-12 )
     ( R ) = ( 1.68e-12 ) ; 
@@ -7915,7 +7915,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.5036e-08 | Setup Time: 0.00569949 s | Solve Time: 0.00108995 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.5036e-08 | Setup Time: 0.00567507 s | Solve Time: 0.0011111 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.04e-15, 1.65e-12 )
     ( R ) = ( 1.65e-12 ) ; 
@@ -8522,7 +8522,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40723e-08 | Setup Time: 0.00584884 s | Solve Time: 0.00122219 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40723e-08 | Setup Time: 0.00559994 s | Solve Time: 0.001087 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.76e-16, 1.61e-12 )
     ( R ) = ( 1.61e-12 ) ; 
@@ -9129,7 +9129,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.14977e-08 | Setup Time: 0.0057419 s | Solve Time: 0.001216 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.14977e-08 | Setup Time: 0.00565792 s | Solve Time: 0.00113991 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.54e-16, 1.58e-12 )
     ( R ) = ( 1.58e-12 ) ; 
@@ -9736,7 +9736,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57579e-08 | Setup Time: 0.00566362 s | Solve Time: 0.00111968 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57579e-08 | Setup Time: 0.00605048 s | Solve Time: 0.00120054 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.27e-16, 1.54e-12 )
     ( R ) = ( 1.54e-12 ) ; 
@@ -10343,7 +10343,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67831e-08 | Setup Time: 0.0061583 s | Solve Time: 0.00131201 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67831e-08 | Setup Time: 0.00625731 s | Solve Time: 0.00114978 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.79e-16, 1.51e-12 )
     ( R ) = ( 1.51e-12 ) ; 
@@ -10950,7 +10950,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26198e-08 | Setup Time: 0.00644149 s | Solve Time: 0.00127202 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26198e-08 | Setup Time: 0.00634171 s | Solve Time: 0.00120652 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.72e-16, 1.48e-12 )
     ( R ) = ( 1.48e-12 ) ; 
@@ -11557,7 +11557,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50868e-08 | Setup Time: 0.00625075 s | Solve Time: 0.00230846 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50868e-08 | Setup Time: 0.00602234 s | Solve Time: 0.00116729 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.76e-16, 1.45e-12 )
     ( R ) = ( 1.45e-12 ) ; 
@@ -12164,7 +12164,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.95508e-08 | Setup Time: 0.0063804 s | Solve Time: 0.00126944 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.95508e-08 | Setup Time: 0.00567572 s | Solve Time: 0.0011339 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.65e-16, 1.42e-12 )
     ( R ) = ( 1.42e-12 ) ; 
@@ -12771,7 +12771,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 8.30058e-12 | Setup Time: 0.00644938 s | Solve Time: 0.00114497 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 8.30058e-12 | Setup Time: 0.0111782 s | Solve Time: 0.00116282 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.86e-16, 2.63e-16 )
     ( R ) = ( 7.35e-16 ) ; 
@@ -13378,7 +13378,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.04819e-08 | Setup Time: 0.00602797 s | Solve Time: 0.00114627 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.04819e-08 | Setup Time: 0.00619665 s | Solve Time: 0.00120725 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.16e-16, 1.39e-12 )
     ( R ) = ( 1.39e-12 ) ; 
@@ -13985,7 +13985,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.1138e-08 | Setup Time: 0.00597056 s | Solve Time: 0.00115712 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.1138e-08 | Setup Time: 0.00610266 s | Solve Time: 0.00118044 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.62e-16, 1.36e-12 )
     ( R ) = ( 1.36e-12 ) ; 
@@ -14592,7 +14592,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.25118e-08 | Setup Time: 0.00571325 s | Solve Time: 0.00111896 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.25118e-08 | Setup Time: 0.00589213 s | Solve Time: 0.00115341 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.36e-16, 1.33e-12 )
     ( R ) = ( 1.33e-12 ) ; 
@@ -15199,7 +15199,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.14264e-08 | Setup Time: 0.00569704 s | Solve Time: 0.00109186 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.14264e-08 | Setup Time: 0.00641022 s | Solve Time: 0.00122284 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.17e-16, 1.31e-12 )
     ( R ) = ( 1.31e-12 ) ; 
@@ -15806,7 +15806,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31835e-08 | Setup Time: 0.0057287 s | Solve Time: 0.00113338 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31835e-08 | Setup Time: 0.0059995 s | Solve Time: 0.00116888 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.13e-16, 1.28e-12 )
     ( R ) = ( 1.28e-12 ) ; 
@@ -16413,7 +16413,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49128e-08 | Setup Time: 0.0057104 s | Solve Time: 0.00113754 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49128e-08 | Setup Time: 0.00988665 s | Solve Time: 0.00203699 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.16e-15, 1.25e-12 )
     ( R ) = ( 1.25e-12 ) ; 
@@ -17020,7 +17020,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.64654e-08 | Setup Time: 0.0057077 s | Solve Time: 0.00112916 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.64654e-08 | Setup Time: 0.00592546 s | Solve Time: 0.00116151 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.34e-15, 1.23e-12 )
     ( R ) = ( 1.23e-12 ) ; 
@@ -17627,7 +17627,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.16724e-08 | Setup Time: 0.00572243 s | Solve Time: 0.00113516 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.16724e-08 | Setup Time: 0.00633663 s | Solve Time: 0.00158223 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.74e-16, 1.20e-12 )
     ( R ) = ( 1.20e-12 ) ; 
@@ -18234,7 +18234,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.23777e-08 | Setup Time: 0.00570993 s | Solve Time: 0.00113348 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.23777e-08 | Setup Time: 0.00713038 s | Solve Time: 0.00134362 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.97e-16, 1.18e-12 )
     ( R ) = ( 1.18e-12 ) ; 
@@ -18841,7 +18841,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.45892e-08 | Setup Time: 0.00578688 s | Solve Time: 0.0011355 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.45892e-08 | Setup Time: 0.00687333 s | Solve Time: 0.00132159 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.35e-16, 1.15e-12 )
     ( R ) = ( 1.15e-12 ) ; 
@@ -19448,7 +19448,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.1509e-08 | Setup Time: 0.00571139 s | Solve Time: 0.00114863 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.1509e-08 | Setup Time: 0.00619245 s | Solve Time: 0.00124508 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.19e-15, 1.13e-12 )
     ( R ) = ( 1.13e-12 ) ; 
@@ -20055,7 +20055,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.54752e-08 | Setup Time: 0.00599349 s | Solve Time: 0.00118118 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.54752e-08 | Setup Time: 0.00677279 s | Solve Time: 0.00186539 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.63e-16, 1.10e-12 )
     ( R ) = ( 1.10e-12 ) ; 
@@ -20662,7 +20662,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.79077e-08 | Setup Time: 0.00581038 s | Solve Time: 0.00115747 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.79077e-08 | Setup Time: 0.00599771 s | Solve Time: 0.00117265 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.66e-16, 1.08e-12 )
     ( R ) = ( 1.08e-12 ) ; 
@@ -21269,7 +21269,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.53142e-08 | Setup Time: 0.00578072 s | Solve Time: 0.00117181 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.53142e-08 | Setup Time: 0.00703677 s | Solve Time: 0.00142766 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.07e-16, 1.06e-12 )
     ( R ) = ( 1.06e-12 ) ; 
@@ -21876,7 +21876,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.6022e-08 | Setup Time: 0.00581016 s | Solve Time: 0.00114615 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.6022e-08 | Setup Time: 0.0059474 s | Solve Time: 0.0011787 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.72e-16, 1.04e-12 )
     ( R ) = ( 1.04e-12 ) ; 
@@ -22483,7 +22483,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.03824e-08 | Setup Time: 0.00581579 s | Solve Time: 0.00124289 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.03824e-08 | Setup Time: 0.00583792 s | Solve Time: 0.00117338 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.54e-16, 1.02e-12 )
     ( R ) = ( 1.02e-12 ) ; 
@@ -23090,7 +23090,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67361e-08 | Setup Time: 0.00579387 s | Solve Time: 0.00124964 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67361e-08 | Setup Time: 0.00585728 s | Solve Time: 0.00117309 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.59e-16, 9.95e-13 )
     ( R ) = ( 9.95e-13 ) ; 
@@ -23697,7 +23697,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.53514e-08 | Setup Time: 0.00580979 s | Solve Time: 0.00113595 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.53514e-08 | Setup Time: 0.006264 s | Solve Time: 0.00184795 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.44e-16, 9.75e-13 )
     ( R ) = ( 9.75e-13 ) ; 
@@ -24304,7 +24304,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.15757e-08 | Setup Time: 0.00581937 s | Solve Time: 0.00118442 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.15757e-08 | Setup Time: 0.00845641 s | Solve Time: 0.001305 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.73e-16, 9.55e-13 )
     ( R ) = ( 9.55e-13 ) ; 
@@ -24911,7 +24911,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.86689e-08 | Setup Time: 0.00581638 s | Solve Time: 0.00124483 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.86689e-08 | Setup Time: 0.00638038 s | Solve Time: 0.00125442 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.12e-15, 9.35e-13 )
     ( R ) = ( 9.35e-13 ) ; 
@@ -25518,7 +25518,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.55638e-08 | Setup Time: 0.00579241 s | Solve Time: 0.00119163 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.55638e-08 | Setup Time: 0.00618069 s | Solve Time: 0.00118204 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.47e-16, 9.16e-13 )
     ( R ) = ( 9.16e-13 ) ; 
@@ -26125,7 +26125,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.82278e-08 | Setup Time: 0.00597961 s | Solve Time: 0.0012066 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.82278e-08 | Setup Time: 0.0062623 s | Solve Time: 0.00131212 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.40e-16, 8.97e-13 )
     ( R ) = ( 8.97e-13 ) ; 
@@ -26732,7 +26732,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.41188e-08 | Setup Time: 0.00582244 s | Solve Time: 0.00122806 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.41188e-08 | Setup Time: 0.00635839 s | Solve Time: 0.0012618 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.44e-16, 8.79e-13 )
     ( R ) = ( 8.79e-13 ) ; 
@@ -27339,7 +27339,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50398e-08 | Setup Time: 0.00580634 s | Solve Time: 0.00128508 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50398e-08 | Setup Time: 0.00633944 s | Solve Time: 0.00140586 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.28e-16, 8.61e-13 )
     ( R ) = ( 8.61e-13 ) ; 
@@ -27946,7 +27946,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.61105e-08 | Setup Time: 0.00581151 s | Solve Time: 0.00114283 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.61105e-08 | Setup Time: 0.00640022 s | Solve Time: 0.00126552 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.82e-16, 8.43e-13 )
     ( R ) = ( 8.43e-13 ) ; 
@@ -28553,7 +28553,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.33191e-08 | Setup Time: 0.00580616 s | Solve Time: 0.00112541 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.33191e-08 | Setup Time: 0.00634188 s | Solve Time: 0.00126328 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.98e-16, 8.26e-13 )
     ( R ) = ( 8.26e-13 ) ; 
@@ -29160,7 +29160,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.7436e-08 | Setup Time: 0.00574754 s | Solve Time: 0.0011553 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.7436e-08 | Setup Time: 0.00632874 s | Solve Time: 0.00125632 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.65e-16, 8.09e-13 )
     ( R ) = ( 8.09e-13 ) ; 
@@ -29767,7 +29767,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.79003e-08 | Setup Time: 0.00581371 s | Solve Time: 0.00113093 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.79003e-08 | Setup Time: 0.00637004 s | Solve Time: 0.00125912 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.61e-16, 7.93e-13 )
     ( R ) = ( 7.93e-13 ) ; 
@@ -30374,7 +30374,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.62992e-08 | Setup Time: 0.00582518 s | Solve Time: 0.0011454 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.62992e-08 | Setup Time: 0.00635741 s | Solve Time: 0.00125381 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.70e-16, 7.77e-13 )
     ( R ) = ( 7.77e-13 ) ; 
@@ -30981,7 +30981,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49133e-08 | Setup Time: 0.00582345 s | Solve Time: 0.00115727 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49133e-08 | Setup Time: 0.00631873 s | Solve Time: 0.00128021 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.87e-16, 7.61e-13 )
     ( R ) = ( 7.61e-13 ) ; 
@@ -31588,13 +31588,13 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44437e-08 | Setup Time: 0.005778 s | Solve Time: 0.00116143 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44437e-08 | Setup Time: 0.00633947 s | Solve Time: 0.0012632 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.55e-16, 7.45e-13 )
     ( R ) = ( 7.45e-13 ) ; 
     Last LinSolve(iter,res) = (   1, 1.44e-08 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000051/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000051/rank_0000000.hdf5
 Time: 39.78s, dt:0.78s, Cycle: 52
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 8.55e-16, 3.09e-07 )
@@ -32196,7 +32196,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3026e-08 | Setup Time: 0.0061289 s | Solve Time: 0.0011964 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.3026e-08 | Setup Time: 0.00655405 s | Solve Time: 0.00134057 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.16e-16, 7.30e-13 )
     ( R ) = ( 7.30e-13 ) ; 
@@ -32803,7 +32803,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32635e-08 | Setup Time: 0.00588784 s | Solve Time: 0.00119291 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.32635e-08 | Setup Time: 0.00650132 s | Solve Time: 0.00132869 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.34e-16, 7.15e-13 )
     ( R ) = ( 7.15e-13 ) ; 
@@ -33410,7 +33410,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44933e-08 | Setup Time: 0.00608696 s | Solve Time: 0.00124399 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.44933e-08 | Setup Time: 0.00658443 s | Solve Time: 0.001321 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.05e-15, 7.01e-13 )
     ( R ) = ( 7.01e-13 ) ; 
@@ -34017,7 +34017,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.46391e-08 | Setup Time: 0.00601996 s | Solve Time: 0.00119165 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.46391e-08 | Setup Time: 0.00635672 s | Solve Time: 0.00130051 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.69e-16, 6.87e-13 )
     ( R ) = ( 6.87e-13 ) ; 
@@ -34624,7 +34624,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.34537e-08 | Setup Time: 0.00721882 s | Solve Time: 0.0013206 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.34537e-08 | Setup Time: 0.00636206 s | Solve Time: 0.00129293 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.30e-15, 6.73e-13 )
     ( R ) = ( 6.73e-13 ) ; 
@@ -35231,7 +35231,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.72349e-08 | Setup Time: 0.00646467 s | Solve Time: 0.00123084 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.72349e-08 | Setup Time: 0.00643035 s | Solve Time: 0.00128397 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.21e-16, 6.59e-13 )
     ( R ) = ( 6.59e-13 ) ; 
@@ -35838,7 +35838,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31795e-08 | Setup Time: 0.00656506 s | Solve Time: 0.00145674 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.31795e-08 | Setup Time: 0.00635086 s | Solve Time: 0.00129139 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.09e-15, 6.46e-13 )
     ( R ) = ( 6.46e-13 ) ; 
@@ -36445,7 +36445,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.7581e-08 | Setup Time: 0.00615835 s | Solve Time: 0.00119797 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.7581e-08 | Setup Time: 0.00637113 s | Solve Time: 0.00128638 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.22e-15, 6.33e-13 )
     ( R ) = ( 6.33e-13 ) ; 
@@ -37052,7 +37052,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.55706e-08 | Setup Time: 0.00745165 s | Solve Time: 0.00210504 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.55706e-08 | Setup Time: 0.00633926 s | Solve Time: 0.00128622 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.72e-16, 6.20e-13 )
     ( R ) = ( 6.20e-13 ) ; 
@@ -37659,7 +37659,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50784e-08 | Setup Time: 0.00633146 s | Solve Time: 0.00124114 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.50784e-08 | Setup Time: 0.00632562 s | Solve Time: 0.00127244 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.18e-15, 6.08e-13 )
     ( R ) = ( 6.08e-13 ) ; 
@@ -38266,7 +38266,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.83754e-08 | Setup Time: 0.00708722 s | Solve Time: 0.00137931 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.83754e-08 | Setup Time: 0.00633015 s | Solve Time: 0.00138312 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.06e-16, 5.95e-13 )
     ( R ) = ( 5.95e-13 ) ; 
@@ -38873,7 +38873,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.30566e-08 | Setup Time: 0.00776159 s | Solve Time: 0.00170209 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.30566e-08 | Setup Time: 0.00633692 s | Solve Time: 0.00130025 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.75e-16, 5.83e-13 )
     ( R ) = ( 5.83e-13 ) ; 
@@ -39480,7 +39480,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.14387e-08 | Setup Time: 0.00607938 s | Solve Time: 0.00119937 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.14387e-08 | Setup Time: 0.00651059 s | Solve Time: 0.0013018 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.36e-16, 5.72e-13 )
     ( R ) = ( 5.72e-13 ) ; 
@@ -40087,7 +40087,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.72639e-08 | Setup Time: 0.00674369 s | Solve Time: 0.00112675 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.72639e-08 | Setup Time: 0.00634986 s | Solve Time: 0.00114684 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.54e-16, 5.60e-13 )
     ( R ) = ( 5.60e-13 ) ; 
@@ -40694,7 +40694,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57328e-08 | Setup Time: 0.00795103 s | Solve Time: 0.0014514 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57328e-08 | Setup Time: 0.0062883 s | Solve Time: 0.00127182 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.52e-16, 5.49e-13 )
     ( R ) = ( 5.49e-13 ) ; 
@@ -41301,7 +41301,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.02082e-08 | Setup Time: 0.00643597 s | Solve Time: 0.00170326 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.02082e-08 | Setup Time: 0.00625888 s | Solve Time: 0.00127715 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.03e-15, 5.38e-13 )
     ( R ) = ( 5.38e-13 ) ; 
@@ -41908,7 +41908,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.06526e-08 | Setup Time: 0.0069695 s | Solve Time: 0.00142198 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.06526e-08 | Setup Time: 0.0062846 s | Solve Time: 0.00127056 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.53e-16, 5.27e-13 )
     ( R ) = ( 5.27e-13 ) ; 
@@ -42515,7 +42515,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 3.14706e-08 | Setup Time: 0.00812579 s | Solve Time: 0.00155079 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 3.14706e-08 | Setup Time: 0.00626975 s | Solve Time: 0.00128891 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.05e-15, 5.17e-13 )
     ( R ) = ( 5.17e-13 ) ; 
@@ -43122,7 +43122,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28257e-08 | Setup Time: 0.00631544 s | Solve Time: 0.00140432 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28257e-08 | Setup Time: 0.00622288 s | Solve Time: 0.00129739 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.54e-16, 5.06e-13 )
     ( R ) = ( 5.06e-13 ) ; 
@@ -43729,7 +43729,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37486e-08 | Setup Time: 0.00739037 s | Solve Time: 0.0015045 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37486e-08 | Setup Time: 0.006444 s | Solve Time: 0.00134872 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.57e-16, 4.96e-13 )
     ( R ) = ( 4.96e-13 ) ; 
@@ -44336,7 +44336,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4695e-08 | Setup Time: 0.00654578 s | Solve Time: 0.00131626 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4695e-08 | Setup Time: 0.006409 s | Solve Time: 0.00131863 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.65e-16, 4.86e-13 )
     ( R ) = ( 4.86e-13 ) ; 
@@ -44943,7 +44943,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49378e-08 | Setup Time: 0.00635135 s | Solve Time: 0.00130051 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49378e-08 | Setup Time: 0.00640882 s | Solve Time: 0.00140943 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.14e-16, 4.76e-13 )
     ( R ) = ( 4.76e-13 ) ; 
@@ -45550,7 +45550,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52048e-08 | Setup Time: 0.00731836 s | Solve Time: 0.00145183 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52048e-08 | Setup Time: 0.00644769 s | Solve Time: 0.00134132 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.79e-16, 4.67e-13 )
     ( R ) = ( 4.67e-13 ) ; 
@@ -46157,7 +46157,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57823e-08 | Setup Time: 0.00692773 s | Solve Time: 0.0017707 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.57823e-08 | Setup Time: 0.00664477 s | Solve Time: 0.00135955 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.30e-16, 4.58e-13 )
     ( R ) = ( 4.58e-13 ) ; 
@@ -46764,7 +46764,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37964e-08 | Setup Time: 0.00693602 s | Solve Time: 0.00167268 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.37964e-08 | Setup Time: 0.00652803 s | Solve Time: 0.00132171 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.90e-16, 4.49e-13 )
     ( R ) = ( 4.49e-13 ) ; 
@@ -47371,7 +47371,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28696e-08 | Setup Time: 0.00663619 s | Solve Time: 0.00133785 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.28696e-08 | Setup Time: 0.00634235 s | Solve Time: 0.00128513 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.13e-15, 4.40e-13 )
     ( R ) = ( 4.40e-13 ) ; 
@@ -47978,7 +47978,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.78766e-08 | Setup Time: 0.00645521 s | Solve Time: 0.00128882 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.78766e-08 | Setup Time: 0.0063787 s | Solve Time: 0.00131511 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.57e-16, 4.31e-13 )
     ( R ) = ( 4.31e-13 ) ; 
@@ -48585,7 +48585,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40167e-08 | Setup Time: 0.00646864 s | Solve Time: 0.00133622 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40167e-08 | Setup Time: 0.00634752 s | Solve Time: 0.0013275 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.45e-16, 4.22e-13 )
     ( R ) = ( 4.22e-13 ) ; 
@@ -49192,7 +49192,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.27279e-08 | Setup Time: 0.00704427 s | Solve Time: 0.00132824 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.27279e-08 | Setup Time: 0.00640539 s | Solve Time: 0.00131518 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 5.74e-16, 4.14e-13 )
     ( R ) = ( 4.14e-13 ) ; 
@@ -49799,7 +49799,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.43589e-08 | Setup Time: 0.00684964 s | Solve Time: 0.00133524 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.43589e-08 | Setup Time: 0.00630391 s | Solve Time: 0.00134951 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.91e-16, 4.06e-13 )
     ( R ) = ( 4.06e-13 ) ; 
@@ -50406,7 +50406,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67909e-08 | Setup Time: 0.00691156 s | Solve Time: 0.00130821 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67909e-08 | Setup Time: 0.0063996 s | Solve Time: 0.00131824 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.11e-16, 3.98e-13 )
     ( R ) = ( 3.98e-13 ) ; 
@@ -51013,7 +51013,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.09518e-08 | Setup Time: 0.00687805 s | Solve Time: 0.00134399 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.09518e-08 | Setup Time: 0.00628187 s | Solve Time: 0.00130193 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.47e-16, 3.90e-13 )
     ( R ) = ( 3.90e-13 ) ; 
@@ -51620,7 +51620,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60941e-08 | Setup Time: 0.00698724 s | Solve Time: 0.00131956 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60941e-08 | Setup Time: 0.00622333 s | Solve Time: 0.00129147 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.26e-16, 3.82e-13 )
     ( R ) = ( 3.82e-13 ) ; 
@@ -52227,7 +52227,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4929e-08 | Setup Time: 0.0070174 s | Solve Time: 0.0013368 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4929e-08 | Setup Time: 0.0065639 s | Solve Time: 0.00133048 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.93e-16, 3.75e-13 )
     ( R ) = ( 3.75e-13 ) ; 
@@ -52834,7 +52834,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.80734e-08 | Setup Time: 0.00668336 s | Solve Time: 0.00127325 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.80734e-08 | Setup Time: 0.00649955 s | Solve Time: 0.00131223 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.06e-15, 3.67e-13 )
     ( R ) = ( 3.67e-13 ) ; 
@@ -53441,7 +53441,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49198e-08 | Setup Time: 0.00697095 s | Solve Time: 0.00136918 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.49198e-08 | Setup Time: 0.00625541 s | Solve Time: 0.00129312 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.01e-16, 3.60e-13 )
     ( R ) = ( 3.60e-13 ) ; 
@@ -54048,7 +54048,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.48991e-08 | Setup Time: 0.0069036 s | Solve Time: 0.00132373 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.48991e-08 | Setup Time: 0.00623187 s | Solve Time: 0.00127082 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.98e-16, 3.53e-13 )
     ( R ) = ( 3.53e-13 ) ; 
@@ -54655,7 +54655,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.65467e-08 | Setup Time: 0.00645471 s | Solve Time: 0.00126065 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.65467e-08 | Setup Time: 0.00641162 s | Solve Time: 0.00129879 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.84e-16, 3.46e-13 )
     ( R ) = ( 3.46e-13 ) ; 
@@ -55262,7 +55262,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36313e-08 | Setup Time: 0.00708916 s | Solve Time: 0.00127324 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.36313e-08 | Setup Time: 0.00654512 s | Solve Time: 0.00128965 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.29e-16, 3.39e-13 )
     ( R ) = ( 3.39e-13 ) ; 
@@ -55869,7 +55869,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26911e-08 | Setup Time: 0.00673003 s | Solve Time: 0.00123386 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.26911e-08 | Setup Time: 0.00659487 s | Solve Time: 0.00129439 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.90e-16, 3.33e-13 )
     ( R ) = ( 3.33e-13 ) ; 
@@ -56476,7 +56476,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40477e-08 | Setup Time: 0.00711497 s | Solve Time: 0.00124841 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.40477e-08 | Setup Time: 0.00650087 s | Solve Time: 0.00131375 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.14e-16, 3.26e-13 )
     ( R ) = ( 3.26e-13 ) ; 
@@ -57083,7 +57083,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4366e-08 | Setup Time: 0.00687213 s | Solve Time: 0.00132302 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.4366e-08 | Setup Time: 0.00637391 s | Solve Time: 0.00129618 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.71e-16, 3.20e-13 )
     ( R ) = ( 3.20e-13 ) ; 
@@ -57690,7 +57690,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60534e-08 | Setup Time: 0.0068158 s | Solve Time: 0.00129166 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.60534e-08 | Setup Time: 0.00640007 s | Solve Time: 0.00128746 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.62e-16, 3.14e-13 )
     ( R ) = ( 3.14e-13 ) ; 
@@ -58297,7 +58297,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67082e-08 | Setup Time: 0.00724069 s | Solve Time: 0.00136607 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.67082e-08 | Setup Time: 0.00646397 s | Solve Time: 0.00133053 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.21e-16, 3.07e-13 )
     ( R ) = ( 3.07e-13 ) ; 
@@ -58904,7 +58904,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.2156e-08 | Setup Time: 0.0071035 s | Solve Time: 0.00129585 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.2156e-08 | Setup Time: 0.00677313 s | Solve Time: 0.00138232 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.43e-16, 3.01e-13 )
     ( R ) = ( 3.01e-13 ) ; 
@@ -59511,7 +59511,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52253e-08 | Setup Time: 0.00685071 s | Solve Time: 0.00137513 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52253e-08 | Setup Time: 0.00673136 s | Solve Time: 0.00133747 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.12e-16, 2.96e-13 )
     ( R ) = ( 2.96e-13 ) ; 
@@ -60118,7 +60118,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.47088e-08 | Setup Time: 0.00669968 s | Solve Time: 0.00132173 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.47088e-08 | Setup Time: 0.00656032 s | Solve Time: 0.00133317 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.85e-16, 2.90e-13 )
     ( R ) = ( 2.90e-13 ) ; 
@@ -60725,7 +60725,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.8828e-08 | Setup Time: 0.00693865 s | Solve Time: 0.00130324 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.8828e-08 | Setup Time: 0.00685766 s | Solve Time: 0.00136657 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 8.88e-16, 2.84e-13 )
     ( R ) = ( 2.84e-13 ) ; 
@@ -61332,7 +61332,7 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.68197e-08 | Setup Time: 0.0068015 s | Solve Time: 0.00126101 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.68197e-08 | Setup Time: 0.00654718 s | Solve Time: 0.00134822 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.03e-15, 2.79e-13 )
     ( R ) = ( 2.79e-13 ) ; 
@@ -61939,47 +61939,47 @@ Initial row permutation, P1: permutation vector, n = 200.
 
 Numeric object:  ERROR: LU factors invalid
 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 6.00492e-13 | Setup Time: 0.00673495 s | Solve Time: 0.00127868 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 6.00492e-13 | Setup Time: 0.00682798 s | Solve Time: 0.0013797 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 5.59e-16, 8.70e-16 )
     ( R ) = ( 1.03e-15 ) ; 
     Last LinSolve(iter,res) = (   1, 6.00e-13 ) ; 
 poroSolve: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:  390.8 KB
 Umpire          DEVICE         rank max:  390.8 KB
 Umpire       DEVICE::0 sum across ranks:  390.8 KB
 Umpire       DEVICE::0         rank max:  390.8 KB
 Umpire            HOST sum across ranks:  482.2 KB
 Umpire            HOST         rank max:  482.2 KB
-total time                         9.163s
-initialization time                0.065s
-run time                           7.778s
+total time                         9.414s
+initialization time                0.066s
+run time                           8.068s
 ::::::::::::::::::::
-/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 1 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
+#ATS: commandLine = lrun -n 1 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 0.0001 -r 0.0001 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh
 #ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
 #ATS: name = python(DeviatedPoroElasticWellbore_Injection_01/DeviatedPoroElasticWellbore_Injection_01_2_restartcheck)
-#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '0.0001', '-r', '0.0001', '-w', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\\.root']
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '0.0001', '-r', '0.0001', '-w', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\\.root']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
 
-Comparison of file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
-Baseline file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_[0-9]+\.root
 Relative tolerance: 0.0001
 Absolute tolerance: 0.0001
-Output file: /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102.restartcheck
+Output file: /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102.restartcheck
 Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
 Warnings are errors: True
 
 The root files are similar.
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5
 
-Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 	Arrays of types float64 and float64 have 180 values of which 43 fail both the relative and absolute tests.
@@ -61993,4 +61993,4 @@ Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
 The files are different.
 
 Compared 1 pairs of files of which 1 are different.
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/000/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/wellboreMesh/baselines/DeviatedPoroElasticWellbore_Injection_01/0to1_restart_000000102/rank_0000000.hdf5
