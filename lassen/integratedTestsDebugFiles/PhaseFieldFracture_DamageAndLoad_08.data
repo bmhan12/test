@@ -1,11 +1,11 @@
 ::::::::::::::::::::
-/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageAndLoad.xml -x 2 -y 2 -z 2 -n 0to130 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08
+/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageAndLoad.xml -x 2 -y 2 -z 2 -n 0to130 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageAndLoad.xml -x 2 -y 2 -z 2 -n 0to130 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageAndLoad.xml -x 2 -y 2 -z 2 -n 0to130 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(PhaseFieldFracture_DamageAndLoad_08/PhaseFieldFracture_DamageAndLoad_08_1_geosx)
-#ATS: clas = ['-i', 'PhaseFieldFracture_DamageAndLoad.xml', '-x', '2', '-y', '2', '-z', '2', '-n', '0to130', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08']
+#ATS: clas = ['-i', 'PhaseFieldFracture_DamageAndLoad.xml', '-x', '2', '-y', '2', '-z', '2', '-n', '0to130', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08']
 #ATS: np = 8
 #ATS: script = 
 #ATS: testpath =  
@@ -26,16 +26,16 @@ Adding Output: VTK, DamageAndLoad_VTKOutput
 Adding Output: Restart, restartOutput
 Adding Geometric Object: Box, middle
 Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
+Rank 5: Total number of nodes:18
+Rank 2: Total number of nodes:12
 Rank 6: Total number of nodes:18
+Rank 4: Total number of nodes:12
+Rank 3: Total number of nodes:18
 Rank 7: Total number of nodes:27
 Total number of nodes:64
 Total number of elems:27
 Rank 0: Total number of nodes:8
-Rank 5: Total number of nodes:18
-Rank 4: Total number of nodes:12
 Rank 1: Total number of nodes:12
-Rank 2: Total number of nodes:12
-Rank 3: Total number of nodes:18
   Region1/cb1/shale is allocated with 8 quadrature points.
 Time: 0s, dt:1s, Cycle: 0
 	Iteration: 1, MechanicsSolver: 
@@ -110,14 +110,14 @@ Time: 0s, dt:1s, Cycle: 0
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000007.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000006.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000005.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000000.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000004.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000002.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000002.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000006.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000005.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000004.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000001.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000000/rank_0000007.hdf5
 Time: 1s, dt:1s, Cycle: 1
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -4002,14 +4002,14 @@ Time: 65s, dt:1s, Cycle: 65
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000007.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000006.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000005.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000000.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000004.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000002.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000003.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000002.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000004.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000006.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000001.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000005.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000003.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000065/rank_0000007.hdf5
 Time: 66s, dt:1s, Cycle: 66
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -8593,14 +8593,14 @@ Time: 129s, dt:1s, Cycle: 129
 
 PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5
 Umpire          DEVICE sum across ranks:    1.0 MB
 Umpire          DEVICE         rank max:  245.8 KB
 Umpire       DEVICE::0 sum across ranks:    1.0 MB
@@ -8609,37 +8609,40 @@ Umpire            HOST sum across ranks:    1.9 MB
 Umpire            HOST         rank max:  288.6 KB
 Umpire          PINNED sum across ranks:  934.8 KB
 Umpire          PINNED         rank max:  151.8 KB
-total time                        96.263s
-initialization time                0.254s
-run time                          94.631s
+total time                       100.369s
+initialization time                0.186s
+run time                          98.690s
 ::::::::::::::::::::
-/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 2e-10 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
+/usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 2e-10 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
 ::::::::::::::::::::
-#ATS: commandLine = lrun -n 8 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 2e-10 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: commandLine = lrun -n 8 --pack -g 0 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 2e-10 -w /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
 #ATS: executable = /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py
 #ATS: name = python(PhaseFieldFracture_DamageAndLoad_08/PhaseFieldFracture_DamageAndLoad_08_2_restartcheck)
-#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-08', '-r', '2e-10', '-w', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\\.root']
+#ATS: clas = ['/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py', '-a', '1e-08', '-r', '2e-10', '-w', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\\.root', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\\.root']
 #ATS: np = 8
 #ATS: script = 
 #ATS: testpath =  
 
-Comparison of file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
-Baseline file /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130.root from pattern /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
+Comparison of file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
+Baseline file /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130.root from pattern /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_[0-9]+\.root
 Relative tolerance: 2e-10
 Absolute tolerance: 1e-08
-Output file: /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130.restartcheck
+Output file: /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130.restartcheck
 Excluded groups: ['.*/commandLine', '.*/schema$', '.*/globalToLocalMap', '.*/timeHistoryOutput.*/restart']
 Warnings are errors: True
 
 The root files are similar.
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5
+About to compare /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5
 
-Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 
+Rank 0 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 384 values of which 160 fail both the relative and absolute tests.
@@ -8736,7 +8739,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 
+Rank 1 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 576 values of which 256 fail both the relative and absolute tests.
@@ -8833,7 +8836,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 
+Rank 2 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 576 values of which 240 fail both the relative and absolute tests.
@@ -8930,7 +8933,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 
+Rank 3 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 864 values of which 384 fail both the relative and absolute tests.
@@ -9027,7 +9030,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 4 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 
+Rank 4 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 576 values of which 240 fail both the relative and absolute tests.
@@ -9124,7 +9127,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 5 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 
+Rank 5 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 864 values of which 384 fail both the relative and absolute tests.
@@ -9221,7 +9224,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 6 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 
+Rank 6 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 864 values of which 360 fail both the relative and absolute tests.
@@ -9318,7 +9321,7 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 ********************************************************************************
 The files are different.
 
-Rank 7 is comparing /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 
+Rank 7 is comparing /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 with /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 
 ********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/ElementRegions/elementRegionsGroup/Region1/elementSubRegions/cb1/shale/stress
 	Arrays of types float64 and float64 have 1296 values of which 576 fail both the relative and absolute tests.
@@ -9416,14 +9419,11 @@ Error: /Problem/Solvers/DamageSolve/NonlinearSolverParameters/newtonNumberOfIter
 The files are different.
 
 Compared 8 pairs of files of which 8 are different.
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5
-	/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5
-About to compare /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000000.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000001.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000002.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000003.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000004.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000005.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000006.hdf5
+	/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5 and /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_DamageAndLoad_08/0to130_restart_000000130/rank_0000007.hdf5
