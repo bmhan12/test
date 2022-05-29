@@ -30,14 +30,44 @@ Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/FaceManager/SIFonFace
 		max is at index (1416,), value = 1.0, base_value = 655989.3798311973
 ********************************************************************************
 ********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/TotalDisplacement
+	Arrays of types float64 and float64 have 6963 values of which 2321 fail both the relative and absolute tests.
+		Max absolute difference is at index (98, 1): value = -0.0012381964112374412, base_value = -7.382052577118517e-05
+		Max relative difference is at index (1358, 2): value = 5.049634700365872e-20, base_value = 3.213973748139367e-24
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2321
+		max = 5.821879427331281, mean = 1.9406264757770912, std = 2.744460281544265
+		max is at index (98, 1), value = -0.0012381964112374412, base_value = -7.382052577118517e-05
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/IncrementalDisplacement
+	Arrays of types float64 and float64 have 6963 values of which 2321 fail both the relative and absolute tests.
+		Max absolute difference is at index (98, 1): value = -0.0012381964112374412, base_value = -7.382052577118517e-05
+		Max relative difference is at index (1358, 2): value = 5.049634700365872e-20, base_value = 3.213973748139367e-24
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2321
+		max = 5.821879427331281, mean = 1.9406264757770912, std = 2.744460281544265
+		max is at index (98, 1), value = -0.0012381964112374412, base_value = -7.382052577118517e-05
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
+Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/nodeManager/Velocity
+	Arrays of types float64 and float64 have 6963 values of which 2321 fail both the relative and absolute tests.
+		Max absolute difference is at index (98, 1): value = -0.0012381964112374412, base_value = -7.382052577118517e-05
+		Max relative difference is at index (1358, 2): value = 5.049634700365872e-20, base_value = 3.213973748139367e-24
+	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 2321
+		max = 5.821879427331281, mean = 1.9406264757770912, std = 2.744460281544265
+		max is at index (98, 1), value = -0.0012381964112374412, base_value = -7.382052577118517e-05
+	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 0
+********************************************************************************
+********************************************************************************
 Error: /Problem/domain/MeshBodies/mesh1/meshLevels/Level0/edgeManager/SIF_I
 	Arrays of types float64 and float64 have 6400 values of which 10 fail both the relative and absolute tests.
-		Max absolute difference is at index (1497,): value = 586009.3262759147, base_value = 655989.8718235438
-		Max relative difference is at index (1497,): value = 586009.3262759147, base_value = 655989.8718235438
+		Max absolute difference is at index (1488,): value = 586009.3262759055, base_value = 655989.8718235411
+		Max relative difference is at index (1488,): value = 586009.3262759055, base_value = 655989.8718235411
 	Statistics of the q values greater than 1.0 defined by absolute tolerance: N = 0
 	Statistics of the q values greater than 1.0 defined by relative tolerance: N = 10
-		max = 1066793.0794890893, mean = 1666.8641867016302, std = 42135.741866075194
-		max is at index (1497,), value = 586009.3262759147, base_value = 655989.8718235438
+		max = 1066793.0794891932, mean = 1666.8641867016804, std = 42135.74186607647
+		max is at index (1488,), value = 586009.3262759055, base_value = 655989.8718235411
 ********************************************************************************
 The files are different.
 

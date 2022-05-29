@@ -29,9 +29,9 @@ Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
 Rank 2: Total number of nodes:392
 Rank 3: Total number of nodes:448
 Total number of nodes:1372
+Rank 1: Total number of nodes:392
 Total number of elems:1014
 Rank 0: Total number of nodes:343
-Rank 1: Total number of nodes:392
   Domain/cb1/water is allocated with 8 quadrature points.
   Domain/cb1/rock is allocated with 8 quadrature points.
   Fracture/faceElementSubRegion/water is allocated with 8 quadrature points.
@@ -43,22 +43,22 @@ Time: 0s, dt:1s, Cycle: 0
     ( Rsolid, Rfluid ) = ( 0.00e+00, 2.41e+00 )
     ( R ) = ( 2.41e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 9.82e-16, 2.37e+02 )
+    ( Rsolid, Rfluid ) = ( 1.01e-15, 2.37e+02 )
     ( R ) = ( 2.37e+02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.41e-08 ) ; 
-        Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 9.82e-16, 1.16e+02 )
+    Last LinSolve(iter,res) = (   1, 4.07e-08 ) ; 
+        Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 1.01e-15, 1.16e+02 )
 
-        Line search @ 0.250:          ( Rsolid, Rfluid ) = ( 9.82e-16, 5.62e+01 )
+        Line search @ 0.250:          ( Rsolid, Rfluid ) = ( 1.01e-15, 5.62e+01 )
 
-        Line search @ 0.125:          ( Rsolid, Rfluid ) = ( 9.82e-16, 2.61e+01 )
+        Line search @ 0.125:          ( Rsolid, Rfluid ) = ( 1.01e-15, 2.61e+01 )
 
-        Line search @ 0.062:          ( Rsolid, Rfluid ) = ( 9.82e-16, 1.10e+01 )
+        Line search @ 0.062:          ( Rsolid, Rfluid ) = ( 1.01e-15, 1.10e+01 )
 
         Line search failed to produce reduced residual. Accepting iteration.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 2.58e-15, 2.32e-05 )
+    ( Rsolid, Rfluid ) = ( 3.85e-15, 2.32e-05 )
     ( R ) = ( 2.32e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.47e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.45e-10 ) ; 
 ++ Fracture propagation. Re-entering Newton Solve.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 2.08e+00, 1.62e-04 )
@@ -66,53 +66,53 @@ Time: 0s, dt:1s, Cycle: 0
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.91e-01, 3.39e-07 )
     ( R ) = ( 1.91e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.55e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.55e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 7.40e-16, 1.05e-06 )
+    ( Rsolid, Rfluid ) = ( 9.26e-16, 1.05e-06 )
     ( R ) = ( 1.05e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.64e-15 ) ; 
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000000.hdf5
+    Last LinSolve(iter,res) = (   1, 2.69e-15 ) ; 
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000001.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000003.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000000.hdf5
 Time: 1s, dt:1s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.40e-16, 1.09e+00 )
+    ( Rsolid, Rfluid ) = ( 9.26e-16, 1.09e+00 )
     ( R ) = ( 1.09e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 6.05e-16, 1.24e-04 )
+    ( Rsolid, Rfluid ) = ( 6.51e-16, 1.24e-04 )
     ( R ) = ( 1.24e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.05e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.13e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 7.44e-16, 5.98e-07 )
+    ( Rsolid, Rfluid ) = ( 4.28e-16, 5.98e-07 )
     ( R ) = ( 5.98e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.34e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.69e-08 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 2s, dt:1s, Cycle: 2
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.44e-16, 8.90e-01 )
+    ( Rsolid, Rfluid ) = ( 4.28e-16, 8.90e-01 )
     ( R ) = ( 8.90e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 5.09e-16, 2.04e-04 )
+    ( Rsolid, Rfluid ) = ( 5.78e-16, 2.04e-04 )
     ( R ) = ( 2.04e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.14e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.90e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 4.00e-16, 4.70e-07 )
+    ( Rsolid, Rfluid ) = ( 6.08e-16, 4.70e-07 )
     ( R ) = ( 4.70e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.69e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.59e-08 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 3s, dt:1s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 4.00e-16, 7.46e-01 )
+    ( Rsolid, Rfluid ) = ( 6.08e-16, 7.46e-01 )
     ( R ) = ( 7.46e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 4.26e-16, 2.48e-04 )
+    ( Rsolid, Rfluid ) = ( 4.90e-16, 2.48e-04 )
     ( R ) = ( 2.48e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.50e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.68e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 6.92e-16, 2.46e-07 )
+    ( Rsolid, Rfluid ) = ( 7.48e-16, 2.46e-07 )
     ( R ) = ( 2.46e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.58e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.76e-08 ) ; 
 ++ Fracture propagation. Re-entering Newton Solve.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 1.85e+00, 7.54e-06 )
@@ -120,23 +120,23 @@ Time: 3s, dt:1s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 9.47e-03, 1.74e-07 )
     ( R ) = ( 9.47e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.25e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.89e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 7.00e-16, 5.00e-07 )
+    ( Rsolid, Rfluid ) = ( 6.17e-16, 5.00e-07 )
     ( R ) = ( 5.00e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.50e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.65e-15 ) ; 
 Time: 4s, dt:1s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.00e-16, 7.17e-01 )
+    ( Rsolid, Rfluid ) = ( 6.17e-16, 7.17e-01 )
     ( R ) = ( 7.17e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 5.07e-16, 2.24e-04 )
+    ( Rsolid, Rfluid ) = ( 4.01e-16, 2.24e-04 )
     ( R ) = ( 2.24e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.64e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.90e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 6.67e-16, 3.47e-07 )
+    ( Rsolid, Rfluid ) = ( 6.65e-16, 3.47e-07 )
     ( R ) = ( 3.47e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.50e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.78e-08 ) ; 
 ++ Fracture propagation. Re-entering Newton Solve.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 2.29e+00, 1.88e-06 )
@@ -144,16 +144,16 @@ Time: 4s, dt:1s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 2.11e-02, 3.23e-07 )
     ( R ) = ( 2.11e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.66e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.08e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 5.85e-16, 3.11e-07 )
+    ( Rsolid, Rfluid ) = ( 5.78e-16, 3.11e-07 )
     ( R ) = ( 3.11e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.50e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.57e-15 ) ; 
 Cleaning up events
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pknViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:   14.1 MB
 Umpire          DEVICE         rank max:    6.7 MB
 Umpire       DEVICE::0 sum across ranks:   14.1 MB
@@ -162,6 +162,6 @@ Umpire            HOST sum across ranks:   24.7 MB
 Umpire            HOST         rank max:    8.0 MB
 Umpire          PINNED sum across ranks:    1.7 MB
 Umpire          PINNED         rank max:  452.8 KB
-total time                        12.675s
-initialization time                0.224s
-run time                          11.036s
+total time                        11.831s
+initialization time                0.285s
+run time                          10.087s
