@@ -26,12 +26,12 @@ Adding Output: Silo, siloOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
 Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
+Rank 3: Total number of nodes:448
+Rank 2: Total number of nodes:392
+Rank 1: Total number of nodes:392
 Total number of nodes:1372
 Total number of elems:1014
 Rank 0: Total number of nodes:343
-Rank 2: Total number of nodes:392
-Rank 3: Total number of nodes:448
-Rank 1: Total number of nodes:392
   Domain/cb1/water is allocated with 8 quadrature points.
   Domain/cb1/rock is allocated with 8 quadrature points.
   Fracture/faceElementSubRegion/water is allocated with 8 quadrature points.
@@ -43,26 +43,26 @@ Time: 0s, dt:1s, Cycle: 0
     ( Rsolid, Rfluid ) = ( 0.00e+00, 4.42e+00 )
     ( R ) = ( 4.42e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.91e-16, 4.36e+02 )
+    ( Rsolid, Rfluid ) = ( 7.48e-16, 4.36e+02 )
     ( R ) = ( 4.36e+02 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.28e-08 ) ; 
-        Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 7.91e-16, 2.15e+02 )
+    Last LinSolve(iter,res) = (   1, 8.70e-08 ) ; 
+        Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 7.48e-16, 2.15e+02 )
 
-        Line search @ 0.250:          ( Rsolid, Rfluid ) = ( 7.91e-16, 1.05e+02 )
+        Line search @ 0.250:          ( Rsolid, Rfluid ) = ( 7.48e-16, 1.05e+02 )
 
-        Line search @ 0.125:          ( Rsolid, Rfluid ) = ( 7.91e-16, 4.95e+01 )
+        Line search @ 0.125:          ( Rsolid, Rfluid ) = ( 7.48e-16, 4.95e+01 )
 
-        Line search @ 0.062:          ( Rsolid, Rfluid ) = ( 7.91e-16, 2.19e+01 )
+        Line search @ 0.062:          ( Rsolid, Rfluid ) = ( 7.48e-16, 2.19e+01 )
 
         Line search failed to produce reduced residual. Accepting iteration.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 3.76e-15, 2.00e-04 )
+    ( Rsolid, Rfluid ) = ( 3.24e-15, 2.00e-04 )
     ( R ) = ( 2.00e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.08e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.53e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( Rsolid, Rfluid ) = ( 5.28e-16, 1.13e-07 )
+    ( Rsolid, Rfluid ) = ( 4.57e-16, 1.13e-07 )
     ( R ) = ( 1.13e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.68e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.08e-10 ) ; 
 ++ Fracture propagation. Re-entering Newton Solve.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 2.19e+00, 1.91e-03 )
@@ -70,27 +70,27 @@ Time: 0s, dt:1s, Cycle: 0
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 2.01e-01, 1.05e-06 )
     ( R ) = ( 2.01e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.61e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.73e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 1.22e-15, 3.16e-07 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 3.16e-07 )
     ( R ) = ( 3.16e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.98e-15 ) ; 
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000001.hdf5
+    Last LinSolve(iter,res) = (   1, 4.22e-15 ) ; 
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000000.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000000/rank_0000001.hdf5
 Time: 1s, dt:1s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.22e-15, 1.83e+00 )
+    ( Rsolid, Rfluid ) = ( 1.19e-15, 1.83e+00 )
     ( R ) = ( 1.83e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.09e-16, 4.00e-03 )
+    ( Rsolid, Rfluid ) = ( 8.05e-16, 4.00e-03 )
     ( R ) = ( 4.00e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.45e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.55e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 7.52e-16, 1.17e-06 )
+    ( Rsolid, Rfluid ) = ( 6.94e-16, 1.17e-06 )
     ( R ) = ( 1.17e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.85e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.32e-08 ) ; 
 ++ Fracture propagation. Re-entering Newton Solve.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 1.30e+00, 5.23e-06 )
@@ -98,53 +98,53 @@ Time: 1s, dt:1s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 7.59e-03, 1.94e-07 )
     ( R ) = ( 7.59e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.33e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.97e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 5.29e-16, 5.76e-07 )
+    ( Rsolid, Rfluid ) = ( 5.11e-16, 5.76e-07 )
     ( R ) = ( 5.76e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.11e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.43e-15 ) ; 
 Time: 2s, dt:1s, Cycle: 2
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 5.29e-16, 1.44e+00 )
+    ( Rsolid, Rfluid ) = ( 5.11e-16, 1.44e+00 )
     ( R ) = ( 1.44e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.24e-12, 1.10e+00 )
     ( R ) = ( 1.10e+00 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.74e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.39e-09 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rsolid, Rfluid ) = ( 1.12e-10, 3.08e-03 )
     ( R ) = ( 3.08e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.97e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.69e-09 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( Rsolid, Rfluid ) = ( 6.72e-16, 3.80e-07 )
+    ( Rsolid, Rfluid ) = ( 4.53e-16, 3.80e-07 )
     ( R ) = ( 3.80e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.43e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.11e-08 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 3s, dt:1s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 6.72e-16, 1.09e+00 )
+    ( Rsolid, Rfluid ) = ( 4.53e-16, 1.09e+00 )
     ( R ) = ( 1.09e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 7.75e-16, 1.48e-02 )
+    ( Rsolid, Rfluid ) = ( 7.76e-16, 1.48e-02 )
     ( R ) = ( 1.48e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.66e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.37e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 7.38e-16, 4.66e-06 )
+    ( Rsolid, Rfluid ) = ( 7.46e-16, 4.66e-06 )
     ( R ) = ( 4.66e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.98e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.04e-09 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 4s, dt:1s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 7.38e-16, 8.27e-01 )
+    ( Rsolid, Rfluid ) = ( 7.46e-16, 8.27e-01 )
     ( R ) = ( 8.27e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 5.58e-16, 1.52e-02 )
+    ( Rsolid, Rfluid ) = ( 5.03e-16, 1.52e-02 )
     ( R ) = ( 1.52e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.70e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.90e-10 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 1.33e-15, 7.78e-06 )
+    ( Rsolid, Rfluid ) = ( 6.29e-16, 7.78e-06 )
     ( R ) = ( 7.78e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.11e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.70e-09 ) ; 
 ++ Fracture propagation. Re-entering Newton Solve.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 3.15e+00, 7.73e-05 )
@@ -152,16 +152,16 @@ Time: 4s, dt:1s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 6.88e-03, 9.61e-06 )
     ( R ) = ( 6.88e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.10e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.39e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 4.74e-16, 2.83e-07 )
+    ( Rsolid, Rfluid ) = ( 9.63e-16, 2.83e-07 )
     ( R ) = ( 2.83e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.04e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.49e-15 ) ; 
 Cleaning up events
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000001.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000000.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000002.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/pennyShapedViscosityDominated_smoke_04/0to5_restart_000000005/rank_0000003.hdf5
 Umpire          DEVICE sum across ranks:   14.1 MB
 Umpire          DEVICE         rank max:    6.7 MB
 Umpire       DEVICE::0 sum across ranks:   14.1 MB
@@ -170,6 +170,6 @@ Umpire            HOST sum across ranks:   24.7 MB
 Umpire            HOST         rank max:    8.0 MB
 Umpire          PINNED sum across ranks:    1.7 MB
 Umpire          PINNED         rank max:  454.4 KB
-total time                        13.410s
-initialization time                0.315s
-run time                          11.606s
+total time                        13.426s
+initialization time                0.233s
+run time                          11.804s

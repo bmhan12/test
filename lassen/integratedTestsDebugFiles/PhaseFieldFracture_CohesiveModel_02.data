@@ -26,10 +26,10 @@ Adding Output: VTK, PhaseFieldFracture_CohesiveModel_VTKOutput
 Adding Output: Restart, restartOutput
 Adding Geometric Object: Box, centerLine
 Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
+Rank 1: Total number of nodes:12
 Total number of nodes:20
 Total number of elems:4
 Rank 0: Total number of nodes:12
-Rank 1: Total number of nodes:12
   Region1/cb1/shale is allocated with 8 quadrature points.
 Time: 0s, dt:1s, Cycle: 0
 	Iteration: 1, MechanicsSolver: 
@@ -11987,9 +11987,9 @@ Umpire            HOST sum across ranks:  376.7 KB
 Umpire            HOST         rank max:  221.4 KB
 Umpire          PINNED sum across ranks:   25.5 KB
 Umpire          PINNED         rank max:   12.7 KB
-total time                       103.735s
-initialization time                0.070s
-run time                         102.441s
+total time                       103.381s
+initialization time                0.053s
+run time                         102.018s
 ::::::::::::::::::::
 /usr/tce/packages/python/python-2.7.16/bin/python -m mpi4py /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/geosxats/helpers/restartcheck.py -a 1e-08 -r 2e-10 -w /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_CohesiveModel_02/0to400_restart_[0-9]+\.root /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/baselines/PhaseFieldFracture_CohesiveModel_02/0to400_restart_[0-9]+\.root
 ::::::::::::::::::::
