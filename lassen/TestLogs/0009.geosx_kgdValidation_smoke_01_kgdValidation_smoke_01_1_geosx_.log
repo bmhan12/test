@@ -146,13 +146,13 @@ Rank 0:
 
         Line search failed to produce reduced residual. Accepting iteration.
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 6.64e-13, 3.45e-03 )
+    ( Rsolid, Rfluid ) = ( 3.23e-13, 3.45e-03 )
     ( R ) = ( 3.45e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.03e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.40e-07 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( Rsolid, Rfluid ) = ( 2.14e-13, 8.97e-08 )
+    ( Rsolid, Rfluid ) = ( 2.05e-13, 8.97e-08 )
     ( R ) = ( 8.97e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.77e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.96e-05 ) ; 
 Rank 0: 
 Splitting node 308 along separation plane faces: 280, 848, 
 Done splitting node 308 into nodes 308 and 2310
@@ -255,21 +255,21 @@ Rank 0:
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 3.07e-11, 1.56e+01 )
     ( R ) = ( 1.56e+01 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.34e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.47e-14 ) ; 
         Line search @ 0.500:          ( Rsolid, Rfluid ) = ( 1.27e+01, 3.85e+00 )
 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rsolid, Rfluid ) = ( 6.43e-13, 8.36e-01 )
+    ( Rsolid, Rfluid ) = ( 7.44e-13, 8.36e-01 )
     ( R ) = ( 8.36e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.52e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.78e-14 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( Rsolid, Rfluid ) = ( 6.83e-13, 1.19e-02 )
+    ( Rsolid, Rfluid ) = ( 6.80e-13, 1.19e-02 )
     ( R ) = ( 1.19e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.33e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.25e-06 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
-    ( Rsolid, Rfluid ) = ( 7.60e-13, 1.55e-06 )
+    ( Rsolid, Rfluid ) = ( 7.38e-13, 1.55e-06 )
     ( R ) = ( 1.55e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.65e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.22e-04 ) ; 
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdValidation_smoke_01/0to1_restart_000000000/rank_0000000.hdf5
 Cleaning up events
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/kgdValidation_smoke_01/0to1_restart_000000001/rank_0000000.hdf5
@@ -279,6 +279,6 @@ Umpire       DEVICE::0 sum across ranks:   23.5 MB
 Umpire       DEVICE::0         rank max:   23.5 MB
 Umpire            HOST sum across ranks:   38.8 MB
 Umpire            HOST         rank max:   38.8 MB
-total time                         8.821s
-initialization time                0.118s
-run time                           7.377s
+total time                         7.906s
+initialization time                0.110s
+run time                           6.550s
