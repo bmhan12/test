@@ -1,0 +1,571 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_VolDevSplit.xml -x 1 -y 1 -z 1 -n 0to30 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(PhaseFieldFracture_VolDevSplit_01/PhaseFieldFracture_VolDevSplit_01_1_geosx)
+#ATS: clas = ['-i', 'PhaseFieldFracture_VolDevSplit.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to30', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_01']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Adding Solver of type PhaseFieldFracture, named PhaseFieldSolve
+Adding Solver of type SolidMechanicsLagrangianSSLE, named SolidMechSolve
+Adding Solver of type PhaseFieldDamageFEM, named DamageSolve
+Adding Mesh: PAMELAMesh, Mode2Notched
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, vtkOutput
+Adding Event: PeriodicEvent, siloOutputs
+Adding Event: PeriodicEvent, restarts
+   TableFunction: f_b
+Adding Output: Silo, Mode2VolDev_SiloOutput
+Adding Output: VTK, Mode2VolDev_VTKOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
+PAMELAMesh 'Mode2Notched': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/inputFiles/phaseField/Mode2CrackMesh/geo.msh
+0 >>> **********************************************************************
+0 >>>                          PAMELA Library Import tool                   
+0 >>> **********************************************************************
+0 >>> GMSH FORMAT IDENTIFIED
+0 >>> *** Importing Gmsh mesh format...
+0 >>> Reading nodes...
+0 >>> Done0
+0 >>> Reading elements...
+0 >>> Number of nodes = 104
+0 >>> Number of triangles = 0
+0 >>> Number of quadrilaterals = 24
+0 >>> Number of tetrahedra = 0
+0 >>> Number of hexahedra = 36
+0 >>> Number of pyramids = 0
+0 >>> Number of prisms = 0
+0 >>> *** Done
+0 >>> *** Creating Polygons from Polyhedra...
+0 >>> 135 polygons have been created
+0 >>> *** Done
+0 >>> *** Perform partitioning...
+0 >>> TRIVIAL partioning...
+0 >>> Ghost elements...
+0 >>> Clean mesh...
+0 >>> *** Done...
+0 >>> Clean Adjacency...
+0 >>> *** Done...
+PAMELAMesh 'Mode2Notched': generating GEOSX mesh data structure
+  Region1/all_HEX/shale is allocated with 8 quadrature points.
+PAMELAMesh 'Mode2Notched': importing field data from mesh dataset
+Time: 0s, dt:1s, Cycle: 0
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 3.84e-14 ) ;     ( R ) = ( 3.84e-14 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 0.00e+00 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_01/0to30_restart_000000000/rank_0000000.hdf5
+Time: 1s, dt:1s, Cycle: 1
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 4.33e+01 ) ;     ( R ) = ( 4.33e+01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.02e-14 ) ;     ( R ) = ( 1.02e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.09e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 3.52e-06 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 4.84e-21 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.55e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 2s, dt:1s, Cycle: 2
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.11e+01 ) ;     ( R ) = ( 2.11e+01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 7.34e-15 ) ;     ( R ) = ( 7.34e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.07e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.06e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 2.28e-20 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.12e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 3s, dt:1s, Cycle: 3
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.40e+01 ) ;     ( R ) = ( 1.40e+01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 8.06e-15 ) ;     ( R ) = ( 8.06e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.39e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.76e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 3.65e-20 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.98e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 4s, dt:1s, Cycle: 4
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.04e+01 ) ;     ( R ) = ( 1.04e+01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 5.33e-15 ) ;     ( R ) = ( 5.33e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.62e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 2.46e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 5.52e-20 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.00e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 5s, dt:1s, Cycle: 5
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 8.33e+00 ) ;     ( R ) = ( 8.33e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 4.18e-15 ) ;     ( R ) = ( 4.18e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.09e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 3.16e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 7.64e-20 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 6s, dt:1s, Cycle: 6
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 6.93e+00 ) ;     ( R ) = ( 6.93e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 4.01e-15 ) ;     ( R ) = ( 4.01e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.66e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 3.86e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 9.24e-20 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.98e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 7s, dt:1s, Cycle: 7
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 5.94e+00 ) ;     ( R ) = ( 5.94e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 3.38e-15 ) ;     ( R ) = ( 3.38e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.39e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 4.55e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.64e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.06e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 8s, dt:1s, Cycle: 8
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 5.20e+00 ) ;     ( R ) = ( 5.20e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.73e-15 ) ;     ( R ) = ( 2.73e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.22e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 5.23e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.52e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.92e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 9s, dt:1s, Cycle: 9
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 4.63e+00 ) ;     ( R ) = ( 4.63e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 3.27e-15 ) ;     ( R ) = ( 3.27e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.30e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 5.91e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.76e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 10s, dt:1s, Cycle: 10
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 4.17e+00 ) ;     ( R ) = ( 4.17e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.78e-15 ) ;     ( R ) = ( 2.78e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.32e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 6.58e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 3.56e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.59e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 11s, dt:1s, Cycle: 11
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 3.80e+00 ) ;     ( R ) = ( 3.80e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.38e-15 ) ;     ( R ) = ( 2.38e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.10e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 7.25e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 3.15e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.07e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 12s, dt:1s, Cycle: 12
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 3.49e+00 ) ;     ( R ) = ( 3.49e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.76e-15 ) ;     ( R ) = ( 2.76e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.99e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 7.90e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 3.04e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.09e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 13s, dt:1s, Cycle: 13
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 3.23e+00 ) ;     ( R ) = ( 3.23e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 5.03e-05 ) ;     ( R ) = ( 5.03e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.61e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.62e-15 ) ;     ( R ) = ( 1.62e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.13e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 8.55e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 3.66e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.73e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 14s, dt:1s, Cycle: 14
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 3.01e+00 ) ;     ( R ) = ( 3.01e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.99e-05 ) ;     ( R ) = ( 1.99e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.09e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.29e-15 ) ;     ( R ) = ( 1.29e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.18e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 9.19e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 4.50e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.24e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 15s, dt:1s, Cycle: 15
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.82e+00 ) ;     ( R ) = ( 2.82e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.19e-15 ) ;     ( R ) = ( 2.19e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.95e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 9.83e-05 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 5.19e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.93e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_01/0to30_restart_000000015/rank_0000000.hdf5
+Time: 16s, dt:1s, Cycle: 16
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.65e+00 ) ;     ( R ) = ( 2.65e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 4.95e-05 ) ;     ( R ) = ( 4.95e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.05e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.34e-15 ) ;     ( R ) = ( 1.34e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.34e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.04e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 6.00e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.98e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 17s, dt:1s, Cycle: 17
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.51e+00 ) ;     ( R ) = ( 2.51e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.88e-15 ) ;     ( R ) = ( 1.88e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.25e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.11e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 5.44e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.66e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 18s, dt:1s, Cycle: 18
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.38e+00 ) ;     ( R ) = ( 2.38e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.95e-04 ) ;     ( R ) = ( 1.95e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.14e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.78e-15 ) ;     ( R ) = ( 1.78e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.41e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.17e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 6.11e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.23e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 19s, dt:1s, Cycle: 19
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.26e+00 ) ;     ( R ) = ( 2.26e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 6.09e-06 ) ;     ( R ) = ( 6.09e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.87e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.54e-15 ) ;     ( R ) = ( 1.54e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.90e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.23e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 6.08e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.35e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 20s, dt:1s, Cycle: 20
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.16e+00 ) ;     ( R ) = ( 2.16e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.75e-15 ) ;     ( R ) = ( 1.75e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.93e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.29e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 8.64e-19 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.57e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 21s, dt:1s, Cycle: 21
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 2.07e+00 ) ;     ( R ) = ( 2.07e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.97e-15 ) ;     ( R ) = ( 1.97e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.42e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.34e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.00e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.88e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 22s, dt:1s, Cycle: 22
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.99e+00 ) ;     ( R ) = ( 1.99e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.47e-05 ) ;     ( R ) = ( 2.47e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.08e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.37e-15 ) ;     ( R ) = ( 1.37e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.65e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.40e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.26e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.70e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 23s, dt:1s, Cycle: 23
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.92e+00 ) ;     ( R ) = ( 1.92e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.67e-15 ) ;     ( R ) = ( 1.67e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.40e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.46e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.00e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.89e-16 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 24s, dt:1s, Cycle: 24
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.85e+00 ) ;     ( R ) = ( 1.85e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.15e-06 ) ;     ( R ) = ( 2.15e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.98e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.22e-15 ) ;     ( R ) = ( 1.22e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.72e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.52e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.23e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.20e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 25s, dt:1s, Cycle: 25
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.78e+00 ) ;     ( R ) = ( 1.78e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.75e-04 ) ;     ( R ) = ( 1.75e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.19e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.49e-15 ) ;     ( R ) = ( 1.49e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.03e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.57e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.22e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.41e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 26s, dt:1s, Cycle: 26
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.73e+00 ) ;     ( R ) = ( 1.73e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 2.33e-05 ) ;     ( R ) = ( 2.33e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.32e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.49e-15 ) ;     ( R ) = ( 1.49e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.94e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.63e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.08e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.51e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 27s, dt:1s, Cycle: 27
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.68e+00 ) ;     ( R ) = ( 1.68e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.66e-15 ) ;     ( R ) = ( 1.66e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.73e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.69e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.16e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.07e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 28s, dt:1s, Cycle: 28
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.63e+00 ) ;     ( R ) = ( 1.63e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 1.57e-15 ) ;     ( R ) = ( 1.57e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.91e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.74e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.45e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.01e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Time: 29s, dt:1s, Cycle: 29
+	Iteration: 1, MechanicsSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 1.59e+00 ) ;     ( R ) = ( 1.59e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 5.01e-05 ) ;     ( R ) = ( 5.01e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.12e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+( RSolid ) = ( 1.63e-15 ) ;     ( R ) = ( 1.63e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.66e-16 ) ; 
+	Iteration: 1, DamageSolver: 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( R ) = ( 1.80e-04 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( R ) = ( 1.57e-18 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.29e-15 ) ; 
+***** Single Pass solver, no subcycling *****
+
+PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_01/0to30_restart_000000030/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:    1.4 MB
+Umpire          DEVICE         rank max:    1.4 MB
+Umpire       DEVICE::0 sum across ranks:    1.4 MB
+Umpire       DEVICE::0         rank max:    1.4 MB
+Umpire            HOST sum across ranks:    1.9 MB
+Umpire            HOST         rank max:    1.9 MB
+total time                         7.594s
+initialization time                0.093s
+run time                           6.273s

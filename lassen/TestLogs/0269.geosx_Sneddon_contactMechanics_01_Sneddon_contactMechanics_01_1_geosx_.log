@@ -1,0 +1,70 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i Sneddon_contactMechanics.xml -x 1 -y 1 -z 1 -n 0to2 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(Sneddon_contactMechanics_01/Sneddon_contactMechanics_01_1_geosx)
+#ATS: clas = ['-i', 'Sneddon_contactMechanics.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to2', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Adding Mesh: InternalMesh, mesh1
+Adding Event: SoloEvent, preFracture
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, restarts
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, timeHistoryCollection
+Adding Event: PeriodicEvent, timeHistoryOutput
+Adding Solver of type LagrangianContact, named lagrangiancontact
+Adding Solver of type SolidMechanicsLagrangianSSLE, named lagsolve
+Adding Solver of type SurfaceGenerator, named SurfaceGen
+Adding Geometric Object: BoundedPlane, fracture
+Adding Geometric Object: BoundedPlane, core
+   TableFunction: apertureTable
+Adding Output: VTK, vtkOutput
+Adding Output: TimeHistory, timeHistoryOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Region from ObjectManager::Catalog.
+Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
+Total number of nodes:1922
+Total number of elems:900
+Rank 0: Total number of nodes:1922
+  Region/cb1/rock is allocated with 8 quadrature points.
+  Fracture/faceElementSubRegion/fractureMaterial is allocated with 8 quadrature points.
+  Fracture/faceElementSubRegion/rock is allocated with 8 quadrature points.
+Time: 0s, dt:1s, Cycle: 0
+  Number of element for each fracture state: stick:           10 | slip:             0 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.749425e-16,    3.377848e-22,    1.749425e-16 );
+    ( R ) = ( 1.75e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.43e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:            0 | slip:             0 | open:            10
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.088660e-08,    6.376324e-17,    9.467482e-15 );
+    ( R ) = ( 9.47e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.62e-15 ) ; 
+ ***** ImplicitStepComplete *****
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01/0to2_restart_000000000/rank_0000000.hdf5
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01/0to2_restart_000000001/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:   14.1 MB
+Umpire          DEVICE         rank max:   14.1 MB
+Umpire       DEVICE::0 sum across ranks:   14.1 MB
+Umpire       DEVICE::0         rank max:   14.1 MB
+Umpire            HOST sum across ranks:   18.8 MB
+Umpire            HOST         rank max:   18.8 MB
+Umpire          PINNED sum across ranks:    0.9 KB
+Umpire          PINNED         rank max:    0.9 KB
+total time                         3.458s
+initialization time                0.210s
+run time                           2.050s

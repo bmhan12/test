@@ -1,0 +1,826 @@
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i ContactMechanics_SimpleCubes.xml -x 1 -y 1 -z 1 -n 0to20 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SimpleCubes_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(ContactMechanics_SimpleCubes_01/ContactMechanics_SimpleCubes_01_1_geosx)
+#ATS: clas = ['-i', 'ContactMechanics_SimpleCubes.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to20', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SimpleCubes_01']
+#ATS: np = 1
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Adding Mesh: InternalMesh, mesh1
+Adding Geometric Object: Box, fracture
+Adding Geometric Object: Box, core
+Adding Geometric Object: Box, front
+Adding Geometric Object: Box, back
+Adding Geometric Object: Box, xpos_top
+Adding Geometric Object: Box, bottom
+Adding Event: SoloEvent, initialPlot
+Adding Event: SoloEvent, preFracture
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, restarts
+Adding Event: PeriodicEvent, outputs
+Adding Solver of type LagrangianContact, named lagrangiancontact
+Adding Solver of type SolidMechanicsLagrangianSSLE, named lagsolve
+Adding Solver of type SurfaceGenerator, named SurfaceGen
+   TableFunction: ForceTimeFunction
+   TableFunction: apertureTable
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Region from ObjectManager::Catalog.
+Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
+Total number of nodes:605
+Total number of elems:400
+Rank 0: Total number of nodes:605
+  Region/cb1/rock is allocated with 8 quadrature points.
+  Fracture/faceElementSubRegion/fractureMaterial is allocated with 8 quadrature points.
+  Fracture/faceElementSubRegion/rock is allocated with 8 quadrature points.
+Time: 0s, dt:1s, Cycle: 0
+  Number of element for each fracture state: stick:          100 | slip:             0 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.758829e-15,    6.510366e-18,    1.758829e-15 );
+    ( R ) = ( 1.76e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.94e-15 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           62 | slip:            38 | open:             0
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.140384e-14,    2.099395e-01,    2.099395e-01 );
+    ( R ) = ( 2.10e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.92e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.607235e-14,    3.246405e-03,    3.246405e-03 );
+    ( R ) = ( 3.25e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.74e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.634062e-14,    3.752130e-06,    3.752130e-06 );
+    ( R ) = ( 3.75e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.285294e-14,    6.564276e-12,    6.564276e-12 );
+    ( R ) = ( 6.56e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.08e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           52 | slip:            48 | open:             0
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.697186e-14,    4.372594e-02,    4.372594e-02 );
+    ( R ) = ( 4.37e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.35e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.789864e-14,    2.225784e-04,    2.225784e-04 );
+    ( R ) = ( 2.23e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.78e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.973986e-14,    7.428526e-09,    7.428526e-09 );
+    ( R ) = ( 7.43e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.31e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           42 | slip:            58 | open:             0
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.864753e-14,    5.832386e-02,    5.832386e-02 );
+    ( R ) = ( 5.83e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.98e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.924115e-14,    3.819190e-04,    3.819190e-04 );
+    ( R ) = ( 3.82e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.74e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.610259e-14,    1.850861e-08,    1.850861e-08 );
+    ( R ) = ( 1.85e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.51e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.108742e-14,    3.829044e-16,    8.077394e-15 );
+    ( R ) = ( 8.08e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.17e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.753057e-14,    8.577159e-02,    8.577159e-02 );
+    ( R ) = ( 8.58e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.42e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.535123e-14,    5.320396e-04,    5.320396e-04 );
+    ( R ) = ( 5.32e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.40e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.015919e-14,    1.041431e-08,    1.041431e-08 );
+    ( R ) = ( 1.04e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.16e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.113512e-14,    1.451526e-15,    2.378265e-14 );
+    ( R ) = ( 2.38e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.42e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SimpleCubes_01/0to20_restart_000000000/rank_0000000.hdf5
+Time: 1s, dt:1s, Cycle: 1
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.830867e-15,    1.704136e+01,    2.849499e-01 );
+    ( R ) = ( 2.85e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.56e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.789451e-15,    6.596095e+00,    1.102938e-01 );
+    ( R ) = ( 1.10e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.79e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.151724e-15,    3.962733e+00,    6.626117e-02 );
+    ( R ) = ( 6.63e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.69e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.163390e-15,    7.083267e-01,    1.184399e-02 );
+    ( R ) = ( 1.18e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.92e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.098793e-15,    4.972613e-02,    8.314744e-04 );
+    ( R ) = ( 8.31e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.77e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.053889e-15,    8.351408e-05,    1.396445e-06 );
+    ( R ) = ( 1.40e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.73e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.190924e-15,    6.316388e-10,    1.056168e-11 );
+    ( R ) = ( 1.06e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.45e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 2s, dt:1s, Cycle: 2
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.426258e-15,    1.714475e+01,    2.866787e-01 );
+    ( R ) = ( 2.87e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.07e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.989782e-15,    1.121459e+01,    1.875200e-01 );
+    ( R ) = ( 1.88e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.51e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.429388e-15,    1.658845e+01,    2.773767e-01 );
+    ( R ) = ( 2.77e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.48e-16 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.651866e-15,    2.740814e+00,    4.582935e-02 );
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.404109e-15,    6.038796e-01,    1.009752e-02 );
+    ( R ) = ( 1.01e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.53e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.455331e-15,    2.585710e-02,    4.323585e-04 );
+    ( R ) = ( 4.32e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.04e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.537900e-15,    6.060589e-05,    1.013396e-06 );
+    ( R ) = ( 1.01e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.72e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.398480e-15,    2.453662e-10,    4.102788e-12 );
+    ( R ) = ( 4.10e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.90e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 3s, dt:1s, Cycle: 3
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.397028e-15,    1.730150e+01,    2.892997e-01 );
+    ( R ) = ( 2.89e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.18e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.343080e-15,    1.617305e+01,    2.704307e-01 );
+    ( R ) = ( 2.70e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.32e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.013387e-15,    3.479860e+01,    5.818700e-01 );
+    ( R ) = ( 5.82e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.30e-16 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    2.069512e-15,    5.570501e+00,    9.314478e-02 );
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.871253e-15,    2.101932e+00,    3.514656e-02 );
+    ( R ) = ( 3.51e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.65e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.973694e-15,    2.339410e-01,    3.911746e-03 );
+    ( R ) = ( 3.91e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.25e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.835747e-15,    3.493719e-03,    5.841875e-05 );
+    ( R ) = ( 5.84e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.96e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.771881e-15,    6.537953e-07,    1.093216e-08 );
+    ( R ) = ( 1.09e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.58e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.803555e-15,    2.961646e-14,    1.870308e-15 );
+    ( R ) = ( 1.87e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.75e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 4s, dt:1s, Cycle: 4
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.144021e-15,    1.751018e+01,    2.927891e-01 );
+    ( R ) = ( 2.93e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.37e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.737380e-15,    2.138082e+01,    3.575103e-01 );
+    ( R ) = ( 3.58e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.70e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    2.668169e-15,    8.523686e+00,    1.425252e-01 );
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.401815e-15,    4.781754e+00,    7.995607e-02 );
+    ( R ) = ( 8.00e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.92e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.248316e-15,    6.400824e-01,    1.070287e-02 );
+    ( R ) = ( 1.07e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.94e-17 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.093063e-15,    4.946736e-02,    8.271476e-04 );
+    ( R ) = ( 8.27e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.26e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.211925e-15,    6.016115e-05,    1.005959e-06 );
+    ( R ) = ( 1.01e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.57e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.146556e-15,    3.938949e-10,    6.586347e-12 );
+    ( R ) = ( 6.59e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.51e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 5s, dt:1s, Cycle: 5
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.160886e-15,    1.398878e+02,    1.179398e+00 );
+    ( R ) = ( 1.18e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.33e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    4.957845e-01,    1.561308e+02,    1.406614e+00 );
+        Line search @ 0.250:          ( Rdisplacement, Rtraction, Rtotal ) = (    7.436767e-01,    1.643092e+02,    1.572291e+00 );
+        Line search @ 0.125:          ( Rdisplacement, Rtraction, Rtotal ) = (    8.676229e-01,    1.684102e+02,    1.663972e+00 );
+        Line search failed to produce reduced residual. Exiting Newton Loop.
+  Number of element for each fracture state: stick:          100 | slip:             0 | open:             0
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.006598e-15,    4.703350e-17,    2.006598e-15 );
+    ( R ) = ( 2.01e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.66e-15 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           70 | slip:            30 | open:             0
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.090753e-13,    2.884960e-01,    2.884960e-01 );
+    ( R ) = ( 2.88e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.94e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    9.386098e-14,    1.751025e-02,    1.751025e-02 );
+    ( R ) = ( 1.75e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.11e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.053861e-13,    1.931205e-04,    1.931205e-04 );
+    ( R ) = ( 1.93e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.96e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.072673e-13,    1.079575e-08,    1.079575e-08 );
+    ( R ) = ( 1.08e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.17e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.102031e-13,    8.506550e-16,    9.512020e-15 );
+    ( R ) = ( 9.51e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.81e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           50 | slip:            50 | open:             0
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.046827e-13,    2.968604e-01,    2.968604e-01 );
+    ( R ) = ( 2.97e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.91e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    9.915838e-14,    1.455597e-02,    1.455597e-02 );
+    ( R ) = ( 1.46e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.53e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.027639e-13,    1.875178e-04,    1.875178e-04 );
+    ( R ) = ( 1.88e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.69e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.031736e-13,    1.812241e-08,    1.812241e-08 );
+    ( R ) = ( 1.81e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.28e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    9.913131e-14,    4.276396e-15,    1.297651e-14 );
+    ( R ) = ( 1.30e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.59e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           48 | slip:            52 | open:             0
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.033927e-13,    2.464775e-01,    2.464775e-01 );
+    ( R ) = ( 2.46e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.30e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.025325e-13,    6.901850e-03,    6.901850e-03 );
+    ( R ) = ( 6.90e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.015100e-13,    1.995168e-05,    1.995168e-05 );
+    ( R ) = ( 2.00e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.02e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.042198e-13,    5.063140e-11,    5.063141e-11 );
+    ( R ) = ( 5.06e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.07e-17 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           44 | slip:            56 | open:             0
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.068764e-13,    1.312429e+00,    1.312429e+00 );
+    ( R ) = ( 1.31e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.73e-16 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.266587e-13,    4.783552e+00,    4.783552e+00 );
+        Line search @ 0.250:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.238722e-13,    6.116324e+00,    6.116324e+00 );
+        Line search @ 0.125:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.360027e-13,    6.266126e+00,    6.266126e+00 );
+        Line search failed to produce reduced residual. Exiting Newton Loop.
+New dt = 0.5
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  1, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  1, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.658584e-15,    1.561308e+02,    2.610676e+00 );
+    ( R ) = ( 2.61e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.24e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    4.916395e-01,    1.643092e+02,    2.791068e+00 );
+        Line search @ 0.250:          ( Rdisplacement, Rtraction, Rtotal ) = (    7.374592e-01,    1.684102e+02,    2.910962e+00 );
+        Line search @ 0.125:          ( Rdisplacement, Rtraction, Rtotal ) = (    8.603691e-01,    1.704634e+02,    2.977351e+00 );
+        Line search failed to produce reduced residual. Exiting Newton Loop.
+  Number of element for each fracture state: stick:          100 | slip:             0 | open:             0
+    Attempt:  1, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  1, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.597140e-15,    8.089426e-17,    2.597141e-15 );
+    ( R ) = ( 2.60e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.69e-15 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           78 | slip:            22 | open:             0
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.057016e-13,    8.439485e-01,    8.439485e-01 );
+    ( R ) = ( 8.44e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.42e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.118690e-13,    2.156406e-01,    2.156406e-01 );
+    ( R ) = ( 2.16e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.77e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.142145e-13,    3.029594e-02,    3.029594e-02 );
+    ( R ) = ( 3.03e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.116491e-13,    3.432287e-04,    3.432287e-04 );
+    ( R ) = ( 3.43e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.50e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.067139e-13,    7.361267e-08,    7.361267e-08 );
+    ( R ) = ( 7.36e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.73e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  2, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.122859e-13,    3.233919e-15,    1.842673e-14 );
+    ( R ) = ( 1.84e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.27e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           70 | slip:            30 | open:             0
+    Attempt:  1, ConfigurationIter:  3, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  1, ConfigurationIter:  3, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.132795e-13,    1.247093e-01,    1.247093e-01 );
+    ( R ) = ( 1.25e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.74e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  3, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.126733e-13,    2.098343e-03,    2.098343e-03 );
+    ( R ) = ( 2.10e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.38e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  3, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.065416e-13,    2.299599e-06,    2.299599e-06 );
+    ( R ) = ( 2.30e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.12e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  3, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    9.948601e-14,    8.113869e-13,    8.115704e-13 );
+    ( R ) = ( 8.12e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.14e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           60 | slip:            40 | open:             0
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.101935e-13,    7.543608e-01,    7.543608e-01 );
+    ( R ) = ( 7.54e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.44e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.072652e-13,    1.974991e-01,    1.974991e-01 );
+    ( R ) = ( 1.97e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.12e-17 ) ; 
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.102180e-13,    2.927633e-02,    2.927633e-02 );
+    ( R ) = ( 2.93e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.88e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.084425e-13,    3.504050e-04,    3.504050e-04 );
+    ( R ) = ( 3.50e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.66e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.139512e-13,    9.097701e-08,    9.097701e-08 );
+    ( R ) = ( 9.10e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.93e-16 ) ; 
+    Attempt:  1, ConfigurationIter:  4, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.096838e-13,    4.259016e-14,    5.435410e-14 );
+    ( R ) = ( 5.44e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-16 ) ; 
+ ***** ImplicitStepComplete *****
+lagrangiancontact: sub-step = 0, accepted dt = 0.5, remaining dt = 0.5
+  Number of element for each fracture state: stick:           60 | slip:            40 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.548548e-15,    1.009474e+02,    1.687949e+00 );
+    ( R ) = ( 1.69e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.92e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    4.916395e-01,    1.095050e+02,    1.895896e+00 );
+        Line search @ 0.250:          ( Rdisplacement, Rtraction, Rtotal ) = (    7.374592e-01,    1.137889e+02,    2.040590e+00 );
+        Line search @ 0.125:          ( Rdisplacement, Rtraction, Rtotal ) = (    8.603691e-01,    1.159319e+02,    2.120858e+00 );
+        Line search failed to produce reduced residual. Exiting Newton Loop.
+  Number of element for each fracture state: stick:          100 | slip:             0 | open:             0
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.444077e-15,    4.255260e-17,    2.444077e-15 );
+    ( R ) = ( 2.44e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.70e-15 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           68 | slip:            32 | open:             0
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.264617e-14,    6.835799e-01,    6.835799e-01 );
+    ( R ) = ( 6.84e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.05e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.599509e-14,    8.668534e-02,    8.668534e-02 );
+    ( R ) = ( 8.67e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.80e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.796605e-14,    5.044451e-03,    5.044451e-03 );
+    ( R ) = ( 5.04e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.14e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.357889e-14,    6.975558e-06,    6.975558e-06 );
+    ( R ) = ( 6.98e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.20e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.148774e-14,    3.024727e-11,    3.024727e-11 );
+    ( R ) = ( 3.02e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.64e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           48 | slip:            52 | open:             0
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.592917e-14,    2.495404e-01,    2.495404e-01 );
+    ( R ) = ( 2.50e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.36e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.629592e-14,    1.023602e-02,    1.023602e-02 );
+    ( R ) = ( 1.02e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.21e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    9.237084e-14,    5.862758e-05,    5.862758e-05 );
+    ( R ) = ( 5.86e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.68e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.854497e-14,    1.393013e-09,    1.393013e-09 );
+    ( R ) = ( 1.39e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.17e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           44 | slip:            56 | open:             0
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.960353e-14,    5.423778e-01,    5.423778e-01 );
+    ( R ) = ( 5.42e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.63e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.647797e-14,    1.690904e-02,    1.690904e-02 );
+    ( R ) = ( 1.69e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.51e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.930467e-14,    2.108313e-04,    2.108313e-04 );
+    ( R ) = ( 2.11e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.34e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.427812e-14,    5.859797e-09,    5.859797e-09 );
+    ( R ) = ( 5.86e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.16e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SimpleCubes_01/0to20_restart_000000005/rank_0000000.hdf5
+Time: 6s, dt:1s, Cycle: 6
+  Number of element for each fracture state: stick:           44 | slip:            56 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.021892e-15,    6.272511e+01,    5.288370e-01 );
+    ( R ) = ( 5.29e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.06e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.399256e-15,    2.686220e+01,    2.264759e-01 );
+    ( R ) = ( 2.26e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.46e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.052857e-16,    1.349814e+00,    1.138032e-02 );
+    ( R ) = ( 1.14e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.12e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    6.295564e-16,    3.263343e-02,    2.751333e-04 );
+    ( R ) = ( 2.75e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.33e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.973507e-16,    4.029032e-05,    3.396888e-07 );
+    ( R ) = ( 3.40e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.78e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    5.982635e-16,    8.100472e-11,    6.829532e-13 );
+    ( R ) = ( 6.83e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.62e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           18 | slip:            82 | open:             0
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.118991e-14,    6.539061e-02,    6.539061e-02 );
+    ( R ) = ( 6.54e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.55e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    6.373488e-14,    1.523274e-03,    1.523274e-03 );
+    ( R ) = ( 1.52e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.10e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.430605e-14,    2.570433e-06,    2.570433e-06 );
+    ( R ) = ( 2.57e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.21e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.173552e-14,    7.479775e-12,    7.479775e-12 );
+    ( R ) = ( 7.48e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.05e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:            0 | slip:           100 | open:             0
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.085116e-13,    1.133603e+00,    1.133603e+00 );
+    ( R ) = ( 1.13e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.04e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.042348e-13,    9.946703e-01,    9.946703e-01 );
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.418184e-14,    8.985649e-01,    8.985649e-01 );
+    ( R ) = ( 8.99e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.82e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.178541e-13,    1.134990e+00,    1.134990e+00 );
+    ( R ) = ( 1.13e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.56e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.263024e-13,    4.592038e-01,    4.592038e-01 );
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.468297e-14,    2.703785e-01,    2.703785e-01 );
+    ( R ) = ( 2.70e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.10e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.519753e-14,    2.033348e-01,    2.033348e-01 );
+    ( R ) = ( 2.03e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.020806e-14,    2.105682e-01,    2.105682e-01 );
+    ( R ) = ( 2.11e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.89e-16 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.032899e-13,    3.901682e-02,    3.901682e-02 );
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  7
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.173542e-14,    5.442077e-03,    5.442077e-03 );
+    ( R ) = ( 5.44e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.25e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  8
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.823626e-14,    1.494913e-04,    1.494913e-04 );
+    ( R ) = ( 1.49e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.59e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  2, NewtonIter:  9
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.117390e-14,    2.145128e-07,    2.145128e-07 );
+    ( R ) = ( 2.15e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.48e-16 ) ; 
+  Number of element for each fracture state: stick:          100 | slip:             0 | open:             0
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  3, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.808415e-15,    5.068345e-17,    1.808415e-15 );
+    ( R ) = ( 1.81e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.80e-15 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:           32 | slip:            68 | open:             0
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.797652e-14,    1.414677e-01,    1.414677e-01 );
+    ( R ) = ( 1.41e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.38e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    6.913690e-14,    8.460834e-03,    8.460834e-03 );
+    ( R ) = ( 8.46e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.43e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.103951e-14,    9.222104e-05,    9.222104e-05 );
+    ( R ) = ( 9.22e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.00e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  4, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.050178e-14,    5.373631e-09,    5.373631e-09 );
+    ( R ) = ( 5.37e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.28e-16 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:            0 | slip:           100 | open:             0
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.076289e-13,    9.257042e-01,    9.257042e-01 );
+    ( R ) = ( 9.26e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.83e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.277550e-13,    1.163701e+00,    1.163701e+00 );
+    ( R ) = ( 1.16e+00 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.87e-15 ) ; 
+        Line search @ 0.500:          ( Rdisplacement, Rtraction, Rtotal ) = (    1.045485e-13,    4.578122e-01,    4.578122e-01 );
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.196836e-14,    1.114374e-01,    1.114374e-01 );
+    ( R ) = ( 1.11e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.40e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.566614e-14,    1.657656e-02,    1.657656e-02 );
+    ( R ) = ( 1.66e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.60e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  5
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.154005e-14,    4.003796e-04,    4.003796e-04 );
+    ( R ) = ( 4.00e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.68e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  6
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.477631e-14,    6.579047e-06,    6.579047e-06 );
+    ( R ) = ( 6.58e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.55e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  5, NewtonIter:  7
+    ( Rdisplacement, Rtraction, Rtotal ) = (    8.022662e-14,    3.432021e-10,    3.432021e-10 );
+    ( R ) = ( 3.43e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.71e-16 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 7s, dt:1s, Cycle: 7
+  Number of element for each fracture state: stick:            0 | slip:           100 | open:             0
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.006811e-15,    2.624608e+01,    2.212814e-01 );
+    ( R ) = ( 2.21e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.49e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.677522e-15,    1.268956e-01,    1.069860e-03 );
+    ( R ) = ( 1.07e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.90e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.188818e-15,    4.337507e-05,    3.656964e-07 );
+    ( R ) = ( 3.66e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.30e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.053639e-15,    6.236723e-12,    5.262207e-14 );
+    ( R ) = ( 5.26e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.43e-15 ) ; 
+   
+---------- Configuration did not converge. Testing new configuration. ----------
+   
+  Number of element for each fracture state: stick:            0 | slip:             0 | open:           100
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.159596e-11,    0.000000e+00,    4.502334e-13 );
+    ( R ) = ( 4.50e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.25e-13 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 8s, dt:1s, Cycle: 8
+  Number of element for each fracture state: stick:            0 | slip:             0 | open:           100
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    2.975474e-13,    0.000000e+00,    2.975474e-13 );
+    ( R ) = ( 2.98e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.38e-13 ) ; 
+ ***** ImplicitStepComplete *****
+Time: 9s, dt:1s, Cycle: 9
+  Number of element for each fracture state: stick:            0 | slip:             0 | open:           100
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
+    ( R ) = ( 1.00e+00 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.337250e-13,    0.000000e+00,    3.337250e-13 );
+    ( R ) = ( 3.34e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.17e-13 ) ; 
+ ***** ImplicitStepComplete *****
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SimpleCubes_01/0to20_restart_000000010/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:    7.7 MB
+Umpire          DEVICE         rank max:    7.7 MB
+Umpire       DEVICE::0 sum across ranks:    7.7 MB
+Umpire       DEVICE::0         rank max:    7.7 MB
+Umpire            HOST sum across ranks:   10.0 MB
+Umpire            HOST         rank max:   10.0 MB
+total time                        36.348s
+initialization time                0.136s
+run time                          34.937s

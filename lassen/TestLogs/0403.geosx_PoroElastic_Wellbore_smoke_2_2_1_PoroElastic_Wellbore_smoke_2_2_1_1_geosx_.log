@@ -1,0 +1,136 @@
+#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PoroElastic_Wellbore_smoke.xml -x 2 -y 2 -z 1 -n main_run -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(PoroElastic_Wellbore_smoke_2-2-1/PoroElastic_Wellbore_smoke_2-2-1_1_geosx)
+#ATS: clas = ['-i', 'PoroElastic_Wellbore_smoke.xml', '-x', '2', '-y', '2', '-z', '1', '-n', 'main_run', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1']
+#ATS: np = 4
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Adding Mesh: InternalWellbore, mesh1
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, restarts
+Adding Event: PeriodicEvent, solverApplication0
+   TableFunction: timeFunction
+Adding Solver of type SinglePhasePoromechanics, named PoromechanicsSolver
+Adding Solver of type SolidMechanics_LagrangianFEM, named mechanicsSolver
+Adding Solver of type SinglePhaseFVM, named SinglePhaseFlowSolver
+Adding Output: Silo, siloOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named Omega from ObjectManager::Catalog.
+radial elements: { 5 }
+Radial Coordinates: { 0.1, 0.236575, 0.522539, 1.1213, 2.37499, 5 }
+Total number of nodes:60
+Total number of elems:20
+Rank 0: Total number of nodes:18
+Rank 2: Total number of nodes:24
+Rank 1: Total number of nodes:18
+Rank 3: Total number of nodes:24
+  Omega/cb1/water is allocated with 8 quadrature points.
+  Omega/cb1/porousRock is allocated with 8 quadrature points.
+Time: 0s, dt:10s, Cycle: 0
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000000/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000000/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000000/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000000/rank_0000000.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 5.74e-03 ) ;     ( Rsolid, Rfluid ) = ( 5.74e-03, 2.80e-09 )
+    ( R ) = ( 5.74e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 7.07e-16 ) ;     ( Rsolid, Rfluid ) = ( 7.07e-16, 4.09e-11 )
+    ( R ) = ( 4.09e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.71e-16 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 10s, dt:10s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 7.07e-16 ) ;     ( Rsolid, Rfluid ) = ( 7.07e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 7.32e-16 ) ;     ( Rsolid, Rfluid ) = ( 7.32e-16, 6.92e-16 )
+    ( R ) = ( 1.01e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.44e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 20s, dt:10s, Cycle: 2
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000002/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000002/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000002/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000002/rank_0000000.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 7.32e-16 ) ;     ( Rsolid, Rfluid ) = ( 7.32e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 6.01e-16 ) ;     ( Rsolid, Rfluid ) = ( 6.01e-16, 6.43e-16 )
+    ( R ) = ( 8.80e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 30s, dt:10s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 6.01e-16 ) ;     ( Rsolid, Rfluid ) = ( 6.01e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 4.45e-16 ) ;     ( Rsolid, Rfluid ) = ( 4.45e-16, 1.28e-15 )
+    ( R ) = ( 1.36e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.52e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 40s, dt:10s, Cycle: 4
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000004/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000004/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000004/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000004/rank_0000001.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 4.45e-16 ) ;     ( Rsolid, Rfluid ) = ( 4.45e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 4.63e-16 ) ;     ( Rsolid, Rfluid ) = ( 4.63e-16, 9.32e-16 )
+    ( R ) = ( 1.04e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.65e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 50s, dt:10s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 4.63e-16 ) ;     ( Rsolid, Rfluid ) = ( 4.63e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 5.72e-16 ) ;     ( Rsolid, Rfluid ) = ( 5.72e-16, 2.13e-16 )
+    ( R ) = ( 6.10e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.15e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 60s, dt:10s, Cycle: 6
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000006/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000006/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000006/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000006/rank_0000001.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 5.72e-16 ) ;     ( Rsolid, Rfluid ) = ( 5.72e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 6.93e-16 ) ;     ( Rsolid, Rfluid ) = ( 6.93e-16, 3.57e-16 )
+    ( R ) = ( 7.80e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.62e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Time: 70s, dt:10s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+( RSolid ) = ( 6.93e-16 ) ;     ( Rsolid, Rfluid ) = ( 6.93e-16, 2.81e-09 )
+    ( R ) = ( 2.81e-09 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+( RSolid ) = ( 7.90e-16 ) ;     ( Rsolid, Rfluid ) = ( 7.90e-16, 1.03e-15 )
+    ( R ) = ( 1.30e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.76e-08 ) ; 
+PoromechanicsSolver: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000008/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000008/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000008/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Wellbore_smoke_2-2-1/main_run_restart_000000008/rank_0000001.hdf5
+Umpire          DEVICE sum across ranks:  465.6 KB
+Umpire          DEVICE         rank max:  226.0 KB
+Umpire       DEVICE::0 sum across ranks:  465.6 KB
+Umpire       DEVICE::0         rank max:  226.0 KB
+Umpire            HOST sum across ranks:  737.5 KB
+Umpire            HOST         rank max:  268.9 KB
+Umpire          PINNED sum across ranks:  214.5 KB
+Umpire          PINNED         rank max:   56.6 KB
+total time                         4.695s
+initialization time                0.122s
+run time                           3.187s

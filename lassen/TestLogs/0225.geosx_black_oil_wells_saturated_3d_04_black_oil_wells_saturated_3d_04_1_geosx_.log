@@ -1,0 +1,466 @@
+#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i black_oil_wells_saturated_3d.xml -x 2 -y 2 -z 1 -n 0to25 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: name = geosx(black_oil_wells_saturated_3d_04/black_oil_wells_saturated_3d_04_1_geosx)
+#ATS: clas = ['-i', 'black_oil_wells_saturated_3d.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to25', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04']
+#ATS: np = 4
+#ATS: script = 
+#ATS: testpath =  
+
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Adding Solver of type CompositionalMultiphaseReservoir, named reservoirSystem
+Adding Solver of type CompositionalMultiphaseFVM, named compositionalMultiphaseFlow
+Adding Solver of type CompositionalMultiphaseWell, named compositionalMultiphaseWell
+Adding Mesh: InternalMesh, mesh
+Adding Mesh: InternalWell, wellProducer
+Adding Mesh: InternalWell, wellInjector
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, timeHistoryOutput
+Adding Event: PeriodicEvent, restarts
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, timeHistoryCollection
+   TableFunction: waterRelPermTable
+   TableFunction: oilRelPermTableForOW
+   TableFunction: gasRelPermTable
+   TableFunction: oilRelPermTableForOG
+   TableFunction: waterCapPresTable
+   TableFunction: gasCapPresTable
+Adding Output: VTK, vtkOutput
+Adding Output: TimeHistory, timeHistoryOutput
+Adding Output: Restart, restartOutput
+Adding Object CellElementRegion named region from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion1 from ObjectManager::Catalog.
+Adding Object WellElementRegion named wellRegion2 from ObjectManager::Catalog.
+   TableFunction: fluid_PVDG_Bg
+   TableFunction: fluid_PVDG_viscg
+BlackOilFluid fluid: Warning! GEOSX is adding surface condition values to the PVTO table. 
+The following values are added: Rs = 0; P_bubblePoint = 101325 Pa; Bo = 1.0; oil viscosity = 0.0016600218952201118 Pa.s. 
+To disable this behavior, you just have to provide a PVTO table entry for P_bubblePoint = 101325 Pa
+   TableFunction: wellControls1_ConstantBHP_table
+   TableFunction: wellControls1_ConstantTotalRate_table
+   TableFunction: wellControls1_ConstantPhaseRate_table
+   TableFunction: wellControls2_ConstantBHP_table
+   TableFunction: wellControls2_ConstantTotalRate_table
+   TableFunction: wellControls2_ConstantPhaseRate_table
+Total number of nodes:75
+Total number of elems:32
+Rank 1: Total number of nodes:27
+Rank 2: Total number of nodes:27
+Rank 0: Total number of nodes:27
+Rank 3: Total number of nodes:27
+  region/cb/fluid is allocated with 1 quadrature points.
+  region/cb/rock is allocated with 1 quadrature points.
+  region/cb/relperm is allocated with 1 quadrature points.
+  region/cb/cappres is allocated with 1 quadrature points.
+  wellRegion1/wellRegion1uniqueSubRegion/fluid is allocated with 1 quadrature points.
+  wellRegion1/wellRegion1uniqueSubRegion/relperm is allocated with 1 quadrature points.
+  wellRegion2/wellRegion2uniqueSubRegion/fluid is allocated with 1 quadrature points.
+  wellRegion2/wellRegion2uniqueSubRegion/relperm is allocated with 1 quadrature points.
+Time: 0s, dt:86400s, Cycle: 0
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000002.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.86e-01 ) ;     ( R ) = ( 3.12e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.26e-01 ) ;     ( R ) = ( 1.36e-01 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.58e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 8.67e-02 ) ;     ( R ) = ( 9.38e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.12e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.31e-02 ) ;     ( R ) = ( 6.83e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.90e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
+    ( Rfluid ) = ( 4.69e-02 ) ;     ( R ) = ( 5.08e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.88e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
+    ( Rfluid ) = ( 3.50e-02 ) ;     ( R ) = ( 3.79e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.25e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
+    ( Rfluid ) = ( 2.58e-02 ) ;     ( R ) = ( 2.80e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.54e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
+    ( Rfluid ) = ( 1.85e-02 ) ;     ( R ) = ( 2.01e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.53e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  8
+    ( Rfluid ) = ( 1.26e-02 ) ;     ( R ) = ( 1.37e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.67e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  9
+    ( Rfluid ) = ( 7.72e-03 ) ;     ( R ) = ( 8.37e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.27e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter: 10
+    ( Rfluid ) = ( 3.62e-03 ) ;     ( R ) = ( 3.93e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.67e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter: 11
+    ( Rfluid ) = ( 1.71e-04 ) ;     ( R ) = ( 1.88e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.62e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter: 12
+    ( Rfluid ) = ( 1.16e-08 ) ;     ( R ) = ( 6.64e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.04e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter: 13
+    ( Rfluid ) = ( 6.26e-15 ) ;     ( R ) = ( 4.94e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.87e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.049796
+compositionalMultiphaseFlow: Max component CFL number: 0.0702439
+Time: 86400s, dt:86400s, Cycle: 1
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.32e-01 ) ;     ( R ) = ( 1.32e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.78e-03 ) ;     ( R ) = ( 7.10e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.53e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.27e-05 ) ;     ( R ) = ( 2.33e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.67e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 2.11e-10 ) ;     ( R ) = ( 2.13e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.91e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0696238
+compositionalMultiphaseFlow: Max component CFL number: 0.0642654
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 172800s, dt:142560s, Cycle: 2
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.42e-01 ) ;     ( R ) = ( 1.42e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 7.81e-03 ) ;     ( R ) = ( 7.98e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.49e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.92e-05 ) ;     ( R ) = ( 2.94e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.34e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 5.82e-10 ) ;     ( R ) = ( 5.82e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.65e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.151546
+compositionalMultiphaseFlow: Max component CFL number: 0.0888865
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 315360s, dt:285120s, Cycle: 3
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.92e-01 ) ;     ( R ) = ( 1.92e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.23e-02 ) ;     ( R ) = ( 1.24e-02 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.87e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.61e-05 ) ;     ( R ) = ( 4.62e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.83e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.55e-09 ) ;     ( R ) = ( 6.55e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.63e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.399145
+compositionalMultiphaseFlow: Max component CFL number: 0.136064
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 600480s, dt:30240s, Cycle: 4
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.45e-02 ) ;     ( R ) = ( 1.45e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 6.34e-05 ) ;     ( R ) = ( 1.01e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.29e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.67e-09 ) ;     ( R ) = ( 1.72e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.00e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0329548
+compositionalMultiphaseFlow: Max component CFL number: 0.0139708
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 630720s, dt:60480s, Cycle: 5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.83e-02 ) ;     ( R ) = ( 2.83e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.35e-05 ) ;     ( R ) = ( 1.39e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.48e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.36e-08 ) ;     ( R ) = ( 2.36e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.90e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.74e-15 ) ;     ( R ) = ( 4.74e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.29e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0712261
+compositionalMultiphaseFlow: Max component CFL number: 0.0266236
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 691200s, dt:120960s, Cycle: 6
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.44e-02 ) ;     ( R ) = ( 5.44e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.46e-05 ) ;     ( R ) = ( 8.48e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.22e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.30e-08 ) ;     ( R ) = ( 2.30e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 9.83e-15 ) ;     ( R ) = ( 9.83e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.06e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.163325
+compositionalMultiphaseFlow: Max component CFL number: 0.0484351
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 812160s, dt:133920s, Cycle: 7
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.66e-02 ) ;     ( R ) = ( 5.66e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.92e-05 ) ;     ( R ) = ( 1.01e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.54e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.64e-08 ) ;     ( R ) = ( 2.65e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.74e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.12e-14 ) ;     ( R ) = ( 1.12e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.74e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.206801
+compositionalMultiphaseFlow: Max component CFL number: 0.0481841
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 946080s, dt:267840s, Cycle: 8
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.07e-01 ) ;     ( R ) = ( 1.07e-01 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.28e-03 ) ;     ( R ) = ( 2.32e-03 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.18e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.67e-06 ) ;     ( R ) = ( 1.68e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.46e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 3.72e-12 ) ;     ( R ) = ( 3.72e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.82e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.300033
+compositionalMultiphaseFlow: Max component CFL number: 0.0832819
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.21392e+06s, dt:47520s, Cycle: 9
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.77e-02 ) ;     ( R ) = ( 1.77e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.93e-06 ) ;     ( R ) = ( 3.01e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.40e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.25e-11 ) ;     ( R ) = ( 1.45e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.12e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0544228
+compositionalMultiphaseFlow: Max component CFL number: 0.0146102
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.26144e+06s, dt:95040s, Cycle: 10
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.51e-02 ) ;     ( R ) = ( 3.51e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.69e-05 ) ;     ( R ) = ( 1.71e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.07e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.23e-10 ) ;     ( R ) = ( 2.37e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.22e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.113571
+compositionalMultiphaseFlow: Max component CFL number: 0.0288062
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.35648e+06s, dt:190080s, Cycle: 11
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 6.89e-02 ) ;     ( R ) = ( 6.89e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.60e-04 ) ;     ( R ) = ( 2.62e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.30e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 7.94e-09 ) ;     ( R ) = ( 7.96e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.10e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.244607
+compositionalMultiphaseFlow: Max component CFL number: 0.0560475
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.54656e+06s, dt:30240s, Cycle: 12
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.06e-02 ) ;     ( R ) = ( 1.06e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 3.26e-07 ) ;     ( R ) = ( 3.55e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.83e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.79e-13 ) ;     ( R ) = ( 7.95e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.75e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.039363
+compositionalMultiphaseFlow: Max component CFL number: 0.0088757
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.5768e+06s, dt:60480s, Cycle: 13
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000002.hdf5
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.10e-02 ) ;     ( R ) = ( 2.10e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.51e-06 ) ;     ( R ) = ( 2.55e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.86e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 9.18e-12 ) ;     ( R ) = ( 1.01e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.07e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0804845
+compositionalMultiphaseFlow: Max component CFL number: 0.0175875
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.63728e+06s, dt:120960s, Cycle: 14
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.16e-02 ) ;     ( R ) = ( 4.16e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.45e-05 ) ;     ( R ) = ( 4.59e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.49e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 7.27e-10 ) ;     ( R ) = ( 7.31e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.87e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.16709
+compositionalMultiphaseFlow: Max component CFL number: 0.0345291
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.75824e+06s, dt:133920s, Cycle: 15
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 4.51e-02 ) ;     ( R ) = ( 4.51e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 9.43e-05 ) ;     ( R ) = ( 9.64e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.79e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.40e-08 ) ;     ( R ) = ( 1.40e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.76e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 6.89e-15 ) ;     ( R ) = ( 6.89e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.39e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.192474
+compositionalMultiphaseFlow: Max component CFL number: 0.037443
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 1.89216e+06s, dt:267840s, Cycle: 16
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 8.84e-02 ) ;     ( R ) = ( 8.84e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.67e-04 ) ;     ( R ) = ( 1.68e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.81e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 8.62e-08 ) ;     ( R ) = ( 8.62e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.45e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.50e-14 ) ;     ( R ) = ( 1.50e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.10e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.139903
+compositionalMultiphaseFlow: Max component CFL number: 0.0718053
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.16e+06s, dt:47520s, Cycle: 17
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.50e-02 ) ;     ( R ) = ( 1.50e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.24e-06 ) ;     ( R ) = ( 1.24e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.08e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.32e-09 ) ;     ( R ) = ( 1.32e-09 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.57e-14 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0248803
+compositionalMultiphaseFlow: Max component CFL number: 0.0126405
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.20752e+06s, dt:95040s, Cycle: 18
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 2.99e-02 ) ;     ( R ) = ( 2.99e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 8.19e-06 ) ;     ( R ) = ( 8.19e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.72e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.28e-08 ) ;     ( R ) = ( 1.28e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.07e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 4.99e-15 ) ;     ( R ) = ( 4.99e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.29e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0499915
+compositionalMultiphaseFlow: Max component CFL number: 0.0248868
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.30256e+06s, dt:190080s, Cycle: 19
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 5.88e-02 ) ;     ( R ) = ( 5.88e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.39e-04 ) ;     ( R ) = ( 1.44e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.80e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 1.01e-08 ) ;     ( R ) = ( 1.01e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.18e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 8.59e-15 ) ;     ( R ) = ( 8.59e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.39e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.100575
+compositionalMultiphaseFlow: Max component CFL number: 0.0482282
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.49264e+06s, dt:30240s, Cycle: 20
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 9.08e-03 ) ;     ( R ) = ( 9.08e-03 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.57e-07 ) ;     ( R ) = ( 2.58e-07 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.38e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.07e-13 ) ;     ( R ) = ( 2.07e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.01e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0160285
+compositionalMultiphaseFlow: Max component CFL number: 0.00763307
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.52288e+06s, dt:60480s, Cycle: 21
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.81e-02 ) ;     ( R ) = ( 1.81e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.08e-06 ) ;     ( R ) = ( 2.08e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.40e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 7.92e-12 ) ;     ( R ) = ( 7.92e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.37e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0321654
+compositionalMultiphaseFlow: Max component CFL number: 0.0151075
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.58336e+06s, dt:120960s, Cycle: 22
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.58e-02 ) ;     ( R ) = ( 3.58e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 1.74e-05 ) ;     ( R ) = ( 1.74e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.76e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 4.92e-10 ) ;     ( R ) = ( 4.92e-10 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.45e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0647362
+compositionalMultiphaseFlow: Max component CFL number: 0.0295975
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.70432e+06s, dt:133920s, Cycle: 23
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 3.89e-02 ) ;     ( R ) = ( 3.89e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.39e-05 ) ;     ( R ) = ( 2.39e-05 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.76e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.40e-08 ) ;     ( R ) = ( 2.40e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.06e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 7.83e-15 ) ;     ( R ) = ( 7.83e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 9.96e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.0721221
+compositionalMultiphaseFlow: Max component CFL number: 0.032058
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 2.83824e+06s, dt:267840s, Cycle: 24
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 7.63e-02 ) ;     ( R ) = ( 7.63e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 2.39e-04 ) ;     ( R ) = ( 2.39e-04 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.98e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 6.47e-08 ) ;     ( R ) = ( 6.47e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.11e-15 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
+    ( Rfluid ) = ( 1.03e-14 ) ;     ( R ) = ( 1.03e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.07e-15 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.145857
+compositionalMultiphaseFlow: Max component CFL number: 0.061183
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Time: 3.10608e+06s, dt:47520s, Cycle: 25
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+    ( Rfluid ) = ( 1.30e-02 ) ;     ( R ) = ( 1.30e-02 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
+    ( Rfluid ) = ( 4.12e-06 ) ;     ( R ) = ( 4.12e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.78e-16 ) ; 
+    Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+    ( Rfluid ) = ( 2.97e-12 ) ;     ( R ) = ( 2.97e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.62e-16 ) ; 
+compositionalMultiphaseFlow: Max phase CFL number: 0.025935
+compositionalMultiphaseFlow: Max component CFL number: 0.0107632
+reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000001.hdf5
+Umpire          DEVICE sum across ranks:  690.9 KB
+Umpire          DEVICE         rank max:  204.0 KB
+Umpire       DEVICE::0 sum across ranks:  690.9 KB
+Umpire       DEVICE::0         rank max:  204.0 KB
+Umpire            HOST sum across ranks:    1.5 MB
+Umpire            HOST         rank max:  406.2 KB
+Umpire          PINNED sum across ranks:  322.6 KB
+Umpire          PINNED         rank max:   81.3 KB
+total time                        12.012s
+initialization time                0.666s
+run time                           9.954s
