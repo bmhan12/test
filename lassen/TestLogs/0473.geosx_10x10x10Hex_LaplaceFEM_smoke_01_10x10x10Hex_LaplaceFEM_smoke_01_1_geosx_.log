@@ -7,3 +7,35 @@
 #ATS: script = 
 #ATS: testpath =  
 
+Max threads: 4
+GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Adding Mesh: InternalMesh, mesh
+Adding Solver of type LaplaceFEM, named laplace
+Adding Event: PeriodicEvent, solverApplications
+Adding Event: PeriodicEvent, outputs
+Adding Event: PeriodicEvent, restarts
+Adding Output: VTK, vtkOutput
+Adding Output: Restart, restartOutput
+Adding Geometric Object: Box, source
+Adding Geometric Object: Box, sink
+   TableFunction: DirichletTimeFunction
+Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
+Total number of nodes:1331
+Total number of elems:1000
+Rank 0: Total number of nodes:1331
+  Domain/cb1/nullModel is allocated with 8 quadrature points.
+Time: 0s, dt:1s, Cycle: 0
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/simplePDE/10x10x10Hex_LaplaceFEM_smoke_01/0to2_restart_000000000/rank_0000000.hdf5
+Time: 1s, dt:1s, Cycle: 1
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/simplePDE/10x10x10Hex_LaplaceFEM_smoke_01/0to2_restart_000000001/rank_0000000.hdf5
+Cleaning up events
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/simplePDE/10x10x10Hex_LaplaceFEM_smoke_01/0to2_restart_000000002/rank_0000000.hdf5
+Umpire          DEVICE sum across ranks:    4.5 MB
+Umpire          DEVICE         rank max:    4.5 MB
+Umpire       DEVICE::0 sum across ranks:    4.5 MB
+Umpire       DEVICE::0         rank max:    4.5 MB
+Umpire            HOST sum across ranks:    8.0 MB
+Umpire            HOST         rank max:    8.0 MB
+total time                         2.313s
+initialization time                0.081s
+run time                           1.024s

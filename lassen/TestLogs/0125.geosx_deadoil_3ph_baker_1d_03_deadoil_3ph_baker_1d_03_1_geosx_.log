@@ -24,11 +24,11 @@ Adding Object CellElementRegion named region from ObjectManager::Catalog.
    TableFunction: fluid_PVDO_visco
    TableFunction: fluid_PVDG_Bg
    TableFunction: fluid_PVDG_viscg
+Rank 2: Total number of nodes:16
 Total number of nodes:44
 Total number of elems:10
 Rank 0: Total number of nodes:16
 Rank 1: Total number of nodes:20
-Rank 2: Total number of nodes:16
   region/block1/fluid is allocated with 1 quadrature points.
   region/block1/rock is allocated with 1 quadrature points.
   region/block1/relperm is allocated with 1 quadrature points.
@@ -1717,8 +1717,8 @@ Time: 1e+07s, dt:100000s, Cycle: 109
 compflow: Max phase CFL number: 0.253132
 compflow: Max component CFL number: 0.28739
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000000.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000001.hdf5
 Time: 1.01e+07s, dt:100000s, Cycle: 110
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -3047,8 +3047,8 @@ compflow: Max phase CFL number: 0.182951
 compflow: Max component CFL number: 0.295493
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000000.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000001.hdf5
 Umpire          DEVICE sum across ranks:   65.4 KB
 Umpire          DEVICE         rank max:   24.2 KB
@@ -3058,6 +3058,6 @@ Umpire            HOST sum across ranks:  126.5 KB
 Umpire            HOST         rank max:   49.6 KB
 Umpire          PINNED sum across ranks:   57.0 KB
 Umpire          PINNED         rank max:   25.7 KB
-total time                        32.785s
-initialization time                0.170s
-run time                          29.959s
+total time                        34.029s
+initialization time                0.154s
+run time                          31.028s

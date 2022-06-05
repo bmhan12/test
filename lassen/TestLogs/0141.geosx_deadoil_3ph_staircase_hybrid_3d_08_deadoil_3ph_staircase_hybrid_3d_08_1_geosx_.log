@@ -26,16 +26,16 @@ Adding Object CellElementRegion named Barrier from ObjectManager::Catalog.
    TableFunction: fluid_PVDO_visco
    TableFunction: fluid_PVDG_Bg
    TableFunction: fluid_PVDG_viscg
-Rank 2: Total number of nodes:252
-Rank 1: Total number of nodes:252
 Total number of nodes:1573
 Total number of elems:1200
 Rank 0: Total number of nodes:252
-Rank 4: Total number of nodes:252
+Rank 1: Total number of nodes:252
 Rank 5: Total number of nodes:252
-Rank 6: Total number of nodes:252
 Rank 7: Total number of nodes:252
+Rank 2: Total number of nodes:252
+Rank 6: Total number of nodes:252
 Rank 3: Total number of nodes:252
+Rank 4: Total number of nodes:252
   Channel/b08/fluid is allocated with 1 quadrature points.
   Channel/b08/rock is allocated with 1 quadrature points.
   Channel/b08/relperm is allocated with 1 quadrature points.
@@ -179,18 +179,18 @@ Time: 0s, dt:100000s, Cycle: 0
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
     ( Rfluid ) = ( 1.72e-04 ) ;    ( R ) = ( 1.72e-04 ) ; 
     Last LinSolve(iter,res) = (   1, 2.49e-16 ) ; 
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000003.hdf5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  7
     ( Rfluid ) = ( 4.01e-10 ) ;    ( R ) = ( 4.01e-10 ) ; 
     Last LinSolve(iter,res) = (   1, 2.18e-16 ) ; 
 compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000002.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000005.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000001.hdf5
 Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000006.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000000.hdf5
 Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000007.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000002.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000005.hdf5
 Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000004.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000000/rank_0000003.hdf5
 Time: 100000s, dt:100000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 1.63e+00 ) ;    ( R ) = ( 1.63e+00 ) ; 
@@ -720,14 +720,14 @@ Time: 1e+08s, dt:1e+07s, Cycle: 28
     ( Rfluid ) = ( 3.45e-10 ) ;    ( R ) = ( 3.45e-10 ) ; 
     Last LinSolve(iter,res) = (   1, 3.90e-16 ) ; 
 compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000003.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000000.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000004.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000007.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000001.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000005.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000007.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000002.hdf5
 Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000006.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000005.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000000.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000003.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000028/rank_0000004.hdf5
 Time: 1.1e+08s, dt:1e+07s, Cycle: 29
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 2.77e+00 ) ;    ( R ) = ( 2.77e+00 ) ; 
@@ -909,14 +909,14 @@ Time: 1.9e+08s, dt:1e+07s, Cycle: 37
     Last LinSolve(iter,res) = (   1, 4.22e-16 ) ; 
 compflow: Newton solver converged in less than 12 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000002.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000007.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000000.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000005.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000001.hdf5
 Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000006.hdf5
 Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000004.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000001.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000007.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000005.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08/0to38_restart_000000038/rank_0000003.hdf5
 Umpire          DEVICE sum across ranks:    7.3 MB
 Umpire          DEVICE         rank max:    2.8 MB
 Umpire       DEVICE::0 sum across ranks:    7.3 MB
@@ -925,6 +925,6 @@ Umpire            HOST sum across ranks:   10.8 MB
 Umpire            HOST         rank max:    3.3 MB
 Umpire          PINNED sum across ranks:    4.8 MB
 Umpire          PINNED         rank max:  617.9 KB
-total time                        66.612s
-initialization time                0.715s
-run time                          64.246s
+total time                        66.624s
+initialization time                0.688s
+run time                          64.445s

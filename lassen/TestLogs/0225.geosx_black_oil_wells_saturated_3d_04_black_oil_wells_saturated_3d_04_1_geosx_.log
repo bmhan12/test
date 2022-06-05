@@ -45,10 +45,10 @@ To disable this behavior, you just have to provide a PVTO table entry for P_bubb
    TableFunction: wellControls2_ConstantPhaseRate_table
 Total number of nodes:75
 Total number of elems:32
-Rank 1: Total number of nodes:27
-Rank 2: Total number of nodes:27
 Rank 0: Total number of nodes:27
 Rank 3: Total number of nodes:27
+Rank 1: Total number of nodes:27
+Rank 2: Total number of nodes:27
   region/cb/fluid is allocated with 1 quadrature points.
   region/cb/rock is allocated with 1 quadrature points.
   region/cb/relperm is allocated with 1 quadrature points.
@@ -58,10 +58,10 @@ Rank 3: Total number of nodes:27
   wellRegion2/wellRegion2uniqueSubRegion/fluid is allocated with 1 quadrature points.
   wellRegion2/wellRegion2uniqueSubRegion/relperm is allocated with 1 quadrature points.
 Time: 0s, dt:86400s, Cycle: 0
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000001.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000000.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000001.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000000/rank_0000003.hdf5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 2.86e-01 ) ;     ( R ) = ( 3.12e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
@@ -271,10 +271,10 @@ compositionalMultiphaseFlow: Max phase CFL number: 0.039363
 compositionalMultiphaseFlow: Max component CFL number: 0.0088757
 reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
 Time: 1.5768e+06s, dt:60480s, Cycle: 13
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000001.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000000.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000003.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000013/rank_0000001.hdf5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 2.10e-02 ) ;     ( R ) = ( 2.10e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
@@ -450,8 +450,8 @@ compositionalMultiphaseFlow: Max component CFL number: 0.0107632
 reservoirSystem: Newton solver converged in less than 8 iterations, time-step required will be doubled.
 Cleaning up events
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000000.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000002.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000002.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/black_oil_wells_saturated_3d_04/0to25_restart_000000026/rank_0000001.hdf5
 Umpire          DEVICE sum across ranks:  690.9 KB
 Umpire          DEVICE         rank max:  204.0 KB
@@ -461,6 +461,6 @@ Umpire            HOST sum across ranks:    1.5 MB
 Umpire            HOST         rank max:  406.2 KB
 Umpire          PINNED sum across ranks:  322.6 KB
 Umpire          PINNED         rank max:   81.3 KB
-total time                        12.012s
-initialization time                0.666s
-run time                           9.954s
+total time                        11.388s
+initialization time                0.427s
+run time                           9.496s

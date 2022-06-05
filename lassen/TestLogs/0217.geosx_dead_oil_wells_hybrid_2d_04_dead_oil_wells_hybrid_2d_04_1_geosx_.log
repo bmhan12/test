@@ -23,7 +23,6 @@ Adding Output: Silo, siloOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
 Adding Object WellElementRegion named wellRegion1 from ObjectManager::Catalog.
-Rank 3: Total number of nodes:242
 Adding Object WellElementRegion named wellRegion2 from ObjectManager::Catalog.
 Adding Object WellElementRegion named wellRegion3 from ObjectManager::Catalog.
    TableFunction: fluid_PVDO_Bo
@@ -39,9 +38,10 @@ Adding Object WellElementRegion named wellRegion3 from ObjectManager::Catalog.
    TableFunction: wellControls3_ConstantBHP_table
    TableFunction: wellControls3_ConstantTotalRate_table
    TableFunction: wellControls3_ConstantPhaseRate_table
-Total number of nodes:882
-Rank 2: Total number of nodes:242
 Rank 1: Total number of nodes:242
+Rank 2: Total number of nodes:242
+Total number of nodes:882
+Rank 3: Total number of nodes:242
 Total number of elems:400
 Rank 0: Total number of nodes:242
   Region1/cb1/fluid is allocated with 1 quadrature points.
@@ -123,9 +123,9 @@ Time: 0s, dt:5000s, Cycle: 0
     ( Rfluid ) = ( 2.42e-09 ) ;    ( R ) = ( 3.85e-08 ) ; 
     Last LinSolve(iter,res) = (   1, 1.45e-14 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000000/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000000/rank_0000002.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000000/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000000/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000000/rank_0000000.hdf5
 Time: 5000s, dt:5000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -819,9 +819,9 @@ Time: 250000s, dt:5000s, Cycle: 50
     ( Rfluid ) = ( 2.13e-09 ) ;    ( R ) = ( 2.13e-09 ) ; 
     Last LinSolve(iter,res) = (   1, 9.00e-15 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000050/rank_0000001.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000050/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000050/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000050/rank_0000001.hdf5
 Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000050/rank_0000002.hdf5
 Time: 255000s, dt:5000s, Cycle: 51
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -1575,10 +1575,10 @@ Time: 495000s, dt:5000s, Cycle: 99
     Last LinSolve(iter,res) = (   1, 2.74e-15 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Cleaning up events
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000100/rank_0000002.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000100/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000100/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000100/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04/0to100_restart_000000100/rank_0000002.hdf5
 Umpire          DEVICE sum across ranks:    3.9 MB
 Umpire          DEVICE         rank max:    1.9 MB
 Umpire       DEVICE::0 sum across ranks:    3.9 MB
@@ -1587,6 +1587,6 @@ Umpire            HOST sum across ranks:    5.5 MB
 Umpire            HOST         rank max:    2.1 MB
 Umpire          PINNED sum across ranks:  607.9 KB
 Umpire          PINNED         rank max:  152.7 KB
-total time                        70.041s
-initialization time                0.992s
-run time                          67.568s
+total time                        72.099s
+initialization time                1.460s
+run time                          69.204s

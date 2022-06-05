@@ -33,12 +33,12 @@ Adding Output: TimeHistory, displacementOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Region from ObjectManager::Catalog.
 Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
-Rank 2: Total number of nodes:2048
-Rank 1: Total number of nodes:2048
 Rank 3: Total number of nodes:2048
 Total number of nodes:7938
 Total number of elems:3844
 Rank 0: Total number of nodes:2048
+Rank 1: Total number of nodes:2048
+Rank 2: Total number of nodes:2048
   Region/cb1/rock is allocated with 8 quadrature points.
   Fracture/faceElementSubRegion/fractureMaterial is allocated with 8 quadrature points.
   Fracture/faceElementSubRegion/rock is allocated with 8 quadrature points.
@@ -48,7 +48,7 @@ Time: 0s, dt:0.2s, Cycle: 0
     ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
     ( R ) = ( 1.00e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rdisplacement, Rtraction, Rtotal ) = (    3.517766e-14,    6.838160e-18,    3.517766e-14 );
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.517768e-14,    6.838160e-18,    3.517768e-14 );
     ( R ) = ( 3.52e-14 ) ; 
     Last LinSolve(iter,res) = (   1, 1.77e-16 ) ; 
    
@@ -59,9 +59,9 @@ Time: 0s, dt:0.2s, Cycle: 0
     ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
     ( R ) = ( 1.00e+00 ) ; 
     Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
-    ( Rdisplacement, Rtraction, Rtotal ) = (    1.664845e-03,    1.908673e-26,    4.244735e-12 );
-    ( R ) = ( 4.24e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.68e-12 ) ; 
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.489199e-03,    2.190479e-26,    3.796904e-12 );
+    ( R ) = ( 3.80e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.81e-12 ) ; 
    
 ---------- Configuration did not converge. Testing new configuration. ----------
    
@@ -70,23 +70,23 @@ Time: 0s, dt:0.2s, Cycle: 0
     ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
     ( R ) = ( 1.00e+00 ) ; 
     Attempt:  0, ConfigurationIter:  2, NewtonIter:  1
-    ( Rdisplacement, Rtraction, Rtotal ) = (    3.143970e-04,    2.135277e-01,    2.135277e-01 );
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.077379e-04,    2.135277e-01,    2.135277e-01 );
     ( R ) = ( 2.14e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.88e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-13 ) ; 
     Attempt:  0, ConfigurationIter:  2, NewtonIter:  2
-    ( Rdisplacement, Rtraction, Rtotal ) = (    3.825213e-04,    2.897658e-25,    2.364624e-11 );
-    ( R ) = ( 2.36e-11 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.94e-14 ) ; 
+    ( Rdisplacement, Rtraction, Rtotal ) = (    3.569627e-04,    2.852104e-25,    2.206242e-11 );
+    ( R ) = ( 2.21e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.68e-14 ) ; 
  ***** ImplicitStepComplete *****
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000000/rank_0000002.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000000/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000000/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000000/rank_0000002.hdf5
 Cleaning up events
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000001/rank_0000002.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000001/rank_0000001.hdf5
 Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000001/rank_0000003.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000001/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000001/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_TFrac_04/0to2_restart_000000001/rank_0000002.hdf5
 Umpire          DEVICE sum across ranks:   60.4 MB
 Umpire          DEVICE         rank max:   30.3 MB
 Umpire       DEVICE::0 sum across ranks:   60.4 MB
@@ -95,6 +95,6 @@ Umpire            HOST sum across ranks:   81.6 MB
 Umpire            HOST         rank max:   35.7 MB
 Umpire          PINNED sum across ranks:    1.6 MB
 Umpire          PINNED         rank max:  408.1 KB
-total time                         9.878s
-initialization time                0.547s
-run time                           7.942s
+total time                         9.660s
+initialization time                0.451s
+run time                           7.916s

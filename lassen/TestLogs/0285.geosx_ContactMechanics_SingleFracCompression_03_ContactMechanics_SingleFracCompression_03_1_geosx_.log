@@ -42,11 +42,11 @@ PAMELAMesh 'CubeHex': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/zkQzXx
 0 >>> **********************************************************************
 0 >>>                          PAMELA Library Import tool                   
 0 >>> **********************************************************************
-0 >>> GMSH FORMAT IDENTIFIED
-0 >>> *** Importing Gmsh mesh format...
 2 >>> **********************************************************************
 2 >>>                          PAMELA Library Import tool                   
 2 >>> **********************************************************************
+0 >>> GMSH FORMAT IDENTIFIED
+0 >>> *** Importing Gmsh mesh format...
 1 >>> **********************************************************************
 1 >>>                          PAMELA Library Import tool                   
 1 >>> **********************************************************************
@@ -54,24 +54,15 @@ PAMELAMesh 'CubeHex': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/zkQzXx
 2 >>> *** Importing Gmsh mesh format...
 1 >>> GMSH FORMAT IDENTIFIED
 1 >>> *** Importing Gmsh mesh format...
-0 >>> Reading nodes...
 1 >>> Reading nodes...
+0 >>> Reading nodes...
 2 >>> Reading nodes...
-0 >>> Done0
-0 >>> Reading elements...
 2 >>> Done0
 2 >>> Reading elements...
 1 >>> Done0
 1 >>> Reading elements...
-0 >>> Number of nodes = 2788
-0 >>> Number of triangles = 0
-0 >>> Number of quadrilaterals = 120
-0 >>> Number of tetrahedra = 0
-0 >>> Number of hexahedra = 2046
-0 >>> Number of pyramids = 0
-0 >>> Number of prisms = 0
-0 >>> *** Done
-0 >>> *** Creating Polygons from Polyhedra...
+0 >>> Done0
+0 >>> Reading elements...
 2 >>> Number of nodes = 2788
 2 >>> Number of triangles = 0
 2 >>> Number of quadrilaterals = 120
@@ -90,34 +81,43 @@ PAMELAMesh 'CubeHex': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/zkQzXx
 1 >>> Number of prisms = 0
 1 >>> *** Done
 1 >>> *** Creating Polygons from Polyhedra...
-0 >>> 6742 polygons have been created
+0 >>> Number of nodes = 2788
+0 >>> Number of triangles = 0
+0 >>> Number of quadrilaterals = 120
+0 >>> Number of tetrahedra = 0
+0 >>> Number of hexahedra = 2046
+0 >>> Number of pyramids = 0
+0 >>> Number of prisms = 0
 0 >>> *** Done
-0 >>> *** Perform partitioning...
+0 >>> *** Creating Polygons from Polyhedra...
 2 >>> 6742 polygons have been created
 2 >>> *** Done
 2 >>> *** Perform partitioning...
 1 >>> 6742 polygons have been created
 1 >>> *** Done
 1 >>> *** Perform partitioning...
-0 >>> METIS partioning...
+0 >>> 6742 polygons have been created
+0 >>> *** Done
+0 >>> *** Perform partitioning...
 2 >>> METIS partioning...
 1 >>> METIS partioning...
-0 >>> Ghost elements...
+0 >>> METIS partioning...
 2 >>> Ghost elements...
 1 >>> Ghost elements...
-0 >>> Clean mesh...
+0 >>> Ghost elements...
 2 >>> Clean mesh...
 1 >>> Clean mesh...
-0 >>> *** Done...
-0 >>> Clean Adjacency...
-0 >>> *** Done...
-PAMELAMesh 'CubeHex': generating GEOSX mesh data structure
-1 >>> *** Done...
-1 >>> Clean Adjacency...
+0 >>> Clean mesh...
 2 >>> *** Done...
 2 >>> Clean Adjacency...
 1 >>> *** Done...
+1 >>> Clean Adjacency...
 2 >>> *** Done...
+0 >>> *** Done...
+0 >>> Clean Adjacency...
+1 >>> *** Done...
+0 >>> *** Done...
+PAMELAMesh 'CubeHex': generating GEOSX mesh data structure
   Region/South_HEX/rock is allocated with 8 quadrature points.
   Region/North_HEX/rock is allocated with 8 quadrature points.
   Fracture/faceElementSubRegion/fractureMaterial is allocated with 8 quadrature points.
@@ -129,9 +129,9 @@ Time: 0s, dt:1s, Cycle: 0
     ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
     ( R ) = ( 1.00e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rdisplacement, Rtraction, Rtotal ) = (    7.781069e-15,    3.963654e-22,    7.781069e-15 );
-    ( R ) = ( 7.78e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.10e-16 ) ; 
+    ( Rdisplacement, Rtraction, Rtotal ) = (    7.682415e-15,    3.766152e-22,    7.682415e-15 );
+    ( R ) = ( 7.68e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.14e-16 ) ; 
    
 ---------- Configuration did not converge. Testing new configuration. ----------
    
@@ -140,13 +140,13 @@ Time: 0s, dt:1s, Cycle: 0
     ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
     ( R ) = ( 1.00e+00 ) ; 
     Attempt:  0, ConfigurationIter:  1, NewtonIter:  1
-    ( Rdisplacement, Rtraction, Rtotal ) = (    4.732275e-08,    1.215726e-01,    1.215726e-01 );
+    ( Rdisplacement, Rtraction, Rtotal ) = (    4.638973e-08,    1.215726e-01,    1.215726e-01 );
     ( R ) = ( 1.22e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.65e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.51e-14 ) ; 
     Attempt:  0, ConfigurationIter:  1, NewtonIter:  2
-    ( Rdisplacement, Rtraction, Rtotal ) = (    1.692551e-08,    3.607097e-17,    2.205699e-14 );
-    ( R ) = ( 2.21e-14 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.37e-15 ) ; 
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.672599e-08,    3.808748e-17,    2.179698e-14 );
+    ( R ) = ( 2.18e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.42e-15 ) ; 
    
 ---------- Configuration did not converge. Testing new configuration. ----------
    
@@ -155,17 +155,17 @@ Time: 0s, dt:1s, Cycle: 0
     ( Rdisplacement, Rtraction, Rtotal ) = (    1.000000e+00,    1.000000e+00,    1.000000e+00 );
     ( R ) = ( 1.00e+00 ) ; 
     Attempt:  0, ConfigurationIter:  2, NewtonIter:  1
-    ( Rdisplacement, Rtraction, Rtotal ) = (    1.676451e-08,    4.571736e-16,    2.945726e-13 );
-    ( R ) = ( 2.95e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.29e-15 ) ; 
+    ( Rdisplacement, Rtraction, Rtotal ) = (    1.638724e-08,    3.879822e-16,    2.879433e-13 );
+    ( R ) = ( 2.88e-13 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-15 ) ; 
  ***** ImplicitStepComplete *****
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000000/rank_0000002.hdf5
 Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000000/rank_0000000.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000000/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000000/rank_0000002.hdf5
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000001/rank_0000000.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000001/rank_0000002.hdf5
 Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000001/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000001/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/ContactMechanics_SingleFracCompression_03/0to2_restart_000000001/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:   31.6 MB
 Umpire          DEVICE         rank max:   17.2 MB
 Umpire       DEVICE::0 sum across ranks:   31.6 MB
@@ -174,6 +174,6 @@ Umpire            HOST sum across ranks:   43.8 MB
 Umpire            HOST         rank max:   21.1 MB
 Umpire          PINNED sum across ranks:    2.1 MB
 Umpire          PINNED         rank max:    1.0 MB
-total time                         7.944s
-initialization time                0.798s
-run time                           5.809s
+total time                         8.423s
+initialization time                0.841s
+run time                           6.292s
