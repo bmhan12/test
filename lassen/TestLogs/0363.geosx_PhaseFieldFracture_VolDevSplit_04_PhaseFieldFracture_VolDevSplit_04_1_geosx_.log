@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_VolDevSplit.xml -x 2 -y 2 -z 1 -n 0to30 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 4 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_VolDevSplit.xml -x 2 -y 2 -z 1 -n 0to30 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(PhaseFieldFracture_VolDevSplit_04/PhaseFieldFracture_VolDevSplit_04_1_geosx)
-#ATS: clas = ['-i', 'PhaseFieldFracture_VolDevSplit.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to30', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04']
+#ATS: clas = ['-i', 'PhaseFieldFracture_VolDevSplit.xml', '-x', '2', '-y', '2', '-z', '1', '-n', '0to30', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04']
 #ATS: np = 4
 #ATS: script = 
 #ATS: testpath =  
@@ -22,57 +22,62 @@ Adding Output: Silo, Mode2VolDev_SiloOutput
 Adding Output: VTK, Mode2VolDev_VTKOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
-PAMELAMesh 'Mode2Notched': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/inputFiles/phaseField/Mode2CrackMesh/geo.msh
-0 >>> **********************************************************************
-0 >>>                          PAMELA Library Import tool                   
-0 >>> **********************************************************************
+PAMELAMesh 'Mode2Notched': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/inputFiles/phaseField/Mode2CrackMesh/geo.msh
 3 >>> **********************************************************************
 3 >>>                          PAMELA Library Import tool                   
 3 >>> **********************************************************************
 1 >>> **********************************************************************
 1 >>>                          PAMELA Library Import tool                   
 1 >>> **********************************************************************
-3 >>> GMSH FORMAT IDENTIFIED
-3 >>> *** Importing Gmsh mesh format...
-0 >>> GMSH FORMAT IDENTIFIED
-0 >>> *** Importing Gmsh mesh format...
-1 >>> GMSH FORMAT IDENTIFIED
-1 >>> *** Importing Gmsh mesh format...
 2 >>> **********************************************************************
 2 >>>                          PAMELA Library Import tool                   
 2 >>> **********************************************************************
+0 >>> **********************************************************************
+0 >>>                          PAMELA Library Import tool                   
+0 >>> **********************************************************************
+3 >>> GMSH FORMAT IDENTIFIED
+3 >>> *** Importing Gmsh mesh format...
+1 >>> GMSH FORMAT IDENTIFIED
+1 >>> *** Importing Gmsh mesh format...
 2 >>> GMSH FORMAT IDENTIFIED
 2 >>> *** Importing Gmsh mesh format...
+0 >>> GMSH FORMAT IDENTIFIED
+0 >>> *** Importing Gmsh mesh format...
 3 >>> Reading nodes...
-0 >>> Reading nodes...
 2 >>> Reading nodes...
+0 >>> Reading nodes...
+3 >>> Done0
+2 >>> Done0
+2 >>> Reading elements...
+3 >>> Reading elements...
 1 >>> Reading nodes...
+2 >>> Number of nodes = 104
+2 >>> Number of triangles = 0
+2 >>> Number of quadrilaterals = 24
+2 >>> Number of tetrahedra = 0
 0 >>> Done0
 0 >>> Reading elements...
-3 >>> Done0
-1 >>> Done0
-3 >>> Reading elements...
-1 >>> Reading elements...
-2 >>> Done0
 3 >>> Number of nodes = 104
 3 >>> Number of triangles = 0
 3 >>> Number of quadrilaterals = 24
+3 >>> Number of tetrahedra = 0
+3 >>> Number of hexahedra = 36
+3 >>> Number of pyramids = 0
+3 >>> Number of prisms = 0
+1 >>> Done0
+1 >>> Reading elements...
+3 >>> *** Done
+3 >>> *** Creating Polygons from Polyhedra...
 0 >>> Number of nodes = 104
 0 >>> Number of triangles = 0
 0 >>> Number of quadrilaterals = 24
 0 >>> Number of tetrahedra = 0
 0 >>> Number of hexahedra = 36
-0 >>> Number of pyramids = 0
-0 >>> Number of prisms = 0
-0 >>> *** Done
-0 >>> *** Creating Polygons from Polyhedra...
-3 >>> Number of tetrahedra = 0
-3 >>> Number of hexahedra = 36
-3 >>> Number of pyramids = 0
-3 >>> Number of prisms = 0
-3 >>> *** Done
-2 >>> Reading elements...
-3 >>> *** Creating Polygons from Polyhedra...
+2 >>> Number of hexahedra = 36
+2 >>> Number of pyramids = 0
+2 >>> Number of prisms = 0
+2 >>> *** Done
+2 >>> *** Creating Polygons from Polyhedra...
 1 >>> Number of nodes = 104
 1 >>> Number of triangles = 0
 1 >>> Number of quadrilaterals = 24
@@ -80,54 +85,49 @@ PAMELAMesh 'Mode2Notched': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/z
 1 >>> Number of hexahedra = 36
 1 >>> Number of pyramids = 0
 1 >>> Number of prisms = 0
-1 >>> *** Done
-1 >>> *** Creating Polygons from Polyhedra...
-0 >>> 135 polygons have been created
-0 >>> *** Done
-0 >>> *** Perform partitioning...
-0 >>> METIS partioning...
+2 >>> 135 polygons have been created
+2 >>> *** Done
 3 >>> 135 polygons have been created
 3 >>> *** Done
 3 >>> *** Perform partitioning...
-2 >>> Number of nodes = 104
-2 >>> Number of triangles = 0
-2 >>> Number of quadrilaterals = 24
-2 >>> Number of tetrahedra = 0
-2 >>> Number of hexahedra = 36
-2 >>> Number of pyramids = 0
 3 >>> METIS partioning...
+0 >>> Number of pyramids = 0
+0 >>> Number of prisms = 0
+0 >>> *** Done
+0 >>> *** Creating Polygons from Polyhedra...
+2 >>> *** Perform partitioning...
+2 >>> METIS partioning...
+1 >>> *** Done
+1 >>> *** Creating Polygons from Polyhedra...
+2 >>> Ghost elements...
+3 >>> Ghost elements...
+0 >>> 135 polygons have been created
+0 >>> *** Done
+0 >>> *** Perform partitioning...
+3 >>> Clean mesh...
+0 >>> METIS partioning...
+2 >>> Clean mesh...
 1 >>> 135 polygons have been created
 1 >>> *** Done
 1 >>> *** Perform partitioning...
 1 >>> METIS partioning...
-2 >>> Number of prisms = 0
-2 >>> *** Done
-2 >>> *** Creating Polygons from Polyhedra...
-3 >>> Ghost elements...
-0 >>> Ghost elements...
-0 >>> Clean mesh...
-3 >>> Clean mesh...
-2 >>> 135 polygons have been created
-2 >>> *** Done
-2 >>> *** Perform partitioning...
+2 >>> *** Done...
+2 >>> Clean Adjacency...
 1 >>> Ghost elements...
 3 >>> *** Done...
 3 >>> Clean Adjacency...
+0 >>> Ghost elements...
+2 >>> *** Done...
+1 >>> Clean mesh...
+0 >>> Clean mesh...
 3 >>> *** Done...
+1 >>> *** Done...
+1 >>> Clean Adjacency...
+1 >>> *** Done...
 0 >>> *** Done...
 0 >>> Clean Adjacency...
 0 >>> *** Done...
 PAMELAMesh 'Mode2Notched': generating GEOSX mesh data structure
-2 >>> METIS partioning...
-1 >>> Clean mesh...
-1 >>> *** Done...
-1 >>> Clean Adjacency...
-1 >>> *** Done...
-2 >>> Ghost elements...
-2 >>> Clean mesh...
-2 >>> *** Done...
-2 >>> Clean Adjacency...
-2 >>> *** Done...
   Region1/all_HEX/shale is allocated with 8 quadrature points.
 PAMELAMesh 'Mode2Notched': importing field data from mesh dataset
 Time: 0s, dt:1s, Cycle: 0
@@ -140,10 +140,10 @@ Time: 0s, dt:1s, Cycle: 0
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000000.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000002.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000003.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000001.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000003.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000000/rank_0000001.hdf5
 Time: 1s, dt:1s, Cycle: 1
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -2121,10 +2121,10 @@ Time: 15s, dt:1s, Cycle: 15
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000001.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000002.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000003.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000015/rank_0000000.hdf5
 Time: 16s, dt:1s, Cycle: 16
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -3906,10 +3906,10 @@ Time: 29s, dt:1s, Cycle: 29
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000001.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000003.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000002.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000002.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000003.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04/0to30_restart_000000030/rank_0000001.hdf5
 Umpire          DEVICE sum across ranks:    1.4 MB
 Umpire          DEVICE         rank max:  646.1 KB
 Umpire       DEVICE::0 sum across ranks:    1.4 MB
@@ -3918,6 +3918,6 @@ Umpire            HOST sum across ranks:    2.1 MB
 Umpire            HOST         rank max:  735.9 KB
 Umpire          PINNED sum across ranks:  254.4 KB
 Umpire          PINNED         rank max:   72.0 KB
-total time                        26.760s
-initialization time                0.105s
-run time                          25.228s
+total time                        25.893s
+initialization time                0.132s
+run time                          24.298s

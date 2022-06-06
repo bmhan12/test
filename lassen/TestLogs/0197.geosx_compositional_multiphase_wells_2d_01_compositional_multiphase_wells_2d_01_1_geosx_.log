@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i compositional_multiphase_wells_2d.xml -x 1 -y 1 -z 1 -n 0to7 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i compositional_multiphase_wells_2d.xml -x 1 -y 1 -z 1 -n 0to7 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(compositional_multiphase_wells_2d_01/compositional_multiphase_wells_2d_01_1_geosx)
-#ATS: clas = ['-i', 'compositional_multiphase_wells_2d.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to7', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01']
+#ATS: clas = ['-i', 'compositional_multiphase_wells_2d.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to7', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
@@ -54,85 +54,85 @@ Time: 0s, dt:1000s, Cycle: 0
     Last LinSolve(iter,res) = (   1, 5.74e-14 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 3.34e-07 ) ;     ( R ) = ( 3.95e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.63e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.46e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( Rfluid ) = ( 1.78e-12 ) ;     ( R ) = ( 2.96e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.11e-12 ) ; 
+    ( Rfluid ) = ( 1.77e-12 ) ;     ( R ) = ( 2.95e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.24e-12 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000000/rank_0000000.hdf5
 Time: 1000s, dt:1000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 5.87e-02 ) ;     ( R ) = ( 5.98e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 7.60e-05 ) ;     ( R ) = ( 8.18e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.00e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.39e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rfluid ) = ( 1.02e-08 ) ;     ( R ) = ( 1.03e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.38e-11 ) ; 
+    ( Rfluid ) = ( 1.01e-08 ) ;     ( R ) = ( 1.03e-08 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.53e-11 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( Rfluid ) = ( 5.83e-15 ) ;     ( R ) = ( 1.24e-14 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.13e-12 ) ; 
+    ( Rfluid ) = ( 5.65e-15 ) ;     ( R ) = ( 1.24e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.56e-12 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 2000s, dt:1000s, Cycle: 2
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 2.99e-02 ) ;     ( R ) = ( 3.03e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.39e-05 ) ;     ( R ) = ( 1.50e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.48e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.24e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 5.09e-10 ) ;     ( R ) = ( 5.17e-10 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.65e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.32e-11 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 3000s, dt:1000s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 2.01e-02 ) ;     ( R ) = ( 2.03e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 2.84e-06 ) ;     ( R ) = ( 3.41e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.01e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.84e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rfluid ) = ( 4.08e-11 ) ;     ( R ) = ( 4.26e-11 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.42e-11 ) ; 
+    ( Rfluid ) = ( 4.05e-11 ) ;     ( R ) = ( 4.22e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.27e-11 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000003/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000003/rank_0000000.hdf5
 Time: 4000s, dt:1000s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 1.65e-02 ) ;     ( R ) = ( 1.66e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.27e-06 ) ;     ( R ) = ( 1.72e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.83e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.31e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rfluid ) = ( 2.04e-11 ) ;     ( R ) = ( 2.06e-11 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.66e-11 ) ; 
+    ( Rfluid ) = ( 2.12e-11 ) ;     ( R ) = ( 2.14e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.60e-11 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 5000s, dt:1000s, Cycle: 5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 1.48e-02 ) ;     ( R ) = ( 1.50e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.07e-06 ) ;     ( R ) = ( 1.48e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.05e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.55e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rfluid ) = ( 1.30e-11 ) ;     ( R ) = ( 1.31e-11 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.57e-11 ) ; 
+    ( Rfluid ) = ( 1.35e-11 ) ;     ( R ) = ( 1.35e-11 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.48e-11 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
 Time: 6000s, dt:1000s, Cycle: 6
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 1.39e-02 ) ;     ( R ) = ( 1.40e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rfluid ) = ( 8.42e-07 ) ;     ( R ) = ( 1.33e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.45e-12 ) ; 
+    ( Rfluid ) = ( 8.41e-07 ) ;     ( R ) = ( 1.33e-06 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.70e-12 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
-    ( Rfluid ) = ( 7.67e-12 ) ;     ( R ) = ( 7.71e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.67e-11 ) ; 
+    ( Rfluid ) = ( 8.00e-12 ) ;     ( R ) = ( 8.04e-12 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.93e-11 ) ; 
 reservoirSystem: Newton solver converged in less than 16 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000006/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000006/rank_0000000.hdf5
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000007/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseWell/compositional_multiphase_wells_2d_01/0to7_restart_000000007/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:    3.0 MB
 Umpire          DEVICE         rank max:    3.0 MB
 Umpire       DEVICE::0 sum across ranks:    3.0 MB
 Umpire       DEVICE::0         rank max:    3.0 MB
 Umpire            HOST sum across ranks:    4.0 MB
 Umpire            HOST         rank max:    4.0 MB
-total time                        14.714s
-initialization time                0.367s
-run time                          13.038s
+total time                        15.013s
+initialization time                0.388s
+run time                          13.334s

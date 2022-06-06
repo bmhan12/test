@@ -1,0 +1,1003 @@
+salloc: Pending job allocation 9942596
+salloc: job 9942596 queued and waiting for resources
+salloc: job 9942596 has been allocated resources
+salloc: Granted job allocation 9942596
+salloc: Waiting for resource configuration
+salloc: Nodes quartz[10-11] are ready for job
+Found specification for GeosxAtsSlurmProcessorScheduled in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/geosxAtsMachines/geosxAtsSlurmProcessorScheduled.py
+Batch specification for  batchGeosxatsMoab in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/geosxats/geosxAtsMachines/batchGeosxatsMoab.py
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+ATS START June 06, 2022 03:20:09
+ATS VERSION 5.9.15
+ATS HOST NAME: quartz386
+ATS LOG DIRECTORY: /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/run/TestLogs.001
+SYS_TYPE: toss_3_x86_64_ib
+MACHINE_TYPE GeosxAtsSlurmProcessorScheduled
+BATCH_TYPE batchGeosxatsMoab
+Machine description:  GeosxAtsSlurmProcessorScheduled: 2 nodes, 36 processors per node.
+Batch facility name: batchGeosxatsMoab(2048)
+      # run test=kgdViscosityDominated_smoke_01
+      # run test=kgdViscosityDominated_smoke_06
+      # run test=kgdToughnessDominated_smoke_01
+      # run test=kgdToughnessDominated_smoke_06
+      # run test=kgdValidation_smoke_01
+      # run test=kgdValidation_smoke_04
+      # run test=heterogeneousInSitu_smoke_01
+      # run test=heterogeneousInSitu_smoke_04
+      # run test=pennyShapedToughnessDominated_smoke_01
+      # run test=pennyShapedToughnessDominated_smoke_06
+      # run test=pennyShapedViscosityDominated_smoke_01
+      # run test=pennyShapedViscosityDominated_smoke_04
+      # run test=pknViscosityDominated_smoke_01
+      # run test=pknViscosityDominated_smoke_04
+      # run test=kgdNodeBased_C3D6_01
+      # run test=kgdEdgeBased_C3D6_01
+      # run test=kgdNodeBased_C3D6_09
+      # run test=kgdEdgeBased_C3D6_09
+      # run test=Sneddon_hydroFrac01
+      # run test=Sneddon_hydroFrac04
+      # run test=walshQuarter01
+      # run test=walshQuarter08
+      # run test=SurfaceGenerator_01
+      # run test=SurfaceGenerator_08
+      # run test=DryFrac_StaticPenny_PrismElem_01
+      # run test=DryFrac_StaticPenny_PrismElem_08
+      # run test=DryFrac_ThreeNodesPinched_HorizontalFrac_01
+      # run test=DryFrac_ThreeNodesPinched_HorizontalFrac_08
+      # run test=DryFrac_ThreeNodesPinched_SlantFrac_01
+      # run test=DryFrac_ThreeNodesPinched_SlantFrac_08
+      # run test=4comp_2ph_1d_01
+      # run test=4comp_2ph_1d_02
+      # run test=4comp_2ph_1d_03
+      # run test=4comp_2ph_cap_1d_01
+      # run test=4comp_2ph_cap_1d_02
+      # run test=4comp_2ph_cap_1d_03
+      # run test=deadoil_3ph_corey_1d_01
+      # run test=deadoil_3ph_corey_1d_02
+      # run test=deadoil_3ph_corey_1d_03
+      # run test=co2_hybrid_1d_01
+      # run test=co2_hybrid_1d_02
+      # run test=co2_hybrid_1d_03
+      # run test=deadoil_3ph_baker_1d_01
+      # run test=deadoil_3ph_baker_1d_02
+      # run test=deadoil_3ph_baker_1d_03
+      # run test=deadoil_3ph_staircase_3d_01
+      # run test=deadoil_3ph_staircase_3d_08
+      # run test=deadoil_3ph_staircase_hybrid_3d_01
+      # run test=deadoil_3ph_staircase_hybrid_3d_08
+      # run test=deadoil_2ph_staircase_gravity_segregation_3d_01
+      # run test=deadoil_2ph_staircase_gravity_segregation_3d_08
+      # run test=co2_flux_3d_01
+      # run test=co2_flux_3d_08
+      # run test=co2_flux_3d_27
+      # run test=deadOilSpe10Layers84_85_smoke_2d_01
+      # run test=deadOilSpe10Layers84_85_smoke_2d_04
+      # run test=isothermalLeakyWell_smoke_3d_01
+      # run test=isothermalLeakyWell_smoke_3d_04
+      # run test=deadoil_3ph_staircase_obl_3d_01
+      # run test=deadoil_3ph_staircase_obl_3d_08
+      # run test=compositional_multiphase_wells_1d_01
+      # run test=compositional_multiphase_wells_1d_02
+      # run test=compositional_multiphase_wells_2d_01
+      # run test=compositional_multiphase_wells_2d_04
+      # run test=dead_oil_wells_2d_01
+      # run test=dead_oil_wells_2d_04
+      # run test=dead_oil_wells_hybrid_2d_01
+      # run test=dead_oil_wells_hybrid_2d_04
+      # run test=black_oil_wells_saturated_3d_01
+      # run test=black_oil_wells_saturated_3d_04
+      # run test=black_oil_wells_unsaturated_3d_01
+      # run test=black_oil_wells_unsaturated_3d_04
+      # run test=staircase_co2_wells_3d_01
+      # run test=staircase_co2_wells_3d_08
+      # run test=staircase_co2_wells_hybrid_3d_01
+      # run test=staircase_co2_wells_hybrid_3d_08
+      # run test=deadOilEgg_smoke_3d_01
+      # run test=ContactMechanics_SimpleCubes_01
+      # run test=ContactMechanics_SimpleCubes_08
+      # run test=ContactMechanics_SimpleCubes_09
+      # run test=ContactMechanics_UnstructuredCrack_01
+      # run test=Sneddon_contactMechanics_01
+      # run test=ContactMechanics_TFrac_01
+      # run test=ContactMechanics_TFrac_04
+      # run test=ContactMechanics_SingleFracCompression_01
+      # run test=ContactMechanics_SingleFracCompression_03
+      # run test=Sneddon_smoke_01
+      # run test=Sneddon_smoke_04
+      # run test=Sneddon_staticCondensation_smoke_01
+      # run test=Sneddon_staticCondensation_smoke_04
+      # run test=SneddonRotated_smoke_01
+      # run test=SneddonRotated_smoke_04
+      # run test=fractureMatrixFlow_Embedded2d_01
+      # run test=fractureMatrixFlow_Embedded2d_04
+      # run test=fractureMatrixFlow_impermeableEmbFrac_01
+      # run test=fractureMatrixFlow_impermeableEmbFrac_04
+      # run test=deadoil_3ph_corey_2d_edfm_01
+      # run test=deadoil_3ph_corey_2d_edfm_04
+      # run test=deadoil_3ph_corey_2d_impermeableFault_04
+      # run test=poroElastic_embFractures_01
+      # run test=poroElastic_embFractures_04
+      # run test=EmbFrac_Compression_Frictionless_01
+      # run test=EmbFrac_Compression_Frictionless_04
+      # run test=EmbFrac_Compression_CoulombFriction_01
+      # run test=EmbFrac_Compression_CoulombFriction_04
+      # run test=PhaseFieldFracture_DamageOnly_01
+      # run test=PhaseFieldFracture_DamageOnly_08
+      # run test=PhaseFieldFracture_DamageAndLoad_01
+      # run test=PhaseFieldFracture_DamageAndLoad_08
+      # run test=PhaseFieldFracture_CohesiveModel_01
+      # run test=PhaseFieldFracture_CohesiveModel_02
+      # run test=PhaseFieldFracture_SpectralSplit_01
+      # run test=PhaseFieldFracture_SpectralSplit_04
+      # run test=PhaseFieldFracture_VolDevSplit_01
+      # run test=PhaseFieldFracture_VolDevSplit_04
+      # run test=PoroElastic_Terzaghi_FIM_01
+      # run test=PoroElastic_Terzaghi_FIM_02
+      # run test=PoroElastic_Terzaghi_FIM_07
+      # run test=PoroElastic_Mandel_smoke_1-1-1
+      # run test=PoroElastic_Mandel_smoke_3-1-1
+      # run test=PoroElastic_Mandel_smoke_3-1-2
+      # run test=PoroElastic_deadoil_3ph_baker_2d1-1-1
+      # run test=PoroElastic_deadoil_3ph_baker_2d2-1-2
+      # run test=PoroElastic_Wellbore_smoke_1-1-1
+      # run test=PoroElastic_Wellbore_smoke_2-2-1
+      # run test=PoroDruckerPrager_Wellbore_smoke_1-1-1
+      # run test=PoroDruckerPrager_Wellbore_smoke_2-2-1
+      # run test=PoroDelftEgg_Wellbore_smoke_1-1-1
+      # run test=PoroDelftEgg_Wellbore_smoke_2-2-1
+      # run test=PoroModifiedCamClay_Wellbore_smoke_1-1-1
+      # run test=PoroModifiedCamClay_Wellbore_smoke_2-2-1
+      # run test=FlowProppantTransport_2d_01
+      # run test=FlowProppantTransport_2d_04
+      # run test=FlowProppantTransport_2d_09
+      # run test=FlowProppantBedTransport_2d_01
+      # run test=FlowProppantBedTransport_2d_02
+      # run test=FlowProppantBedTransport_2d_03
+      # run test=ProppantSlotTest_01
+      # run test=ProppantSlotTest_03
+      # run test=ProppantSlotTest_09
+      # run test=sedov_1
+      # run test=sedov_8
+      # run test=sedov_27
+      # run test=10x10x10Hex_LaplaceFEM_smoke_01
+      # run test=10x10x10Hex_LaplaceFEM_smoke_08
+      # run test=10x10x10Hex_LaplaceFEM_smoke_27
+      # run test=50x10x5Hex_LaplaceFEM_smoke_01
+      # run test=50x10x5Hex_LaplaceFEM_smoke_08
+      # run test=50x10x5Hex_LaplaceFEM_smoke_18
+      # run test=10x10x10Hex_LaplaceVEM_smoke_01
+      # run test=10x10x10Hex_LaplaceVEM_smoke_08
+      # run test=15x5x10Tets_LaplaceVEM_smoke_01
+      # run test=15x5x10Tets_LaplaceVEM_smoke_08
+      # run test=10x5x15Wedges_LaplaceVEM_smoke_01
+      # run test=10x5x15Wedges_LaplaceVEM_smoke_08
+      # run test=hybridHexPrism_LaplaceVEM_smoke_01
+      # run test=hybridHexPrism_LaplaceVEM_smoke_03
+      # run test=sourceFlux_1d_01
+      # run test=sourceFlux_1d_02
+      # run test=sourceFlux_1d_03
+      # run test=compressible_1d_01
+      # run test=compressible_1d_02
+      # run test=compressible_1d_03
+      # run test=compressible_1d_2solids_01
+      # run test=compressible_1d_2solids_02
+      # run test=compressible_1d_2solids_03
+      # run test=incompressible_1d_01
+      # run test=incompressible_1d_02
+      # run test=incompressible_1d_03
+      # run test=incompressible_pebi3d_01
+      # run test=incompressible_pebi3d_02
+      # run test=incompressible_pebi3d_03
+      # run test=compressible_2d_2fluids_01
+      # run test=compressible_2d_2fluids_02
+      # run test=compressible_2d_2fluids_03
+      # run test=compressible_2d_2fluids_hybrid_01
+      # run test=compressible_2d_2fluids_hybrid_02
+      # run test=compressible_2d_2fluids_hybrid_03
+      # run test=sourceFlux_2d_01
+      # run test=sourceFlux_2d_04
+      # run test=sourceFlux_2d_09
+      # run test=fractureFlow_2d_01
+      # run test=fractureFlow_2d_02
+      # run test=fractureFlow_2d_04
+      # run test=fractureJunctionFlow_2d_01
+      # run test=fractureMatrixFlow_2d_01
+      # run test=fractureMatrixFlow_2d_04
+      # run test=fractureMatrixFlow_2d_09
+      # run test=staircase_3d_01
+      # run test=staircase_3d_08
+      # run test=staircase_3d_27
+      # run test=compressible_single_phase_wells_1d_01
+      # run test=compressible_single_phase_wells_1d_02
+      # run test=compressible_single_phase_wells_hybrid_1d_01
+      # run test=compressible_single_phase_wells_hybrid_1d_02
+      # run test=incompressible_single_phase_wells_2d_01
+      # run test=incompressible_single_phase_wells_2d_04
+      # run test=incompressible_single_phase_wells_hybrid_2d_01
+      # run test=incompressible_single_phase_wells_hybrid_2d_04
+      # run test=staircase_single_phase_wells_3d_01
+      # run test=staircase_single_phase_wells_3d_08
+      # run test=staircase_single_phase_wells_hybrid_3d_01
+      # run test=staircase_single_phase_wells_hybrid_3d_08
+      # run test=SSLE-sedov_01
+      # run test=SSLE-sedov_08
+      # run test=SSLE-sedov_27
+      # run test=beamBending_01
+      # run test=beamBending_08
+      # run test=beamBending_27
+      # run test=gravity_01
+      # run test=gravity_02
+      # run test=co2_thermal_2d_01
+      # run test=co2_thermal_2d_04
+      # run test=co2_thermal_obl_3d_01
+      # run test=co2_thermal_obl_3d_08
+      # run test=acous3D_abc_01
+      # run test=acous3D_abc_08
+      # run test=acous3D_abc_27
+      # run test=acous3D_abcAndFreeSurface_01
+      # run test=acous3D_abcAndFreeSurface_08
+      # run test=acous3D_abcAndFreeSurface_27
+      # run test=ModifiedCamClay_Wellbore_01
+      # run test=ModifiedCamClay_Wellbore_04
+      # run test=ExtendedDruckerPrager_Wellbore_01
+      # run test=ExtendedDruckerPrager_Wellbore_04
+      # run test=KirschProblem_01
+      # run test=KirschProblem_04
+      # run test=DeviatedElastic_Wellbore_01
+      # run test=DeviatedElastic_Wellbore_03
+      # run test=DeviatedPoroElasticWellbore_Injection_01
+      # run test=DeviatedPoroElasticWellbore_Injection_04
+      # run test=DeviatedPoroElasticWellbore_Drilling_01
+      # run test=DeviatedPoroElasticWellbore_Drilling_04
+------------------ Input complete --------
+Total number of interactive tests =  798
+---------------------------------------------------
+Start #  41 (Group 21 #1) geosx(walshQuarter01/walshQuarter01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start #  45 (Group 22 #1) geosx(walshQuarter08/walshQuarter08_1_geosx), np=8, Mon Jun  6 03:20:16 2022
+Start #  49 (Group 23 #1) geosx(SurfaceGenerator_01/SurfaceGenerator_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start #  53 (Group 24 #1) geosx(SurfaceGenerator_08/SurfaceGenerator_08_1_geosx), np=8, Mon Jun  6 03:20:16 2022
+Start #  69 (Group 31 #1) geosx(4comp_2ph_1d_01/4comp_2ph_1d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start #  73 (Group 32 #1) geosx(4comp_2ph_1d_02/4comp_2ph_1d_02_1_geosx), np=2, Mon Jun  6 03:20:16 2022
+Start #  77 (Group 33 #1) geosx(4comp_2ph_1d_03/4comp_2ph_1d_03_1_geosx), np=3, Mon Jun  6 03:20:16 2022
+Start #  81 (Group 34 #1) geosx(4comp_2ph_cap_1d_01/4comp_2ph_cap_1d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start #  85 (Group 35 #1) geosx(4comp_2ph_cap_1d_02/4comp_2ph_cap_1d_02_1_geosx), np=2, Mon Jun  6 03:20:16 2022
+Start #  89 (Group 36 #1) geosx(4comp_2ph_cap_1d_03/4comp_2ph_cap_1d_03_1_geosx), np=3, Mon Jun  6 03:20:16 2022
+Start #  93 (Group 37 #1) geosx(deadoil_3ph_corey_1d_01/deadoil_3ph_corey_1d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start #  97 (Group 38 #1) geosx(deadoil_3ph_corey_1d_02/deadoil_3ph_corey_1d_02_1_geosx), np=2, Mon Jun  6 03:20:16 2022
+Start # 101 (Group 39 #1) geosx(deadoil_3ph_corey_1d_03/deadoil_3ph_corey_1d_03_1_geosx), np=3, Mon Jun  6 03:20:16 2022
+Start # 105 (Group 40 #1) geosx(co2_hybrid_1d_01/co2_hybrid_1d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 109 (Group 41 #1) geosx(co2_hybrid_1d_02/co2_hybrid_1d_02_1_geosx), np=2, Mon Jun  6 03:20:16 2022
+Start # 113 (Group 42 #1) geosx(co2_hybrid_1d_03/co2_hybrid_1d_03_1_geosx), np=3, Mon Jun  6 03:20:16 2022
+Start # 117 (Group 43 #1) geosx(deadoil_3ph_baker_1d_01/deadoil_3ph_baker_1d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 121 (Group 44 #1) geosx(deadoil_3ph_baker_1d_02/deadoil_3ph_baker_1d_02_1_geosx), np=2, Mon Jun  6 03:20:16 2022
+Start # 125 (Group 45 #1) geosx(deadoil_3ph_baker_1d_03/deadoil_3ph_baker_1d_03_1_geosx), np=3, Mon Jun  6 03:20:16 2022
+Start # 129 (Group 46 #1) geosx(deadoil_3ph_staircase_3d_01/deadoil_3ph_staircase_3d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 133 (Group 47 #1) geosx(deadoil_3ph_staircase_3d_08/deadoil_3ph_staircase_3d_08_1_geosx), np=8, Mon Jun  6 03:20:16 2022
+Start # 137 (Group 48 #1) geosx(deadoil_3ph_staircase_hybrid_3d_01/deadoil_3ph_staircase_hybrid_3d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 141 (Group 49 #1) geosx(deadoil_3ph_staircase_hybrid_3d_08/deadoil_3ph_staircase_hybrid_3d_08_1_geosx), np=8, Mon Jun  6 03:20:16 2022
+Start # 145 (Group 50 #1) geosx(deadoil_2ph_staircase_gravity_segregation_3d_01/deadoil_2ph_staircase_gravity_segregation_3d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 153 (Group 52 #1) geosx(co2_flux_3d_01/co2_flux_3d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 165 (Group 55 #1) geosx(deadOilSpe10Layers84_85_smoke_2d_01/deadOilSpe10Layers84_85_smoke_2d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 173 (Group 57 #1) geosx(isothermalLeakyWell_smoke_3d_01/isothermalLeakyWell_smoke_3d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 181 (Group 59 #1) geosx(deadoil_3ph_staircase_obl_3d_01/deadoil_3ph_staircase_obl_3d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 189 (Group 61 #1) geosx(compositional_multiphase_wells_1d_01/compositional_multiphase_wells_1d_01_1_geosx), np=1, Mon Jun  6 03:20:16 2022
+Start # 197 (Group 63 #1) geosx(compositional_multiphase_wells_2d_01/compositional_multiphase_wells_2d_01_1_geosx), np=1, Mon Jun  6 03:20:36 2022
+Start # 205 (Group 65 #1) geosx(dead_oil_wells_2d_01/dead_oil_wells_2d_01_1_geosx), np=1, Mon Jun  6 03:20:37 2022
+Start # 213 (Group 67 #1) geosx(dead_oil_wells_hybrid_2d_01/dead_oil_wells_hybrid_2d_01_1_geosx), np=1, Mon Jun  6 03:20:39 2022
+Start # 193 (Group 62 #1) geosx(compositional_multiphase_wells_1d_02/compositional_multiphase_wells_1d_02_1_geosx), np=2, Mon Jun  6 03:20:39 2022
+Start # 221 (Group 69 #1) geosx(black_oil_wells_saturated_3d_01/black_oil_wells_saturated_3d_01_1_geosx), np=1, Mon Jun  6 03:20:40 2022
+Start # 229 (Group 71 #1) geosx(black_oil_wells_unsaturated_3d_01/black_oil_wells_unsaturated_3d_01_1_geosx), np=1, Mon Jun  6 03:20:40 2022
+Start # 237 (Group 73 #1) geosx(staircase_co2_wells_3d_01/staircase_co2_wells_3d_01_1_geosx), np=1, Mon Jun  6 03:20:40 2022
+Start # 149 (Group 51 #1) geosx(deadoil_2ph_staircase_gravity_segregation_3d_08/deadoil_2ph_staircase_gravity_segregation_3d_08_1_geosx), np=8, Mon Jun  6 03:20:41 2022
+Start # 249 (Group 77 #1) geosx(deadOilEgg_smoke_3d_01/deadOilEgg_smoke_3d_01_1_geosx), np=1, Mon Jun  6 03:20:41 2022
+Start # 253 (Group 78 #1) geosx(ContactMechanics_SimpleCubes_01/ContactMechanics_SimpleCubes_01_1_geosx), np=1, Mon Jun  6 03:20:41 2022
+Start # 265 (Group 81 #1) geosx(ContactMechanics_UnstructuredCrack_01/ContactMechanics_UnstructuredCrack_01_1_geosx), np=1, Mon Jun  6 03:20:42 2022
+Start # 269 (Group 82 #1) geosx(Sneddon_contactMechanics_01/Sneddon_contactMechanics_01_1_geosx), np=1, Mon Jun  6 03:20:42 2022
+Start # 273 (Group 83 #1) geosx(ContactMechanics_TFrac_01/ContactMechanics_TFrac_01_1_geosx), np=1, Mon Jun  6 03:20:42 2022
+Start # 281 (Group 85 #1) geosx(ContactMechanics_SingleFracCompression_01/ContactMechanics_SingleFracCompression_01_1_geosx), np=1, Mon Jun  6 03:20:43 2022
+Start # 327 (Group 106 #1) geosx(PhaseFieldFracture_DamageOnly_01/PhaseFieldFracture_DamageOnly_01_1_geosx), np=1, Mon Jun  6 03:20:46 2022
+Start # 335 (Group 108 #1) geosx(PhaseFieldFracture_DamageAndLoad_01/PhaseFieldFracture_DamageAndLoad_01_1_geosx), np=1, Mon Jun  6 03:20:46 2022
+Start # 343 (Group 110 #1) geosx(PhaseFieldFracture_CohesiveModel_01/PhaseFieldFracture_CohesiveModel_01_1_geosx), np=1, Mon Jun  6 03:20:46 2022
+Start # 351 (Group 112 #1) geosx(PhaseFieldFracture_SpectralSplit_01/PhaseFieldFracture_SpectralSplit_01_1_geosx), np=1, Mon Jun  6 03:20:46 2022
+Start # 285 (Group 86 #1) geosx(ContactMechanics_SingleFracCompression_03/ContactMechanics_SingleFracCompression_03_1_geosx), np=3, Mon Jun  6 03:20:47 2022
+Start # 169 (Group 56 #1) geosx(deadOilSpe10Layers84_85_smoke_2d_04/deadOilSpe10Layers84_85_smoke_2d_04_1_geosx), np=4, Mon Jun  6 03:20:47 2022
+Start # 157 (Group 53 #1) geosx(co2_flux_3d_08/co2_flux_3d_08_1_geosx), np=8, Mon Jun  6 03:20:48 2022
+Start # 177 (Group 58 #1) geosx(isothermalLeakyWell_smoke_3d_04/isothermalLeakyWell_smoke_3d_04_1_geosx), np=4, Mon Jun  6 03:20:49 2022
+Start # 201 (Group 64 #1) geosx(compositional_multiphase_wells_2d_04/compositional_multiphase_wells_2d_04_1_geosx), np=4, Mon Jun  6 03:20:58 2022
+Start # 185 (Group 60 #1) geosx(deadoil_3ph_staircase_obl_3d_08/deadoil_3ph_staircase_obl_3d_08_1_geosx), np=8, Mon Jun  6 03:21:00 2022
+Start # 359 (Group 114 #1) geosx(PhaseFieldFracture_VolDevSplit_01/PhaseFieldFracture_VolDevSplit_01_1_geosx), np=1, Mon Jun  6 03:21:00 2022
+Start # 367 (Group 116 #1) geosx(PoroElastic_Terzaghi_FIM_01/PoroElastic_Terzaghi_FIM_01_1_geosx), np=1, Mon Jun  6 03:21:00 2022
+Start # 379 (Group 119 #1) geosx(PoroElastic_Mandel_smoke_1-1-1/PoroElastic_Mandel_smoke_1-1-1_1_geosx), np=1, Mon Jun  6 03:21:02 2022
+Start # 391 (Group 122 #1) geosx(PoroElastic_deadoil_3ph_baker_2d1-1-1/PoroElastic_deadoil_3ph_baker_2d1-1-1_1_geosx), np=1, Mon Jun  6 03:21:05 2022
+Start # 399 (Group 124 #1) geosx(PoroElastic_Wellbore_smoke_1-1-1/PoroElastic_Wellbore_smoke_1-1-1_1_geosx), np=1, Mon Jun  6 03:21:05 2022
+Start # 407 (Group 126 #1) geosx(PoroDruckerPrager_Wellbore_smoke_1-1-1/PoroDruckerPrager_Wellbore_smoke_1-1-1_1_geosx), np=1, Mon Jun  6 03:21:06 2022
+Start # 347 (Group 111 #1) geosx(PhaseFieldFracture_CohesiveModel_02/PhaseFieldFracture_CohesiveModel_02_1_geosx), np=2, Mon Jun  6 03:21:09 2022
+Start # 371 (Group 117 #1) geosx(PoroElastic_Terzaghi_FIM_02/PoroElastic_Terzaghi_FIM_02_1_geosx), np=2, Mon Jun  6 03:21:10 2022
+Start # 209 (Group 66 #1) geosx(dead_oil_wells_2d_04/dead_oil_wells_2d_04_1_geosx), np=4, Mon Jun  6 03:21:12 2022
+Start # 217 (Group 68 #1) geosx(dead_oil_wells_hybrid_2d_04/dead_oil_wells_hybrid_2d_04_1_geosx), np=4, Mon Jun  6 03:21:14 2022
+Start # 225 (Group 70 #1) geosx(black_oil_wells_saturated_3d_04/black_oil_wells_saturated_3d_04_1_geosx), np=4, Mon Jun  6 03:21:14 2022
+ATS REPORT AT ELAPSED TIME 0:01:06
+Using platform configuration toss_3_x86_64_ib_icc16.
+Using geosxats in ../../geosxats
+********************************************************************************
+machine : GeosxAtsSlurmProcessorScheduled
+directory : /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/run
+suite = Update
+********************************************************************************
+================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 169
+ (  ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 KirschProblem_04 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 beamBending_01 beamBending_08 beamBending_27 gravity_01 gravity_02 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_04 sourceFlux_2d_09 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 sourceFlux_2d_01 compressible_single_phase_wells_1d_01 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 sedov_1 sedov_8 sedov_27 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_07 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroElastic_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_04 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_01 poroElastic_embFractures_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_Cstty: standard input: Inappropriate ioctl for device
+oulombFriction_01 EmbFrac_Compression_CoulombFriction_04 PhaseFieldFracture_DamageOnly_08 ContactMechanics_TFrac_04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_01 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 co2_flux_3d_27 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdEdgeBased_C3D6_09 Sneddon_hydroFrac01 Sneddon_hydroFrac04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 kgdNodeBased_C3D6_01  ) 
+
+ INPROGRESS : 0
+
+ FILTERED : 0
+
+ RUNNING : 27
+ (  PoroElastic_Terzaghi_FIM_02 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_VolDevSplit_01 PoroElastic_Terzaghi_FIM_01 staircase_co2_wells_3d_01 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 black_oil_wells_saturated_3d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08  ) 
+
+ PASSED : 37
+ (  PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_DamageOnly_01 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_UnstructuredCrack_01 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 black_oil_wells_saturated_3d_01 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  TOTAL TIME           : 0:01:06
+  TOTAL PROCESSOR-TIME : 1:11:10
+  AVAIL PROCESSOR-TIME : 1:19:37
+  RESOURCE UTILIZATION :  89.4%
+
+  LONGEST RUNNING TESTS:
+     0:00:59 deadoil_3ph_staircase_3d_08
+     0:00:59 deadoil_3ph_staircase_hybrid_3d_08
+     0:00:59 isothermalLeakyWell_smoke_3d_01
+     0:00:59 deadoil_2ph_staircase_gravity_segregation_3d_01
+     0:00:59 deadoil_3ph_staircase_hybrid_3d_01
+
+     Status  :  TestCase                                        :  Directory                                                                   :  Elapsed :  Resources :  TestStep  
+     ------- :  ----------------------------------------------- :  --------------------------------------------------------------------------- :  ------- :  --------- :  ----------
+     RUNNING :  PoroElastic_Terzaghi_FIM_02                     :  poroElasticCoupling/PoroElastic_Terzaghi_FIM_02                             :  0:00:05 :  0:00:11   :  geosx     
+     RUNNING :  PoroElastic_Mandel_smoke_1-1-1                  :  poroElasticCoupling/PoroElastic_Mandel_smoke_1-1-1                          :  0:00:13 :  0:00:13   :  geosx     
+     RUNNING :  PoroElastic_deadoil_3ph_baker_2d1-1-1           :  poroElasticCoupling/PoroElastic_deadoil_3ph_baker_2d1-1-1                   :  0:00:10 :  0:00:10   :  restartcheck
+     RUNNING :  PoroElastic_Wellbore_smoke_1-1-1                :  poroElasticCoupling/PoroElastic_Wellbore_smoke_1-1-1                        :  0:00:10 :  0:00:10   :  restartcheck
+     RUNNING :  PoroDruckerPrager_Wellbore_smoke_1-1-1          :  poroElasticCoupling/PoroDruckerPrager_Wellbore_smoke_1-1-1                  :  0:00:08 :  0:00:08   :  geosx     
+     RUNNING :  PhaseFieldFracture_DamageAndLoad_01             :  phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01                      :  0:00:29 :  0:00:29   :  restartcheck
+     RUNNING :  PhaseFieldFracture_CohesiveModel_01             :  phaseFieldFracture/PhaseFieldFracture_CohesiveModel_01                      :  0:00:29 :  0:00:29   :  geosx     
+     RUNNING :  PhaseFieldFracture_CohesiveModel_02             :  phaseFieldFracture/PhaseFieldFracture_CohesiveModel_02                      :  0:00:06 :  0:00:12   :  geosx     
+     RUNNING :  PhaseFieldFracture_VolDevSplit_01               :  phaseFieldFracture/PhaseFieldFracture_VolDevSplit_01                        :  0:00:15 :  0:00:15   :  restartcheck
+     RUNNING :  PoroElastic_Terzaghi_FIM_01                     :  poroElasticCoupling/PoroElastic_Terzaghi_FIM_01                             :  0:00:15 :  0:00:15   :  restartcheck
+     RUNNING :  staircase_co2_wells_3d_01                       :  compositionalMultiphaseWell/staircase_co2_wells_3d_01                       :  0:00:35 :  0:00:35   :  geosx     
+     RUNNING :  deadOilEgg_smoke_3d_01                          :  compositionalMultiphaseWell/deadOilEgg_smoke_3d_01                          :  0:00:33 :  0:00:33   :  restartcheck
+     RUNNING :  ContactMechanics_SimpleCubes_01                 :  contactMechanics/ContactMechanics_SimpleCubes_01                            :  0:00:33 :  0:00:33   :  restartcheck
+     RUNNING :  deadoil_3ph_staircase_obl_3d_08                 :  compositionalMultiphaseFlow/deadoil_3ph_staircase_obl_3d_08                 :  0:00:15 :  0:02:05   :  geosx     
+     RUNNING :  compositional_multiphase_wells_2d_04            :  compositionalMultiphaseWell/compositional_multiphase_wells_2d_04            :  0:00:17 :  0:01:09   :  geosx     
+     RUNNING :  dead_oil_wells_2d_01                            :  compositionalMultiphaseWell/dead_oil_wells_2d_01                            :  0:00:38 :  0:00:38   :  restartcheck
+     RUNNING :  dead_oil_wells_2d_04                            :  compositionalMultiphaseWell/dead_oil_wells_2d_04                            :  0:00:03 :  0:00:15   :  geosx     
+     RUNNING :  dead_oil_wells_hybrid_2d_01                     :  compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_01                     :  0:00:36 :  0:00:36   :  geosx     
+     RUNNING :  dead_oil_wells_hybrid_2d_04                     :  compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04                     :  0:00:01 :  0:00:07   :  geosx     
+     RUNNING :  black_oil_wells_saturated_3d_04                 :  compositionalMultiphaseWell/black_oil_wells_saturated_3d_04                 :  0:00:01 :  0:00:07   :  geosx     
+     RUNNING :  isothermalLeakyWell_smoke_3d_01                 :  compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_01                 :  0:00:59 :  0:00:59   :  geosx     
+     RUNNING :  isothermalLeakyWell_smoke_3d_04                 :  compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_04                 :  0:00:26 :  0:01:46   :  geosx     
+     RUNNING :  deadoil_3ph_staircase_3d_08                     :  compositionalMultiphaseFlow/deadoil_3ph_staircase_3d_08                     :  0:00:59 :  0:07:57   :  geosx     
+     RUNNING :  deadoil_3ph_staircase_hybrid_3d_01              :  compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_01              :  0:00:59 :  0:00:59   :  geosx     
+     RUNNING :  deadoil_3ph_staircase_hybrid_3d_08              :  compositionalMultiphaseFlow/deadoil_3ph_staircase_hybrid_3d_08              :  0:00:59 :  0:07:56   :  restartcheck
+     RUNNING :  deadoil_2ph_staircase_gravity_segregation_3d_01 :  compositionalMultiphaseFlow/deadoil_2ph_staircase_gravity_segregation_3d_01 :  0:00:59 :  0:00:59   :  restartcheck
+     RUNNING :  deadoil_2ph_staircase_gravity_segregation_3d_08 :  compositionalMultiphaseFlow/deadoil_2ph_staircase_gravity_segregation_3d_08 :  0:00:34 :  0:04:33   :  geosx     
+     ------- :  ----------------------------------------------- :  --------------------------------------------------------------------------- :  ------- :  --------- :  ----------
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_TFrac_04 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 FlowProppantBedTransport_2d_01 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 KirschProblem_01 KirschProblem_04 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_DamageOnly_08 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_04 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Terzaghi_FIM_07 PoroElastic_Wellbore_smoke_2-2-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 SneddonRotated_smoke_01 SneddonRotated_smoke_04 Sneddon_hydroFrac01 Sneddon_hydroFrac04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 beamBending_01 beamBending_08 beamBending_27 black_oil_wells_unsaturated_3d_04 co2_flux_3d_27 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_1Remaining: 196 groups, 614 tests.
+CURRENTLY RUNNING 27 tests: geosx(dead_oil_wells_hybrid_2d_01/dead_oil_wells_hybrid_2d_01_1_geosx) geosx(deadoil_2ph_staircase_gravity_segregation_3d_08/deadoil_2ph_staircase_gravity_segregation_3d_08_1_geosx) geosx(PhaseFieldFracture_CohesiveModel_01/PhaseFieldFracture_CohesiveModel_01_1_geosx) geosx(isothermalLeakyWell_smoke_3d_04/isothermalLeakyWell_smoke_3d_04_1_geosx) geosx(deadoil_3ph_staircase_obl_3d_08/deadoil_3ph_staircase_obl_3d_08_1_geosx) geosx(isothermalLeakyWell_smoke_3d_01/isothermalLeakyWell_smoke_3d_01_3_geosx) geosx(deadoil_3ph_staircase_hybrid_3d_01/deadoil_3ph_staircase_hybrid_3d_01_3_geosx) geosx(deadoil_3ph_staircase_3d_08/deadoil_3ph_staircase_3d_08_3_geosx) python(deadOilEgg_smoke_3d_01/deadOilEgg_smoke_3d_01_2_restartcheck) geosx(PhaseFieldFracture_CohesiveModel_02/PhaseFieldFracture_CohesiveModel_02_1_geosx) geosx(PoroElastic_Terzaghi_FIM_02/PoroElastic_Terzaghi_FIM_02_1_geosx) python(deadoil_2ph_staircase_gravity_segregation_3d_01/deadoil_2ph_staircase_gravity_segregation_3d_01_4_restartcheck) geosx(PoroElastic_Mandel_smoke_1-1-1/PoroElastic_Mandel_smoke_1-1-1_3_geosx) geosx(dead_oil_wells_2d_04/dead_oil_wells_2d_04_1_geosx) geosx(staircase_co2_wells_3d_01/staircase_co2_wells_3d_01_3_geosx) python(PoroElastic_deadoil_3ph_baker_2d1-1-1/PoroElastic_deadoil_3ph_baker_2d1-1-1_2_restartcheck) python(dead_oil_wells_2d_01/dead_oil_wells_2d_01_4_restartcheck) python(deadoil_3ph_staircase_hybrid_3d_08/deadoil_3ph_staircase_hybrid_3d_08_2_restartcheck) python(ContactMechanics_SimpleCubes_01/ContactMechanics_SimpleCubes_01_4_restartcheck) geosx(PoroDruckerPrager_Wellbore_smoke_1-1-1/PoroDruckerPrager_Wellbore_smoke_1-1-1_3_geosx) geosx(dead_oil_wells_hybrid_2d_04/dead_oil_wells_hybrid_2d_04_1_geosx) geosx(black_oil_wells_saturated_3d_04/black_oil_wells_saturated_3d_04_1_geosx) python(PhaseFieldFracture_DamageAndLoad_01/PhaseFieldFracture_DamageAndLoad_01_2_restartcheck) python(PoroElastic_Wellbore_smoke_1-1-1/PoroElastic_Wellbore_smoke_1-1-1_4_restartcheck) python(PoroElastic_Terzaghi_FIM_01/PoroElastic_Terzaghi_FIM_01_4_restartcheck) geosx(compositional_multiphase_wells_2d_04/compositional_multiphase_wells_2d_04_3_geosx) python(PhaseFieldFracture_VolDevSplit_01/PhaseFieldFracture_VolDevSplit_01_4_restartcheck)
+--------------------------------------------------------------------------------
+CURRENTLY UTILIZING 72 of 72 processors.
+--------------------------------------------------------------------------------
+Start # 233 (Group 72 #1) geosx(black_oil_wells_unsaturated_3d_04/black_oil_wells_unsaturated_3d_04_1_geosx), np=4, Mon Jun  6 03:21:18 2022
+Start # 415 (Group 128 #1) geosx(PoroDelftEgg_Wellbore_smoke_1-1-1/PoroDelftEgg_Wellbore_smoke_1-1-1_1_geosx), np=1, Mon Jun  6 03:21:19 2022
+Start # 423 (Group 130 #1) geosx(PoroModifiedCamClay_Wellbore_smoke_1-1-1/PoroModifiedCamClay_Wellbore_smoke_1-1-1_1_geosx), np=1, Mon Jun  6 03:21:19 2022
+Start # 431 (Group 132 #1) geosx(FlowProppantTransport_2d_01/FlowProppantTransport_2d_01_1_geosx), np=1, Mon Jun  6 03:21:21 2022
+Start # 443 (Group 135 #1) geosx(FlowProppantBedTransport_2d_01/FlowProppantBedTransport_2d_01_1_geosx), np=1, Mon Jun  6 03:21:22 2022
+Start # 461 (Group 141 #1) geosx(sedov_1/sedov_1_1_geosx), np=1, Mon Jun  6 03:21:24 2022
+Start # 383 (Group 120 #1) geosx(PoroElastic_Mandel_smoke_3-1-1/PoroElastic_Mandel_smoke_3-1-1_1_geosx), np=3, Mon Jun  6 03:21:27 2022
+Start # 277 (Group 84 #1) geosx(ContactMechanics_TFrac_04/ContactMechanics_TFrac_04_1_geosx), np=4, Mon Jun  6 03:21:29 2022
+Start # 473 (Group 144 #1) geosx(10x10x10Hex_LaplaceFEM_smoke_01/10x10x10Hex_LaplaceFEM_smoke_01_1_geosx), np=1, Mon Jun  6 03:21:35 2022
+Start # 447 (Group 136 #1) geosx(FlowProppantBedTransport_2d_02/FlowProppantBedTransport_2d_02_1_geosx), np=2, Mon Jun  6 03:21:36 2022
+Start # 241 (Group 74 #1) geosx(staircase_co2_wells_3d_08/staircase_co2_wells_3d_08_1_geosx), np=8, Mon Jun  6 03:21:36 2022
+Start # 451 (Group 137 #1) geosx(FlowProppantBedTransport_2d_03/FlowProppantBedTransport_2d_03_1_geosx), np=3, Mon Jun  6 03:21:36 2022
+Start # 355 (Group 113 #1) geosx(PhaseFieldFracture_SpectralSplit_04/PhaseFieldFracture_SpectralSplit_04_1_geosx), np=4, Mon Jun  6 03:21:37 2022
+Start # 363 (Group 115 #1) geosx(PhaseFieldFracture_VolDevSplit_04/PhaseFieldFracture_VolDevSplit_04_1_geosx), np=4, Mon Jun  6 03:21:39 2022
+Start # 485 (Group 147 #1) geosx(50x10x5Hex_LaplaceFEM_smoke_01/50x10x5Hex_LaplaceFEM_smoke_01_1_geosx), np=1, Mon Jun  6 03:21:43 2022
+Start # 497 (Group 150 #1) geosx(10x10x10Hex_LaplaceVEM_smoke_01/10x10x10Hex_LaplaceVEM_smoke_01_1_geosx), np=1, Mon Jun  6 03:21:43 2022
+Start # 505 (Group 152 #1) geosx(15x5x10Tets_LaplaceVEM_smoke_01/15x5x10Tets_LaplaceVEM_smoke_01_1_geosx), np=1, Mon Jun  6 03:21:45 2022
+Start # 257 (Group 79 #1) geosx(ContactMechanics_SimpleCubes_08/ContactMechanics_SimpleCubes_08_1_geosx), np=8, Mon Jun  6 03:21:45 2022
+Start # 513 (Group 154 #1) geosx(10x5x15Wedges_LaplaceVEM_smoke_01/10x5x15Wedges_LaplaceVEM_smoke_01_1_geosx), np=1, Mon Jun  6 03:21:47 2022
+Start # 521 (Group 156 #1) geosx(hybridHexPrism_LaplaceVEM_smoke_01/hybridHexPrism_LaplaceVEM_smoke_01_1_geosx), np=1, Mon Jun  6 03:21:47 2022
+Start # 525 (Group 157 #1) geosx(hybridHexPrism_LaplaceVEM_smoke_03/hybridHexPrism_LaplaceVEM_smoke_03_1_geosx), np=3, Mon Jun  6 03:21:50 2022
+Start # 529 (Group 158 #1) geosx(sourceFlux_1d_01/sourceFlux_1d_01_1_geosx), np=1, Mon Jun  6 03:21:51 2022
+Start # 541 (Group 161 #1) geosx(compressible_1d_01/compressible_1d_01_1_geosx), np=1, Mon Jun  6 03:21:52 2022
+Start # 395 (Group 123 #1) geosx(PoroElastic_deadoil_3ph_baker_2d2-1-2/PoroElastic_deadoil_3ph_baker_2d2-1-2_1_geosx), np=4, Mon Jun  6 03:21:54 2022
+Start # 387 (Group 121 #1) geosx(PoroElastic_Mandel_smoke_3-1-2/PoroElastic_Mandel_smoke_3-1-2_1_geosx), np=6, Mon Jun  6 03:21:57 2022
+Start # 331 (Group 107 #1) geosx(PhaseFieldFracture_DamageOnly_08/PhaseFieldFracture_DamageOnly_08_1_geosx), np=8, Mon Jun  6 03:21:57 2022
+Start # 403 (Group 125 #1) geosx(PoroElastic_Wellbore_smoke_2-2-1/PoroElastic_Wellbore_smoke_2-2-1_1_geosx), np=4, Mon Jun  6 03:21:59 2022
+Start # 553 (Group 164 #1) geosx(compressible_1d_2solids_01/compressible_1d_2solids_01_1_geosx), np=1, Mon Jun  6 03:22:03 2022
+Start # 261 (Group 80 #1) geosx(ContactMechanics_SimpleCubes_09/ContactMechanics_SimpleCubes_09_1_geosx), np=9, Mon Jun  6 03:22:06 2022
+Start # 577 (Group 173 #1) geosx(compressible_2d_2fluids_01/compressible_2d_2fluids_01_1_geosx), np=1, Mon Jun  6 03:22:11 2022
+Start # 533 (Group 159 #1) geosx(sourceFlux_1d_02/sourceFlux_1d_02_1_geosx), np=2, Mon Jun  6 03:22:13 2022
+Start # 589 (Group 176 #1) geosx(compressible_2d_2fluids_hybrid_01/compressible_2d_2fluids_hybrid_01_1_geosx), np=1, Mon Jun  6 03:22:13 2022
+Start # 601 (Group 179 #1) geosx(sourceFlux_2d_01/sourceFlux_2d_01_1_geosx), np=1, Mon Jun  6 03:22:15 2022
+Start # 375 (Group 118 #1) geosx(PoroElastic_Terzaghi_FIM_07/PoroElastic_Terzaghi_FIM_07_1_geosx), np=7, Mon Jun  6 03:22:16 2022
+ATS REPORT AT ELAPSED TIME 0:02:06
+d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 kgdEdgeBased_C3D6_01 kgdEdgeBased_C3D6_09 kgdNodeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 poroElastic_embFractures_01 poroElastic_embFractures_04 sedov_1 sedov_27 sedov_8 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 sourceFlux_2d_01 sourceFlux_2d_04 sourceFlux_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 ContactMechanics_SimpleCubes_01 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_VolDevSplit_01 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 black_oil_wells_saturated_3d_04 compositional_multiphase_wells_2d_04 deadOilEgg_smoke_3d_01 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_08 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 staircase_co2_wells_3d_01 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_UnstructuredCrack_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_SpectralSplit_01 Sneddon_contactMechanics_01 SurfaceGenerator_01 SurfaceGenerator_08 black_oil_wells_saturated_3d_01 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_obl_3d_01 walshQuarter01 walshQuarter08 ================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 135
+ (  ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 KirschProblem_04 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 beamBending_01 beamBending_08 beamBending_27 gravity_01 gravity_02 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_04 sourceFlux_2d_09 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 sourceFlux_1d_03 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_02 compressible_1d_2solids_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_08 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 sedov_8 sedov_27 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 PhaseFieldFracture_DamageAndLoad_08 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_01 poroElastic_embFractures_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_01 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 co2_flux_3d_27 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdEdgeBased_C3D6_09 Sneddon_hydroFrac01 Sneddon_hydroFrac04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 kgdNodeBased_C3D6_01  ) 
+
+ INPROGRESS : 4
+ (  compressible_2d_2fluids_hybrid_01 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Wellbore_smoke_2-2-1 PhaseFieldFracture_DamageOnly_08  ) 
+
+ FILTERED : 0
+
+ RUNNING : 17
+ (  compressible_2d_2fluids_01 sourceFlux_2d_01 sourceFlux_1d_02 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 PoroElastic_Terzaghi_FIM_07 PoroElastic_deadoil_3ph_baker_2d2-1-2 PhaseFieldFracture_CohesiveModel_01 Phasestty: standard input: Inappropriate ioctl for device
+FieldFracture_CohesiveModel_02 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_04 staircase_co2_wells_3d_08 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 dead_oil_wells_hybrid_2d_04 isothermalLeakyWell_smoke_3d_04 deadoil_2ph_staircase_gravity_segregation_3d_08  ) 
+
+ PASSED : 77
+ (  sourceFlux_1d_01 compressible_1d_01 compressible_1d_2solids_01 10x10x10Hex_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 sedov_1 10x10x10Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 FlowProppantTransport_2d_01 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_VolDevSplit_01 PoroElastic_Terzaghi_FIM_01 PhaseFieldFracture_DamageOnly_01 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_01 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 ContactMechanics_UnstructuredCrack_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 isothermalLeakyWell_smoke_3d_01 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  TOTAL TIME           : 0:02:06
+  TOTAL PROCESSOR-TIME : 2:22:53
+  AVAIL PROCESSOR-TIME : 2:31:48
+  RESOURCE UTILIZATION :  94.1%
+
+  LONGEST RUNNING TESTS:
+     0:01:40 deadoil_3ph_staircase_hybrid_3d_08
+     0:01:34 deadoil_2ph_staircase_gravity_segregation_3d_08
+     0:01:29 PhaseFieldFracture_CohesiveModel_01
+     0:01:26 isothermalLeakyWell_smoke_3d_04
+     0:01:20 deadoil_3ph_staircase_3d_08
+
+     Status  :  TestCase                                        :  Directory                                                                   :  Elapsed :  Resources :  TestStep  
+     ------- :  ----------------------------------------------- :  --------------------------------------------------------------------------- :  ------- :  --------- :  ----------
+     RUNNING :  compressible_2d_2fluids_01                      :  singlePhaseFlow/compressible_2d_2fluids_01                                  :  0:00:04 :  0:00:04   :  geosx     
+     RUNNING :  sourceFlux_2d_01                                :  singlePhaseFlow/sourceFlux_2d_01                                            :  0:00:00 :  0:00:00   :  geosx     
+     RUNNING :  sourceFlux_1d_02                                :  singlePhaseFlow/sourceFlux_1d_02                                            :  0:00:03 :  0:00:06   :  geosx     
+     RUNNING :  FlowProppantBedTransport_2d_02                  :  proppantTransport/FlowProppantBedTransport_2d_02                            :  0:00:39 :  0:01:19   :  geosx     
+     RUNNING :  FlowProppantBedTransport_2d_03                  :  proppantTransport/FlowProppantBedTransport_2d_03                            :  0:00:39 :  0:01:58   :  geosx     
+     RUNNING :  PoroElastic_Terzaghi_FIM_07                     :  poroElasticCoupling/PoroElastic_Terzaghi_FIM_07                             :  0:00:00 :  0:00:01   :  geosx     
+     RUNNING :  PoroElastic_deadoil_3ph_baker_2d2-1-2           :  poroElasticCoupling/PoroElastic_deadoil_3ph_baker_2d2-1-2                   :  0:00:21 :  0:01:26   :  restartcheck
+     RUNNING :  PhaseFieldFracture_CohesiveModel_01             :  phaseFieldFracture/PhaseFieldFracture_CohesiveModel_01                      :  0:01:29 :  0:01:29   :  geosx     
+     RUNNING :  PhaseFieldFracture_CohesiveModel_02             :  phaseFieldFracture/PhaseFieldFracture_CohesiveModel_02                      :  0:01:06 :  0:02:12   :  geosx     
+     RUNNING :  PhaseFieldFracture_SpectralSplit_04             :  phaseFieldFracture/PhaseFieldFracture_SpectralSplit_04                      :  0:00:38 :  0:02:33   :  geosx     
+     RUNNING :  PhaseFieldFracture_VolDevSplit_04               :  phaseFieldFracture/PhaseFieldFracture_VolDevSplit_04                        :  0:00:36 :  0:02:25   :  geosx     
+     RUNNING :  staircase_co2_wells_3d_08                       :  compositionalMultiphaseWell/staircase_co2_wells_3d_08                       :  0:00:39 :  0:05:16   :  geosx     
+     RUNNING :  ContactMechanics_SimpleCubes_08                 :  contactMechanics/ContactMechanics_SimpleCubes_08                            :  0:00:30 :  0:04:02   :  geosx     
+     RUNNING :  ContactMechanics_SimpleCubes_09                 :  contactMechanics/ContactMechanics_SimpleCubes_09                            :  0:00:09 :  0:01:25   :  geosx     
+     RUNNING :  dead_oil_wells_hybrid_2d_04                     :  compositionalMultiphaseWell/dead_oil_wells_hybrid_2d_04                     :  0:01:01 :  0:04:07   :  geosx     
+     RUNNING :  isothermalLeakyWell_smoke_3d_04                 :  compositionalMultiphaseFlow/isothermalLeakyWell_smoke_3d_04                 :  0:01:26 :  0:05:46   :  restartcheck
+     RUNNING :  deadoil_2ph_staircase_gravity_segregation_3d_08 :  compositionalMultiphaseFlow/deadoil_2ph_staircase_gravity_segregation_3d_08 :  0:01:34 :  0:12:33   :  geosx     
+     ------- :  ----------------------------------------------- :  --------------------------------------------------------------------------- :  ------- :  --------- :  ----------
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 KirschProblem_01 KirschProblem_04 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 PhaseFieldFracture_DamageAndLoad_08 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 SneddonRotated_smoke_01 SneddonRotated_smoke_04 Sneddon_hydroFrac01 Sneddon_hydroFrac04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 beamBending_01 beamBending_08 beamBending_27 co2_flux_3d_27 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 kgdEdgeBased_C3D6_01 kgdEdgeBased_C3D6_09 kgdNodeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 poroElastic_embFractures_01 poroElastic_embFractures_04 sedov_27 sedov_8 sourceFlux_1d_03 sourceFlux_2d_04 sourceFlux_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_04 PoroElastic_Terzaghi_FIM_07 PoroElastic_deadoil_3ph_baker_2d2-1-2 compressible_2d_2fluids_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gravity_segregation_3d_08 isothermalLeakyWell_smoke_3d_04 sourceFlux_1d_02 sourceFlux_2d_01 staircase_co2_wells_3d_08 PhaseFieldFracture_DamageOnly_08 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Wellbore_smoke_2-2-1 compressible_2d_2fluids_hybrid_01 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_01 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 50x10x5Hex_LaplaceFEM_smoke_01 ContactMechanics_SimpleCubes_01 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_UnstructuredCrack_01 FlowProppantBedTransport_2d_01 FlowProppantTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_VolDevSplit_01 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 Sneddon_contactMechanics_01 SurfaceGRemaining: 156 groups, 467 tests.
+CURRENTLY RUNNING 17 tests: geosx(PhaseFieldFracture_CohesiveModel_02/PhaseFieldFracture_CohesiveModel_02_1_geosx) geosx(staircase_co2_wells_3d_08/staircase_co2_wells_3d_08_1_geosx) geosx(deadoil_2ph_staircase_gravity_segregation_3d_08/deadoil_2ph_staircase_gravity_segregation_3d_08_3_geosx) geosx(ContactMechanics_SimpleCubes_08/ContactMechanics_SimpleCubes_08_1_geosx) python(isothermalLeakyWell_smoke_3d_04/isothermalLeakyWell_smoke_3d_04_4_restartcheck) geosx(FlowProppantBedTransport_2d_02/FlowProppantBedTransport_2d_02_3_geosx) geosx(PhaseFieldFracture_SpectralSplit_04/PhaseFieldFracture_SpectralSplit_04_3_geosx) geosx(FlowProppantBedTransport_2d_03/FlowProppantBedTransport_2d_03_3_geosx) geosx(ContactMechanics_SimpleCubes_09/ContactMechanics_SimpleCubes_09_1_geosx) geosx(dead_oil_wells_hybrid_2d_04/dead_oil_wells_hybrid_2d_04_3_geosx) geosx(PhaseFieldFracture_VolDevSplit_04/PhaseFieldFracture_VolDevSplit_04_3_geosx) geosx(PhaseFieldFracture_CohesiveModel_01/PhaseFieldFracture_CohesiveModel_01_3_geosx) geosx(compressible_2d_2fluids_01/compressible_2d_2fluids_01_1_geosx) python(PoroElastic_deadoil_3ph_baker_2d2-1-2/PoroElastic_deadoil_3ph_baker_2d2-1-2_2_restartcheck) geosx(sourceFlux_1d_02/sourceFlux_1d_02_1_geosx) geosx(sourceFlux_2d_01/sourceFlux_2d_01_1_geosx) geosx(PoroElastic_Terzaghi_FIM_07/PoroElastic_Terzaghi_FIM_07_1_geosx)
+--------------------------------------------------------------------------------
+CURRENTLY UTILIZING 72 of 72 processors.
+--------------------------------------------------------------------------------
+Start # 411 (Group 127 #1) geosx(PoroDruckerPrager_Wellbore_smoke_2-2-1/PoroDruckerPrager_Wellbore_smoke_2-2-1_1_geosx), np=4, Mon Jun  6 03:22:23 2022
+Start # 545 (Group 162 #1) geosx(compressible_1d_02/compressible_1d_02_1_geosx), np=2, Mon Jun  6 03:22:26 2022
+Start # 339 (Group 109 #1) geosx(PhaseFieldFracture_DamageAndLoad_08/PhaseFieldFracture_DamageAndLoad_08_1_geosx), np=8, Mon Jun  6 03:22:26 2022
+Start # 537 (Group 160 #1) geosx(sourceFlux_1d_03/sourceFlux_1d_03_1_geosx), np=3, Mon Jun  6 03:22:28 2022
+Start # 549 (Group 163 #1) geosx(compressible_1d_03/compressible_1d_03_1_geosx), np=3, Mon Jun  6 03:22:28 2022
+Start # 613 (Group 182 #1) geosx(fractureFlow_2d_01/fractureFlow_2d_01_1_geosx), np=1, Mon Jun  6 03:22:29 2022
+Start # 625 (Group 185 #1) geosx(fractureJunctionFlow_2d_01/fractureJunctionFlow_2d_01_1_geosx), np=1, Mon Jun  6 03:22:33 2022
+Start # 419 (Group 129 #1) geosx(PoroDelftEgg_Wellbore_smoke_2-2-1/PoroDelftEgg_Wellbore_smoke_2-2-1_1_geosx), np=4, Mon Jun  6 03:22:34 2022
+Start # 427 (Group 131 #1) geosx(PoroModifiedCamClay_Wellbore_smoke_2-2-1/PoroModifiedCamClay_Wellbore_smoke_2-2-1_1_geosx), np=4, Mon Jun  6 03:22:34 2022
+Start # 435 (Group 133 #1) geosx(FlowProppantTransport_2d_04/FlowProppantTransport_2d_04_1_geosx), np=4, Mon Jun  6 03:22:34 2022
+Start # 439 (Group 134 #1) geosx(FlowProppantTransport_2d_09/FlowProppantTransport_2d_09_1_geosx), np=9, Mon Jun  6 03:22:36 2022
+Start # 557 (Group 165 #1) geosx(compressible_1d_2solids_02/compressible_1d_2solids_02_1_geosx), np=2, Mon Jun  6 03:22:36 2022
+Start # 465 (Group 142 #1) geosx(sedov_8/sedov_8_1_geosx), np=8, Mon Jun  6 03:22:42 2022
+Start # 477 (Group 145 #1) geosx(10x10x10Hex_LaplaceFEM_smoke_08/10x10x10Hex_LaplaceFEM_smoke_08_1_geosx), np=8, Mon Jun  6 03:22:42 2022
+Start # 629 (Group 186 #1) geosx(fractureMatrixFlow_2d_01/fractureMatrixFlow_2d_01_1_geosx), np=1, Mon Jun  6 03:22:42 2022
+Start # 641 (Group 189 #1) geosx(staircase_3d_01/staircase_3d_01_1_geosx), np=1, Mon Jun  6 03:22:43 2022
+Start # 653 (Group 192 #1) geosx(compressible_single_phase_wells_1d_01/compressible_single_phase_wells_1d_01_1_geosx), np=1, Mon Jun  6 03:22:45 2022
+Start # 661 (Group 194 #1) geosx(compressible_single_phase_wells_hybrid_1d_01/compressible_single_phase_wells_hybrid_1d_01_1_geosx), np=1, Mon Jun  6 03:22:49 2022
+Start # 669 (Group 196 #1) geosx(incompressible_single_phase_wells_2d_01/incompressible_single_phase_wells_2d_01_1_geosx), np=1, Mon Jun  6 03:22:52 2022
+Start # 489 (Group 148 #1) geosx(50x10x5Hex_LaplaceFEM_smoke_08/50x10x5Hex_LaplaceFEM_smoke_08_1_geosx), np=8, Mon Jun  6 03:22:53 2022
+Start # 561 (Group 166 #1) geosx(compressible_1d_2solids_03/compressible_1d_2solids_03_1_geosx), np=3, Mon Jun  6 03:22:53 2022
+Start # 501 (Group 151 #1) geosx(10x10x10Hex_LaplaceVEM_smoke_08/10x10x10Hex_LaplaceVEM_smoke_08_1_geosx), np=8, Mon Jun  6 03:22:57 2022
+Start # 581 (Group 174 #1) geosx(compressible_2d_2fluids_02/compressible_2d_2fluids_02_1_geosx), np=2, Mon Jun  6 03:22:57 2022
+Start # 509 (Group 153 #1) geosx(15x5x10Tets_LaplaceVEM_smoke_08/15x5x10Tets_LaplaceVEM_smoke_08_1_geosx), np=8, Mon Jun  6 03:22:59 2022
+Start # 585 (Group 175 #1) geosx(compressible_2d_2fluids_03/compressible_2d_2fluids_03_1_geosx), np=3, Mon Jun  6 03:22:59 2022
+Start # 517 (Group 155 #1) geosx(10x5x15Wedges_LaplaceVEM_smoke_08/10x5x15Wedges_LaplaceVEM_smoke_08_1_geosx), np=8, Mon Jun  6 03:23:00 2022
+Start # 677 (Group 198 #1) geosx(incompressible_single_phase_wells_hybrid_2d_01/incompressible_single_phase_wells_hybrid_2d_01_1_geosx), np=1, Mon Jun  6 03:23:03 2022
+Start # 593 (Group 177 #1) geosx(compressible_2d_2fluids_hybrid_02/compressible_2d_2fluids_hybrid_02_1_geosx), np=2, Mon Jun  6 03:23:06 2022
+Start # 597 (Group 178 #1) geosx(compressible_2d_2fluids_hybrid_03/compressible_2d_2fluids_hybrid_03_1_geosx), np=3, Mon Jun  6 03:23:06 2022
+Start # 605 (Group 180 #1) geosx(sourceFlux_2d_04/sourceFlux_2d_04_1_geosx), np=4, Mon Jun  6 03:23:06 2022
+Start # 685 (Group 200 #1) geosx(staircase_single_phase_wells_3d_01/staircase_single_phase_wells_3d_01_1_geosx), np=1, Mon Jun  6 03:23:06 2022
+Start # 617 (Group 183 #1) geosx(fractureFlow_2d_02/fractureFlow_2d_02_1_geosx), np=2, Mon Jun  6 03:23:06 2022
+Start # 161 (Group 54 #1) geosx(co2_flux_3d_27/co2_flux_3d_27_1_geosx), np=27, Mon Jun  6 03:23:07 2022
+Start # 621 (Group 184 #1) geosx(fractureFlow_2d_04/fractureFlow_2d_04_1_geosx), np=4, Mon Jun  6 03:23:07 2022
+Start # 657 (Group 193 #1) geosx(compressible_single_phase_wells_1d_02/compressible_single_phase_wells_1d_02_1_geosx), np=2, Mon Jun  6 03:23:07 2022
+Start # 693 (Group 202 #1) geosx(staircase_single_phase_wells_hybrid_3d_01/staircase_single_phase_wells_hybrid_3d_01_1_geosx), np=1, Mon Jun  6 03:23:11 2022
+ATS REPORT AT ELAPSED TIME 0:03:06
+enerator_01 SurfaceGenerator_08 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 black_oil_wells_unsaturated_3d_04 co2_flux_3d_01 co2_flux_3d_08 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 compressible_1d_01 compressible_1d_2solids_01 deadOilEgg_smoke_3d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_01 deadoil_3ph_staircase_obl_3d_08 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 isothermalLeakyWell_smoke_3d_01 sedov_1 sourceFlux_1d_01 staircase_co2_wells_3d_01 walshQuarter01 walshQuarter08 ================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 99
+ (  ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 KirschProblem_04 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 beamBending_01 beamBending_08 beamBending_27 gravity_01 gravity_02 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_09 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_08 staircase_3d_27 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_18 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 sedov_27 10x10x10Hex_LaplaceFEM_smoke_27 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_01 poroElastic_embFractures_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_01 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdEdgeBased_C3D6_09 Sneddon_hydroFrac01 Sneddon_hydroFrac04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 kgdNodeBased_C3D6_01  ) 
+
+ INPROGRESS : 2
+ (  compressible_single_phase_wells_1d_02 fractureFlow_2d_04  ) 
+
+ FILTERED : 0
+
+ RUNNING : 14
+ (  staircase_single_phase_wells_3d_01 staircase_single_phase_wells_hybrid_3d_01 incompressible_single_phase_wells_hybrid_2d_01 sourceFlux_2d_04 fractureFlow_2d_02 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_08 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_CohesiveModel_02 co2_flux_3d_27  ) 
+
+ PASSED : 118
+ (  compressible_single_phase_wells_hybrid_1d_01 incompressible_single_phase_wells_2d_01 fractureFlow_2d_01 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 staircase_3d_01 compressible_2d_2fluids_01 compressible_2d_2fluids_hybrid_01 sourceFlux_2d_01 compressible_single_phase_wells_1d_01 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 50x10x5Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 sedov_1 sedov_8 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroElastic_Terzaghi_FIM_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_UnstructuredCrack_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  TOTALstty: standard input: Inappropriate ioctl for device
+ TIME           : 0:03:06
+  TOTAL PROCESSOR-TIME : 3:34:12
+  AVAIL PROCESSOR-TIME : 3:43:58
+  RESOURCE UTILIZATION :  95.6%
+
+  LONGEST RUNNING TESTS:
+     0:02:06 PhaseFieldFracture_CohesiveModel_02
+     0:02:05 PhaseFieldFracture_CohesiveModel_01
+     0:01:47 deadoil_2ph_staircase_gravity_segregation_3d_08
+     0:01:40 deadoil_3ph_staircase_hybrid_3d_08
+     0:01:31 isothermalLeakyWell_smoke_3d_04
+
+     Status  :  TestCase                                       :  Directory                                                      :  Elapsed :  Resources :  TestStep  
+     ------- :  ---------------------------------------------- :  -------------------------------------------------------------- :  ------- :  --------- :  ----------
+     RUNNING :  staircase_single_phase_wells_3d_01             :  singlePhaseWell/staircase_single_phase_wells_3d_01             :  0:00:08 :  0:00:08   :  restartcheck
+     RUNNING :  staircase_single_phase_wells_hybrid_3d_01      :  singlePhaseWell/staircase_single_phase_wells_hybrid_3d_01      :  0:00:04 :  0:00:04   :  geosx     
+     RUNNING :  incompressible_single_phase_wells_hybrid_2d_01 :  singlePhaseWell/incompressible_single_phase_wells_hybrid_2d_01 :  0:00:07 :  0:00:07   :  geosx     
+     RUNNING :  sourceFlux_2d_04                               :  singlePhaseFlow/sourceFlux_2d_04                               :  0:00:10 :  0:00:40   :  geosx     
+     RUNNING :  fractureFlow_2d_02                             :  singlePhaseFlow/fractureFlow_2d_02                             :  0:00:08 :  0:00:16   :  geosx     
+     RUNNING :  compressible_2d_2fluids_02                     :  singlePhaseFlow/compressible_2d_2fluids_02                     :  0:00:18 :  0:00:36   :  restartcheck
+     RUNNING :  compressible_2d_2fluids_03                     :  singlePhaseFlow/compressible_2d_2fluids_03                     :  0:00:16 :  0:00:48   :  geosx     
+     RUNNING :  compressible_2d_2fluids_hybrid_02              :  singlePhaseFlow/compressible_2d_2fluids_hybrid_02              :  0:00:10 :  0:00:20   :  geosx     
+     RUNNING :  compressible_2d_2fluids_hybrid_03              :  singlePhaseFlow/compressible_2d_2fluids_hybrid_03              :  0:00:07 :  0:00:23   :  restartcheck
+     RUNNING :  15x5x10Tets_LaplaceVEM_smoke_08                :  simplePDE/15x5x10Tets_LaplaceVEM_smoke_08                      :  0:00:12 :  0:01:42   :  restartcheck
+     RUNNING :  10x5x15Wedges_LaplaceVEM_smoke_08              :  simplePDE/10x5x15Wedges_LaplaceVEM_smoke_08                    :  0:00:11 :  0:01:35   :  restartcheck
+     RUNNING :  PhaseFieldFracture_DamageAndLoad_08            :  phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08         :  0:00:49 :  0:06:36   :  geosx     
+     RUNNING :  PhaseFieldFracture_CohesiveModel_02            :  phaseFieldFracture/PhaseFieldFracture_CohesiveModel_02         :  0:02:06 :  0:04:12   :  geosx     
+     RUNNING :  co2_flux_3d_27                                 :  compositionalMultiphaseFlow/co2_flux_3d_27                     :  0:00:09 :  0:04:06   :  geosx     
+     ------- :  ---------------------------------------------- :  -------------------------------------------------------------- :  ------- :  --------- :  ----------
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+10x10x10Hex_LaplaceFEM_smoke_27 50x10x5Hex_LaplaceFEM_smoke_18 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 KirschProblem_04 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 SneddonRotated_smoke_01 SneddonRotated_smoke_04 Sneddon_hydroFrac01 Sneddon_hydroFrac04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 beamBending_01 beamBending_08 beamBending_27 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 compressible_single_phase_wells_hybrid_1d_02 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_04 kgdEdgeBased_C3D6_01 kgdEdgeBased_C3D6_09 kgdNodeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 poroElastic_embFractures_01 poroElastic_embFractures_04 sedov_27 sourceFlux_2d_09 staircase_3d_08 staircase_3d_27 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_08 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_08 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_DamageAndLoad_08 co2_flux_3d_27 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 fractureFlow_2d_02 incompressible_single_phase_wells_hybrid_2d_01 sourceFlux_2d_04 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_hybrid_3d_01 compressible_single_phase_wells_1d_02 fractureFlow_2d_04 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_01 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 50x10x5Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_08 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_UnstructuredCrack_01 FlowProppantBedTransport_2d_01 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-Remaining: 115 groups, 302 tests.
+CURRENTLY RUNNING 14 tests: geosx(PhaseFieldFracture_CohesiveModel_02/PhaseFieldFracture_CohesiveModel_02_1_geosx) geosx(PhaseFieldFracture_DamageAndLoad_08/PhaseFieldFracture_DamageAndLoad_08_1_geosx) geosx(co2_flux_3d_27/co2_flux_3d_27_1_geosx) python(staircase_single_phase_wells_3d_01/staircase_single_phase_wells_3d_01_2_restartcheck) geosx(compressible_2d_2fluids_03/compressible_2d_2fluids_03_3_geosx) geosx(staircase_single_phase_wells_hybrid_3d_01/staircase_single_phase_wells_hybrid_3d_01_1_geosx) python(15x5x10Tets_LaplaceVEM_smoke_08/15x5x10Tets_LaplaceVEM_smoke_08_4_restartcheck) python(compressible_2d_2fluids_02/compressible_2d_2fluids_02_4_restartcheck) geosx(compressible_2d_2fluids_hybrid_02/compressible_2d_2fluids_hybrid_02_3_geosx) python(compressible_2d_2fluids_hybrid_03/compressible_2d_2fluids_hybrid_03_2_restartcheck) geosx(incompressible_single_phase_wells_hybrid_2d_01/incompressible_single_phase_wells_hybrid_2d_01_3_geosx) python(10x5x15Wedges_LaplaceVEM_smoke_08/10x5x15Wedges_LaplaceVEM_smoke_08_4_restartcheck) geosx(sourceFlux_2d_04/sourceFlux_2d_04_3_geosx) geosx(fractureFlow_2d_02/fractureFlow_2d_02_3_geosx)
+--------------------------------------------------------------------------------
+CURRENTLY UTILIZING 72 of 72 processors.
+--------------------------------------------------------------------------------
+Start # 633 (Group 187 #1) geosx(fractureMatrixFlow_2d_04/fractureMatrixFlow_2d_04_1_geosx), np=4, Mon Jun  6 03:23:18 2022
+Start # 609 (Group 181 #1) geosx(sourceFlux_2d_09/sourceFlux_2d_09_1_geosx), np=9, Mon Jun  6 03:23:19 2022
+Start # 665 (Group 195 #1) geosx(compressible_single_phase_wells_hybrid_1d_02/compressible_single_phase_wells_hybrid_1d_02_1_geosx), np=2, Mon Jun  6 03:23:22 2022
+Start # 701 (Group 204 #1) geosx(SSLE-sedov_01/SSLE-sedov_01_1_geosx), np=1, Mon Jun  6 03:23:22 2022
+Start # 719 (Group 210 #1) geosx(gravity_01/gravity_01_1_geosx), np=1, Mon Jun  6 03:23:22 2022
+Start # 727 (Group 212 #1) geosx(co2_thermal_2d_01/co2_thermal_2d_01_1_geosx), np=1, Mon Jun  6 03:23:22 2022
+Start # 673 (Group 197 #1) geosx(incompressible_single_phase_wells_2d_04/incompressible_single_phase_wells_2d_04_1_geosx), np=4, Mon Jun  6 03:23:22 2022
+Start # 723 (Group 211 #1) geosx(gravity_02/gravity_02_1_geosx), np=2, Mon Jun  6 03:23:22 2022
+Start # 735 (Group 214 #1) geosx(co2_thermal_obl_3d_01/co2_thermal_obl_3d_01_1_geosx), np=1, Mon Jun  6 03:23:25 2022
+Start # 743 (Group 216 #1) geosx(acous3D_abc_01/acous3D_abc_01_1_geosx), np=1, Mon Jun  6 03:23:25 2022
+Start # 681 (Group 199 #1) geosx(incompressible_single_phase_wells_hybrid_2d_04/incompressible_single_phase_wells_hybrid_2d_04_1_geosx), np=4, Mon Jun  6 03:23:26 2022
+Start # 755 (Group 219 #1) geosx(acous3D_abcAndFreeSurface_01/acous3D_abcAndFreeSurface_01_1_geosx), np=1, Mon Jun  6 03:23:26 2022
+Start # 767 (Group 222 #1) geosx(ModifiedCamClay_Wellbore_01/ModifiedCamClay_Wellbore_01_1_geosx), np=1, Mon Jun  6 03:23:29 2022
+Start # 775 (Group 224 #1) geosx(ExtendedDruckerPrager_Wellbore_01/ExtendedDruckerPrager_Wellbore_01_1_geosx), np=1, Mon Jun  6 03:23:29 2022
+Start #   1 (Group 1 #1) geosx(kgdViscosityDominated_smoke_01/kgdViscosityDominated_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:29 2022
+Start #   5 (Group 3 #1) geosx(kgdToughnessDominated_smoke_01/kgdToughnessDominated_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:33 2022
+Start # 645 (Group 190 #1) geosx(staircase_3d_08/staircase_3d_08_1_geosx), np=8, Mon Jun  6 03:23:34 2022
+Start #   9 (Group 5 #1) geosx(kgdValidation_smoke_01/kgdValidation_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:36 2022
+Start #  13 (Group 7 #1) geosx(heterogeneousInSitu_smoke_01/heterogeneousInSitu_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:36 2022
+Start #  17 (Group 9 #1) geosx(pennyShapedToughnessDominated_smoke_01/pennyShapedToughnessDominated_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:36 2022
+Start #  21 (Group 11 #1) geosx(pennyShapedViscosityDominated_smoke_01/pennyShapedViscosityDominated_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:37 2022
+Start # 469 (Group 143 #1) geosx(sedov_27/sedov_27_1_geosx), np=27, Mon Jun  6 03:23:38 2022
+Start #  25 (Group 13 #1) geosx(pknViscosityDominated_smoke_01/pknViscosityDominated_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:38 2022
+Start #  29 (Group 15 #1) geosx(kgdNodeBased_C3D6_01/kgdNodeBased_C3D6_01_1_geosx), np=1, Mon Jun  6 03:23:38 2022
+Start #  31 (Group 16 #1) geosx(kgdEdgeBased_C3D6_01/kgdEdgeBased_C3D6_01_1_geosx), np=1, Mon Jun  6 03:23:39 2022
+Start #  37 (Group 19 #1) geosx(Sneddon_hydroFrac01/Sneddon_hydroFrac01_1_geosx), np=1, Mon Jun  6 03:23:39 2022
+Start #  57 (Group 25 #1) geosx(DryFrac_StaticPenny_PrismElem_01/DryFrac_StaticPenny_PrismElem_01_1_geosx), np=1, Mon Jun  6 03:23:40 2022
+Start #  61 (Group 27 #1) geosx(DryFrac_ThreeNodesPinched_HorizontalFrac_01/DryFrac_ThreeNodesPinched_HorizontalFrac_01_1_geosx), np=1, Mon Jun  6 03:23:40 2022
+Start # 637 (Group 188 #1) geosx(fractureMatrixFlow_2d_09/fractureMatrixFlow_2d_09_1_geosx), np=9, Mon Jun  6 03:23:40 2022
+Start #  65 (Group 29 #1) geosx(DryFrac_ThreeNodesPinched_SlantFrac_01/DryFrac_ThreeNodesPinched_SlantFrac_01_1_geosx), np=1, Mon Jun  6 03:23:40 2022
+Start # 245 (Group 75 #1) geosx(staircase_co2_wells_hybrid_3d_01/staircase_co2_wells_hybrid_3d_01_1_geosx), np=1, Mon Jun  6 03:23:40 2022
+Start # 289 (Group 87 #1) geosx(Sneddon_smoke_01/Sneddon_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:40 2022
+Start # 293 (Group 89 #1) geosx(Sneddon_staticCondensation_smoke_01/Sneddon_staticCondensation_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:42 2022
+Start # 297 (Group 91 #1) geosx(SneddonRotated_smoke_01/SneddonRotated_smoke_01_1_geosx), np=1, Mon Jun  6 03:23:45 2022
+Start # 301 (Group 93 #1) geosx(fractureMatrixFlow_Embedded2d_01/fractureMatrixFlow_Embedded2d_01_1_geosx), np=1, Mon Jun  6 03:23:46 2022
+Start # 305 (Group 95 #1) geosx(fractureMatrixFlow_impermeableEmbFrac_01/fractureMatrixFlow_impermeableEmbFrac_01_1_geosx), np=1, Mon Jun  6 03:23:46 2022
+Start # 309 (Group 97 #1) geosx(deadoil_3ph_corey_2d_edfm_01/deadoil_3ph_corey_2d_edfm_01_1_geosx), np=1, Mon Jun  6 03:23:46 2022
+Start # 315 (Group 100 #1) geosx(poroElastic_embFractures_01/poroElastic_embFractures_01_1_geosx), np=1, Mon Jun  6 03:23:46 2022
+Start # 319 (Group 102 #1) geosx(EmbFrac_Compression_Frictionless_01/EmbFrac_Compression_Frictionless_01_1_geosx), np=1, Mon Jun  6 03:23:47 2022
+Start # 323 (Group 104 #1) geosx(EmbFrac_Compression_CoulombFriction_01/EmbFrac_Compression_CoulombFriction_01_1_geosx), np=1, Mon Jun  6 03:23:47 2022
+Start # 455 (Group 138 #1) geosx(ProppantSlotTest_01/ProppantSlotTest_01_1_geosx), np=1, Mon Jun  6 03:23:47 2022
+Start # 565 (Group 167 #1) geosx(incompressible_1d_01/incompressible_1d_01_1_geosx), np=1, Mon Jun  6 03:23:52 2022
+Start # 571 (Group 170 #1) geosx(incompressible_pebi3d_01/incompressible_pebi3d_01_1_geosx), np=1, Mon Jun  6 03:23:53 2022
+Start # 457 (Group 139 #1) geosx(ProppantSlotTest_03/ProppantSlotTest_03_1_geosx), np=3, Mon Jun  6 03:23:54 2022
+Start # 567 (Group 168 #1) geosx(incompressible_1d_02/incompressible_1d_02_1_geosx), np=2, Mon Jun  6 03:23:54 2022
+Start # 481 (Group 146 #1) geosx(10x10x10Hex_LaplaceFEM_smoke_27/10x10x10Hex_LaplaceFEM_smoke_27_1_geosx), np=27, Mon Jun  6 03:23:56 2022
+Start # 713 (Group 207 #1) geosx(beamBending_01/beamBending_01_1_geosx), np=1, Mon Jun  6 03:24:00 2022
+Start # 783 (Group 226 #1) geosx(KirschProblem_01/KirschProblem_01_1_geosx), np=1, Mon Jun  6 03:24:00 2022
+Start # 573 (Group 171 #1) geosx(incompressible_pebi3d_02/incompressible_pebi3d_02_1_geosx), np=2, Mon Jun  6 03:24:01 2022
+Start # 689 (Group 201 #1) geosx(staircase_single_phase_wells_3d_08/staircase_single_phase_wells_3d_08_1_geosx), np=8, Mon Jun  6 03:24:03 2022
+Start # 787 (Group 228 #1) geosx(DeviatedElastic_Wellbore_01/DeviatedElastic_Wellbore_01_1_geosx), np=1, Mon Jun  6 03:24:03 2022
+Start # 697 (Group 203 #1) geosx(staircase_single_phase_wells_hybrid_3d_08/staircase_single_phase_wells_hybrid_3d_08_1_geosx), np=8, Mon Jun  6 03:24:05 2022
+Start # 731 (Group 213 #1) geosx(co2_thermal_2d_04/co2_thermal_2d_04_1_geosx), np=4, Mon Jun  6 03:24:06 2022
+Start # 791 (Group 230 #1) geosx(DeviatedPoroElasticWellbore_Injection_01/DeviatedPoroElasticWellbore_Injection_01_1_geosx), np=1, Mon Jun  6 03:24:07 2022
+Start # 795 (Group 232 #1) geosx(DeviatedPoroElasticWellbore_Drilling_01/DeviatedPoroElasticWellbore_Drilling_01_1_geosx), np=1, Mon Jun  6 03:24:08 2022
+Start # 771 (Group 223 #1) geosx(ModifiedCamClay_Wellbore_04/ModifiedCamClay_Wellbore_04_1_geosx), np=4, Mon Jun  6 03:24:09 2022
+Start # 705 (Group 205 #1) geosx(SSLE-sedov_08/SSLE-sedov_08_1_geosx), np=8, Mon Jun  6 03:24:14 2022
+Start # 493 (Group 149 #1) geosx(50x10x5Hex_LaplaceFEM_smoke_18/50x10x5Hex_LaplaceFEM_smoke_18_1_geosx), np=18, Mon Jun  6 03:24:16 2022
+Start # 739 (Group 215 #1) geosx(co2_thermal_obl_3d_08/co2_thermal_obl_3d_08_1_geosx), np=8, Mon Jun  6 03:24:16 2022
+Start # 569 (Group 169 #1) geosx(incompressible_1d_03/incompressible_1d_03_1_geosx), np=3, Mon Jun  6 03:24:16 2022
+ATS REPORT AT ELAPSED TIME 0:04:07
+1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 Sneddon_contactMechanics_01 SurfaceGenerator_01 SurfaceGenerator_08 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 black_oil_wells_unsaturated_3d_04 co2_flux_3d_01 co2_flux_3d_08 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_01 compressible_2d_2fluids_hybrid_01 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_hybrid_1d_01 deadOilEgg_smoke_3d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_01 deadoil_3ph_staircase_obl_3d_08 fractureFlow_2d_01 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 incompressible_single_phase_wells_2d_01 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 sedov_1 sedov_8 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 sourceFlux_2d_01 staircase_3d_01 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 walshQuarter01 walshQuarter08 ================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 39
+ (  ExtendedDruckerPrager_Wellbore_04 KirschProblem_04 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_04 acous3D_abc_08 acous3D_abc_27 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 SSLE-sedov_27 beamBending_08 beamBending_27 staircase_3d_27 incompressible_pebi3d_03 ProppantSlotTest_09 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_04 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_CoulombFriction_04 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_04 staircase_co2_wells_hybrid_3d_08 kgdNodeBased_C3D6_09 kgdEdgeBased_C3D6_09 Sneddon_hydroFrac04 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_06 kgdValidation_smoke_04 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_04  ) 
+
+ INPROGRESS : 1
+ (  ModifiedCamClay_Wellbore_04  ) 
+
+ FILTERED : 0
+
+ RUNNING : 12
+ (  DeviatedPoroElasticWellbore_Drilling_01 co2_thermal_2d_04 co2_thermal_obl_3d_08 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_08 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_18 ProppantSlotTest_03 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_CohesiveModel_02 staircase_co2_wells_hybrid_3d_01  ) 
+
+ PASSED : 181
+ (  ExtendedDruckerPrager_Wellbore_01 KirschProblem_01 DeviatedElastic_Wellbore_01 DeviatedPoroElasticWellbore_Injection_01 co2_thermal_2d_01 co2_thermal_obl_3d_01 acous3D_abc_01 acous3D_abcAndFreeSurface_01 ModifiedCamClay_Wellbore_01 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_hybrid_3d_01 SSLE-sedov_01 beamBending_01 gravity_01 gravity_02 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_04 sourceFlux_2d_09 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_01 staircase_3d_08 incompressible_pebi3d_01 incompressible_pebi3d_02 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 sourceFlux_2d_01 compressible_single_phase_wells_1d_01 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 incompressible_1d_01 incompressible_1d_02 50x10x5Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 ProppantSlotTest_01 sedov_1 sedov_8 sedov_27 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroElastic_Terzaghi_FIM_01 fractureMatrixFlow_impermeableEmbFrac_01 deadoil_3ph_corey_2d_edfm_01 poroElastic_embFractures_01 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_CoulombFriction_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 Sneddon_smoke_01 Sneddon_staticCondensation_smoke_01 SneddonRotated_smoke_01 fractureMatrixFlow_Embedded2d_01 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_UnstructuredCrack_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_stty: standard input: Inappropriate ioctl for device
+gravity_segregation_3d_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 kgdEdgeBased_C3D6_01 Sneddon_hydroFrac01 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08 DryFrac_StaticPenny_PrismElem_01 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_01 kgdViscosityDominated_smoke_01 kgdToughnessDominated_smoke_01 kgdValidation_smoke_01 heterogeneousInSitu_smoke_01 pennyShapedToughnessDominated_smoke_01 pennyShapedViscosityDominated_smoke_01 pknViscosityDominated_smoke_01 kgdNodeBased_C3D6_01  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  TOTAL TIME           : 0:04:06
+  TOTAL PROCESSOR-TIME : 4:45:28
+  AVAIL PROCESSOR-TIME : 4:56:21
+  RESOURCE UTILIZATION :  96.3%
+
+  LONGEST RUNNING TESTS:
+     0:03:06 PhaseFieldFracture_CohesiveModel_02
+     0:02:05 PhaseFieldFracture_CohesiveModel_01
+     0:01:49 PhaseFieldFracture_DamageAndLoad_08
+     0:01:47 deadoil_2ph_staircase_gravity_segregation_3d_08
+     0:01:40 deadoil_3ph_staircase_hybrid_3d_08
+
+     Status  :  TestCase                                  :  Directory                                                    :  Elapsed :  Resources :  TestStep  
+     ------- :  ----------------------------------------- :  ------------------------------------------------------------ :  ------- :  --------- :  ----------
+     RUNNING :  DeviatedPoroElasticWellbore_Drilling_01   :  wellboreMesh/DeviatedPoroElasticWellbore_Drilling_01         :  0:00:08 :  0:00:08   :  restartcheck
+     RUNNING :  co2_thermal_2d_04                         :  thermalMultiphaseFlow/co2_thermal_2d_04                      :  0:00:09 :  0:00:38   :  restartcheck
+     RUNNING :  co2_thermal_obl_3d_08                     :  thermalMultiphaseFlow/co2_thermal_obl_3d_08                  :  0:00:00 :  0:00:00   :  geosx     
+     RUNNING :  staircase_single_phase_wells_3d_08        :  singlePhaseWell/staircase_single_phase_wells_3d_08           :  0:00:12 :  0:01:42   :  geosx     
+     RUNNING :  staircase_single_phase_wells_hybrid_3d_08 :  singlePhaseWell/staircase_single_phase_wells_hybrid_3d_08    :  0:00:11 :  0:01:30   :  geosx     
+     RUNNING :  SSLE-sedov_08                             :  solidMechanicsSSLE/SSLE-sedov_08                             :  0:00:02 :  0:00:18   :  geosx     
+     RUNNING :  incompressible_1d_03                      :  singlePhaseFlow/incompressible_1d_03                         :  0:00:00 :  0:00:00   :  geosx     
+     RUNNING :  50x10x5Hex_LaplaceFEM_smoke_18            :  simplePDE/50x10x5Hex_LaplaceFEM_smoke_18                     :  0:00:00 :  0:00:00   :  geosx     
+     RUNNING :  ProppantSlotTest_03                       :  proppantTransport/ProppantSlotTest_03                        :  0:00:16 :  0:00:50   :  restartcheck
+     RUNNING :  PhaseFieldFracture_DamageAndLoad_08       :  phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_08       :  0:01:49 :  0:14:37   :  geosx     
+     RUNNING :  PhaseFieldFracture_CohesiveModel_02       :  phaseFieldFracture/PhaseFieldFracture_CohesiveModel_02       :  0:03:06 :  0:06:13   :  geosx     
+     RUNNING :  staircase_co2_wells_hybrid_3d_01          :  compositionalMultiphaseWell/staircase_co2_wells_hybrid_3d_01 :  0:00:35 :  0:00:35   :  geosx     
+     ------- :  ----------------------------------------- :  ------------------------------------------------------------ :  ------- :  --------- :  ----------
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_04 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_04 ExtendedDruckerPrager_Wellbore_04 KirschProblem_04 ProppantSlotTest_09 SSLE-sedov_27 SneddonRotated_smoke_04 Sneddon_hydroFrac04 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_04 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 acous3D_abc_08 acous3D_abc_27 beamBending_08 beamBending_27 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_04 heterogeneousInSitu_smoke_04 incompressible_pebi3d_03 kgdEdgeBased_C3D6_09 kgdNodeBased_C3D6_09 kgdToughnessDominated_smoke_06 kgdValidation_smoke_04 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_04 poroElastic_embFractures_04 staircase_3d_27 staircase_co2_wells_hybrid_3d_08 50x10x5Hex_LaplaceFEM_smoke_18 DeviatedPoroElasticWellbore_Drilling_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_DamageAndLoad_08 ProppantSlotTest_03 SSLE-sedov_08 co2_thermal_2d_04 co2_thermal_obl_3d_08 incompressible_1d_03 staircase_co2_wells_hybrid_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_08 ModifiedCamClay_Wellbore_04 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 50x10x5Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_08 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_UnstructuredCrack_01 DeviatedElastic_Wellbore_01 DeviatedPoroElasticWellbore_Injection_01 DryFrac_StaticPenny_PrismElem_01 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_01 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_Frictionless_01 ExtendedDruckerPrager_Wellbore_01 FlowProppantBedTransport_2d_01 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 KirschProblem_01 ModifiedCamClay_Wellbore_01 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 ProppantSlotTest_01 SSLE-sedov_01 SneddonRotated_smoke_01 Sneddon_contactMechanics_01 Sneddon_hydroFrac01 Sneddon_smoke_01 Sneddon_staticCondensation_smoke_01 SurfaceGenerator_01 SurfaceGenerator_08 acous3D_abcAndFreeSurface_01 acous3D_abc_01 beamBending_01 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 black_oil_wells_unsaturated_3d_04 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 co2_thermal_2d_01 co2_thermal_obl_3d_01 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_01 compreRemaining: 52 groups, 128 tests.
+CURRENTLY RUNNING 12 tests: geosx(PhaseFieldFracture_CohesiveModel_02/PhaseFieldFracture_CohesiveModel_02_3_geosx) geosx(staircase_co2_wells_hybrid_3d_01/staircase_co2_wells_hybrid_3d_01_1_geosx) geosx(staircase_single_phase_wells_3d_08/staircase_single_phase_wells_3d_08_1_geosx) geosx(staircase_single_phase_wells_hybrid_3d_08/staircase_single_phase_wells_hybrid_3d_08_1_geosx) geosx(PhaseFieldFracture_DamageAndLoad_08/PhaseFieldFracture_DamageAndLoad_08_3_geosx) python(ProppantSlotTest_03/ProppantSlotTest_03_2_restartcheck) python(co2_thermal_2d_04/co2_thermal_2d_04_2_restartcheck) geosx(SSLE-sedov_08/SSLE-sedov_08_1_geosx) python(DeviatedPoroElasticWellbore_Drilling_01/DeviatedPoroElasticWellbore_Drilling_01_2_restartcheck) geosx(50x10x5Hex_LaplaceFEM_smoke_18/50x10x5Hex_LaplaceFEM_smoke_18_1_geosx) geosx(co2_thermal_obl_3d_08/co2_thermal_obl_3d_08_1_geosx) geosx(incompressible_1d_03/incompressible_1d_03_1_geosx)
+--------------------------------------------------------------------------------
+CURRENTLY UTILIZING 72 of 72 processors.
+--------------------------------------------------------------------------------
+Start # 575 (Group 172 #1) geosx(incompressible_pebi3d_03/incompressible_pebi3d_03_1_geosx), np=3, Mon Jun  6 03:24:24 2022
+Start # 779 (Group 225 #1) geosx(ExtendedDruckerPrager_Wellbore_04/ExtendedDruckerPrager_Wellbore_04_1_geosx), np=4, Mon Jun  6 03:24:27 2022
+Start # 747 (Group 217 #1) geosx(acous3D_abc_08/acous3D_abc_08_1_geosx), np=8, Mon Jun  6 03:24:30 2022
+Start # 759 (Group 220 #1) geosx(acous3D_abcAndFreeSurface_08/acous3D_abcAndFreeSurface_08_1_geosx), np=8, Mon Jun  6 03:24:35 2022
+Start #   3 (Group 2 #1) geosx(kgdViscosityDominated_smoke_06/kgdViscosityDominated_smoke_06_1_geosx), np=6, Mon Jun  6 03:24:35 2022
+Start #  11 (Group 6 #1) geosx(kgdValidation_smoke_04/kgdValidation_smoke_04_1_geosx), np=4, Mon Jun  6 03:24:36 2022
+Start #   7 (Group 4 #1) geosx(kgdToughnessDominated_smoke_06/kgdToughnessDominated_smoke_06_1_geosx), np=6, Mon Jun  6 03:24:40 2022
+Start #  15 (Group 8 #1) geosx(heterogeneousInSitu_smoke_04/heterogeneousInSitu_smoke_04_1_geosx), np=4, Mon Jun  6 03:24:46 2022
+Start #  23 (Group 12 #1) geosx(pennyShapedViscosityDominated_smoke_04/pennyShapedViscosityDominated_smoke_04_1_geosx), np=4, Mon Jun  6 03:24:46 2022
+Start #  19 (Group 10 #1) geosx(pennyShapedToughnessDominated_smoke_06/pennyShapedToughnessDominated_smoke_06_1_geosx), np=6, Mon Jun  6 03:24:47 2022
+Start #  27 (Group 14 #1) geosx(pknViscosityDominated_smoke_04/pknViscosityDominated_smoke_04_1_geosx), np=4, Mon Jun  6 03:24:48 2022
+Start #  39 (Group 20 #1) geosx(Sneddon_hydroFrac04/Sneddon_hydroFrac04_1_geosx), np=4, Mon Jun  6 03:24:51 2022
+Start # 291 (Group 88 #1) geosx(Sneddon_smoke_04/Sneddon_smoke_04_1_geosx), np=4, Mon Jun  6 03:24:51 2022
+Start #  59 (Group 26 #1) geosx(DryFrac_StaticPenny_PrismElem_08/DryFrac_StaticPenny_PrismElem_08_1_geosx), np=8, Mon Jun  6 03:24:54 2022
+Start #  63 (Group 28 #1) geosx(DryFrac_ThreeNodesPinched_HorizontalFrac_08/DryFrac_ThreeNodesPinched_HorizontalFrac_08_1_geosx), np=8, Mon Jun  6 03:24:57 2022
+Start #  67 (Group 30 #1) geosx(DryFrac_ThreeNodesPinched_SlantFrac_08/DryFrac_ThreeNodesPinched_SlantFrac_08_1_geosx), np=8, Mon Jun  6 03:25:00 2022
+Start # 295 (Group 90 #1) geosx(Sneddon_staticCondensation_smoke_04/Sneddon_staticCondensation_smoke_04_1_geosx), np=4, Mon Jun  6 03:25:00 2022
+Start # 649 (Group 191 #1) geosx(staircase_3d_27/staircase_3d_27_1_geosx), np=27, Mon Jun  6 03:25:02 2022
+Start #  33 (Group 17 #1) geosx(kgdNodeBased_C3D6_09/kgdNodeBased_C3D6_09_1_geosx), np=9, Mon Jun  6 03:25:04 2022
+Start # 299 (Group 92 #1) geosx(SneddonRotated_smoke_04/SneddonRotated_smoke_04_1_geosx), np=4, Mon Jun  6 03:25:06 2022
+Start # 247 (Group 76 #1) geosx(staircase_co2_wells_hybrid_3d_08/staircase_co2_wells_hybrid_3d_08_1_geosx), np=8, Mon Jun  6 03:25:07 2022
+Start # 303 (Group 94 #1) geosx(fractureMatrixFlow_Embedded2d_04/fractureMatrixFlow_Embedded2d_04_1_geosx), np=4, Mon Jun  6 03:25:09 2022
+Start # 307 (Group 96 #1) geosx(fractureMatrixFlow_impermeableEmbFrac_04/fractureMatrixFlow_impermeableEmbFrac_04_1_geosx), np=4, Mon Jun  6 03:25:09 2022
+Start # 311 (Group 98 #1) geosx(deadoil_3ph_corey_2d_edfm_04/deadoil_3ph_corey_2d_edfm_04_1_geosx), np=4, Mon Jun  6 03:25:11 2022
+Start # 313 (Group 99 #1) geosx(deadoil_3ph_corey_2d_impermeableFault_04/deadoil_3ph_corey_2d_impermeableFault_04_1_geosx), np=4, Mon Jun  6 03:25:11 2022
+Start # 317 (Group 101 #1) geosx(poroElastic_embFractures_04/poroElastic_embFractures_04_1_geosx), np=4, Mon Jun  6 03:25:13 2022
+ATS REPORT AT ELAPSED TIME 0:05:07
+ssible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 deadOilEgg_smoke_3d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_01 deadoil_3ph_staircase_obl_3d_08 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_impermeableEmbFrac_01 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 incompressible_1d_01 incompressible_1d_02 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_01 kgdToughnessDominated_smoke_01 kgdValidation_smoke_01 kgdViscosityDominated_smoke_01 pennyShapedToughnessDominated_smoke_01 pennyShapedViscosityDominated_smoke_01 pknViscosityDominated_smoke_01 poroElastic_embFractures_01 sedov_1 sedov_27 sedov_8 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 sourceFlux_2d_01 sourceFlux_2d_04 sourceFlux_2d_09 staircase_3d_01 staircase_3d_08 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_hybrid_3d_01 walshQuarter01 walshQuarter08 ================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 13
+ (  KirschProblem_04 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_04 acous3D_abc_27 acous3D_abcAndFreeSurface_27 SSLE-sedov_27 beamBending_08 beamBending_27 ProppantSlotTest_09 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_CoulombFriction_04 kgdEdgeBased_C3D6_09  ) 
+
+ INPROGRESS : 1
+ (  incompressible_pebi3d_03  ) 
+
+ FILTERED : 0
+
+ RUNNING : 9
+ (  staircase_3d_27 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_04 fractureMatrixFlow_Embedded2d_04 staircase_co2_wells_hybrid_3d_08 kgdNodeBased_C3D6_09 DryFrac_StaticPenny_PrismElem_08  ) 
+
+ PASSED : 210
+ (  ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 DeviatedElastic_Wellbore_01 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Drilling_01 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 acous3D_abc_01 acous3D_abc_08 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_01 SSLE-sedov_08 beamBending_01 gravity_01 gravity_02 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_04 sourceFlux_2d_09 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_01 staircase_3d_08 incompressible_pebi3d_01 incompressible_pebi3d_02 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 sourceFlux_2d_01 compressible_single_phase_wells_1d_01 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 ProppantSlotTest_01 ProppantSlotTest_03 sedov_1 sedov_8 sedov_27 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroElastic_Terzaghi_FIM_01 fractureMatrixFlow_impermeableEmbFrac_01 deadoil_3ph_corey_2d_edfm_01 poroElastic_embFractures_01 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_CoulombFriction_01 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_01 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_01 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_UnstructuredCrack_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregstty: standard input: Inappropriate ioctl for device
+ation_3d_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 kgdEdgeBased_C3D6_01 Sneddon_hydroFrac01 Sneddon_hydroFrac04 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08 DryFrac_StaticPenny_PrismElem_01 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 kgdNodeBased_C3D6_01  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  TOTAL TIME           : 0:05:07
+  TOTAL PROCESSOR-TIME : 5:56:40
+  AVAIL PROCESSOR-TIME : 6:08:25
+  RESOURCE UTILIZATION :  96.8%
+
+  LONGEST RUNNING TESTS:
+     0:03:28 PhaseFieldFracture_CohesiveModel_02
+     0:02:38 PhaseFieldFracture_DamageAndLoad_08
+     0:02:05 PhaseFieldFracture_CohesiveModel_01
+     0:01:47 deadoil_2ph_staircase_gravity_segregation_3d_08
+     0:01:40 deadoil_3ph_staircase_hybrid_3d_08
+
+     Status  :  TestCase                                 :  Directory                                                    :  Elapsed :  Resources :  TestStep  
+     ------- :  ---------------------------------------- :  ------------------------------------------------------------ :  ------- :  --------- :  ----------
+     RUNNING :  staircase_3d_27                          :  singlePhaseFlow/staircase_3d_27                              :  0:00:14 :  0:06:22   :  restartcheck
+     RUNNING :  fractureMatrixFlow_impermeableEmbFrac_04 :  embeddedFractures/fractureMatrixFlow_impermeableEmbFrac_04   :  0:00:06 :  0:00:26   :  restartcheck
+     RUNNING :  deadoil_3ph_corey_2d_edfm_04             :  embeddedFractures/deadoil_3ph_corey_2d_edfm_04               :  0:00:05 :  0:00:22   :  geosx     
+     RUNNING :  deadoil_3ph_corey_2d_impermeableFault_04 :  embeddedFractures/deadoil_3ph_corey_2d_impermeableFault_04   :  0:00:05 :  0:00:22   :  geosx     
+     RUNNING :  poroElastic_embFractures_04              :  embeddedFractures/poroElastic_embFractures_04                :  0:00:03 :  0:00:12   :  restartcheck
+     RUNNING :  fractureMatrixFlow_Embedded2d_04         :  embeddedFractures/fractureMatrixFlow_Embedded2d_04           :  0:00:06 :  0:00:27   :  restartcheck
+     RUNNING :  staircase_co2_wells_hybrid_3d_08         :  compositionalMultiphaseWell/staircase_co2_wells_hybrid_3d_08 :  0:00:09 :  0:01:16   :  geosx     
+     RUNNING :  kgdNodeBased_C3D6_09                     :  HydrofracturingSolver/kgdNodeBased_C3D6_09                   :  0:00:12 :  0:01:50   :  geosx     
+     RUNNING :  DryFrac_StaticPenny_PrismElem_08         :  SurfaceGenerator/DryFrac_StaticPenny_PrismElem_08            :  0:00:22 :  0:02:57   :  geosx     
+     ------- :  ---------------------------------------- :  ------------------------------------------------------------ :  ------- :  --------- :  ----------
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_04 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_04 KirschProblem_04 ProppantSlotTest_09 SSLE-sedov_27 acous3D_abcAndFreeSurface_27 acous3D_abc_27 beamBending_08 beamBending_27 kgdEdgeBased_C3D6_09 DryFrac_StaticPenny_PrismElem_08 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_04 kgdNodeBased_C3D6_09 poroElastic_embFractures_04 staircase_3d_27 staircase_co2_wells_hybrid_3d_08 incompressible_pebi3d_03 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 50x10x5Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_UnstructuredCrack_01 DeviatedElastic_Wellbore_01 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Injection_01 DryFrac_StaticPenny_PrismElem_01 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_Frictionless_01 ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 FlowProppantBedTransport_2d_01 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 KirschProblem_01 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 ProppantSlotTest_01 ProppantSlotTest_03 SSLE-sedov_01 SSLE-sedov_08 SneddonRotated_smoke_01 SneddonRotated_smoke_04 Sneddon_contactMechanics_01 Sneddon_hydroFrac01 Sneddon_hydroFrac04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SurfaceGenerator_01 SurfaceGenerator_08 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abc_01 acous3D_abc_08 beamBending_01 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 black_oil_wells_unsaturated_3d_04 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 deadOilEgg_smoke_3d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gRemaining: 23 groups, 49 tests.
+CURRENTLY RUNNING 9 tests: geosx(DryFrac_StaticPenny_PrismElem_08/DryFrac_StaticPenny_PrismElem_08_1_geosx) geosx(kgdNodeBased_C3D6_09/kgdNodeBased_C3D6_09_1_geosx) geosx(staircase_co2_wells_hybrid_3d_08/staircase_co2_wells_hybrid_3d_08_1_geosx) geosx(deadoil_3ph_corey_2d_edfm_04/deadoil_3ph_corey_2d_edfm_04_1_geosx) geosx(deadoil_3ph_corey_2d_impermeableFault_04/deadoil_3ph_corey_2d_impermeableFault_04_1_geosx) python(fractureMatrixFlow_impermeableEmbFrac_04/fractureMatrixFlow_impermeableEmbFrac_04_2_restartcheck) python(fractureMatrixFlow_Embedded2d_04/fractureMatrixFlow_Embedded2d_04_2_restartcheck) python(staircase_3d_27/staircase_3d_27_2_restartcheck) python(poroElastic_embFractures_04/poroElastic_embFractures_04_2_restartcheck)
+--------------------------------------------------------------------------------
+CURRENTLY UTILIZING 72 of 72 processors.
+--------------------------------------------------------------------------------
+Start #  35 (Group 18 #1) geosx(kgdEdgeBased_C3D6_09/kgdEdgeBased_C3D6_09_1_geosx), np=9, Mon Jun  6 03:25:17 2022
+Start # 789 (Group 229 #1) geosx(DeviatedElastic_Wellbore_03/DeviatedElastic_Wellbore_03_1_geosx), np=3, Mon Jun  6 03:25:21 2022
+Start # 321 (Group 103 #1) geosx(EmbFrac_Compression_Frictionless_04/EmbFrac_Compression_Frictionless_04_1_geosx), np=4, Mon Jun  6 03:25:23 2022
+Start # 325 (Group 105 #1) geosx(EmbFrac_Compression_CoulombFriction_04/EmbFrac_Compression_CoulombFriction_04_1_geosx), np=4, Mon Jun  6 03:25:23 2022
+Start # 785 (Group 227 #1) geosx(KirschProblem_04/KirschProblem_04_1_geosx), np=4, Mon Jun  6 03:25:25 2022
+Start # 459 (Group 140 #1) geosx(ProppantSlotTest_09/ProppantSlotTest_09_1_geosx), np=9, Mon Jun  6 03:25:33 2022
+Start # 793 (Group 231 #1) geosx(DeviatedPoroElasticWellbore_Injection_04/DeviatedPoroElasticWellbore_Injection_04_1_geosx), np=4, Mon Jun  6 03:25:36 2022
+Start # 797 (Group 233 #1) geosx(DeviatedPoroElasticWellbore_Drilling_04/DeviatedPoroElasticWellbore_Drilling_04_1_geosx), np=4, Mon Jun  6 03:25:46 2022
+Start # 715 (Group 208 #1) geosx(beamBending_08/beamBending_08_1_geosx), np=8, Mon Jun  6 03:25:50 2022
+Start # 709 (Group 206 #1) geosx(SSLE-sedov_27/SSLE-sedov_27_1_geosx), np=27, Mon Jun  6 03:25:53 2022
+Start # 751 (Group 218 #1) geosx(acous3D_abc_27/acous3D_abc_27_1_geosx), np=27, Mon Jun  6 03:25:58 2022
+ATS REPORT AT ELAPSED TIME 0:06:07
+ravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_01 deadoil_3ph_staircase_obl_3d_08 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_impermeableEmbFrac_01 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_01 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 poroElastic_embFractures_01 sedov_1 sedov_27 sedov_8 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 sourceFlux_2d_01 sourceFlux_2d_04 sourceFlux_2d_09 staircase_3d_01 staircase_3d_08 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 walshQuarter01 walshQuarter08 ================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 2
+ (  acous3D_abcAndFreeSurface_27 beamBending_27  ) 
+
+ INPROGRESS : 1
+ (  beamBending_08  ) 
+
+ FILTERED : 0
+
+ RUNNING : 4
+ (  acous3D_abc_27 SSLE-sedov_27 kgdNodeBased_C3D6_09 kgdEdgeBased_C3D6_09  ) 
+
+ PASSED : 226
+ (  ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 KirschProblem_04 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 acous3D_abc_01 acous3D_abc_08 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_01 SSLE-sedov_08 beamBending_01 gravity_01 gravity_02 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_04 sourceFlux_2d_09 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 sourceFlux_2d_01 compressible_single_phase_wells_1d_01 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 sedov_1 sedov_8 sedov_27 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroElastic_Terzaghi_FIM_01 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_01 poroElastic_embFractures_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_01 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_UnstructuredCrack_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 kgdEdgeBased_C3D6_01stty: standard input: Inappropriate ioctl for device
+ Sneddon_hydroFrac01 Sneddon_hydroFrac04 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 kgdNodeBased_C3D6_01  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  TOTAL TIME           : 0:06:07
+  TOTAL PROCESSOR-TIME : 7:05:54
+  AVAIL PROCESSOR-TIME : 7:20:32
+  RESOURCE UTILIZATION :  96.7%
+
+  LONGEST RUNNING TESTS:
+     0:03:28 PhaseFieldFracture_CohesiveModel_02
+     0:02:38 PhaseFieldFracture_DamageAndLoad_08
+     0:02:05 PhaseFieldFracture_CohesiveModel_01
+     0:01:47 deadoil_2ph_staircase_gravity_segregation_3d_08
+     0:01:40 deadoil_3ph_staircase_hybrid_3d_08
+
+     Status  :  TestCase             :  Directory                                  :  Elapsed :  Resources :  TestStep  
+     ------- :  -------------------- :  ------------------------------------------ :  ------- :  --------- :  ----------
+     RUNNING :  acous3D_abc_27       :  wavePropagation/acous3D_abc_27             :  0:00:18 :  0:08:13   :  restartcheck
+     RUNNING :  SSLE-sedov_27        :  solidMechanicsSSLE/SSLE-sedov_27           :  0:00:23 :  0:10:22   :  geosx     
+     RUNNING :  kgdNodeBased_C3D6_09 :  HydrofracturingSolver/kgdNodeBased_C3D6_09 :  0:01:12 :  0:10:51   :  geosx     
+     RUNNING :  kgdEdgeBased_C3D6_09 :  HydrofracturingSolver/kgdEdgeBased_C3D6_09 :  0:00:59 :  0:08:52   :  geosx     
+     ------- :  -------------------- :  ------------------------------------------ :  ------- :  --------- :  ----------
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+acous3D_abcAndFreeSurface_27 beamBending_27 SSLE-sedov_27 acous3D_abc_27 kgdEdgeBased_C3D6_09 kgdNodeBased_C3D6_09 beamBending_08 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 50x10x5Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_UnstructuredCrack_01 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 FlowProppantBedTransport_2d_01 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 KirschProblem_01 KirschProblem_04 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 SSLE-sedov_01 SSLE-sedov_08 SneddonRotated_smoke_01 SneddonRotated_smoke_04 Sneddon_contactMechanics_01 Sneddon_hydroFrac01 Sneddon_hydroFrac04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SurfaceGenerator_01 SurfaceGenerator_08 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abc_01 acous3D_abc_08 beamBending_01 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 black_oil_wells_unsaturated_3d_04 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 deadOilEgg_smoke_3d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_01 deadoil_3ph_staircase_obl_3d_08 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_01 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 kgdRemaining: 7 groups, 18 tests.
+CURRENTLY RUNNING 4 tests: geosx(kgdNodeBased_C3D6_09/kgdNodeBased_C3D6_09_1_geosx) geosx(kgdEdgeBased_C3D6_09/kgdEdgeBased_C3D6_09_1_geosx) geosx(SSLE-sedov_27/SSLE-sedov_27_1_geosx) python(acous3D_abc_27/acous3D_abc_27_2_restartcheck)
+--------------------------------------------------------------------------------
+CURRENTLY UTILIZING 72 of 72 processors.
+--------------------------------------------------------------------------------
+Start # 763 (Group 221 #1) geosx(acous3D_abcAndFreeSurface_27/acous3D_abcAndFreeSurface_27_1_geosx), np=27, Mon Jun  6 03:26:30 2022
+Start # 717 (Group 209 #1) geosx(beamBending_27/beamBending_27_1_geosx), np=27, Mon Jun  6 03:26:56 2022
+stty: standard input: Inappropriate ioctl for device
+ViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 poroElastic_embFractures_01 poroElastic_embFractures_04 sedov_1 sedov_27 sedov_8 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 sourceFlux_2d_01 sourceFlux_2d_04 sourceFlux_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 walshQuarter01 walshQuarter08================================================================================
+
+ FAIL RUN : 0
+
+ UNEXPECTEDPASS : 0
+
+ FAIL RUN (OPTIONAL STEP) : 0
+
+ FAIL CHECK : 0
+
+ FAIL CHECK (MINOR) : 0
+
+ TIMEOUT : 0
+
+ NOT RUN : 0
+
+ INPROGRESS : 0
+
+ FILTERED : 0
+
+ PASSED : 233
+ (  ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 KirschProblem_01 KirschProblem_04 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 beamBending_01 beamBending_08 beamBending_27 gravity_01 gravity_02 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 sourceFlux_2d_04 sourceFlux_2d_09 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 sourceFlux_2d_01 compressible_single_phase_wells_1d_01 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 sedov_1 sedov_8 sedov_27 10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 50x10x5Hex_LaplaceFEM_smoke_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 FlowProppantBedTransport_2d_01 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroElastic_Terzaghi_FIM_01 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 poroElastic_embFractures_01 poroElastic_embFractures_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 Sneddon_contactMechanics_01 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SneddonRotated_smoke_01 SneddonRotated_smoke_04 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 black_oil_wells_unsaturated_3d_04 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 deadOilEgg_smoke_3d_01 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_UnstructuredCrack_01 deadoil_3ph_staircase_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 deadoil_3ph_staircase_obl_3d_01 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 kgdEdgeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdEdgeBased_C3D6_09 Sneddon_hydroFrac01 Sneddon_hydroFrac04 walshQuarter01 walshQuarter08 SurfaceGenerator_01 SurfaceGenerator_08 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 kgdNodeBased_C3D6_01  ) 
+
+ EXPECTEDFAIL : 0
+
+ SKIPPED : 0
+
+ BATCHED : 0
+
+ NOT BUILT : 0
+
+  LONGEST RUNNING TESTS:
+     0:03:28 PhaseFieldFracture_CohesiveModel_02
+     0:02:38 PhaseFieldFracture_DamageAndLoad_08
+     0:02:05 PhaseFieldFracture_CohesiveModel_01
+     0:01:47 deadoil_2ph_staircase_gravity_segregation_3d_08
+     0:01:47 kgdNodeBased_C3D6_09
+
+
+Generating HTML documentation files (running 'atddoc')...
+  Failed to create HTML documentation in /usr/WS1/han12/.jacamar-ci/builds/qHefwrrY/001/gitlab/han12/GEOSX/integratedTests/update/doc
+
+Undocumented test problems:
+10x10x10Hex_LaplaceFEM_smoke_01 10x10x10Hex_LaplaceFEM_smoke_08 10x10x10Hex_LaplaceFEM_smoke_27 10x10x10Hex_LaplaceVEM_smoke_01 10x10x10Hex_LaplaceVEM_smoke_08 10x5x15Wedges_LaplaceVEM_smoke_01 10x5x15Wedges_LaplaceVEM_smoke_08 15x5x10Tets_LaplaceVEM_smoke_01 15x5x10Tets_LaplaceVEM_smoke_08 4comp_2ph_1d_01 4comp_2ph_1d_02 4comp_2ph_1d_03 4comp_2ph_cap_1d_01 4comp_2ph_cap_1d_02 4comp_2ph_cap_1d_03 50x10x5Hex_LaplaceFEM_smoke_01 50x10x5Hex_LaplaceFEM_smoke_08 50x10x5Hex_LaplaceFEM_smoke_18 ContactMechanics_SimpleCubes_01 ContactMechanics_SimpleCubes_08 ContactMechanics_SimpleCubes_09 ContactMechanics_SingleFracCompression_01 ContactMechanics_SingleFracCompression_03 ContactMechanics_TFrac_01 ContactMechanics_TFrac_04 ContactMechanics_UnstructuredCrack_01 DeviatedElastic_Wellbore_01 DeviatedElastic_Wellbore_03 DeviatedPoroElasticWellbore_Drilling_01 DeviatedPoroElasticWellbore_Drilling_04 DeviatedPoroElasticWellbore_Injection_01 DeviatedPoroElasticWellbore_Injection_04 DryFrac_StaticPenny_PrismElem_01 DryFrac_StaticPenny_PrismElem_08 DryFrac_ThreeNodesPinched_HorizontalFrac_01 DryFrac_ThreeNodesPinched_HorizontalFrac_08 DryFrac_ThreeNodesPinched_SlantFrac_01 DryFrac_ThreeNodesPinched_SlantFrac_08 EmbFrac_Compression_CoulombFriction_01 EmbFrac_Compression_CoulombFriction_04 EmbFrac_Compression_Frictionless_01 EmbFrac_Compression_Frictionless_04 ExtendedDruckerPrager_Wellbore_01 ExtendedDruckerPrager_Wellbore_04 FlowProppantBedTransport_2d_01 FlowProppantBedTransport_2d_02 FlowProppantBedTransport_2d_03 FlowProppantTransport_2d_01 FlowProppantTransport_2d_04 FlowProppantTransport_2d_09 KirschProblem_01 KirschProblem_04 ModifiedCamClay_Wellbore_01 ModifiedCamClay_Wellbore_04 PhaseFieldFracture_CohesiveModel_01 PhaseFieldFracture_CohesiveModel_02 PhaseFieldFracture_DamageAndLoad_01 PhaseFieldFracture_DamageAndLoad_08 PhaseFieldFracture_DamageOnly_01 PhaseFieldFracture_DamageOnly_08 PhaseFieldFracture_SpectralSplit_01 PhaseFieldFracture_SpectralSplit_04 PhaseFieldFracture_VolDevSplit_01 PhaseFieldFracture_VolDevSplit_04 PoroDelftEgg_Wellbore_smoke_1-1-1 PoroDelftEgg_Wellbore_smoke_2-2-1 PoroDruckerPrager_Wellbore_smoke_1-1-1 PoroDruckerPrager_Wellbore_smoke_2-2-1 PoroElastic_Mandel_smoke_1-1-1 PoroElastic_Mandel_smoke_3-1-1 PoroElastic_Mandel_smoke_3-1-2 PoroElastic_Terzaghi_FIM_01 PoroElastic_Terzaghi_FIM_02 PoroElastic_Terzaghi_FIM_07 PoroElastic_Wellbore_smoke_1-1-1 PoroElastic_Wellbore_smoke_2-2-1 PoroElastic_deadoil_3ph_baker_2d1-1-1 PoroElastic_deadoil_3ph_baker_2d2-1-2 PoroModifiedCamClay_Wellbore_smoke_1-1-1 PoroModifiedCamClay_Wellbore_smoke_2-2-1 ProppantSlotTest_01 ProppantSlotTest_03 ProppantSlotTest_09 SSLE-sedov_01 SSLE-sedov_08 SSLE-sedov_27 SneddonRotated_smoke_01 SneddonRotated_smoke_04 Sneddon_contactMechanics_01 Sneddon_hydroFrac01 Sneddon_hydroFrac04 Sneddon_smoke_01 Sneddon_smoke_04 Sneddon_staticCondensation_smoke_01 Sneddon_staticCondensation_smoke_04 SurfaceGenerator_01 SurfaceGenerator_08 acous3D_abcAndFreeSurface_01 acous3D_abcAndFreeSurface_08 acous3D_abcAndFreeSurface_27 acous3D_abc_01 acous3D_abc_08 acous3D_abc_27 beamBending_01 beamBending_08 beamBending_27 black_oil_wells_saturated_3d_01 black_oil_wells_saturated_3d_04 black_oil_wells_unsaturated_3d_01 black_oil_wells_unsaturated_3d_04 co2_flux_3d_01 co2_flux_3d_08 co2_flux_3d_27 co2_hybrid_1d_01 co2_hybrid_1d_02 co2_hybrid_1d_03 co2_thermal_2d_01 co2_thermal_2d_04 co2_thermal_obl_3d_01 co2_thermal_obl_3d_08 compositional_multiphase_wells_1d_01 compositional_multiphase_wells_1d_02 compositional_multiphase_wells_2d_01 compositional_multiphase_wells_2d_04 compressible_1d_01 compressible_1d_02 compressible_1d_03 compressible_1d_2solids_01 compressible_1d_2solids_02 compressible_1d_2solids_03 compressible_2d_2fluids_01 compressible_2d_2fluids_02 compressible_2d_2fluids_03 compressible_2d_2fluids_hybrid_01 compressible_2d_2fluids_hybrid_02 compressible_2d_2fluids_hybrid_03 compressible_single_phase_wells_1d_01 compressible_single_phase_wells_1d_02 compressible_single_phase_wells_hybrid_1d_01 compressible_single_phase_wells_hybrid_1d_02 deadOilEgg_smoke_3d_01 deadOilSpe10Layers84_85_smoke_2d_01 deadOilSpe10Layers84_85_smoke_2d_04 dead_oil_wells_2d_01 dead_oil_wells_2d_04 dead_oil_wells_hybrid_2d_01 dead_oil_wells_hybrid_2d_04 deadoil_2ph_staircase_gravity_segregation_3d_01 deadoil_2ph_staircase_gravity_segregation_3d_08 deadoil_3ph_baker_1d_01 deadoil_3ph_baker_1d_02 deadoil_3ph_baker_1d_03 deadoil_3ph_corey_1d_01 deadoil_3ph_corey_1d_02 deadoil_3ph_corey_1d_03 deadoil_3ph_corey_2d_edfm_01 deadoil_3ph_corey_2d_edfm_04 deadoil_3ph_corey_2d_impermeableFault_04 deadoil_3ph_staircase_3d_01 deadoil_3ph_staircase_3d_08 deadoil_3ph_staircase_hybrid_3d_01 deadoil_3ph_staircase_hybrid_3d_08 deadoil_3ph_staircase_obl_3d_01 deadoil_3ph_staircase_obl_3d_08 fractureFlow_2d_01 fractureFlow_2d_02 fractureFlow_2d_04 fractureJunctionFlow_2d_01 fractureMatrixFlow_2d_01 fractureMatrixFlow_2d_04 fractureMatrixFlow_2d_09 fractureMatrixFlow_Embedded2d_01 fractureMatrixFlow_Embedded2d_04 fractureMatrixFlow_impermeableEmbFrac_01 fractureMatrixFlow_impermeableEmbFrac_04 gravity_01 gravity_02 heterogeneousInSitu_smoke_01 heterogeneousInSitu_smoke_04 hybridHexPrism_LaplaceVEM_smoke_01 hybridHexPrism_LaplaceVEM_smoke_03 incompressible_1d_01 incompressible_1d_02 incompressible_1d_03 incompressible_pebi3d_01 incompressible_pebi3d_02 incompressible_pebi3d_03 incompressible_single_phase_wells_2d_01 incompressible_single_phase_wells_2d_04 incompressible_single_phase_wells_hybrid_2d_01 incompressible_single_phase_wells_hybrid_2d_04 isothermalLeakyWell_smoke_3d_01 isothermalLeakyWell_smoke_3d_04 kgdEdgeBased_C3D6_01 kgdEdgeBased_C3D6_09 kgdNodeBased_C3D6_01 kgdNodeBased_C3D6_09 kgdToughnessDominated_smoke_01 kgdToughnessDominated_smoke_06 kgdValidation_smoke_01 kgdValidation_smoke_04 kgdViscosityDominated_smoke_01 kgdViscosityDominated_smoke_06 pennyShapedToughnessDominated_smoke_01 pennyShapedToughnessDominated_smoke_06 pennyShapedViscosityDominated_smoke_01 pennyShapedViscosityDominated_smoke_04 pknViscosityDominated_smoke_01 pknViscosityDominated_smoke_04 poroElastic_embFractures_01 poroElastic_embFractures_04 sedov_1 sedov_27 sedov_8 sourceFlux_1d_01 sourceFlux_1d_02 sourceFlux_1d_03 sourceFlux_2d_01 sourceFlux_2d_04 sourceFlux_2d_09 staircase_3d_01 staircase_3d_08 staircase_3d_27 staircase_co2_wells_3d_01 staircase_co2_wells_3d_08 staircase_co2_wells_hybrid_3d_01 staircase_co2_wells_hybrid_3d_08 staircase_single_phase_wells_3d_01 staircase_single_phase_wells_3d_08 staircase_single_phase_wells_hybrid_3d_01 staircase_single_phase_wells_hybrid_3d_08 walshQuarter01 walshQuarter08
+salloc: Relinquishing job allocation 9942596
+salloc: Job allocation 9942596 has been revoked.
+Using platform configuration toss_3_x86_64_ib_icc16.

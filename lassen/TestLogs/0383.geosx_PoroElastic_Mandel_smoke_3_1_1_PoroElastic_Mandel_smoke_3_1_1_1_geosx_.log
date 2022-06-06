@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 3 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PoroElastic_Mandel_smoke.xml -x 3 -y 1 -z 1 -n main_run -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 3 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PoroElastic_Mandel_smoke.xml -x 3 -y 1 -z 1 -n main_run -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(PoroElastic_Mandel_smoke_3-1-1/PoroElastic_Mandel_smoke_3-1-1_1_geosx)
-#ATS: clas = ['-i', 'PoroElastic_Mandel_smoke.xml', '-x', '3', '-y', '1', '-z', '1', '-n', 'main_run', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1']
+#ATS: clas = ['-i', 'PoroElastic_Mandel_smoke.xml', '-x', '3', '-y', '1', '-z', '1', '-n', 'main_run', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1']
 #ATS: np = 3
 #ATS: script = 
 #ATS: testpath =  
@@ -28,17 +28,17 @@ Adding Output: Restart, restartOutput
 Adding Output: TimeHistory, pressureHistoryOutput
 Adding Output: TimeHistory, displacementHistoryOutput
 Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
-Rank 2: Total number of nodes:336
 Total number of nodes:882
+Rank 1: Total number of nodes:294
+Rank 2: Total number of nodes:336
 Total number of elems:400
 Rank 0: Total number of nodes:336
-Rank 1: Total number of nodes:294
   Domain/cb1/shale is allocated with 8 quadrature points.
   Domain/cb1/water is allocated with 8 quadrature points.
 Time: 0s, dt:0.025s, Cycle: 0
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000000/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000000/rank_0000000.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000000/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000000/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000000/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000000/rank_0000002.hdf5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 ( RSolid ) = ( 2.40e+01 ) ;     ( Rsolid, Rfluid ) = ( 2.40e+01, 4.26e-05 )
     ( R ) = ( 2.40e+01 ) ; 
@@ -51,32 +51,32 @@ Time: 0.025s, dt:0.025s, Cycle: 1
 ( RSolid ) = ( 3.91e+00 ) ;     ( Rsolid, Rfluid ) = ( 3.91e+00, 1.17e-05 )
     ( R ) = ( 3.91e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-( RSolid ) = ( 6.90e-15 ) ;     ( Rsolid, Rfluid ) = ( 6.90e-15, 4.22e-12 )
+( RSolid ) = ( 6.61e-15 ) ;     ( Rsolid, Rfluid ) = ( 6.61e-15, 4.22e-12 )
     ( R ) = ( 4.22e-12 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.32e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-15 ) ; 
 Time: 0.05s, dt:0.025s, Cycle: 2
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000002/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000002/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000002/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000002/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000002/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000002/rank_0000002.hdf5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 ( RSolid ) = ( 2.64e+00 ) ;     ( Rsolid, Rfluid ) = ( 2.64e+00, 5.18e-06 )
     ( R ) = ( 2.64e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-( RSolid ) = ( 6.41e-15 ) ;     ( Rsolid, Rfluid ) = ( 6.41e-15, 8.88e-13 )
+( RSolid ) = ( 6.82e-15 ) ;     ( Rsolid, Rfluid ) = ( 6.82e-15, 8.88e-13 )
     ( R ) = ( 8.88e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.25e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.27e-15 ) ; 
 Time: 0.075s, dt:0.025s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 ( RSolid ) = ( 1.97e+00 ) ;     ( Rsolid, Rfluid ) = ( 1.97e+00, 3.35e-06 )
     ( R ) = ( 1.97e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-( RSolid ) = ( 7.30e-15 ) ;     ( Rsolid, Rfluid ) = ( 7.30e-15, 4.20e-13 )
+( RSolid ) = ( 7.81e-15 ) ;     ( Rsolid, Rfluid ) = ( 7.81e-15, 4.20e-13 )
     ( R ) = ( 4.20e-13 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.25e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.31e-15 ) ; 
 Cleaning up events
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000004/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000004/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000004/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000004/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000004/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/poroElasticCoupling/PoroElastic_Mandel_smoke_3-1-1/main_run_restart_000000004/rank_0000002.hdf5
 Umpire          DEVICE sum across ranks:    7.5 MB
 Umpire          DEVICE         rank max:    4.3 MB
 Umpire       DEVICE::0 sum across ranks:    7.5 MB
@@ -85,6 +85,6 @@ Umpire            HOST sum across ranks:   10.8 MB
 Umpire            HOST         rank max:    4.9 MB
 Umpire          PINNED sum across ranks:  543.5 KB
 Umpire          PINNED         rank max:  260.4 KB
-total time                         5.718s
-initialization time                0.415s
-run time                           3.928s
+total time                         5.588s
+initialization time                0.391s
+run time                           3.805s

@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 9 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i FlowProppantTransport_2d.xml -x 1 -y 3 -z 3 -n 0to10 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport/FlowProppantTransport_2d_09
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 9 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i FlowProppantTransport_2d.xml -x 1 -y 3 -z 3 -n 0to10 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport/FlowProppantTransport_2d_09
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(FlowProppantTransport_2d_09/FlowProppantTransport_2d_09_1_geosx)
-#ATS: clas = ['-i', 'FlowProppantTransport_2d.xml', '-x', '1', '-y', '3', '-z', '3', '-n', '0to10', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport/FlowProppantTransport_2d_09']
+#ATS: clas = ['-i', 'FlowProppantTransport_2d.xml', '-x', '1', '-y', '3', '-z', '3', '-n', '0to10', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/proppantTransport/FlowProppantTransport_2d_09']
 #ATS: np = 9
 #ATS: script = 
 #ATS: testpath =  
@@ -28,17 +28,17 @@ Adding Output: Silo, siloOutput
 Adding Output: Restart, sidreRestart
 Adding Object CellElementRegion named region from ObjectManager::Catalog.
 Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
-Rank 8: Total number of nodes:243
 Total number of nodes:2028
 Total number of elems:1250
 Rank 0: Total number of nodes:243
+Rank 1: Total number of nodes:270
+Rank 2: Total number of nodes:243
 Rank 5: Total number of nodes:270
 Rank 4: Total number of nodes:300
-Rank 3: Total number of nodes:270
-Rank 7: Total number of nodes:270
-Rank 2: Total number of nodes:243
-Rank 1: Total number of nodes:270
 Rank 6: Total number of nodes:243
+Rank 3: Total number of nodes:270
+Rank 8: Total number of nodes:243
+Rank 7: Total number of nodes:270
 	region/cb1 does not have a discretization associated with it.
   Fracture/faceElementSubRegion/water is allocated with 1 quadrature points.
   Fracture/faceElementSubRegion/fractureFilling is allocated with 1 quadrature points.

@@ -1,14 +1,26 @@
-#ATS: commandLine = lrun -n 27 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i co2_flux_3d.xml -x 3 -y 3 -z 3 -n 0to20 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 27 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i co2_flux_3d.xml -x 3 -y 3 -z 3 -n 0to20 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(co2_flux_3d_27/co2_flux_3d_27_1_geosx)
-#ATS: clas = ['-i', 'co2_flux_3d.xml', '-x', '3', '-y', '3', '-z', '3', '-n', '0to20', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27']
+#ATS: clas = ['-i', 'co2_flux_3d.xml', '-x', '3', '-y', '3', '-z', '3', '-n', '0to20', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27']
 #ATS: np = 27
 #ATS: script = 
 #ATS: testpath =  
 
 Max threads: 4
 GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
+Rank 8: Total number of nodes:64
+Rank 22: Total number of nodes:100
+Rank 7: Total number of nodes:80
+Rank 9: Total number of nodes:80
+Rank 14: Total number of nodes:100
+Rank 4: Total number of nodes:100
+Rank 23: Total number of nodes:80
+Rank 15: Total number of nodes:80
+Rank 25: Total number of nodes:80
+Rank 17: Total number of nodes:80
+Rank 24: Total number of nodes:64
+Rank 16: Total number of nodes:100
 Adding Solver of type CompositionalMultiphaseFVM, named compflow
 Adding Mesh: InternalMesh, mesh1
 Adding Geometric Object: Box, source
@@ -32,42 +44,30 @@ Adding Output: VTK, vtkOutput
 Adding Output: Restart, sidreRestart
    TableFunction: pressureInfluenceFunction
 Adding Object CellElementRegion named region from ObjectManager::Catalog.
+Rank 5: Total number of nodes:80
+Rank 26: Total number of nodes:64
    TableFunction: fluid_phaseModel1_PhillipsBrineDensity_table
+Rank 6: Total number of nodes:64
    TableFunction: fluid_phaseModel1_PhillipsBrineViscosity_table
+Rank 21: Total number of nodes:80
+Rank 11: Total number of nodes:80
    TableFunction: fluid_phaseModel2_SpanWagnerCO2Density_table
+Rank 20: Total number of nodes:64
+Rank 10: Total number of nodes:100
    TableFunction: fluid_phaseModel2_FenghourCO2Viscosity_table
+Rank 13: Total number of nodes:125
+Rank 19: Total number of nodes:80
    TableFunction: fluid_CO2Solubility_table
+Rank 18: Total number of nodes:64
+Rank 12: Total number of nodes:100
    TableFunction: aquiferBC1_pressureInfluence_table
    TableFunction: aquiferBC2_pressureInfluence_table
-Rank 26: Total number of nodes:64
-Rank 6: Total number of nodes:64
 Total number of nodes:1331
 Total number of elems:1000
 Rank 0: Total number of nodes:64
-Rank 7: Total number of nodes:80
-Rank 14: Total number of nodes:100
-Rank 5: Total number of nodes:80
-Rank 22: Total number of nodes:100
-Rank 1: Total number of nodes:80
-Rank 4: Total number of nodes:100
-Rank 12: Total number of nodes:100
-Rank 21: Total number of nodes:80
-Rank 23: Total number of nodes:80
-Rank 13: Total number of nodes:125
-Rank 8: Total number of nodes:64
-Rank 18: Total number of nodes:64
-Rank 3: Total number of nodes:80
-Rank 15: Total number of nodes:80
-Rank 24: Total number of nodes:64
-Rank 11: Total number of nodes:80
-Rank 19: Total number of nodes:80
 Rank 2: Total number of nodes:64
-Rank 9: Total number of nodes:80
-Rank 16: Total number of nodes:100
-Rank 20: Total number of nodes:64
-Rank 25: Total number of nodes:80
-Rank 10: Total number of nodes:100
-Rank 17: Total number of nodes:80
+Rank 3: Total number of nodes:80
+Rank 1: Total number of nodes:80
   region/cellBlock/fluid is allocated with 1 quadrature points.
   region/cellBlock/rock is allocated with 1 quadrature points.
   region/cellBlock/relperm is allocated with 1 quadrature points.
@@ -94,54 +94,54 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 1.21e+03 ) ;     ( R ) = ( 1.21e+03 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.32e+00 ) ;     ( R ) = ( 1.32e+00 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.35e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.32e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.85e-01 ) ;     ( R ) = ( 2.85e-01 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.87e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.63e-15 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 6.60e-02 ) ;     ( R ) = ( 6.60e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.57e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.13e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
     ( Rfluid ) = ( 1.37e-02 ) ;     ( R ) = ( 1.37e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.19e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.55e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  5
     ( Rfluid ) = ( 2.44e-04 ) ;     ( R ) = ( 2.44e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.11e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.64e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  6
     ( Rfluid ) = ( 7.21e-08 ) ;     ( R ) = ( 7.21e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.63e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.10e-16 ) ; 
 FlowSolverBase compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.9099166712713185 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 50000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.9173729094695067 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 2.40046
 compflow: Max component CFL number: 1.73038
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 26: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000026.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000004.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000006.hdf5
-Rank 14: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000014.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000000.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000005.hdf5
-Rank 12: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000012.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000002.hdf5
-Rank 18: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000018.hdf5
-Rank 13: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000013.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000007.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000003.hdf5
-Rank 19: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000019.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000001.hdf5
-Rank 23: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000023.hdf5
-Rank 8: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000008.hdf5
-Rank 15: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000015.hdf5
-Rank 9: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000009.hdf5
-Rank 21: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000021.hdf5
-Rank 24: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000024.hdf5
-Rank 11: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000011.hdf5
-Rank 17: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000017.hdf5
-Rank 10: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000010.hdf5
-Rank 20: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000020.hdf5
-Rank 16: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000016.hdf5
-Rank 22: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000022.hdf5
-Rank 25: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000025.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000004.hdf5
+Rank 8: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000008.hdf5
+Rank 14: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000014.hdf5
+Rank 9: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000009.hdf5
+Rank 16: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000016.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000007.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000000.hdf5
+Rank 24: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000024.hdf5
+Rank 17: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000017.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000001.hdf5
+Rank 15: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000015.hdf5
+Rank 23: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000023.hdf5
+Rank 22: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000022.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000002.hdf5
+Rank 25: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000025.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000003.hdf5
+Rank 26: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000026.hdf5
+Rank 13: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000013.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000006.hdf5
+Rank 12: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000012.hdf5
+Rank 10: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000010.hdf5
+Rank 11: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000011.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000005.hdf5
+Rank 18: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000018.hdf5
+Rank 20: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000020.hdf5
+Rank 21: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000021.hdf5
+Rank 19: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000000/rank_0000019.hdf5
 Time: 50000s, dt:50000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 CompositionalMultiphaseFVM compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
@@ -159,16 +159,16 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 8.85e-01 ) ;     ( R ) = ( 8.85e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 7.44e-02 ) ;     ( R ) = ( 7.44e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.13e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.10e-14 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 4.15e-03 ) ;     ( R ) = ( 4.15e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.28e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.22e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 3.33e-04 ) ;     ( R ) = ( 3.33e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.81e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.39e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  4
     ( Rfluid ) = ( 4.38e-07 ) ;     ( R ) = ( 4.38e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.36e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.42e-16 ) ; 
 FlowSolverBase compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.5248004049628334 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 100000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.526364426877511 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77405
@@ -191,13 +191,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.81e-01 ) ;     ( R ) = ( 2.81e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 2.28e-02 ) ;     ( R ) = ( 2.28e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.97e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.86e-15 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 5.85e-04 ) ;     ( R ) = ( 5.85e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.36e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.53e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 4.84e-07 ) ;     ( R ) = ( 4.84e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.72e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.51e-16 ) ; 
 FlowSolverBase compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.43848431682544 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 150000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.440901392576129 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76535
@@ -220,13 +220,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.33e-01 ) ;     ( R ) = ( 2.33e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 2.10e-02 ) ;     ( R ) = ( 2.10e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.38e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.52e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 9.53e-04 ) ;     ( R ) = ( 9.53e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.43e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.11e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 8.21e-07 ) ;     ( R ) = ( 8.21e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.10e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.13e-16 ) ; 
 FlowSolverBase compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4382416155111133 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 200000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4418093871326843 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.7719
@@ -249,13 +249,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.26e-01 ) ;     ( R ) = ( 2.26e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.91e-02 ) ;     ( R ) = ( 1.91e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.68e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.71e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.11e-04 ) ;     ( R ) = ( 2.11e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.30e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.75e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 1.16e-07 ) ;     ( R ) = ( 1.16e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.85e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.84e-16 ) ; 
 FlowSolverBase compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.438108740282226 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 250000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.443223701006768 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77506
@@ -278,13 +278,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.35e-01 ) ;     ( R ) = ( 2.35e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.80e-02 ) ;     ( R ) = ( 1.80e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.18e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.40e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.92e-04 ) ;     ( R ) = ( 2.92e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.22e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.09e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 2.53e-07 ) ;     ( R ) = ( 2.53e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.71e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.59e-16 ) ; 
 FlowSolverBase compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4379600283352976 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 300000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4449210859259907 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77609
@@ -307,14 +307,14 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.50e-01 ) ;     ( R ) = ( 2.50e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.74e-02 ) ;     ( R ) = ( 1.74e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.61e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.66e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 5.13e-04 ) ;     ( R ) = ( 5.13e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.38e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.43e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 1.77e-07 ) ;     ( R ) = ( 1.77e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.54e-16 ) ; 
-FlowSolverBase compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.437784132681598 kg (or moles if useMass=0). 
+    Last LinSolve(iter,res) = (   1, 3.93e-16 ) ; 
+FlowSolverBase compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.437784132681595 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 350000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4466759995155267 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77593
 compflow: Max component CFL number: 1.8384
@@ -336,13 +336,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.67e-01 ) ;     ( R ) = ( 2.67e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 3.09e-02 ) ;     ( R ) = ( 3.09e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.33e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.50e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.12e-04 ) ;     ( R ) = ( 2.12e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.15e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.11e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 8.24e-08 ) ;     ( R ) = ( 8.24e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.59e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.11e-16 ) ; 
 FlowSolverBase compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4375870884744346 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 400000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4487522490141482 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77526
@@ -365,14 +365,14 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.81e-01 ) ;     ( R ) = ( 2.81e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 2.07e-02 ) ;     ( R ) = ( 2.07e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.53e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.36e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 4.41e-04 ) ;     ( R ) = ( 4.41e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.34e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.25e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 3.90e-07 ) ;     ( R ) = ( 3.90e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.86e-16 ) ; 
-FlowSolverBase compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.437373124264413 kg (or moles if useMass=0). 
+    Last LinSolve(iter,res) = (   1, 2.93e-16 ) ; 
+FlowSolverBase compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.437373124264411 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 450000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4513073746154492 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77422
 compflow: Max component CFL number: 1.85521
@@ -394,15 +394,15 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.92e-01 ) ;     ( R ) = ( 2.92e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 2.20e-02 ) ;     ( R ) = ( 2.20e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.40e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.16e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 5.68e-04 ) ;     ( R ) = ( 5.68e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.08e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.45e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 3.52e-06 ) ;     ( R ) = ( 3.52e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.78e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.63e-16 ) ; 
 FlowSolverBase compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4371410392900583 kg (or moles if useMass=0). 
-FlowSolverBase compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.454056981884618 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 500000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4540569818846167 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77293
 compflow: Max component CFL number: 1.86576
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
@@ -423,45 +423,45 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.97e-01 ) ;     ( R ) = ( 2.97e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.84e-02 ) ;     ( R ) = ( 1.84e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.14e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.82e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.87e-04 ) ;     ( R ) = ( 2.87e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.64e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.58e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 6.75e-08 ) ;     ( R ) = ( 6.75e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.76e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.84e-16 ) ; 
 FlowSolverBase compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4368969712065964 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 550000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.45691485550747 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77155
 compflow: Max component CFL number: 1.87739
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 26: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000026.hdf5
-Rank 12: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000012.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000007.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000005.hdf5
-Rank 14: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000014.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000006.hdf5
-Rank 13: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000013.hdf5
-Rank 21: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000021.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000004.hdf5
-Rank 20: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000020.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000003.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000000.hdf5
-Rank 18: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000018.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000001.hdf5
-Rank 10: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000010.hdf5
-Rank 23: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000023.hdf5
-Rank 19: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000019.hdf5
-Rank 11: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000011.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000002.hdf5
-Rank 22: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000022.hdf5
-Rank 16: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000016.hdf5
-Rank 8: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000008.hdf5
-Rank 24: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000024.hdf5
-Rank 15: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000015.hdf5
-Rank 9: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000009.hdf5
-Rank 25: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000025.hdf5
-Rank 17: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000017.hdf5
+Rank 8: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000008.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000004.hdf5
+Rank 9: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000009.hdf5
+Rank 15: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000015.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000007.hdf5
+Rank 14: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000014.hdf5
+Rank 23: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000023.hdf5
+Rank 16: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000016.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000000.hdf5
+Rank 24: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000024.hdf5
+Rank 17: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000017.hdf5
+Rank 25: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000025.hdf5
+Rank 22: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000022.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000002.hdf5
+Rank 26: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000026.hdf5
+Rank 10: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000010.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000003.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000006.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000001.hdf5
+Rank 11: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000011.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000005.hdf5
+Rank 18: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000018.hdf5
+Rank 13: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000013.hdf5
+Rank 19: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000019.hdf5
+Rank 12: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000012.hdf5
+Rank 20: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000020.hdf5
+Rank 21: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000010/rank_0000021.hdf5
 Time: 550000s, dt:50000s, Cycle: 11
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
 CompositionalMultiphaseFVM compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC1' is applied to the face set 'aquifer1Part1' in 'FaceManager'. 
@@ -479,13 +479,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.96e-01 ) ;     ( R ) = ( 2.96e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.08e-02 ) ;     ( R ) = ( 1.08e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.30e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.70e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.24e-05 ) ;     ( R ) = ( 2.24e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.20e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.60e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 6.85e-10 ) ;     ( R ) = ( 6.85e-10 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.59e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 8.13e-16 ) ; 
 FlowSolverBase compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4366552318644086 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 600000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4597164705141994 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.77007
@@ -508,13 +508,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.90e-01 ) ;     ( R ) = ( 2.90e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.26e-02 ) ;     ( R ) = ( 1.26e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.89e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.90e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 7.47e-05 ) ;     ( R ) = ( 7.47e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.58e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.46e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 1.25e-08 ) ;     ( R ) = ( 1.25e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.34e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.06e-16 ) ; 
 FlowSolverBase compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.436407252621394 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 650000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.462160539120981 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76868
@@ -537,13 +537,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.83e-01 ) ;     ( R ) = ( 2.83e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 9.93e-03 ) ;     ( R ) = ( 9.93e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.15e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.79e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 2.72e-05 ) ;     ( R ) = ( 2.72e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.37e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.85e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 1.83e-09 ) ;     ( R ) = ( 1.83e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.37e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.00e-16 ) ; 
 FlowSolverBase compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4361607772822427 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 700000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.464094267208997 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76723
@@ -566,13 +566,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.73e-01 ) ;     ( R ) = ( 2.73e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 6.67e-03 ) ;     ( R ) = ( 6.67e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.64e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.27e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 6.30e-05 ) ;     ( R ) = ( 6.30e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.33e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.17e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 5.32e-09 ) ;     ( R ) = ( 5.32e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.04e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.53e-16 ) ; 
 FlowSolverBase compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.435911735942297 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 750000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4653165077823185 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76587
@@ -595,13 +595,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.61e-01 ) ;     ( R ) = ( 2.61e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 4.96e-03 ) ;     ( R ) = ( 4.96e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.85e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.58e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 1.77e-05 ) ;     ( R ) = ( 1.77e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.56e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.33e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 1.09e-09 ) ;     ( R ) = ( 1.09e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.97e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.88e-16 ) ; 
 FlowSolverBase compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4356675648259873 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 800000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.465956077264851 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76452
@@ -624,13 +624,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.49e-01 ) ;     ( R ) = ( 2.49e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 8.54e-03 ) ;     ( R ) = ( 8.54e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.28e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.82e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 4.29e-05 ) ;     ( R ) = ( 4.29e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.18e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.87e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 5.12e-09 ) ;     ( R ) = ( 5.12e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.22e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.45e-16 ) ; 
 FlowSolverBase compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4354327486408653 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 850000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.466212712698386 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76327
@@ -653,13 +653,13 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.36e-01 ) ;     ( R ) = ( 2.36e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 6.59e-03 ) ;     ( R ) = ( 6.59e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.29e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.96e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 3.47e-05 ) ;     ( R ) = ( 3.47e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.90e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.21e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 5.96e-10 ) ;     ( R ) = ( 5.96e-10 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.91e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.99e-16 ) ; 
 FlowSolverBase compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.43520467476801 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 900000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.466153555989478 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76206
@@ -682,15 +682,15 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.23e-01 ) ;     ( R ) = ( 2.23e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.23e-02 ) ;     ( R ) = ( 1.23e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.15e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.26e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 4.88e-05 ) ;     ( R ) = ( 4.88e-05 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.36e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.46e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 6.26e-10 ) ;     ( R ) = ( 6.26e-10 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.97e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.84e-16 ) ; 
 FlowSolverBase compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.434987347508832 kg (or moles if useMass=0). 
-FlowSolverBase compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4659000733865306 kg (or moles if useMass=0). 
+FlowSolverBase compflow: at time 950000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.465900073386533 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.76091
 compflow: Max component CFL number: 1.95652
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
@@ -711,46 +711,46 @@ Note that if this number is equal to zero, the boundary condition will not be ap
     ( Rfluid ) = ( 2.11e-01 ) ;     ( R ) = ( 2.11e-01 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.67e-02 ) ;     ( R ) = ( 1.67e-02 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.02e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.69e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( Rfluid ) = ( 1.05e-03 ) ;     ( R ) = ( 1.05e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.52e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.77e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( Rfluid ) = ( 1.44e-07 ) ;     ( R ) = ( 1.44e-07 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.52e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.36e-16 ) ; 
 FlowSolverBase compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC1' produces a flux of -3.4347803276576063 kg (or moles if useMass=0). 
 FlowSolverBase compflow: at time 1000000s, the <Aquifer> boundary condition 'aquiferBC2' produces a flux of -3.4655684918317755 kg (or moles if useMass=0). 
 compflow: Max phase CFL number: 1.75982
 compflow: Max component CFL number: 1.96022
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 26: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000026.hdf5
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000004.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000005.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000006.hdf5
-Rank 12: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000012.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000001.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000007.hdf5
-Rank 20: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000020.hdf5
-Rank 13: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000013.hdf5
-Rank 14: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000014.hdf5
-Rank 19: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000019.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000002.hdf5
-Rank 9: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000009.hdf5
-Rank 21: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000021.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000000.hdf5
-Rank 25: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000025.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000003.hdf5
-Rank 18: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000018.hdf5
-Rank 8: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000008.hdf5
-Rank 17: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000017.hdf5
-Rank 10: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000010.hdf5
-Rank 24: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000024.hdf5
-Rank 16: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000016.hdf5
-Rank 11: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000011.hdf5
-Rank 22: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000022.hdf5
-Rank 15: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000015.hdf5
-Rank 23: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000023.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000004.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000007.hdf5
+Rank 9: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000009.hdf5
+Rank 8: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000008.hdf5
+Rank 15: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000015.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000001.hdf5
+Rank 16: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000016.hdf5
+Rank 23: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000023.hdf5
+Rank 17: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000017.hdf5
+Rank 25: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000025.hdf5
+Rank 14: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000014.hdf5
+Rank 24: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000024.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000003.hdf5
+Rank 26: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000026.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000000.hdf5
+Rank 12: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000012.hdf5
+Rank 22: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000022.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000006.hdf5
+Rank 21: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000021.hdf5
+Rank 11: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000011.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000005.hdf5
+Rank 10: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000010.hdf5
+Rank 19: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000019.hdf5
+Rank 13: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000013.hdf5
+Rank 20: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000020.hdf5
+Rank 18: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_flux_3d_27/0to20_restart_000000020/rank_0000018.hdf5
 Umpire          DEVICE sum across ranks:    8.4 MB
 Umpire          DEVICE         rank max:    1.1 MB
 Umpire       DEVICE::0 sum across ranks:    8.4 MB
@@ -759,6 +759,6 @@ Umpire            HOST sum across ranks:   14.6 MB
 Umpire            HOST         rank max:    1.3 MB
 Umpire          PINNED sum across ranks:   13.0 MB
 Umpire          PINNED         rank max: 1008.6 KB
-total time                        16.587s
-initialization time                1.321s
-run time                          13.194s
+total time                        16.402s
+initialization time                1.233s
+run time                          13.356s
