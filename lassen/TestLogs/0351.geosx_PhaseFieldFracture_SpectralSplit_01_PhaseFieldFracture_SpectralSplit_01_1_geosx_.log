@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_SpectralSplit.xml -x 1 -y 1 -z 1 -n 0to30 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_SpectralSplit.xml -x 1 -y 1 -z 1 -n 0to30 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(PhaseFieldFracture_SpectralSplit_01/PhaseFieldFracture_SpectralSplit_01_1_geosx)
-#ATS: clas = ['-i', 'PhaseFieldFracture_SpectralSplit.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to30', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01']
+#ATS: clas = ['-i', 'PhaseFieldFracture_SpectralSplit.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to30', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
@@ -22,7 +22,7 @@ Adding Output: Silo, Mode2Spectral_SiloOutput
 Adding Output: VTK, Mode2Spectral_VTKOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
-PAMELAMesh 'Mode2Notched': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/inputFiles/phaseField/Mode2CrackMesh/geo.msh
+PAMELAMesh 'Mode2Notched': reading mesh from /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/inputFiles/phaseField/Mode2CrackMesh/geo.msh
 0 >>> **********************************************************************
 0 >>>                          PAMELA Library Import tool                   
 0 >>> **********************************************************************
@@ -62,7 +62,7 @@ Time: 0s, dt:1s, Cycle: 0
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01/0to30_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01/0to30_restart_000000000/rank_0000000.hdf5
 Time: 1s, dt:1s, Cycle: 1
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -291,7 +291,7 @@ Time: 15s, dt:1s, Cycle: 15
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01/0to30_restart_000000015/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01/0to30_restart_000000015/rank_0000000.hdf5
 Time: 16s, dt:1s, Cycle: 16
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -535,13 +535,13 @@ Time: 25s, dt:1s, Cycle: 25
     ( R ) = ( 1.12e-04 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( R ) = ( 1.95e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.43e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.44e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( R ) = ( 7.02e-10 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.51e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.87e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-    ( R ) = ( 9.59e-17 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.79e-16 ) ; 
+    ( R ) = ( 9.58e-17 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.80e-16 ) ; 
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
@@ -551,25 +551,25 @@ Time: 26s, dt:1s, Cycle: 26
 ( RSolid ) = ( 1.66e+00 ) ;     ( R ) = ( 1.66e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
 ( RSolid ) = ( 6.86e-04 ) ;     ( R ) = ( 6.86e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.23e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.73e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
 ( RSolid ) = ( 2.87e-10 ) ;     ( R ) = ( 2.87e-10 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.91e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.78e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-( RSolid ) = ( 1.70e-15 ) ;     ( R ) = ( 1.70e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.54e-16 ) ; 
+( RSolid ) = ( 2.01e-15 ) ;     ( R ) = ( 2.01e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.54e-16 ) ; 
 	Iteration: 1, DamageSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( R ) = ( 1.45e-04 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( R ) = ( 3.33e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.42e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.04e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( R ) = ( 2.10e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.65e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.44e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( R ) = ( 8.79e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.41e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.58e-16 ) ; 
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
@@ -579,25 +579,25 @@ Time: 27s, dt:1s, Cycle: 27
 ( RSolid ) = ( 1.62e+00 ) ;     ( R ) = ( 1.62e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
 ( RSolid ) = ( 2.33e-03 ) ;     ( R ) = ( 2.33e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.40e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.73e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
 ( RSolid ) = ( 7.30e-09 ) ;     ( R ) = ( 7.30e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.48e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.42e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-( RSolid ) = ( 2.01e-15 ) ;     ( R ) = ( 2.01e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 2.57e-16 ) ; 
+( RSolid ) = ( 1.93e-15 ) ;     ( R ) = ( 1.93e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.61e-16 ) ; 
 	Iteration: 1, DamageSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( R ) = ( 1.82e-04 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( R ) = ( 5.40e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.37e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.48e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( R ) = ( 5.52e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.84e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.10e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( R ) = ( 6.07e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.51e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.70e-16 ) ; 
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
@@ -607,25 +607,25 @@ Time: 28s, dt:1s, Cycle: 28
 ( RSolid ) = ( 1.58e+00 ) ;     ( R ) = ( 1.58e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
 ( RSolid ) = ( 1.35e-03 ) ;     ( R ) = ( 1.35e-03 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.99e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.64e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
 ( RSolid ) = ( 1.47e-09 ) ;     ( R ) = ( 1.47e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.50e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.89e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-( RSolid ) = ( 1.90e-15 ) ;     ( R ) = ( 1.90e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.98e-16 ) ; 
+( RSolid ) = ( 2.08e-15 ) ;     ( R ) = ( 2.08e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.54e-16 ) ; 
 	Iteration: 1, DamageSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( R ) = ( 2.11e-04 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( R ) = ( 7.48e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 6.40e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.35e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( R ) = ( 1.09e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.32e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.82e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( R ) = ( 2.37e-14 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.67e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 3.88e-16 ) ; 
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
@@ -635,36 +635,36 @@ Time: 29s, dt:1s, Cycle: 29
 ( RSolid ) = ( 1.55e+00 ) ;     ( R ) = ( 1.55e+00 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
 ( RSolid ) = ( 6.08e-04 ) ;     ( R ) = ( 6.08e-04 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.33e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.37e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
 ( RSolid ) = ( 1.40e-09 ) ;     ( R ) = ( 1.40e-09 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.38e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.64e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
-( RSolid ) = ( 2.42e-15 ) ;     ( R ) = ( 2.42e-15 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.14e-16 ) ; 
+( RSolid ) = ( 2.04e-15 ) ;     ( R ) = ( 2.04e-15 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.05e-16 ) ; 
 	Iteration: 1, DamageSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( R ) = ( 2.37e-04 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( R ) = ( 9.83e-06 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.83e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.29e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
     ( R ) = ( 1.95e-08 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.85e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.71e-16 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  3
     ( R ) = ( 7.85e-14 ) ; 
-    Last LinSolve(iter,res) = (   1, 4.51e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.97e-16 ) ; 
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 40 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01/0to30_restart_000000030/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_SpectralSplit_01/0to30_restart_000000030/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:    1.4 MB
 Umpire          DEVICE         rank max:    1.4 MB
 Umpire       DEVICE::0 sum across ranks:    1.4 MB
 Umpire       DEVICE::0         rank max:    1.4 MB
 Umpire            HOST sum across ranks:    1.9 MB
 Umpire            HOST         rank max:    1.9 MB
-total time                         9.242s
-initialization time                0.066s
-run time                           7.965s
+total time                         8.467s
+initialization time                0.051s
+run time                           7.102s

@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 2 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i co2_hybrid_1d.xml -x 2 -y 1 -z 1 -n 0to10 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 2 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i co2_hybrid_1d.xml -x 2 -y 1 -z 1 -n 0to10 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(co2_hybrid_1d_02/co2_hybrid_1d_02_1_geosx)
-#ATS: clas = ['-i', 'co2_hybrid_1d.xml', '-x', '2', '-y', '1', '-z', '1', '-n', '0to10', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02']
+#ATS: clas = ['-i', 'co2_hybrid_1d.xml', '-x', '2', '-y', '1', '-z', '1', '-n', '0to10', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02']
 #ATS: np = 2
 #ATS: script = 
 #ATS: testpath =  
@@ -25,9 +25,9 @@ Adding Object CellElementRegion named region from ObjectManager::Catalog.
    TableFunction: fluid_phaseModel2_FenghourCO2Viscosity_table
    TableFunction: fluid_CO2Solubility_table
 Total number of nodes:24
-Rank 1: Total number of nodes:16
 Total number of elems:5
 Rank 0: Total number of nodes:12
+Rank 1: Total number of nodes:16
   region/cb/fluid is allocated with 1 quadrature points.
   region/cb/rock is allocated with 1 quadrature points.
   region/cb/relperm is allocated with 1 quadrature points.
@@ -62,8 +62,8 @@ Time: 0s, dt:10000s, Cycle: 0
     ( Rfluid ) = ( 9.82e-10 ) ;    ( R ) = ( 9.82e-10 ) ; 
     Last LinSolve(iter,res) = (   1, 9.74e-15 ) ; 
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000000/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000000/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000000/rank_0000001.hdf5
 Time: 10000s, dt:10000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 1.24e+00 ) ;    ( R ) = ( 1.24e+00 ) ; 
@@ -132,8 +132,8 @@ Time: 50000s, dt:10000s, Cycle: 5
     ( Rfluid ) = ( 1.22e-11 ) ;    ( R ) = ( 1.22e-11 ) ; 
     Last LinSolve(iter,res) = (   1, 2.19e-14 ) ; 
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000005/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000005/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000005/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000005/rank_0000001.hdf5
 Time: 60000s, dt:10000s, Cycle: 6
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 7.13e-02 ) ;    ( R ) = ( 7.13e-02 ) ; 
@@ -178,8 +178,8 @@ Time: 90000s, dt:10000s, Cycle: 9
     Last LinSolve(iter,res) = (   1, 8.45e-14 ) ; 
 compflow: Newton solver converged in less than 40 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000010/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000010/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000010/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/co2_hybrid_1d_02/0to10_restart_000000010/rank_0000001.hdf5
 Umpire          DEVICE sum across ranks:  160.6 KB
 Umpire          DEVICE         rank max:   81.8 KB
 Umpire       DEVICE::0 sum across ranks:  160.6 KB
@@ -188,6 +188,6 @@ Umpire            HOST sum across ranks:  189.9 KB
 Umpire            HOST         rank max:   96.4 KB
 Umpire          PINNED sum across ranks:   25.8 KB
 Umpire          PINNED         rank max:   12.9 KB
-total time                         4.233s
-initialization time                0.721s
-run time                           2.150s
+total time                         6.231s
+initialization time                0.954s
+run time                           2.183s

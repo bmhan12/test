@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i Sneddon_contactMechanics.xml -x 1 -y 1 -z 1 -n 0to2 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i Sneddon_contactMechanics.xml -x 1 -y 1 -z 1 -n 0to2 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(Sneddon_contactMechanics_01/Sneddon_contactMechanics_01_1_geosx)
-#ATS: clas = ['-i', 'Sneddon_contactMechanics.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to2', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01']
+#ATS: clas = ['-i', 'Sneddon_contactMechanics.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to2', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
@@ -54,9 +54,9 @@ Time: 0s, dt:1s, Cycle: 0
     ( R ) = ( 9.47e-15 ) ; 
     Last LinSolve(iter,res) = (   1, 6.62e-15 ) ; 
  ***** ImplicitStepComplete *****
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01/0to2_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01/0to2_restart_000000000/rank_0000000.hdf5
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01/0to2_restart_000000001/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/contactMechanics/Sneddon_contactMechanics_01/0to2_restart_000000001/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:   14.1 MB
 Umpire          DEVICE         rank max:   14.1 MB
 Umpire       DEVICE::0 sum across ranks:   14.1 MB
@@ -65,6 +65,6 @@ Umpire            HOST sum across ranks:   18.8 MB
 Umpire            HOST         rank max:   18.8 MB
 Umpire          PINNED sum across ranks:    0.9 KB
 Umpire          PINNED         rank max:    0.9 KB
-total time                         3.331s
-initialization time                0.279s
-run time                           1.815s
+total time                         3.620s
+initialization time                0.220s
+run time                           2.139s

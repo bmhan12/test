@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 3 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i 4comp_2ph_1d.xml -x 3 -y 1 -z 1 -n 0to218 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 3 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i 4comp_2ph_1d.xml -x 3 -y 1 -z 1 -n 0to218 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(4comp_2ph_1d_03/4comp_2ph_1d_03_1_geosx)
-#ATS: clas = ['-i', '4comp_2ph_1d.xml', '-x', '3', '-y', '1', '-z', '1', '-n', '0to218', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03']
+#ATS: clas = ['-i', '4comp_2ph_1d.xml', '-x', '3', '-y', '1', '-z', '1', '-n', '0to218', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03']
 #ATS: np = 3
 #ATS: script = 
 #ATS: testpath =  
@@ -21,10 +21,10 @@ Adding Event: PeriodicEvent, restarts
 Adding Output: Silo, siloOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named Region1 from ObjectManager::Catalog.
-Rank 2: Total number of nodes:16
 Total number of nodes:44
 Total number of elems:10
 Rank 0: Total number of nodes:16
+Rank 2: Total number of nodes:16
 Rank 1: Total number of nodes:20
   Region1/block1/fluid1 is allocated with 1 quadrature points.
   Region1/block1/rock is allocated with 1 quadrature points.
@@ -39,9 +39,9 @@ Time: 0s, dt:1000s, Cycle: 0
     ( Rfluid ) = ( 2.10e-08 ) ;     ( R ) = ( 2.10e-08 ) ; 
     Last LinSolve(iter,res) = (   1, 1.23e-17 ) ; 
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000000/rank_0000002.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000000/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000000/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000000/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000000/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000000/rank_0000002.hdf5
 Time: 1000s, dt:1000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 7.49e-03 ) ;     ( R ) = ( 7.49e-03 ) ; 
@@ -894,18 +894,18 @@ Time: 8.6e+06s, dt:100000s, Cycle: 104
     Last LinSolve(iter,res) = (   1, 1.90e-16 ) ; 
 WARNING: Rachford-Rice Newton reached max number of iterations
 WARNING: Rachford-Rice Newton reached max number of iterations
-WARNING: Rachford-Rice Newton reached max number of iterations
-WARNING: Rachford-Rice Newton reached max number of iterations
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  2
+WARNING: Rachford-Rice Newton reached max number of iterations
+WARNING: Rachford-Rice Newton reached max number of iterations
     ( Rfluid ) = ( 3.33e-10 ) ;     ( R ) = ( 3.33e-10 ) ; 
     Last LinSolve(iter,res) = (   1, 1.49e-14 ) ; 
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
 Time: 8.7e+06s, dt:100000s, Cycle: 105
 WARNING: Rachford-Rice Newton reached max number of iterations
 WARNING: Rachford-Rice Newton reached max number of iterations
-WARNING: Rachford-Rice Newton reached max number of iterations
-WARNING: Rachford-Rice Newton reached max number of iterations
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
+WARNING: Rachford-Rice Newton reached max number of iterations
+WARNING: Rachford-Rice Newton reached max number of iterations
     ( Rfluid ) = ( 1.98e-02 ) ;     ( R ) = ( 1.98e-02 ) ; 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rfluid ) = ( 1.03e-06 ) ;     ( R ) = ( 1.03e-06 ) ; 
@@ -1008,9 +1008,9 @@ Time: 1e+07s, dt:100000s, Cycle: 118
     ( Rfluid ) = ( 9.81e-09 ) ;     ( R ) = ( 9.81e-09 ) ; 
     Last LinSolve(iter,res) = (   1, 4.62e-15 ) ; 
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000118/rank_0000002.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000118/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000118/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000118/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000118/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000118/rank_0000001.hdf5
 Time: 1.01e+07s, dt:100000s, Cycle: 119
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 1.85e-02 ) ;     ( R ) = ( 1.85e-02 ) ; 
@@ -1717,9 +1717,9 @@ Time: 1.99e+07s, dt:100000s, Cycle: 217
     Last LinSolve(iter,res) = (   1, 1.15e-16 ) ; 
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000218/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000218/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000218/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000218/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000218/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/4comp_2ph_1d_03/0to218_restart_000000218/rank_0000002.hdf5
 Umpire          DEVICE sum across ranks:   62.8 KB
 Umpire          DEVICE         rank max:   25.5 KB
 Umpire       DEVICE::0 sum across ranks:   62.8 KB
@@ -1728,6 +1728,6 @@ Umpire            HOST sum across ranks:  122.5 KB
 Umpire            HOST         rank max:   46.7 KB
 Umpire          PINNED sum across ranks:   57.0 KB
 Umpire          PINNED         rank max:   25.7 KB
-total time                        22.765s
-initialization time                0.096s
-run time                          21.361s
+total time                        23.189s
+initialization time                0.173s
+run time                          21.452s

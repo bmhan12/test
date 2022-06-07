@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageAndLoad.xml -x 1 -y 1 -z 1 -n 0to130 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 1 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i PhaseFieldFracture_DamageAndLoad.xml -x 1 -y 1 -z 1 -n 0to130 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(PhaseFieldFracture_DamageAndLoad_01/PhaseFieldFracture_DamageAndLoad_01_1_geosx)
-#ATS: clas = ['-i', 'PhaseFieldFracture_DamageAndLoad.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to130', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01']
+#ATS: clas = ['-i', 'PhaseFieldFracture_DamageAndLoad.xml', '-x', '1', '-y', '1', '-z', '1', '-n', '0to130', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01']
 #ATS: np = 1
 #ATS: script = 
 #ATS: testpath =  
@@ -43,7 +43,7 @@ Time: 0s, dt:1s, Cycle: 0
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01/0to130_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01/0to130_restart_000000000/rank_0000000.hdf5
 Time: 1s, dt:1s, Cycle: 1
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -1084,7 +1084,7 @@ Time: 65s, dt:1s, Cycle: 65
 ***** Single Pass solver, no subcycling *****
 
 PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01/0to130_restart_000000065/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01/0to130_restart_000000065/rank_0000000.hdf5
 Time: 66s, dt:1s, Cycle: 66
 	Iteration: 1, MechanicsSolver: 
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
@@ -2110,13 +2110,13 @@ Time: 129s, dt:1s, Cycle: 129
 
 PhaseFieldSolve: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01/0to130_restart_000000130/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/phaseFieldFracture/PhaseFieldFracture_DamageAndLoad_01/0to130_restart_000000130/rank_0000000.hdf5
 Umpire          DEVICE sum across ranks:  903.1 KB
 Umpire          DEVICE         rank max:  903.1 KB
 Umpire       DEVICE::0 sum across ranks:  903.1 KB
 Umpire       DEVICE::0         rank max:  903.1 KB
 Umpire            HOST sum across ranks:    1.2 MB
 Umpire            HOST         rank max:    1.2 MB
-total time                        25.376s
-initialization time                0.045s
-run time                          24.022s
+total time                        22.927s
+initialization time                0.053s
+run time                          21.630s

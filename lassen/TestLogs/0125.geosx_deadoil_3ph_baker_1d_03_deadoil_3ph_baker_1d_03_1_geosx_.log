@@ -1,14 +1,13 @@
-#ATS: commandLine = lrun -n 3 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i deadoil_3ph_baker_1d.xml -x 3 -y 1 -z 1 -n 0to209 -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 3 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i deadoil_3ph_baker_1d.xml -x 3 -y 1 -z 1 -n 0to209 -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(deadoil_3ph_baker_1d_03/deadoil_3ph_baker_1d_03_1_geosx)
-#ATS: clas = ['-i', 'deadoil_3ph_baker_1d.xml', '-x', '3', '-y', '1', '-z', '1', '-n', '0to209', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03']
+#ATS: clas = ['-i', 'deadoil_3ph_baker_1d.xml', '-x', '3', '-y', '1', '-z', '1', '-n', '0to209', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03']
 #ATS: np = 3
 #ATS: script = 
 #ATS: testpath =  
 
 Max threads: 4
-Rank 1: Total number of nodes:20
 GEOSX version 0.2.0 (HEAD, sha1: ea8982f)
 Adding Solver of type CompositionalMultiphaseFVM, named compflow
 Adding Mesh: InternalMesh, mesh
@@ -22,13 +21,14 @@ Adding Output: Silo, siloOutput
 Adding Output: Restart, restartOutput
 Adding Object CellElementRegion named region from ObjectManager::Catalog.
    TableFunction: fluid_PVDO_Bo
-Rank 2: Total number of nodes:16
    TableFunction: fluid_PVDO_visco
    TableFunction: fluid_PVDG_Bg
    TableFunction: fluid_PVDG_viscg
 Total number of nodes:44
 Total number of elems:10
 Rank 0: Total number of nodes:16
+Rank 2: Total number of nodes:16
+Rank 1: Total number of nodes:20
   region/block1/fluid is allocated with 1 quadrature points.
   region/block1/rock is allocated with 1 quadrature points.
   region/block1/relperm is allocated with 1 quadrature points.
@@ -70,9 +70,9 @@ Time: 0s, dt:10000s, Cycle: 0
 compflow: Max phase CFL number: 0.0684755
 compflow: Max component CFL number: 0.147506
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000000/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000000/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000000/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000000/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000000/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000000/rank_0000001.hdf5
 Time: 10000s, dt:10000s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 9.80e-02 ) ;     ( R ) = ( 9.80e-02 ) ; 
@@ -1717,9 +1717,9 @@ Time: 1e+07s, dt:100000s, Cycle: 109
 compflow: Max phase CFL number: 0.253132
 compflow: Max component CFL number: 0.28739
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000001.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000000.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000002.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000109/rank_0000000.hdf5
 Time: 1.01e+07s, dt:100000s, Cycle: 110
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rfluid ) = ( 5.03e-02 ) ;     ( R ) = ( 5.03e-02 ) ; 
@@ -3047,9 +3047,9 @@ compflow: Max phase CFL number: 0.182951
 compflow: Max component CFL number: 0.295493
 compflow: Newton solver converged in less than 6 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000000.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000001.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/compositionalMultiphaseFlow/deadoil_3ph_baker_1d_03/0to209_restart_000000209/rank_0000002.hdf5
 Umpire          DEVICE sum across ranks:   65.4 KB
 Umpire          DEVICE         rank max:   24.2 KB
 Umpire       DEVICE::0 sum across ranks:   65.4 KB
@@ -3058,6 +3058,6 @@ Umpire            HOST sum across ranks:  126.5 KB
 Umpire            HOST         rank max:   49.6 KB
 Umpire          PINNED sum across ranks:   57.0 KB
 Umpire          PINNED         rank max:   25.7 KB
-total time                        31.362s
-initialization time                0.144s
-run time                          29.899s
+total time                        32.336s
+initialization time                0.132s
+run time                          30.795s

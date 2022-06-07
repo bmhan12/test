@@ -1,8 +1,8 @@
-#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx -i walshQuarterNoChombo_smoke.xml -x 2 -y 2 -z 2 -n walshQuarter -o /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08
-#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver
-#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/build/bin/geosx
+#ATS: commandLine = lrun -n 8 --pack -g 1 /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx -i walshQuarterNoChombo_smoke.xml -x 2 -y 2 -z 2 -n walshQuarter -o /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08
+#ATS: directory = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver
+#ATS: executable = /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/build/bin/geosx
 #ATS: name = geosx(walshQuarter08/walshQuarter08_1_geosx)
-#ATS: clas = ['-i', 'walshQuarterNoChombo_smoke.xml', '-x', '2', '-y', '2', '-z', '2', '-n', 'walshQuarter', '-o', '/usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08']
+#ATS: clas = ['-i', 'walshQuarterNoChombo_smoke.xml', '-x', '2', '-y', '2', '-z', '2', '-n', 'walshQuarter', '-o', '/usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08']
 #ATS: np = 8
 #ATS: script = 
 #ATS: testpath =  
@@ -31,16 +31,16 @@ Adding Output: Restart, sidreRestart
 Adding Object CellElementRegion named Domain from ObjectManager::Catalog.
 Adding Object CellElementRegion named void from ObjectManager::Catalog.
 Adding Object SurfaceElementRegion named Fracture from ObjectManager::Catalog.
-Rank 7: Total number of nodes:540
-Rank 4: Total number of nodes:486
+Rank 2: Total number of nodes:486
 Total number of nodes:3366
+Rank 1: Total number of nodes:540
 Total number of elems:2720
 Rank 0: Total number of nodes:486
-Rank 6: Total number of nodes:486
-Rank 1: Total number of nodes:540
+Rank 7: Total number of nodes:540
 Rank 5: Total number of nodes:540
+Rank 6: Total number of nodes:486
+Rank 4: Total number of nodes:486
 Rank 3: Total number of nodes:540
-Rank 2: Total number of nodes:486
   Domain/cb1/water is allocated with 8 quadrature points.
   Domain/cb1/rock is allocated with 8 quadrature points.
   void/void/water is allocated with 8 quadrature points.
@@ -53,127 +53,127 @@ Time: 0s, dt:0.0001s, Cycle: 0
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 0.00e+00, 8.30e-01 )
     ( R ) = ( 8.30e-01 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.14862e-12 | Setup Time: 1.05191 s | Solve Time: 0.0990708 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.02525e-12 | Setup Time: 1.07808 s | Solve Time: 0.102389 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.09e-14, 6.46e-17 )
-    ( R ) = ( 1.09e-14 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.15e-12 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.06e-14, 6.46e-17 )
+    ( R ) = ( 1.06e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 1.03e-12 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000004.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000007.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000000.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000001.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000002.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000003.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000006.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000005.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000002.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000007.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000001.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000000.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000004.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000006.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000005.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000000/rank_0000003.hdf5
 Time: 0.0001s, dt:0.0001s, Cycle: 1
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.09e-14, 6.46e-17 )
-    ( R ) = ( 1.09e-14 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 8.13969e-14 | Setup Time: 1.04655 s | Solve Time: 0.107161 s
+    ( Rsolid, Rfluid ) = ( 1.06e-14, 6.46e-17 )
+    ( R ) = ( 1.06e-14 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 7.8419e-14 | Setup Time: 1.08359 s | Solve Time: 0.107888 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 2.70e-16, 0.00e+00 )
-    ( R ) = ( 2.70e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 8.14e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 2.71e-16, 0.00e+00 )
+    ( R ) = ( 2.71e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.84e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0002s, dt:0.0001s, Cycle: 2
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 2.70e-16, 0.00e+00 )
-    ( R ) = ( 2.70e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 3.34604e-14 | Setup Time: 1.04415 s | Solve Time: 0.107125 s
+    ( Rsolid, Rfluid ) = ( 2.71e-16, 0.00e+00 )
+    ( R ) = ( 2.71e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 2.03487e-14 | Setup Time: 1.06288 s | Solve Time: 0.109816 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.96e-16, 0.00e+00 )
-    ( R ) = ( 1.96e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.35e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.92e-16, 0.00e+00 )
+    ( R ) = ( 1.92e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 2.03e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0003s, dt:0.0001s, Cycle: 3
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.96e-16, 0.00e+00 )
-    ( R ) = ( 1.96e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 5.37871e-14 | Setup Time: 1.04371 s | Solve Time: 0.107134 s
+    ( Rsolid, Rfluid ) = ( 1.92e-16, 0.00e+00 )
+    ( R ) = ( 1.92e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 4.55239e-14 | Setup Time: 1.06718 s | Solve Time: 0.108561 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.84e-16, 0.00e+00 )
-    ( R ) = ( 1.84e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.38e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.75e-16, 0.00e+00 )
+    ( R ) = ( 1.75e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.55e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0004s, dt:0.0001s, Cycle: 4
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.84e-16, 0.00e+00 )
-    ( R ) = ( 1.84e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 7.03559e-14 | Setup Time: 1.04388 s | Solve Time: 0.107429 s
+    ( Rsolid, Rfluid ) = ( 1.75e-16, 0.00e+00 )
+    ( R ) = ( 1.75e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 4.83186e-14 | Setup Time: 1.06762 s | Solve Time: 0.10872 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
     ( Rsolid, Rfluid ) = ( 1.80e-16, 0.00e+00 )
     ( R ) = ( 1.80e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 7.04e-14 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.83e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0005s, dt:0.0001s, Cycle: 5
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.80e-16, 0.00e+00 )
-    ( R ) = ( 1.80e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 5.28263e-14 | Setup Time: 1.04317 s | Solve Time: 0.107319 s
+    ( Rsolid, Rfluid ) = ( 1.76e-16, 0.00e+00 )
+    ( R ) = ( 1.76e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 5.35103e-14 | Setup Time: 1.07614 s | Solve Time: 0.108988 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.83e-16, 0.00e+00 )
-    ( R ) = ( 1.83e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.28e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.82e-16, 0.00e+00 )
+    ( R ) = ( 1.82e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 5.35e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000004.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000007.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000001.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000006.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000000.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000002.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000005.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000003.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000007.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000002.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000000.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000001.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000003.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000005.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000006.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000005/rank_0000004.hdf5
 Time: 0.0006s, dt:0.0001s, Cycle: 6
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.83e-16, 0.00e+00 )
-    ( R ) = ( 1.83e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 3.62253e-14 | Setup Time: 1.04512 s | Solve Time: 0.107467 s
+    ( Rsolid, Rfluid ) = ( 1.82e-16, 0.00e+00 )
+    ( R ) = ( 1.82e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 6.55705e-14 | Setup Time: 1.01751 s | Solve Time: 0.107968 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.71e-16, 0.00e+00 )
-    ( R ) = ( 1.71e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.62e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.78e-16, 0.00e+00 )
+    ( R ) = ( 1.78e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.56e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0007s, dt:0.0001s, Cycle: 7
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.70e-16, 0.00e+00 )
-    ( R ) = ( 1.70e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 3.65856e-14 | Setup Time: 1.0424 s | Solve Time: 0.1074 s
+    ( Rsolid, Rfluid ) = ( 1.78e-16, 0.00e+00 )
+    ( R ) = ( 1.78e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 4.04785e-14 | Setup Time: 1.04811 s | Solve Time: 0.108679 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.71e-16, 0.00e+00 )
-    ( R ) = ( 1.71e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 3.66e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.72e-16, 0.00e+00 )
+    ( R ) = ( 1.72e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 4.05e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0008s, dt:0.0001s, Cycle: 8
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
     ( Rsolid, Rfluid ) = ( 1.71e-16, 0.00e+00 )
     ( R ) = ( 1.71e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 1.52196e-14 | Setup Time: 1.0443 s | Solve Time: 0.107201 s
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 7.45409e-14 | Setup Time: 1.06105 s | Solve Time: 0.108816 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.64e-16, 0.00e+00 )
-    ( R ) = ( 1.64e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 1.52e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.69e-16, 0.00e+00 )
+    ( R ) = ( 1.69e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 7.45e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Time: 0.0009s, dt:0.0001s, Cycle: 9
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  0
-    ( Rsolid, Rfluid ) = ( 1.64e-16, 0.00e+00 )
-    ( R ) = ( 1.64e-16 ) ; 
-		Linear Solver | Success | Iterations: 1 | Final Rel Res: 5.54971e-14 | Setup Time: 1.04436 s | Solve Time: 0.107441 s
+    ( Rsolid, Rfluid ) = ( 1.68e-16, 0.00e+00 )
+    ( R ) = ( 1.68e-16 ) ; 
+		Linear Solver | Success | Iterations: 1 | Final Rel Res: 6.20704e-14 | Setup Time: 1.05424 s | Solve Time: 0.109297 s
     Attempt:  0, ConfigurationIter:  0, NewtonIter:  1
-    ( Rsolid, Rfluid ) = ( 1.62e-16, 0.00e+00 )
-    ( R ) = ( 1.62e-16 ) ; 
-    Last LinSolve(iter,res) = (   1, 5.55e-14 ) ; 
+    ( Rsolid, Rfluid ) = ( 1.74e-16, 0.00e+00 )
+    ( R ) = ( 1.74e-16 ) ; 
+    Last LinSolve(iter,res) = (   1, 6.21e-14 ) ; 
 hydrofracture: Newton solver converged in less than 20 iterations, time-step required will be doubled.
 Cleaning up events
-Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000004.hdf5
-Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000007.hdf5
-Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000002.hdf5
-Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000000.hdf5
-Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000003.hdf5
-Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000006.hdf5
-Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000001.hdf5
-Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/T5vctq-D/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000005.hdf5
+Rank 1: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000001.hdf5
+Rank 7: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000007.hdf5
+Rank 0: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000000.hdf5
+Rank 2: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000002.hdf5
+Rank 6: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000006.hdf5
+Rank 5: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000005.hdf5
+Rank 4: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000004.hdf5
+Rank 3: Writing out restart file at /usr/WS1/han12/.jacamar-ci/builds/zkQzXxmM/001/gitlab/han12/GEOSX/integratedTests/update/run/HydrofracturingSolver/walshQuarter08/walshQuarter_restart_000000010/rank_0000003.hdf5
 Umpire          DEVICE sum across ranks:   39.5 MB
 Umpire          DEVICE         rank max:   15.4 MB
 Umpire       DEVICE::0 sum across ranks:   39.5 MB
@@ -182,6 +182,6 @@ Umpire            HOST sum across ranks:   73.9 MB
 Umpire            HOST         rank max:   17.7 MB
 Umpire          PINNED sum across ranks:    7.9 MB
 Umpire          PINNED         rank max:    1.0 MB
-total time                        27.925s
-initialization time                0.431s
-run time                          26.084s
+total time                        28.304s
+initialization time                0.650s
+run time                          26.197s
